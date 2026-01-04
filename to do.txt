@@ -1,0 +1,1 @@
+Aufgaben zu hover, active, scale usw. und n-th child, ::before, ::after
