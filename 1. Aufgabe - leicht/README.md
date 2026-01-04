@@ -14,19 +14,11 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 ## Anforderungen
 
 <ul>
-  <li>
-    Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
-  </li>
-  <li>Es sollte konsequent Flexbox zur Erstellung der Flaggen genutzt werden</li>
+  <li>Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.</li>
+  <li>Es sollte konsequent Flexbox zur Erstellung der Flaggen genutzt werden.</li>
   <li>Es sollten keine Libraries oder Frameworks genutzt werden.</li>
-  <li>
-    Es sollte css-Nesting genutzt werden (siehe
-    <a href="https://www.mediaevent.de/css/nesting.html">https://www.mediaevent.de/css/nesting.html</a>).
-  </li>
-  <li>
-    Es sollte ein externes Stylesheet genutzt werden.
-    <a href="https://www.w3schools.com/css/css_external.asp">https://www.w3schools.com/css/css_external.asp</a>
-  </li>
+  <li>Es sollte css-Nesting genutzt werden.</li>
+  <li>Es sollte ein externes Stylesheet genutzt werden.</li>
 </ul>
 
 ### Farben der Flaggen
@@ -52,9 +44,13 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ## Informationen und Tutorials
 
 <ul>
-  <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Flexbox Layout Guide von CSS-Tricks</a></li>
-  <li><a href="https://flexboxfroggy.com/">Flexbox Froggy (Flexbox Tutorial)</a></li>
-    <li>
+  <li>
+    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Flexbox Layout Guide von CSS-Tricks</a>
+  </li>
+  <li>
+    <a href="https://flexboxfroggy.com/">Flexbox Froggy (Flexbox Tutorial)</a>
+  </li>
+  <li>
     <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting</a>
   </li>
   <li>
