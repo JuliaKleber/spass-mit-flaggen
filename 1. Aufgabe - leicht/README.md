@@ -2,7 +2,7 @@
 
 ## Aufgabenstellung
 
-Erstelle die folgenden Flaggen unter zu Hilfenahme von <b>Flexbox</b>
+Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 <ul>
   <li>Deutschland</li>
@@ -11,19 +11,27 @@ Erstelle die folgenden Flaggen unter zu Hilfenahme von <b>Flexbox</b>
   <li>Benin</li>
 </ul>
 
-## Hinweise
+## Anforderungen
 
 <ul>
   <li>
-    Die Flaggen sollten ein Seitenverhältnis von 3 : 2 aufweisen.
+    Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
   </li>
+  <li>Es sollte konsequent Flexbox zur Erstellung der Flaggen genutzt werden</li>
   <li>Es sollten keine Libraries oder Frameworks genutzt werden.</li>
-  <li>Es sollte css-Nesting genutzt werden. Link ?</li>
-  <li>Es sollte ein externes Stylesheet genutzt werden. Link ?</li>
-  <li>Hinweis auf html-Struktur mit title und meta viewport.</li>
+  <li>
+    Es sollte css-Nesting genutzt werden (siehe
+    <a href="https://www.mediaevent.de/css/nesting.html">https://www.mediaevent.de/css/nesting.html</a>).
+  </li>
+  <li>
+    Es sollte ein externes Stylesheet genutzt werden.
+    <a href="https://www.w3schools.com/css/css_external.asp">https://www.w3schools.com/css/css_external.asp</a>
+  </li>
 </ul>
 
 ### Farben der Flaggen
+
+Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 <ul>
   <li>Deutschland: rgb(0, 0, 0), rgb(255, 0, 0), rgb(255, 204, 0)</li>
@@ -41,9 +49,15 @@ Erstelle die folgenden Flaggen unter zu Hilfenahme von <b>Flexbox</b>
   <li>border-radius</li>
 </ul>
 
-## Informationen und Tutorials zu Flexbox
+## Informationen und Tutorials
 
 <ul>
-  <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks</a></li>
-  <li><a href="https://flexboxfroggy.com/">Flexbox Froggy</a></li>
+  <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Flexbox Layout Guide von CSS-Tricks</a></li>
+  <li><a href="https://flexboxfroggy.com/">Flexbox Froggy (Flexbox Tutorial)</a></li>
+    <li>
+    <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting</a>
+  </li>
+  <li>
+    <a href="https://www.w3schools.com/css/css_external.asp">External Stylesheets</a>
+  </li>
 </ul>
