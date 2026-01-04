@@ -1,39 +1,52 @@
 body {
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(200, 200, 200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 8px;
+
+  @media screen and (min-width: 768px) {
+    gap: 32px;
+    padding: 24px;
+  }
 }
 
-.main {
+.flags-container {
   display: flex;
   flex-direction: row;
-  gap: 10px;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+
+  @media screen and (min-width: 768px) {
+    gap: 32px;
+  }
 }
 
 .flag {
-  height: 90px;
-  width: 135px;
+  height: 100px;
+  width: 150px;
 }
 
 .german-flag {
   display: flex;
   flex-direction: column;
 
+  .stripe {
+    flex: 1;
+  }
+
   .black {
-    background-color: rgba(0, 0, 0);
-    width: 100%;
-    height: 30px;
+    background-color: rgb(0, 0, 0);
   }
 
   .red {
-    background-color: rgba(255, 0, 0);
-    width: 100%;
-    height: 30px;
+    background-color: rgb(255, 0, 0);
   }
 
   .gold {
-    background-color: rgba(255, 204, 0);
-    width: 100%;
-    height: 30px;
+    background-color: rgb(255, 204, 0);
   }
 }
 
@@ -41,22 +54,20 @@ body {
   display: flex;
   flex-direction: row;
 
+  .stripe {
+    flex: 1;
+  }
+
   .green {
     background-color: rgb(22, 155, 98);
-    height: 100%;
-    width: 45px;
   }
 
   .white {
     background-color: rgb(255, 255, 255);
-    height: 100%;
-    width: 45px;
   }
 
   .orange {
     background-color: rgb(255, 136, 62);
-    height: 100%;
-    width: 45px;
   }
 }
 
@@ -68,8 +79,9 @@ body {
 
   .circle {
     background-color: rgb(188, 0, 45);
-    width: 50px;
-    height: 50px;
+    height: 60%;
+    width: auto;
+    aspect-ratio: 1/1;
     border-radius: 100%;
   }
 }
@@ -79,27 +91,25 @@ body {
   flex-direction: row;
 
   .green {
-    height: 100%;
-    width: 33%;
+    flex: 2;
     background-color: rgb(0, 136, 86);
   }
 
   .stripes-container {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 67%;
+    flex: 3;
+
+    .stripe {
+      flex: 1;
+    }
 
     .yellow {
       background-color: rgb(252, 209, 22);
-      width: 100%;
-      height: 50%;
     }
 
     .red {
       background-color: rgb(227, 28, 35);
-      width: 100%;
-      height: 50%;
     }
   }
 }
