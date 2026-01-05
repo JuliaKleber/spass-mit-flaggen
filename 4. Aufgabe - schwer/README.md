@@ -12,10 +12,10 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 ## Anforderungen
 
 - Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
-- Es sollte konsequent Flexbox zur Erstellung der Flaggen genutzt werden.
 - Es sollten keine Libraries oder Frameworks genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
+- Für die Maße der Flaggen sollten CSS-Variablen genutzt werden.
 
 ### Farben der Flaggen
 
@@ -30,15 +30,18 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 ### Benötigte css-Properties
 
-- position
+- background-color
+- height, width
+- position, z-index
 - top, bottom, right, left
-- z-index
 - transformations: rotate, translate
-- border
-- Erstellung von Dreiecken: www.html-seminar.de
+- display, flex-direction, flex
+- border, border-top, border-bottom, border-left
+- overflow
 
 ## Informationen und Tutorials
 
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting</a>
 - <a href="https://www.w3schools.com/css/css_external.asp">External Stylesheets</a>
 - <a href="https://www.html-seminar.de/css-dreieck-ohne-grafiken-ueber-css.htm">Dreiecke mit CSS erstellen</a>
+- <a href="">CSS-Variablen?</a>

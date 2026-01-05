@@ -1,3 +1,8 @@
+:root {
+  --flag-height: 100px;
+  --flag-width: 150px;
+}
+
 body {
   background-color: rgb(200, 200, 200);
   display: flex;
@@ -25,8 +30,8 @@ body {
 }
 
 .flag {
-  height: 90px;
-  width: 135px;
+  height: var(--flag-height);
+  width: var(--flag-width);
 }
 
 .czech-republic-flag {
@@ -53,9 +58,9 @@ body {
     top: 0;
     height: 0;
     width: 0;
-    border-top: 45px solid transparent;
-    border-bottom: 45px solid transparent;
-    border-left: 60px solid rgb(17, 69, 126);
+    border-top: calc(var(--flag-width) / 3) solid transparent;
+    border-bottom: calc(var(--flag-width) / 3) solid transparent;
+    border-left: calc(var(--flag-width) / 9 * 4) solid rgb(17, 69, 126);
   }
 }
 
@@ -82,9 +87,9 @@ body {
     top: 0;
     height: 0;
     width: 0;
-    border-top: 45px solid transparent;
-    border-bottom: 45px solid transparent;
-    border-left: 60px solid rgb(0, 0, 0);
+    border-top: calc(var(--flag-width) / 3) solid transparent;
+    border-bottom: calc(var(--flag-width) / 3) solid transparent;
+    border-left: calc(var(--flag-width) / 9 * 4) solid rgb(0, 0, 0);
   }
 }
 
@@ -126,31 +131,6 @@ body {
     background-color: rgb(255, 255, 255);
   }
 
-  .vertical {
-    width: 100%;
-    top: 50%;
-    translate: 0 -50%;
-  }
-
-  .horizontal {
-    width: 100%;
-    top: 50%;
-    translate: 0 -50%;
-    rotate: 90deg;
-  }
-
-  .white-foreground {
-    position: absolute;
-    height: 30px;
-    z-index: 30;
-  }
-
-  .red-foreground {
-    position: absolute;
-    height: 18px;
-    z-index: 40;
-  }
-
   .white-diagonal-beam {
     position: absolute;
     height: 18px;
@@ -176,5 +156,30 @@ body {
 
   .bottom-left-to-top-right {
     rotate: -30deg;
+  }
+
+  .vertical {
+    width: 100%;
+    top: 50%;
+    translate: 0 -50%;
+  }
+
+  .horizontal {
+    width: 100%;
+    top: 50%;
+    translate: 0 -50%;
+    rotate: 90deg;
+  }
+
+  .white-foreground {
+    position: absolute;
+    height: 30px;
+    z-index: 30;
+  }
+
+  .red-foreground {
+    position: absolute;
+    height: 18px;
+    z-index: 40;
   }
 }

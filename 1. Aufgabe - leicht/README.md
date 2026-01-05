@@ -16,6 +16,7 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Es sollten keine Libraries oder Frameworks genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
+- Für die Maße der Flaggen sollten CSS-Variablen genutzt werden.
 
 ### Farben der Flaggen
 
@@ -39,3 +40,4 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - <a href="https://flexboxfroggy.com/">Flexbox Froggy (Flexbox Tutorial)</a>
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting</a>
 - <a href="https://www.w3schools.com/css/css_external.asp">External Stylesheets</a>
+- <a href="">CSS-Variablen?</a>
