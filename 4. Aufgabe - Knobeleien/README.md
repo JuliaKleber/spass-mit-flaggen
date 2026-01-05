@@ -17,6 +17,12 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
 
+## Hinweise
+
+- Das Dreieck in der tschechischen Flagge ist so breit wie die Hälfte der Länge der Flagge.
+- Das Dreieck der Flagge der Bahamas ist die Länge der Flagge geteilt durch 2,2.
+- Die Breite der Balken der schottischen Flagge beträgt 15% der Höhe der Flagge. Sie sind um 33.7 Grad zur Waagerechten gedreht.
+
 ## Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:

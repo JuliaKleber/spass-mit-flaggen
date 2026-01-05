@@ -1,5 +1,6 @@
 :root {
   --flag-height: 100px;
+  --flag-width: calc(var(--flag-height) * 1.5);
 }
 
 body {
@@ -30,8 +31,7 @@ body {
 
 .flag {
   height: var(--flag-height);
-  width: auto;
-  aspect-ratio: 3 / 2;
+  width: var(--flag-width);
   overflow: hidden;
   display: grid;
 }

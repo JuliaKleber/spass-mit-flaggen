@@ -36,7 +36,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ## Benötigte CSS-Eigenschaften
 
 - display, grid-template-rows, grid-template-columns, grid-row, place-items
-- width, height, aspect-ratio
+- width, height
 - background-color
 
 ## Ressourcen

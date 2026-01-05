@@ -35,7 +35,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ## Benötigte CSS-Eigenschaften
 
 - display, flex-direction, justify-content, align-items, gap, flex-wrap, flex
-- width, height, aspect-ratio
+- width, height
 - background-color
 - border-radius
 
