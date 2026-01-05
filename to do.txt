@@ -1,1 +1,2 @@
-Aufgaben zu hover, active, scale usw. und n-th child, ::before, ::after
+- Aufgaben zu hover, active, scale usw. und n-th child, ::before, ::after
+- CSS-Box-Model: padding (Japan), margin (Japan)

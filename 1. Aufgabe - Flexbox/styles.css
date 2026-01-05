@@ -1,6 +1,5 @@
 :root {
   --flag-height: 100px;
-  --flag-width: 150px;
 }
 
 body {
@@ -31,11 +30,13 @@ body {
 
 .flag {
   height: var(--flag-height);
-  width: var(--flag-width);
+  width: auto;
+  aspect-ratio: 3 / 2;
+  display: flex;
+  overflow: hidden;
 }
 
 .german-flag {
-  display: flex;
   flex-direction: column;
 
   .stripe {
@@ -56,7 +57,6 @@ body {
 }
 
 .irish-flag {
-  display: flex;
   flex-direction: row;
 
   .stripe {
@@ -78,7 +78,6 @@ body {
 
 .japanese-flag {
   background-color: rgb(255, 255, 255);
-  display: flex;
   justify-content: center;
   align-items: center;
 
@@ -92,7 +91,6 @@ body {
 }
 
 .benin-flag {
-  display: flex;
   flex-direction: row;
 
   .green {
