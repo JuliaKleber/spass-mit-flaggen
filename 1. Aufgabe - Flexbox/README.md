@@ -18,7 +18,7 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
 
-### Farben der Flaggen
+## Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
@@ -27,14 +27,14 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - Japan: rgb(255, 255, 255), rgb(188, 0, 45)
 - Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
 
-### Benötigte css-Properties
+## Benötigte CSS-Eigenschaften
 
 - display, flex-direction, justify-content, align-items, gap, flex-wrap, flex
 - width, height, aspect-ratio
 - background-color
 - border-radius
 
-## Informationen und Tutorials
+## Ressourcen
 
 - <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Flexbox Layout Guide von CSS-Tricks</a>
 - <a href="https://flexboxfroggy.com/">Flexbox Froggy (Flexbox Tutorial)</a>

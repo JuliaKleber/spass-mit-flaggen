@@ -19,7 +19,7 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
 
-### Farben der Flaggen
+## Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
@@ -29,7 +29,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
 - Schweden: rgb(0, 106, 167), rgb(254, 204, 0)
 
-### Benötigte css-Properties
+## Benötigte CSS-Eigenschaften
 
 - width, height
 - background-color
@@ -38,7 +38,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - transformations: translate
 - border-radius
 
-## Informationen und Tutorials
+## Ressourcen
 
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting</a>
 - <a href="https://www.w3schools.com/css/css_external.asp">External Stylesheets</a>

@@ -17,7 +17,7 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
 
-### Farben der Flaggen
+## Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
@@ -28,7 +28,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - Schottland: rgb(1, 33, 105), rgb(255, 255, 255)
 - Großbritannien: rgb(255, 255, 255), rgb(1, 33, 105), rgb(200, 16, 46)
 
-### Benötigte css-Properties
+## Benötigte CSS-Eigenschaften
 
 - background-color
 - height, width
@@ -39,7 +39,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - border, border-top, border-bottom, border-left
 - overflow
 
-## Informationen und Tutorials
+## Ressourcen
 
 - <a href="https://www.html-seminar.de/css-dreieck-ohne-grafiken-ueber-css.htm">Dreiecke mit CSS erstellen</a>
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting</a>
