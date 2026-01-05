@@ -1,40 +1,40 @@
-# Spaß mit Flaggen - Aufgabe 2 (Grid)
+# Spaß mit Flaggen - Aufgabe 2 (CSS Grid)
 
 ## Aufgabenstellung
 
-Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
+Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 
 - Deutschland
 - Irland
-- Japan
 - Benin
+- Japan
 
 ## Anforderungen
 
-- Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
-- Für die Maße der Flaggen sollten CSS-Variablen genutzt werden.
 - Es sollte konsequent Grid zur Erstellung der Flaggen genutzt werden.
+- Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
+- Für die Grundmaße der Flaggen sollten CSS-Variablen genutzt werden.
 - Es sollten keine Libraries oder Frameworks genutzt werden.
-- Es sollte CSS-Nesting genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
-- Hinweis auf html-Struktur mit title und meta viewport.
+- Es sollte CSS-Nesting genutzt werden.
+- !!! Hinweis auf html-Struktur mit title und meta viewport.
 
-
-### Farben der Flaggen
+## Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 - Deutschland: rgb(0, 0, 0), rgb(255, 0, 0), rgb(255, 204, 0)
 - Irland: rgb(22, 155, 98), rgb(255, 255, 255), rgb(255, 136, 62)
 - Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
+- Japan: rgb(255, 255, 255), rgb(188, 0, 45)
 
-### Benötigte css-Properties
+## Benötigte CSS-Eigenschaften
 
-- display, grid-template-rows, grid-template-columns
-- width, height
+- display, grid-template-rows, grid-template-columns, grid-row, place-items
+- width, height, aspect-ratio
 - background-color
 
-## Informationen und Tutorials
+## Ressourcen
 
 - <a href="https://cssgridgarden.com/#de">Grid Garden (Grid Tutorial)</a>
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting</a>
