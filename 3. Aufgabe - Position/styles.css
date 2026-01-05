@@ -1,17 +1,37 @@
-body {
-  background: rgb(228, 228, 228);
+:root {
+  --flag-height: 100px;
+  --flag-width: 150px;
 }
 
-.flags {
+body {
+  background-color: rgb(200, 200, 200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 8px;
+
+  @media screen and (min-width: 768px) {
+    gap: 32px;
+    padding: 24px;
+  }
+}
+
+.flags-container {
   display: flex;
   flex-direction: row;
-  gap: 10px;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+
+  @media screen and (min-width: 768px) {
+    gap: 32px;
+  }
 }
 
 .flag {
-  height: 90px;
-  width: 135px;
+  height: var(--flag-height);
+  width: var(--flag-width);
 }
 
 .german-flag {
@@ -124,192 +144,5 @@ body {
     position: absolute;
     left: 42%;
     translate: -50% 0;
-  }
-}
-
-.czech-republic-flag {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-
-  .white {
-    height: 50%;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-  }
-
-  .red {
-    height: 50%;
-    width: 100%;
-    background-color: rgb(215, 20, 26);
-  }
-
-  .blue {
-    position: absolute;
-    z-index: 10;
-    left: 0;
-    top: 0;
-    height: 0;
-    width: 0;
-    border-top: 45px solid transparent;
-    border-bottom: 45px solid transparent;
-    border-left: 60px solid rgb(17, 69, 126);
-  }
-}
-
-.bahamas-flag {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-
-  .blue-top {
-    height: 50%;
-    width: 100%;
-    background-color: rgb(0, 169, 206);
-  }
-
-  .yellow {
-    height: 50%;
-    width: 100%;
-    background-color: rgb(255, 199, 44);
-  }
-
-  .blue-bottom {
-    height: 50%;
-    width: 100%;
-    background-color: rgb(0, 169, 206);
-  }
-
-  .black {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 0;
-    width: 0;
-    border-top: 45px solid transparent;
-    border-bottom: 45px solid transparent;
-    border-left: 60px solid rgb(0, 0, 0);
-  }
-}
-
-.scottish-flag {
-  position: relative;
-  background-color: rgb(1, 33, 105);
-  overflow: hidden;
-
-  .white-diagonal-beam-one {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    height: 18px;
-    width: 130%;
-    top: 50%;
-    left: -15%;
-    translate: 0 -50%;
-    z-index: 10;
-    rotate: 30deg;
-  }
-
-  .white-diagonal-beam-two {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    height: 18px;
-    width: 130%;
-    top: 50%;
-    left: -15%;
-    translate: 0 -50%;
-    z-index: 10;
-    rotate: -30deg;
-  }
-}
-
-.british-flag {
-  position: relative;
-  background-color: rgb(1, 33, 105);
-  overflow: hidden;
-
-  .white-vertical-beam {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    height: 30px;
-    width: 100%;
-    top: 50%;
-    translate: 0 -50%;
-    z-index: 30;
-  }
-
-  .red-vertical-beam {
-    position: absolute;
-    background-color: rgb(200, 16, 46);
-    height: 18px;
-    width: 100%;
-    top: 50%;
-    translate: 0 -50%;
-    z-index: 40;
-  }
-
-  .white-horizontal-beam {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    height: 100%;
-    width: 30px;
-    left: 50%;
-    translate: -50% 0;
-    z-index: 30;
-  }
-
-  .red-horizontal-beam {
-    position: absolute;
-    background-color: rgb(200, 16, 46);
-    height: 100%;
-    width: 18px;
-    left: 50%;
-    translate: -50% 0;
-    z-index: 40;
-  }
-
-  .white-diagonal-beam-one {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    height: 18px;
-    width: 130%;
-    top: 50%;
-    left: -15%;
-    translate: 0 -50%;
-    z-index: 10;
-    rotate: 30deg;
-  }
-
-  .red-diagonal-beam-one {
-    position: absolute;
-    background-color: rgb(200, 16, 46);
-    height: 5px;
-    width: 120%;
-    top: 50%;
-    left: -10%;
-    z-index: 20;
-    rotate: 30deg;
-  }
-
-  .white-diagonal-beam-two {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    height: 18px;
-    width: 130%;
-    top: 50%;
-    left: -15%;
-    translate: 0 -50%;
-    z-index: 10;
-    rotate: -30deg;
-  }
-
-  .red-diagonal-beam-two {
-    position: absolute;
-    background-color: rgb(200, 16, 46);
-    height: 5px;
-    width: 120%;
-    top: 50%;
-    left: -10%;
-    z-index: 20;
-    rotate: -30deg;
   }
 }
