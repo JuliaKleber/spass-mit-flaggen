@@ -18,6 +18,11 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
 
+## Hinweise
+
+- Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
+- Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge.
+
 ## Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:

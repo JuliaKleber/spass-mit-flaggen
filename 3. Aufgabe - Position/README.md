@@ -19,6 +19,13 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
 
+## Hinweise
+
+- Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge.
+- Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
+- Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37.5% der Flaggenbreite.
+- Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge angenommen werden. Allerdings ist dieser Wert für den horizontalen Balken nicht ganz korrekt, da die schwedische Flagge ein Seitenverhältis von 1,6 statt dem in dieser Aufgabe verwendeten Seitenverhältnis von 1,5 aufweist.
+
 ## Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
