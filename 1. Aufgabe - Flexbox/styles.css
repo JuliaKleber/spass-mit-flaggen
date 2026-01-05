@@ -76,20 +76,6 @@ body {
   }
 }
 
-.japanese-flag {
-  background-color: rgb(255, 255, 255);
-  justify-content: center;
-  align-items: center;
-
-  .circle {
-    background-color: rgb(188, 0, 45);
-    height: 60%;
-    width: auto;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-  }
-}
-
 .benin-flag {
   flex-direction: row;
 
@@ -114,5 +100,19 @@ body {
     .red {
       background-color: rgb(227, 28, 35);
     }
+  }
+}
+
+.japanese-flag {
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+
+  .circle {
+    background-color: rgb(188, 0, 45);
+    height: 60%;
+    width: auto;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
   }
 }
