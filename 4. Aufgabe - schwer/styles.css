@@ -118,49 +118,41 @@ body {
   background-color: rgb(1, 33, 105);
   overflow: hidden;
 
-  .white-vertical-beam {
-    position: absolute;
+  .red {
+    background-color: rgb(200, 16, 46);
+  }
+
+  .white {
     background-color: rgb(255, 255, 255);
+  }
+
+  .vertical {
+    width: 100%;
+    top: 50%;
+    translate: 0 -50%;
+  }
+
+  .horizontal {
+    width: 100%;
+    top: 50%;
+    translate: 0 -50%;
+    rotate: 90deg;
+  }
+
+  .white-foreground {
+    position: absolute;
     height: 30px;
-    width: 100%;
-    top: 50%;
-    translate: 0 -50%;
     z-index: 30;
   }
 
-  .red-vertical-beam {
+  .red-foreground {
     position: absolute;
-    background-color: rgb(200, 16, 46);
     height: 18px;
-    width: 100%;
-    top: 50%;
-    translate: 0 -50%;
-    z-index: 40;
-  }
-
-  .white-horizontal-beam {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    height: 100%;
-    width: 30px;
-    left: 50%;
-    translate: -50% 0;
-    z-index: 30;
-  }
-
-  .red-horizontal-beam {
-    position: absolute;
-    background-color: rgb(200, 16, 46);
-    height: 100%;
-    width: 18px;
-    left: 50%;
-    translate: -50% 0;
     z-index: 40;
   }
 
   .white-diagonal-beam {
     position: absolute;
-    background-color: rgb(255, 255, 255);
     height: 18px;
     width: 130%;
     top: 50%;
@@ -169,17 +161,8 @@ body {
     z-index: 10;
   }
 
-  .white-diagonal-beam-one {
-    rotate: 30deg;
-  }
-
-  .white-diagonal-beam-two {
-    rotate: -30deg;
-  }
-
   .red-diagonal-beam {
     position: absolute;
-    background-color: rgb(200, 16, 46);
     height: 5px;
     width: 120%;
     top: 50%;
@@ -187,11 +170,11 @@ body {
     z-index: 20;
   }
 
-  .red-diagonal-beam-one {
+  .top-left-to-bottom-right {
     rotate: 30deg;
   }
 
-  .red-diagonal-beam-two {
+  .bottom-left-to-top-right {
     rotate: -30deg;
   }
 }
