@@ -1,7 +1,11 @@
-- Aufgaben zu hover, active, scale usw. und n-th child,
 - CSS-Box-Model: padding (Japan), margin (Japan)
 - Pseudoelemente ::before, ::after (nur ein div) -> alle einfachen plus Tschechei und Bahamas
 - Dreiecke mit border-tricks (Tschechei & Bahamas)
 - Dreiecke mit clip-path (Tschechei & Bahamas, Kuwait)
 - transform: rotate() & Gradient: Jamaika, Schottland, Großbritannien
 - Weitere Flaggen: Island, Norwegen Mauritius, Schweiz, Griechenland, Seychellen, Nepal
+- Aufgaben zu hover, active, scale usw. und n-th child, -> Flagge on Hover vergrößern, oder nur das innere vergrößern?
+- box-shadow: Deutschland, Irland
+
+- Variablen für Farben
+- 1rem statt px
