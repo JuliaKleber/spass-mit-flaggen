@@ -1,3 +1,7 @@
-- Aufgaben zu hover, active, scale usw. und n-th child, ::before (Dreiecke Tschechei, Bahamas), ::after
+- Aufgaben zu hover, active, scale usw. und n-th child,
 - CSS-Box-Model: padding (Japan), margin (Japan)
-- Gradienten: Irische Flagge, japanische Flagge (linear-gradient, conic-gradient)
+- Pseudoelemente ::before, ::after (nur ein div) -> alle einfachen plus Tschechei und Bahamas
+- Dreiecke mit border-tricks (Tschechei & Bahamas)
+- Dreiecke mit clip-path (Tschechei & Bahamas, Kuwait)
+- transform: rotate() & Gradient: Jamaika, Schottland, Großbritannien
+- Weitere Flaggen: Island, Norwegen Mauritius, Schweiz, Griechenland, Seychellen, Nepal
