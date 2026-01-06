@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 4
+# Spaß mit Flaggen - Aufgabe 5 (Knobeleien)
 
 ## Aufgabenstellung
 
