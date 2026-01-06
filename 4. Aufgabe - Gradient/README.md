@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 3 (Position)
+# Spaß mit Flaggen - Aufgabe 4 (CSS Gradienten)
 
 ## Aufgabenstellung
 
@@ -40,10 +40,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 - width, height
 - background-color
-- position, z-index
-- top, bottom, right, left
-- transformations: translate
-- border-radius
+- background-image
 
 ## Ressourcen
 

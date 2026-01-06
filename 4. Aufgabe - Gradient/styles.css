@@ -32,8 +32,6 @@ body {
 .flag {
   height: var(--flag-height);
   width: var(--flag-width);
-  position: relative;
-  overflow: hidden;
 }
 
 .german-flag {
