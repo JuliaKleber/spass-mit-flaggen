@@ -4,12 +4,12 @@
 
 Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 
-- Deutschland
-- Irland
-- Mauritius
-- Benin
-- Japan
-- Schweiz
+- 🇩🇪 Deutschland
+- 🇮🇪 Irland
+- 🇲🇺 Mauritius
+- 🇧🇯 Benin
+- 🇯🇵 Japan
+- 🇨🇭 Schweiz
 
 ## Anforderungen
 
