@@ -4,10 +4,12 @@
 
 Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 
-- Deutschland
-- Irland
-- Benin
-- Japan
+- 🇳🇱 Niederlande
+- 🇮🇹 Italien
+- 🇲🇺 Mauritius
+- 🇧🇯 Benin
+- 🇯🇵 Japan
+- 🇨🇭 Schweiz
 
 ## Anforderungen
 
@@ -23,15 +25,19 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 
 - Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
 - Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge.
+- Für das Seitenverhältnis der weißen Balken in der Schweizer Flagge kann 6:20 angenommen werden.
+- Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
 
 ## Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
-- Deutschland: rgb(0, 0, 0), rgb(255, 0, 0), rgb(255, 204, 0)
-- Irland: rgb(22, 155, 98), rgb(255, 255, 255), rgb(255, 136, 62)
+- Niederlande: rgb(174, 28, 40), rgb(255, 255, 255), rgb(33, 70, 139)
+- Italien: rgb(0, 140, 69), rgb(244, 245, 240), rgb(205, 33, 42)
+- Mauritius: rgb(208, 28, 31), rgb(45, 51, 89), rgb(247, 183, 24), rgb(0, 134, 88)
 - Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
 - Japan: rgb(255, 255, 255), rgb(188, 0, 45)
+- Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
 
 ## Benötigte CSS-Eigenschaften
 
