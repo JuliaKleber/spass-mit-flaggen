@@ -15,7 +15,7 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
 - Für die Maße der Flaggen sollten CSS-Variablen genutzt werden.
-- Es sollte konsequent Flexbox zur Erstellung der Flaggen genutzt werden.
+- Es sollte <u>konsequent Flexbox</u> zur Erstellung der Flaggen genutzt werden. Position, Grid, Padding usw. sind nicht erlaubt.
 - Es sollten keine Libraries oder Frameworks genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
