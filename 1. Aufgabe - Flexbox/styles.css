@@ -1,5 +1,5 @@
 :root {
-  --flag-height: 100px;
+  --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
 }
 
@@ -8,12 +8,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
-  padding: 8px;
+  gap: 1.5rem;
+  padding: 0.5rem;
 
   @media screen and (min-width: 768px) {
-    gap: 32px;
-    padding: 24px;
+    gap: 2rem;
+    padding: 1.5rem;
   }
 }
 
@@ -22,10 +22,10 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 1.5rem;
 
   @media screen and (min-width: 768px) {
-    gap: 32px;
+    gap: 2rem;
   }
 }
 
@@ -34,6 +34,7 @@ body {
   width: var(--flag-width);
   display: flex;
   overflow: hidden;
+  background-color: black;
 }
 
 .german-flag {
@@ -76,6 +77,30 @@ body {
   }
 }
 
+.mauritius-flag {
+  flex-direction: column;
+
+  .stripe {
+    flex: 1;
+  }
+
+  .red {
+    background-color: rgb(208, 28, 31);
+  }
+
+  .blue {
+    background-color: rgb(45, 51, 89);
+  }
+
+  .yellow {
+    background-color: rgb(247, 183, 24);
+  }
+
+  .green {
+    background-color: rgb(0, 134, 88);
+  }
+}
+
 .benin-flag {
   flex-direction: row;
 
@@ -84,7 +109,7 @@ body {
     background-color: rgb(0, 136, 86);
   }
 
-  .stripes-container {
+  .horizontal-stripes-container {
     display: flex;
     flex-direction: column;
     flex: 3;
@@ -115,4 +140,33 @@ body {
     aspect-ratio: 1/1;
     border-radius: 50%;
   }
+}
+
+.swiss-flag {
+  background-color: rgb(218, 41, 28);
+  flex-direction: column;
+  align-items: center;
+
+  .spacer {
+    background-color: transparent;
+    flex: 6;
+  }
+
+  .horizontal,
+  .vertical {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .horizontal {
+    width: calc(var(--flag-height) * 20 / 32);
+    flex: 6;
+  }
+
+  .vertical {
+    width: calc(var(--flag-height) * 6 / 32);
+    flex: 7;
+  }
+
+  /* Hinweis: Nur auf Schiffen wird eine Flagge mit einem Seitenverhältnis von 2:3 verwendet.
+  Ansonsten weist sie ein Seitenverhältnis von 1:1 auf. */
 }

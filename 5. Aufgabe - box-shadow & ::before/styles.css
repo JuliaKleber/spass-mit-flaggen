@@ -1,5 +1,5 @@
 :root {
-  --flag-height: 100px;
+  --flag-height: 7rem;
   --germany-width: calc(var(--flag-height) * 5 / 3);
   --ireland-width: calc(var(--flag-height) * 2);
 }
@@ -9,12 +9,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
-  padding: 8px;
+  gap: 1.5rem;
+  padding: 0.5rem;
 
   @media screen and (min-width: 768px) {
-    gap: 32px;
-    padding: 24px;
+    gap: 2rem;
+    padding: 1.5rem;
   }
 }
 
@@ -23,10 +23,10 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 1.5rem;
 
   @media screen and (min-width: 768px) {
-    gap: 32px;
+    gap: 2rem;
   }
 }
 

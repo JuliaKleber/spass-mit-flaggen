@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 5 (box-shadow und Pseudoklassen)
+# Spaß mit Flaggen - Aufgabe 5 (box-shadow und ::before)
 
 ## Aufgabenstellung
 

@@ -1,5 +1,5 @@
 :root {
-  --flag-height: 100px;
+  --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
 }
 
