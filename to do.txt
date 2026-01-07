@@ -9,4 +9,5 @@
 - Variablen für Farben
 - Aufgaben mit dem normalen flow
 - Verwendung von BEM
+- Alternative zu Deutschland und Irland mit Seitenverhältnis 3:2
 

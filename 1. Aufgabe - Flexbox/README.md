@@ -1,11 +1,11 @@
-# Spaß mit Flaggen - Aufgabe 1
+# Spaß mit Flaggen - Aufgabe 1 (Flexbox)
 
 ## Aufgabenstellung
 
 Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 
-- 🇩🇪 Deutschland
-- 🇮🇪 Irland
+- 🇳🇱 Niederlande
+- 🇮🇹 Italien
 - 🇲🇺 Mauritius
 - 🇧🇯 Benin
 - 🇯🇵 Japan
@@ -31,8 +31,8 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
-- Deutschland: rgb(0, 0, 0), rgb(255, 0, 0), rgb(255, 204, 0)
-- Irland: rgb(22, 155, 98), rgb(255, 255, 255), rgb(255, 136, 62)
+- Niederlande: rgb(174, 28, 40), rgb(255, 255, 255), rgb(33, 70, 139)
+- Italien: rgb(0, 140, 69), rgb(244, 245, 240), rgb(205, 33, 42)
 - Mauritius: rgb(208, 28, 31), rgb(45, 51, 89), rgb(247, 183, 24), rgb(0, 134, 88)
 - Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
 - Japan: rgb(255, 255, 255), rgb(188, 0, 45)
