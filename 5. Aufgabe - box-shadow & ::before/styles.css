@@ -2,6 +2,7 @@
   --flag-height: 7rem;
   --germany-width: calc(var(--flag-height) * 5 / 3);
   --ireland-width: calc(var(--flag-height) * 2);
+  --mauritius-width: calc(var(--flag-height) * 3 / 2);
 }
 
 body {
@@ -57,5 +58,21 @@ body {
     width: calc(var(--ireland-width) / 3);
     box-shadow: calc(var(--ireland-width) / 3) 0px rgb(255, 255, 255),
       calc(var(--ireland-width) * 2 / 3) 0px rgb(255, 136, 62);
+  }
+}
+
+.mauritius-flag {
+  height: var(--flag-height);
+  width: var(--mauritius-width);
+
+  &::before {
+    content: "";
+    display: block;
+    background-color: rgb(208, 28, 31);
+    height: calc(var(--flag-height) / 4);
+    width: 100%;
+    box-shadow: 0px calc(var(--flag-height) / 4) rgb(45, 51, 89),
+      0px calc(var(--flag-height) / 2) rgb(247, 183, 24),
+      0px calc(var(--flag-height) * 3 / 4) rgb(0, 134, 88);
   }
 }

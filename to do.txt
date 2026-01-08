@@ -1,13 +1,13 @@
 - CSS-Box-Model: padding (Japan), margin (Japan), Österreich, Indonesien, Lettland, Nigeria
-- Pseudoelemente ::before, ::after (nur ein div) -> alle einfachen plus Tschechei und Bahamas
+- Pseudoelemente ::before, ::after (nur ein oder zwei div) -> Netherlands, Italy, Japan, plus Tschechei und Bahamas
 - Dreiecke mit border-tricks (Tschechei & Bahamas, St. Lucia)
 - Dreiecke mit clip-path (Tschechei & Bahamas, Kuwait, St. Lucia)
 - transform: rotate() & Gradient: Jamaika, Schottland, Großbritannien
-- Weitere Flaggen: Island, Norwegen, Mauritius, Schweiz, Griechenland, Seychellen, Nepal, Grönland
+- transform: rotate(): Schweiz
+- Weitere Flaggen: Island, Norwegen, Mauritius, Griechenland, Seychellen, Nepal, Grönland
 - Weitere Flaggen: Laos, Somalia, Südafrika, Thailand, Tonga, Trinidad & Tobago, Zentralafrikanische Republik
 - Aufgaben zu hover, active, scale usw. und n-th child, -> Flagge on Hover vergrößern, oder nur das innere vergrößern?
 - Variablen für Farben
 - Aufgaben mit dem normalen flow
 - Verwendung von BEM
-- Alternative zu Deutschland und Irland mit Seitenverhältnis 3:2 -> Niederlande & Italien
 

@@ -10,6 +10,7 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - 🇧🇯 Benin
 - 🇯🇵 Japan
 - 🇨🇭 Schweiz
+- 🇸🇪 Schweden
 
 ## Anforderungen
 

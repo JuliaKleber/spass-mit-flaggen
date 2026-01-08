@@ -36,27 +36,29 @@ body {
   overflow: hidden;
 }
 
-.german-flag {
-  .stripe {
-    width: 100%;
-    height: calc(var(--flag-height) / 3);
-  }
+.dutch-flag {
+  background-color: rgb(255, 255, 255);
 
-  .black {
-    background-color: rgba(0, 0, 0);
+  .stripe {
+    position: absolute;
+    left: 0;
+    height: calc(var(--flag-height) / 3);
+    width: 100%;
   }
 
   .red {
-    background-color: rgba(255, 0, 0);
+    background-color: rgb(174, 28, 40);
+    top: 0;
   }
 
-  .gold {
-    background-color: rgba(255, 204, 0);
+  .blue {
+    background-color: rgb(33, 70, 139);
+    bottom: 0;
   }
 }
 
-.irish-flag {
-  background-color: rgb(255, 255, 255);
+.italian-flag {
+  background-color: rgb(244, 245, 240);
 
   .stripe {
     position: absolute;
@@ -66,13 +68,42 @@ body {
   }
 
   .green {
-    background-color: rgb(22, 155, 98);
+    background-color: rgb(0, 140, 69);
     left: 0;
   }
 
-  .orange {
-    background-color: rgb(255, 136, 62);
+  .red {
+    background-color: rgb(205, 33, 42);
     right: 0;
+  }
+}
+
+.mauritius-flag {
+  .stripe {
+    position: absolute;
+    left: 0;
+    height: calc(var(--flag-height) / 4);
+    width: 100%;
+  }
+
+  .red {
+    background-color: rgb(208, 28, 31);
+    top: 0;
+  }
+
+  .blue {
+    background-color: rgb(45, 51, 89);
+    top: 25%;
+  }
+
+  .yellow {
+    background-color: rgb(247, 183, 24);
+    top: 50%;
+  }
+
+  .green {
+    background-color: rgb(0, 134, 88);
+    bottom: 0;
   }
 }
 
@@ -115,6 +146,30 @@ body {
   .red {
     bottom: 0;
     background-color: rgb(227, 28, 35);
+  }
+}
+
+.swiss-flag {
+  background-color: rgb(218, 41, 28);
+
+  .horizontal,
+  .vertical {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+  }
+
+  .horizontal {
+    height: calc(6 / 32);
+    width: calc(20 / 32);
+    top: 13/32;
+    left: 14/48;
+  }
+
+  .vertical {
+    height: 20/32;
+    width: 6/32;
+    top: 6/32;
+    left: 21/48;
   }
 }
 
