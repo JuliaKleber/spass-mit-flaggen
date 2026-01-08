@@ -1,6 +1,39 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
+
+  /* Niederlande */
+  --color-netherlands-red: rgb(174, 28, 40);
+  --color-netherlands-white: rgb(255, 255, 255);
+  --color-netherlands-blue: rgb(33, 70, 139);
+
+  /* Italien */
+  --color-italy-green: rgb(0, 140, 69);
+  --color-italy-white: rgb(244, 245, 240);
+  --color-italy-red: rgb(205, 33, 42);
+
+  /* Mauritius */
+  --color-mauritius-red: rgb(208, 28, 31);
+  --color-mauritius-blue: rgb(45, 51, 89);
+  --color-mauritius-yellow: rgb(247, 183, 24);
+  --color-mauritius-green: rgb(0, 134, 88);
+
+  /* Benin */
+  --color-benin-green: rgb(0, 136, 86);
+  --color-benin-yellow: rgb(252, 209, 22);
+  --color-benin-red: rgb(227, 28, 35);
+
+  /* Japan */
+  --color-japan-white: rgb(255, 255, 255);
+  --color-japan-red: rgb(188, 0, 45);
+
+  /* Schweiz */
+  --color-switzerland-red: rgb(218, 41, 28);
+  --color-switzerland-white: rgb(255, 255, 255);
+
+  /* Schweden */
+  --color-sweden-blue: rgb(0, 106, 167);
+  --color-sweden-yellow: rgb(254, 204, 0);
 }
 
 body {
@@ -41,15 +74,15 @@ body {
   grid-template-rows: repeat(3, 1fr);
 
   .red {
-    background-color: rgb(174, 28, 40);
+    background-color: var(--color-netherlands-red);
   }
 
   .white {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--color-netherlands-white);
   }
 
   .blue {
-    background-color: rgb(33, 70, 139);
+    background-color: var(--color-netherlands-blue);
   }
 }
 
@@ -57,15 +90,15 @@ body {
   grid-template-columns: repeat(3, 1fr);
 
   .green {
-    background-color: rgb(0, 140, 69);
+    background-color: var(--color-italy-green);
   }
 
   .white {
-    background-color: rgb(244, 245, 240);
+    background-color: var(--color-italy-white);
   }
 
   .red {
-    background-color: rgb(205, 33, 42);
+    background-color: var(--color-italy-red);
   }
 }
 
@@ -73,61 +106,117 @@ body {
   grid-template-rows: repeat(4, 1fr);
 
   .red {
-    background-color: rgb(208, 28, 31);
+    background-color: var(--color-mauritius-red);
   }
 
   .blue {
-    background-color: rgb(45, 51, 89);
+    background-color: var(--color-mauritius-blue);
   }
 
   .yellow {
-    background-color: rgb(247, 183, 24);
+    background-color: var(--color-mauritius-yellow);
   }
 
   .green {
-    background-color: rgb(0, 134, 88);
+    background-color: var(--color-mauritius-green);
   }
 }
 
 .benin-flag {
+  /* ausführliche Schreibweise */
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 1fr 1fr;
 
   .green {
-    background-color: rgb(0, 136, 86);
+    background-color: var(--color-benin-green);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .yellow {
+    background-color: var(--color-benin-yellow);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .red {
+    background-color: var(--color-benin-red);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  /* Kurzschreibweise */
+  grid-template: 1fr 1fr / 2fr 3fr;
+
+  .green {
+    background-color: var(--color-benin-green);
     grid-row: span 2;
   }
 
   .yellow {
-    background-color: rgb(252, 209, 22);
+    background-color: var(--color-benin-yellow);
   }
 
   .red {
-    background-color: rgb(227, 28, 35);
+    background-color: var(--color-benin-red);
+  }
+
+  /* alternative Schreibweise */
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "green yellow"
+    "green red";
+
+  .green {
+    grid-area: green;
+    background-color: var(--color-benin-green);
+  }
+  .yellow {
+    grid-area: yellow;
+    background-color: var(--color-benin-yellow);
+  }
+  .red {
+    grid-area: red;
+    background-color: var(--color-benin-red);
   }
 }
 
 .japanese-flag {
-  background-color: rgb(255, 255, 255);
-  place-items: center;
+  background-color: var(--color-japan-white);
 
   .red-circle {
-    background-color: rgb(188, 0, 45);
-    height: 60%;
+    background-color: var(--color-japan-red);
+    height: calc(var(--flag-height) * 3 / 5);
     width: auto;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
   }
+
+  /* ausführliche Schreibweise */
+  align-items: center;
+  justify-items: center;
+
+  /* Kurzschreibweise */
+  place-items: begin;
 }
 
 .swiss-flag {
-  background-color: rgb(218, 41, 28);
-  grid-template-columns: 14fr 7fr 6fr 7fr 14fr;
+  /* Ausführliche Schreibweise */
+  background-color: var(--color-switzerland-red);
+  grid-template-columns: 6fr 7fr 6fr 7fr 6fr;
   grid-template-rows: 6fr 7fr 6fr 7fr 6fr;
+  width: var(--flag-height);
 
   .horizontal,
   .vertical {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--color-switzerland-white);
   }
 
   .horizontal {
@@ -140,19 +229,34 @@ body {
     grid-row: 3;
   }
 
-  /* Hinweis: Nur auf Schiffen wird eine Flagge mit einem Seitenverhältnis von 2:3 verwendet.
-  Ansonsten weist sie ein Seitenverhältnis von 1:1 auf. */
+  /* Kurzschreibweise */
+  background-color: var(--color-switzerland-red);
+  grid-template: 6fr 7fr 6fr 7fr 6fr / 6fr 7fr 6fr 7fr 6fr;
+  width: var(--flag-height);
+
+  .horizontal,
+  .vertical {
+    background-color: var(--color-switzerland-white);
+  }
+
+  .horizontal {
+    grid-area: 2 / 3 / 5 / 4;
+  }
+
+  .vertical {
+    grid-area: 3 / 2 / 4 / 5;
+  }
 }
 
 .swedish-flag {
-  background-color: rgb(0, 106, 167);
-  grid-template-columns: 4fr 2fr 8fr;
+  background-color: var(--color-sweden-blue);
+  grid-template-columns: 5fr 2fr 9fr;
   grid-template-rows: 4fr 2fr 4fr;
   width: calc(var(--flag-height) * 1.6);
 
   .horizontal,
   .vertical {
-    background-color: rgb(254, 204, 0);
+    background-color: var(--color-sweden-yellow);
   }
 
   .horizontal {

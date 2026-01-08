@@ -15,12 +15,13 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 ## Anforderungen
 
 - Es sollte konsequent Grid zur Erstellung der Flaggen genutzt werden.
-- Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
-- Für die Grundmaße der Flaggen sollten CSS-Variablen genutzt werden.
+- Die schweizer Flagge solle ein Seitenverhältnis von 1 : 1 aufweisen.
+- Die schwedische Flagge sollte ein Seitenverhältnis von 16:10 aufweisen.
+- Jede andere Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
+- Für die Grundmaße der Flaggen und die Farben sollten CSS-Variablen genutzt werden.
 - Es sollten keine Libraries oder Frameworks genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
-- !!! Hinweis auf html-Struktur mit title und meta viewport.
 
 ## Hinweise
 
@@ -28,7 +29,6 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge.
 - Für das Seitenverhältnis der weißen Balken in der Schweizer Flagge kann 6:20 angenommen werden.
 - Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
-- Für die Flagge von Schweden kann ein Seitenverhältnis von 8:5 angenommen werden.
 - Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge angenommen werden.
 
 ## Farben der Flaggen
@@ -43,10 +43,14 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
 - Schweden: rgb(0, 106, 167), rgb(254, 204, 0)
 
-## Benötigte CSS-Eigenschaften
+## Erlaubte CSS-Eigenschaften für die Flaggen
 
-- display, grid-template-rows, grid-template-columns, grid-row, place-items
-- width, height
+- display
+- grid-template, grid-template-rows, grid-template-columns, gird-template-areas
+- grid-column-start, grid-column-end, grid-column
+- grid-row-start, grid-row-end, grid-row
+- grid-area, place-items
+- width, height, aspect-ratio
 - background-color
 
 ## Ressourcen
