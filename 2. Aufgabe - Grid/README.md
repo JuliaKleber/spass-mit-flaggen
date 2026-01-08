@@ -27,6 +27,8 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge.
 - Für das Seitenverhältnis der weißen Balken in der Schweizer Flagge kann 6:20 angenommen werden.
 - Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
+- Für die Flagge von Schweden kann ein Seitenverhältnis von 8:5 angenommen werden.
+- Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge angenommen werden.
 
 ## Farben der Flaggen
 
@@ -38,6 +40,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
 - Japan: rgb(255, 255, 255), rgb(188, 0, 45)
 - Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
+- Schweden: rgb(0, 106, 167), rgb(254, 204, 0)
 
 ## Benötigte CSS-Eigenschaften
 
