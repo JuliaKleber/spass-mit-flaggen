@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem;
+  font-family: "Inter", sans-serif;
+
+  @media screen and (min-width: 768px) {
+    gap: 2.5rem;
+    padding: 1.5rem;
+  }
+}
+
+h1 {
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem;
+
+  @media screen and (min-width: 768px) {
+    gap: 2.5rem;
+    padding: 1.5rem;
+  }
+}
+
+.paragraph {
+  max-width: 40rem;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}

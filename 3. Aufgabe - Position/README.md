@@ -16,7 +16,8 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
 - Für die Maße der Flaggen sollten CSS-Variablen genutzt werden.
-- Es sollte weder Flexbox noch Grid noch Gradienten zur Erstellung der Flaggen genutzt werden.
+- Es sollte konsequent Position für die Anordnung der Elemente genutzt werden.
+- Es sollte weder Flexbox noch Grid noch Gradienten zur Erstellung der Flaggen genutzt werden. Für das Layout der Seite dürfen Flexbox und Grid aber verwendet werden.
 - Es sollten keine Libraries oder Frameworks genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
@@ -40,11 +41,11 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
 - Schweden: rgb(0, 106, 167), rgb(254, 204, 0)
 
-## Benötigte CSS-Eigenschaften
+## Erlaubte CSS-Eigenschaften
 
 - width, height
 - background-color
-- position, z-index
+- position
 - top, bottom, right, left
 - transformations: translate
 - border-radius

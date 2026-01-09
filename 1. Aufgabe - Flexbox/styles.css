@@ -48,13 +48,13 @@ body {
   font-family: "Inter", sans-serif;
 
   @media screen and (min-width: 768px) {
-    gap: 2rem;
+    gap: 2.5rem;
     padding: 1.5rem;
   }
 }
 
 h1 {
-  padding: 1rem 0;
+  padding-top: 1rem;
   font-weight: 500;
 }
 

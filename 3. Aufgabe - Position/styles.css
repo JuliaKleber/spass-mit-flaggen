@@ -1,6 +1,39 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
+
+  /* Niederlande */
+  --color-netherlands-red: rgb(174, 28, 40);
+  --color-netherlands-white: rgb(255, 255, 255);
+  --color-netherlands-blue: rgb(33, 70, 139);
+
+  /* Italien */
+  --color-italy-green: rgb(0, 140, 69);
+  --color-italy-white: rgb(244, 245, 240);
+  --color-italy-red: rgb(205, 33, 42);
+
+  /* Mauritius */
+  --color-mauritius-red: rgb(208, 28, 31);
+  --color-mauritius-blue: rgb(45, 51, 89);
+  --color-mauritius-yellow: rgb(247, 183, 24);
+  --color-mauritius-green: rgb(0, 134, 88);
+
+  /* Benin */
+  --color-benin-green: rgb(0, 136, 86);
+  --color-benin-yellow: rgb(252, 209, 22);
+  --color-benin-red: rgb(227, 28, 35);
+
+  /* Japan */
+  --color-japan-white: rgb(255, 255, 255);
+  --color-japan-red: rgb(188, 0, 45);
+
+  /* Schweiz */
+  --color-switzerland-red: rgb(218, 41, 28);
+  --color-switzerland-white: rgb(255, 255, 255);
+
+  /* Schweden */
+  --color-sweden-blue: rgb(0, 106, 167);
+  --color-sweden-yellow: rgb(254, 204, 0);
 }
 
 * {
@@ -16,15 +49,16 @@ body {
   align-items: center;
   gap: 1.5rem;
   padding: 0.5rem;
+  font-family: "Inter", sans-serif;
 
   @media screen and (min-width: 768px) {
-    gap: 2rem;
+    gap: 2.5rem;
     padding: 1.5rem;
   }
 }
 
 h1 {
-  padding: 1rem 0;
+  padding-top: 1rem;
   font-weight: 500;
 }
 
@@ -45,10 +79,12 @@ h1 {
   width: var(--flag-width);
   position: relative;
   overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: black;
 }
 
 .dutch-flag {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--color-netherlands-white);
 
   .stripe {
     position: absolute;
@@ -58,33 +94,33 @@ h1 {
   }
 
   .red {
-    background-color: rgb(174, 28, 40);
+    background-color: var(--color-netherlands-red);
     top: 0;
   }
 
   .blue {
-    background-color: rgb(33, 70, 139);
+    background-color: var(--color-netherlands-blue);
     bottom: 0;
   }
 }
 
 .italian-flag {
-  background-color: rgb(244, 245, 240);
+  background-color: var(--color-italy-white);
 
   .stripe {
     position: absolute;
     top: 0;
     height: 100%;
-    width: 33.33%;
+    width: calc(var(--flag-width) / 3);
   }
 
   .green {
-    background-color: rgb(0, 140, 69);
+    background-color: var(--color-italy-green);
     left: 0;
   }
 
   .red {
-    background-color: rgb(205, 33, 42);
+    background-color: var(--color-italy-red);
     right: 0;
   }
 }
@@ -98,35 +134,35 @@ h1 {
   }
 
   .red {
-    background-color: rgb(208, 28, 31);
+    background-color: var(--color-mauritius-red);
     top: 0;
   }
 
   .blue {
-    background-color: rgb(45, 51, 89);
+    background-color: var(--color-mauritius-blue);
     top: 25%;
   }
 
   .yellow {
-    background-color: rgb(247, 183, 24);
+    background-color: var(--color-mauritius-yellow);
     top: 50%;
   }
 
   .green {
-    background-color: rgb(0, 134, 88);
+    background-color: var(--color-mauritius-green);
     bottom: 0;
   }
 }
 
 .japanese-flag {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--color-japan-white);
 
   .red-circle {
     position: absolute;
     left: 50%;
     top: 50%;
     translate: -50% -50%;
-    background-color: rgb(188, 0, 45);
+    background-color: var(--color-japan-red);
     height: 60%;
 
     aspect-ratio: 1 / 1;
@@ -138,7 +174,7 @@ h1 {
   .green {
     height: 100%;
     width: 40%;
-    background-color: rgb(0, 136, 86);
+    background-color: var(--color-benin-green);
   }
 
   .yellow,
@@ -151,46 +187,47 @@ h1 {
 
   .yellow {
     top: 0;
-    background-color: rgb(252, 209, 22);
+    background-color: var(--color-benin-yellow);
   }
 
   .red {
     bottom: 0;
-    background-color: rgb(227, 28, 35);
+    background-color: var(--color-benin-red);
   }
 }
 
 .swiss-flag {
-  background-color: rgb(218, 41, 28);
+  background-color: var(--color-switzerland-red);
 
   .horizontal,
   .vertical {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--color-switzerland-white);
     position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
   }
 
   .horizontal {
-    height: calc(6 / 32);
-    width: calc(20 / 32);
-    top: 13/32;
-    left: 14/48;
+    width: 41.67%;
+    height: 18.75%;
   }
 
   .vertical {
-    height: 20/32;
-    width: 6/32;
-    top: 6/32;
-    left: 21/48;
+    width: 12.5%;
+    height: 62.5%;
   }
+
+  /* Hinweis: Das Verhältnis der Seitenlängen ist offiziell 1:1 und nicht 3:2 */
 }
 
 .swedish-flag {
-  background-color: rgb(0, 106, 167);
+  background-color: var(--color-sweden-blue);
 
   .horizontal-beam,
   .vertical-beam {
     position: absolute;
-    background-color: rgb(254, 204, 0);
+    background-color: var(--color-sweden-yellow);
   }
 
   .horizontal-beam {
@@ -206,4 +243,6 @@ h1 {
     left: 37.5%;
     translate: -50% 0;
   }
+
+  /* Hinweis: Das Verhältnis der Seitenlängen ist offiziell 16:10 und nicht 3:2 */
 }
