@@ -1,0 +1,200 @@
+:root {
+  /* Niederlande */
+  --color-netherlands-red: rgb(174, 28, 40);
+  --color-netherlands-white: rgb(255, 255, 255);
+  --color-netherlands-blue: rgb(33, 70, 139);
+
+  /* Italien */
+  --color-italy-green: rgb(0, 140, 69);
+  --color-italy-white: rgb(244, 245, 240);
+  --color-italy-red: rgb(205, 33, 42);
+
+  /* Mauritius */
+  --color-mauritius-red: rgb(208, 28, 31);
+  --color-mauritius-blue: rgb(45, 51, 89);
+  --color-mauritius-yellow: rgb(247, 183, 24);
+  --color-mauritius-green: rgb(0, 134, 88);
+
+  /* Benin */
+  --color-benin-green: rgb(0, 136, 86);
+  --color-benin-yellow: rgb(252, 209, 22);
+  --color-benin-red: rgb(227, 28, 35);
+
+  /* Japan */
+  --color-japan-white: rgb(255, 255, 255);
+  --color-japan-red: rgb(188, 0, 45);
+
+  /* Schweiz */
+  --color-switzerland-red: rgb(218, 41, 28);
+  --color-switzerland-white: rgb(255, 255, 255);
+
+  /* Schweden */
+  --color-sweden-blue: rgb(0, 106, 167);
+  --color-sweden-yellow: rgb(254, 204, 0);
+}
+
+.dutch-flag {
+  /* Ausführliche Schreibweise */
+  background-image: linear-gradient(
+    var(--color-netherlands-red) 0%,
+    var(--color-netherlands-red) 33.33%,
+    var(--color-netherlands-white) 33.33%,
+    var(--color-netherlands-white) 66.67%,
+    var(--color-netherlands-blue) 66.67%,
+    var(--color-netherlands-blue) 100%
+  );
+
+  /* Kurzschreibweise */
+  background-image: linear-gradient(
+    var(--color-netherlands-red) 33.33%,
+    var(--color-netherlands-white) 0 66.67%,
+    var(--color-netherlands-blue) 0
+  );
+}
+
+.italian-flag {
+  /* Ausführliche Schreibweise */
+  background-image: linear-gradient(
+    90deg,
+    var(--color-italy-green) 0%,
+    var(--color-italy-green) 33.33%,
+    var(--color-italy-white) 33.33%,
+    var(--color-italy-white) 66.67%,
+    var(--color-italy-red) 66.67%,
+    var(--color-italy-red) 100%
+  );
+
+  /* Kurzschreibweise */
+  background-image: linear-gradient(
+    90deg,
+    var(--color-italy-green) 33.33%,
+    var(--color-italy-white) 0 66.67%,
+    var(--color-italy-red) 0
+  );
+}
+
+.mauritius-flag {
+  /* ausführliche Schreibweise */
+  background-image: linear-gradient(
+    var(--color-mauritius-red) 0%,
+    var(--color-mauritius-red) 25%,
+    var(--color-mauritius-blue) 25%,
+    var(--color-mauritius-blue) 50%,
+    var(--color-mauritius-yellow) 50%,
+    var(--color-mauritius-yellow) 75%,
+    var(--color-mauritius-green) 75%,
+    var(--color-mauritius-green) 100%
+  );
+
+  /* Kurzschreibweise */
+  background-image: linear-gradient(
+    var(--color-mauritius-red) 25%,
+    var(--color-mauritius-blue) 0 50%,
+    var(--color-mauritius-yellow) 0 75%,
+    var(--color-mauritius-green) 0
+  );
+}
+
+.japanese-flag {
+  /* Ausführliche Schreibweise */
+  background-image: radial-gradient(
+    circle,
+    var(--color-japan-red) 0%,
+    var(--color-japan-red) 34%,
+    var(--color-japan-white) 35%,
+    var(--color-japan-white) 100%
+  );
+
+  /* Kurzschreibweise */
+  background-image: radial-gradient(
+    circle,
+    var(--color-japan-red) 34%,
+    var(--color-japan-white) 35%
+  );
+}
+
+.benin-flag {
+  /* Ausführliche Schreibweise */
+  background-image: linear-gradient(
+      90deg,
+      var(--color-benin-green) 0%,
+      var(--color-benin-green) 40%,
+      transparent 40%,
+      transparent 100%
+    ),
+    linear-gradient(
+      var(--color-benin-yellow) 0%,
+      var(--color-benin-yellow) 50%,
+      var(--color-benin-red) 50%,
+      var(--color-benin-red) 100%
+    );
+
+  /* Kurzschreibweise */
+  background-image: linear-gradient(
+      90deg,
+      var(--color-benin-green) 40%,
+      transparent 0
+    ),
+    linear-gradient(var(--color-benin-yellow) 50%, var(--color-benin-red) 0);
+}
+
+.swedish-flag {
+  background-color: var(--color-sweden-blue);
+
+  /* Ausführliche Schreibweise */
+  background-image: linear-gradient(
+      transparent 0%,
+      transparent 40%,
+      var(--color-sweden-yellow) 40%,
+      var(--color-sweden-yellow) 60%,
+      transparent 60%,
+      transparent 100%
+    ),
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 31%,
+      var(--color-sweden-yellow) 31%,
+      var(--color-sweden-yellow) 44%,
+      transparent 44%,
+      transparent 100%
+    );
+
+  /* Kurzschreibweise */
+  background-image: linear-gradient(
+      transparent 40%,
+      var(--color-sweden-yellow) 0 60%,
+      transparent 0
+    ),
+    linear-gradient(
+      90deg,
+      transparent 30.83%,
+      var(--color-sweden-yellow) 0 44.17%,
+      transparent 0
+    );
+
+  /* Hinweis: Das Verhältnis der Seitenlängen ist offiziell 16:10 und nicht 3:2 */
+}
+
+.swiss-flag {
+  background-color: var(--color-switzerland-red);
+
+  background-image: linear-gradient(
+      90deg,
+      transparent 35%,
+      rgb(255, 255, 255) 0 65%,
+      transparent 0
+    ),
+    linear-gradient(
+      transparent 35%,
+      var(--color-switzerland-white) 0 65%,
+      transparent 0
+    );
+
+  background-size: 41.67% 62.5%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* Hinweis: Das Schweizer Kreuz ist eigentlich ein 1:1 Quadrat, 
+     hier angepasst auf das 3:2 Format der Aufgabe */
+}

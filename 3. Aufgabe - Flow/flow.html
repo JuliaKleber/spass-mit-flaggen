@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Position | Spaß mit Flaggen</title>
+    <title>Flexbox | Spaß mit Flaggen</title>
+    <link rel="stylesheet" type="text/css" href="../general-styles.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..500&display=swap"
@@ -19,11 +20,13 @@
     <main class="flags-container">
       <div class="flag dutch-flag" title="Nationalflagge der Niederlande">
         <div class="stripe red"></div>
+        <div class="stripe white"></div>
         <div class="stripe blue"></div>
       </div>
 
       <div class="flag italian-flag" title="Nationalflagge von Italien">
         <div class="stripe green"></div>
+        <div class="stripe white"></div>
         <div class="stripe red"></div>
       </div>
 
@@ -34,24 +37,12 @@
         <div class="stripe green"></div>
       </div>
 
-      <div class="flag japanese-flag" title="Nationalflagge von Japan">
-        <div class="red-circle"></div>
-      </div>
-
       <div class="flag benin-flag" title="Nationalflagge von Benin">
         <div class="green"></div>
-        <div class="yellow"></div>
-        <div class="red"></div>
-      </div>
-
-      <div class="flag swiss-flag" title="Nationalflagge der Schweiz">
-        <div class="vertical"></div>
-        <div class="horizontal"></div>
-      </div>
-
-      <div class="flag swedish-flag" title="Nationalflagge von Schweden">
-        <div class="horizontal-beam"></div>
-        <div class="vertical-beam"></div>
+        <div class="horizontal-stripes-container">
+          <div class="stripe yellow"></div>
+          <div class="stripe red"></div>
+        </div>
       </div>
     </main>
   </body>

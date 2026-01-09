@@ -33,15 +33,10 @@ body {
   background-color: rgb(200, 200, 200);
 }
 
-.flag {
-  display: flex;
-}
-
 .dutch-flag {
-  flex-direction: column;
-
   .stripe {
-    flex: 1;
+    height: calc(var(--flag-height) / 3);
+    width: 100%;
   }
 
   .red {
@@ -58,10 +53,12 @@ body {
 }
 
 .italian-flag {
-  flex-direction: row;
+  width: calc(var(--flag-width) * 1.06);
 
   .stripe {
-    flex: 1;
+    display: inline-block;
+    height: var(--flag-height);
+    width: calc(var(--flag-width) / 3);
   }
 
   .green {
@@ -78,10 +75,9 @@ body {
 }
 
 .mauritius-flag {
-  flex-direction: column;
-
   .stripe {
-    flex: 1;
+    width: 100%;
+    height: 25%;
   }
 
   .red {
@@ -102,20 +98,23 @@ body {
 }
 
 .benin-flag {
-  flex-direction: row;
+  width: calc(var(--flag-width) * 1.1);
 
   .green {
-    flex: 2;
+    display: inline-block;
     background-color: var(--color-benin-green);
+    width: calc(var(--flag-width) * 2 / 5);
+    height: 100%;
   }
 
   .horizontal-stripes-container {
-    display: flex;
-    flex-direction: column;
-    flex: 3;
+    width: 60%;
+    height: 100%;
+    display: inline-block;
 
     .stripe {
-      flex: 1;
+      width: 100%;
+      height: 50%;
     }
 
     .yellow {
@@ -126,47 +125,4 @@ body {
       background-color: var(--color-benin-red);
     }
   }
-}
-
-.japanese-flag {
-  background-color: var(--color-japan-white);
-  justify-content: center;
-  align-items: center;
-
-  .circle {
-    background-color: var(--color-japan-red);
-    height: 60%;
-
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-  }
-}
-
-.swiss-flag {
-  background-color: var(--color-switzerland-red);
-  flex-direction: column;
-  align-items: center;
-
-  .spacer {
-    background-color: transparent;
-    flex: 6;
-  }
-
-  .horizontal,
-  .vertical {
-    background-color: var(--color-switzerland-white);
-  }
-
-  .horizontal {
-    width: calc(var(--flag-height) * 20 / 32);
-    flex: 6;
-  }
-
-  .vertical {
-    width: calc(var(--flag-height) * 6 / 32);
-    flex: 7;
-  }
-
-  /* Hinweis: Nur auf Schiffen wird eine Flagge mit einem Seitenverhältnis von 2:3 verwendet.
-  Ansonsten weist sie ein Seitenverhältnis von 1:1 auf. */
 }
