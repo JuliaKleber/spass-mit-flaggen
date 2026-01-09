@@ -56,6 +56,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ## Ressourcen
 
 - <a href="https://cssgridgarden.com/#de">Grid Garden (Grid Tutorial)</a>
-- <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting</a>
-- <a href="https://www.w3schools.com/css/css_external.asp">External Stylesheets</a>
-- <a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties">CSS-Variablen</a>
+- <a href="https://css-tricks.com/css-grid-layout-guide/">Grid | CSS Tricks</a>
+- <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaevent.de</a>
+- <a href="https://www.w3schools.com/css/css_external.asp">External Stylesheets | w3schools</a>
+- <a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties">CSS-Variablen | MDN</a>
