@@ -10,6 +10,8 @@
 - Variablen für Farben
 - Aufgaben mit dem normalen flow
 - Verwendung von BEM
-- !!! Hinweis auf html-Struktur mit title und meta viewport.
+- !!! Hinweis auf html-Struktur mit title und meta viewport. -> oder besser html vorgeben
+- Kann man Hinweise freischalten, wenn jemand nicht weiterkommt?
+- Sollte man das html vorgeben?
 
 

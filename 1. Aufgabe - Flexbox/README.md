@@ -19,7 +19,6 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Es sollten keine Libraries oder Frameworks genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
-- !!! Hinweis auf html-Struktur mit title und meta viewport.
 
 ## Hinweise
 
