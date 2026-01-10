@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 3 (Flexbox)
+# Spaß mit Flaggen - Aufgabe 3 (CSS Flexbox)
 
 ## Ziel
 
@@ -6,7 +6,7 @@ Ziel der Aufgabe ist es, zu Lernen Elemente mit Flexbox anzuordnen.
 
 ## Aufgabenstellung
 
-Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
+Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - 🇳🇱 Niederlande
 - 🇮🇹 Italien
@@ -57,14 +57,13 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ### Abmessungen der Elemente
 
 - 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
-- 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge.
-- 🇨🇭 Für das Seitenverhältnis der weißen Balken in der Schweizer Flagge kann 6:20 angenommen werden.
-- 🇨🇭 Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
+- 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
+- 🇨🇭 Für das Seitenverhältnis der weißen Balken in der Schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
 
-## Erlaubte CSS-Eigenschaften
+### Erlaubte CSS-Eigenschaften
 
 - display
 - flex-direction, justify-content, align-items, gap, flex, und weitere flex-Eigenschaften
-- width, height
+- width, height, aspect-ratio
 - background-color
 - border-radius
