@@ -58,9 +58,9 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 ### Abmessungen der Elemente
 
-- Das Höhenverhältnis der Streifen in der lettischen Flagge ist 2:1:2.
-- Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
-- Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 der Flaggenbreite und 1/2 der Flaggenhöhe.
+- 🇱🇻 Das Höhenverhältnis der Streifen in der lettischen Flagge ist 2:1:2.
+- 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
+- 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 der Flaggenbreite und 1/2 der Flaggenhöhe.
 
 ### Erlaubte CSS-Eigenschaften
 
