@@ -34,9 +34,9 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 ## Ressourcen
 
-- <a href="https://developer.mozilla.org/de/docs/Web/CSS/Reference/Properties/box-shadow">box-shadow</a>
-- <a href="https://developer.mozilla.org/de/docs/Web/CSS/Reference/Selectors/::before">::before</a>
-- <a href="https://kulturbanause.de/blog/generierter-css-content-mit-before-und-after/">::before</a>
-- <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting</a>
-- <a href="https://www.w3schools.com/css/css_external.asp">External Stylesheets</a>
-- <a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties">CSS-Variablen</a>
+- <a href="https://developer.mozilla.org/de/docs/Web/CSS/Reference/Properties/box-shadow">box-shadow | MDN</a>
+- <a href="https://developer.mozilla.org/de/docs/Web/CSS/Reference/Selectors/::before">::before | MDN</a>
+- <a href="https://kulturbanause.de/blog/generierter-css-content-mit-before-und-after/">::before | Kulturbanause</a>
+- <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaeveent</a>
+- <a href="https://www.w3schools.com/css/css_external.asp">External Stylesheets | w3schools</a>
+- <a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties">CSS-Variablen | MDN</a>

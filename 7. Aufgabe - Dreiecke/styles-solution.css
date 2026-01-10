@@ -1,0 +1,71 @@
+:root {
+  --flag-height: 7rem;
+  --flag-width: calc(var(--flag-height) * 1.5);
+
+  /* Tschechische Republic */
+  --color-czech-republic-blue: rgb(17, 49, 126);
+  --color-czech-republic-white: rgb(255, 255, 255);
+  --color-czech-republic-red: rgb(215, 20, 26);
+
+  /* Bahamas */
+  --color-bahamas-black: rgb(0, 0, 0);
+  --color-bahamas-blue: rgb(0, 169, 206);
+  --color-bahamas-yellow: rgb(255, 199, 44);
+}
+
+.flag {
+  position: relative;
+  height: var(--flag-height);
+  width: var(--flag-width);
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.czech-republic {
+  background-image: linear-gradient(
+    var(--color-czech-republic-white) 50%,
+    var(--color-czech-republic-red) 0
+  );
+}
+
+.czech-republic.border::after {
+  border-top: calc(var(--flag-height) / 2) solid transparent;
+  border-bottom: calc(var(--flag-height) / 2) solid transparent;
+  border-left: calc(var(--flag-width) / 2) solid
+    var(--color-czech-republic-blue);
+}
+
+.czech-republic.clip-path::after {
+  height: 100%;
+  width: 50%;
+  background-color: var(--color-czech-republic-blue);
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+
+.bahamas {
+  background-image: linear-gradient(
+    var(--color-bahamas-blue) 33.33%,
+    var(--color-bahamas-yellow) 0 66.67%,
+    var(--color-bahamas-blue) 0
+  );
+}
+
+.bahamas.border::after {
+  border-bottom: calc(var(--flag-height) / 2) solid transparent;
+  border-left: calc(var(--flag-width) / 2.2) solid var(--color-bahamas-black);
+  border-top: calc(var(--flag-height) / 2) solid transparent;
+}
+
+.bahamas.clip-path::after {
+  height: 100%;
+  width: 45.45%;
+  background-color: var(--color-bahamas-black);
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}

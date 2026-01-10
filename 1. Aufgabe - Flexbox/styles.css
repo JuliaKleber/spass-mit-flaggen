@@ -1,172 +1,24 @@
-:root {
-  /* Niederlande */
-  --color-netherlands-red: rgb(174, 28, 40);
-  --color-netherlands-white: rgb(255, 255, 255);
-  --color-netherlands-blue: rgb(33, 70, 139);
-
-  /* Italien */
-  --color-italy-green: rgb(0, 140, 69);
-  --color-italy-white: rgb(244, 245, 240);
-  --color-italy-red: rgb(205, 33, 42);
-
-  /* Mauritius */
-  --color-mauritius-red: rgb(208, 28, 31);
-  --color-mauritius-blue: rgb(45, 51, 89);
-  --color-mauritius-yellow: rgb(247, 183, 24);
-  --color-mauritius-green: rgb(0, 134, 88);
-
-  /* Benin */
-  --color-benin-green: rgb(0, 136, 86);
-  --color-benin-yellow: rgb(252, 209, 22);
-  --color-benin-red: rgb(227, 28, 35);
-
-  /* Japan */
-  --color-japan-white: rgb(255, 255, 255);
-  --color-japan-red: rgb(188, 0, 45);
-
-  /* Schweiz */
-  --color-switzerland-red: rgb(218, 41, 28);
-  --color-switzerland-white: rgb(255, 255, 255);
-}
-
-body {
-  background-color: rgb(200, 200, 200);
-}
-
 .flag {
-  display: flex;
+  height: 7rem;
+  width: 10.5rem;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .dutch-flag {
-  flex-direction: column;
-
-  .stripe {
-    flex: 1;
-  }
-
-  .red {
-    background-color: var(--color-netherlands-red);
-  }
-
-  .white {
-    background-color: var(--color-netherlands-white);
-  }
-
-  .blue {
-    background-color: var(--color-netherlands-blue);
-  }
 }
 
 .italian-flag {
-  flex-direction: row;
-
-  .stripe {
-    flex: 1;
-  }
-
-  .green {
-    background-color: var(--color-italy-green);
-  }
-
-  .white {
-    background-color: var(--color-italy-white);
-  }
-
-  .red {
-    background-color: var(--color-italy-red);
-  }
 }
 
 .mauritius-flag {
-  flex-direction: column;
-
-  .stripe {
-    flex: 1;
-  }
-
-  .red {
-    background-color: var(--color-mauritius-red);
-  }
-
-  .blue {
-    background-color: var(--color-mauritius-blue);
-  }
-
-  .yellow {
-    background-color: var(--color-mauritius-yellow);
-  }
-
-  .green {
-    background-color: var(--color-mauritius-green);
-  }
 }
 
 .benin-flag {
-  flex-direction: row;
-
-  .green {
-    flex: 2;
-    background-color: var(--color-benin-green);
-  }
-
-  .horizontal-stripes-container {
-    display: flex;
-    flex-direction: column;
-    flex: 3;
-
-    .stripe {
-      flex: 1;
-    }
-
-    .yellow {
-      background-color: var(--color-benin-yellow);
-    }
-
-    .red {
-      background-color: var(--color-benin-red);
-    }
-  }
 }
 
 .japanese-flag {
-  background-color: var(--color-japan-white);
-  justify-content: center;
-  align-items: center;
-
-  .circle {
-    background-color: var(--color-japan-red);
-    height: 60%;
-
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-  }
 }
 
 .swiss-flag {
-  background-color: var(--color-switzerland-red);
-  flex-direction: column;
-  align-items: center;
-
-  .spacer {
-    background-color: transparent;
-    flex: 6;
-  }
-
-  .horizontal,
-  .vertical {
-    background-color: var(--color-switzerland-white);
-  }
-
-  .horizontal {
-    width: calc(var(--flag-height) * 20 / 32);
-    flex: 6;
-  }
-
-  .vertical {
-    width: calc(var(--flag-height) * 6 / 32);
-    flex: 7;
-  }
-
-  /* Hinweis: Nur auf Schiffen wird eine Flagge mit einem Seitenverhältnis von 2:3 verwendet.
-  Ansonsten weist sie ein Seitenverhältnis von 1:1 auf. */
 }

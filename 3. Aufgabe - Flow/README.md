@@ -39,8 +39,9 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 ## Ressourcen
 
-- <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Flexbox Layout Guide | CSS-Tricks</a>
-- <a href="https://flexboxfroggy.com/">Flexbox Froggy (Flexbox Tutorial)</a>
+- <a href="https://developer.mozilla.org/de/docs/Learn_web_development/Core/CSS_layout/Introduction#normaler_dokumentfluss">Einführung in CSS-Layout | MDN</a>
+- <a href="https://css-tricks.com/the-css-box-model/">CSS Box Model | CSS Tricks</a>
+- <a href="https://css-tricks.com/fighting-the-space-between-inline-block-elements/">Fighting the space between inline block elements | CSS Tricks</a>
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | www.mediaevent.de</a>
 - <a href="https://www.w3schools.com/css/css_external.asp">External Stylesheets | w3schools</a>
 - <a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties">CSS-Variablen | MDN</a>
