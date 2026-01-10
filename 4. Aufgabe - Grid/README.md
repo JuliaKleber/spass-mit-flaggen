@@ -1,8 +1,8 @@
-# Spaß mit Flaggen - Aufgabe 1 (Flexbox)
+# Spaß mit Flaggen - Aufgabe 4 (CSS Grid)
 
 ## Aufgabenstellung
 
-Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
+Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 
 - 🇳🇱 Niederlande
 - 🇮🇹 Italien
@@ -10,12 +10,15 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇧🇯 Benin
 - 🇯🇵 Japan
 - 🇨🇭 Schweiz
+- 🇸🇪 Schweden
 
 ## Anforderungen
 
-- Es sollte <u>konsequent Flexbox</u> zur Erstellung der Flaggen genutzt werden. Position, Grid, Padding usw. sind nicht erlaubt.
-- Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
-- Für die Grundmaße der Flaggen sollten CSS-Variablen genutzt werden.
+- Es sollte konsequent Grid zur Erstellung der Flaggen genutzt werden.
+- Die schweizer Flagge solle ein Seitenverhältnis von 1 : 1 aufweisen.
+- Die schwedische Flagge sollte ein Seitenverhältnis von 16:10 aufweisen.
+- Jede andere Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
+- Für die Grundmaße der Flaggen und die Farben sollten CSS-Variablen genutzt werden.
 - Es sollten keine Libraries oder Frameworks genutzt werden.
 - Es sollte ein externes Stylesheet genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
@@ -26,6 +29,7 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge.
 - Für das Seitenverhältnis der weißen Balken in der Schweizer Flagge kann 6:20 angenommen werden.
 - Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
+- Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge angenommen werden.
 
 ## Farben der Flaggen
 
@@ -37,18 +41,22 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
 - Japan: rgb(255, 255, 255), rgb(188, 0, 45)
 - Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
+- Schweden: rgb(0, 106, 167), rgb(254, 204, 0)
 
-## Benötigte CSS-Eigenschaften
+## Erlaubte CSS-Eigenschaften für die Flaggen
 
-- display, flex-direction, justify-content, align-items, gap, flex-wrap, flex
-- width, height
+- display
+- grid-template, grid-template-rows, grid-template-columns, gird-template-areas
+- grid-column-start, grid-column-end, grid-column
+- grid-row-start, grid-row-end, grid-row
+- grid-area, place-items
+- width, height, aspect-ratio
 - background-color
-- border-radius
 
 ## Ressourcen
 
-- <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Flexbox Layout Guide | CSS-Tricks</a>
-- <a href="https://flexboxfroggy.com/">Flexbox Froggy (Flexbox Tutorial)</a>
-- <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | www.mediaevent.de</a>
+- <a href="https://cssgridgarden.com/#de">Grid Garden (Grid Tutorial)</a>
+- <a href="https://css-tricks.com/css-grid-layout-guide/">Grid | CSS Tricks</a>
+- <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaevent.de</a>
 - <a href="https://www.w3schools.com/css/css_external.asp">External Stylesheets | w3schools</a>
 - <a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties">CSS-Variablen | MDN</a>

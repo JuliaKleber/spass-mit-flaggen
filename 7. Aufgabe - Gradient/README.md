@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 4 (CSS Gradienten)
+# Spaß mit Flaggen - Aufgabe 7 (CSS Gradienten)
 
 ## Aufgabenstellung
 

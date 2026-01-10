@@ -1,13 +1,14 @@
-# Spaß mit Flaggen - Aufgabe 6 (Knobeleien)
+# Spaß mit Flaggen - Aufgabe 6 (Rotationen)
 
 ## Aufgabenstellung
 
 Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 
-- Tschechische Republik
-- Bahamas
-- Schottland
-- Großbritanien
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland
+- 🇯🇲 Jamaika
+- 🇬🇧 Großbritanien
+- Tansania
+
 
 ## Anforderungen
 
@@ -19,20 +20,15 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Hinweise
 
-- Das Dreieck in der tschechischen Flagge ist so breit wie die Hälfte der Länge der Flagge.
-- Das Dreieck der Flagge der Bahamas ist die Länge der Flagge geteilt durch 2,2.
 - Die Breite der Balken der schottischen Flagge beträgt 15% der Höhe der Flagge. Sie sind um 33.7 Grad zur Waagerechten gedreht.
 
 ## Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
-- Tschechische Republik: rgb(255, 255, 255), rgb(215, 20, 26), rgb
-  (17,49,126)
-- Bahamas: rgb(0, 169, 206), rgb(255, 199, 44), rgb(0,169, 206),
-  rgb(0, 0, 0),
 - Schottland: rgb(1, 33, 105), rgb(255, 255, 255)
 - Großbritannien: rgb(255, 255, 255), rgb(1, 33, 105), rgb(200, 16, 46)
+- Jamaika: rgb(0, 155, 58), rgb(254, 209, 0), rgb(0, 0, 0);
 
 ## Benötigte CSS-Eigenschaften
 

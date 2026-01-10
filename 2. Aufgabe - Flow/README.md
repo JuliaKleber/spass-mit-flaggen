@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 1 (Flexbox)
+# Spaß mit Flaggen - Aufgabe 2 (Flexbox)
 
 ## Aufgabenstellung
 
@@ -39,6 +39,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 ## Ressourcen
 
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
 - <a href="https://developer.mozilla.org/de/docs/Learn_web_development/Core/CSS_layout/Introduction#normaler_dokumentfluss">Einführung in CSS-Layout | MDN</a>
 - <a href="https://css-tricks.com/the-css-box-model/">CSS Box Model | CSS Tricks</a>
 - <a href="https://css-tricks.com/fighting-the-space-between-inline-block-elements/">Fighting the space between inline block elements | CSS Tricks</a>

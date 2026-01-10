@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 5 (box-shadow und ::before)
+# Spaß mit Flaggen - Aufgabe 5 (box-shadow)
 
 ## Aufgabenstellung
 

@@ -1,61 +1,26 @@
+:root {
+  --flag-height: 7rem;
+  --flag-width: calc(var(--flag-height) * 3 / 2);
+
+  /* Jamaika */
+  --color-jamaika-green: rgb(0, 155, 58);
+  --color-jamaika-yellow: rgb(254, 209, 0);
+  --color-jamaika-black: rgb(0, 0, 0);
+
+  /* Schweiz */
+  --color-switzerland-red: rgb(218, 41, 28);
+  --color-switzerland-white: rgb(255, 255, 255);
+}
+
 .flag {
   position: relative;
+  height: var(--flag-height);
+  width: var(--flag-width);
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.czech-republic {
-  display: flex;
-  flex-direction: column;
-
-  .stripe {
-    flex: 1;
-  }
-
-  .white {
-    background-color: rgb(255, 255, 255);
-  }
-
-  .red {
-    background-color: rgb(215, 20, 26);
-  }
-
-  .blue {
-    position: absolute;
-    z-index: 10;
-    left: 0;
-    top: 0;
-    border-top: calc(var(--flag-height) / 2) solid transparent;
-    border-bottom: calc(var(--flag-height) / 2) solid transparent;
-    border-left: calc(var(--flag-width) / 2) solid rgb(17, 69, 126);
-  }
-}
-
-.bahamas {
-  display: flex;
-  flex-direction: column;
-
-  .stripe {
-    flex: 1;
-  }
-
-  .blue {
-    background-color: rgb(0, 169, 206);
-  }
-
-  .yellow {
-    background-color: rgb(255, 199, 44);
-  }
-
-  .black {
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-top: calc(var(--flag-height) / 2) solid transparent;
-    border-bottom: calc(var(--flag-height) / 2) solid transparent;
-    border-left: calc(var(--flag-width) / 2.2) solid rgb(0, 0, 0);
-  }
-}
-
-.scottish-flag {
+.scotland {
   background-color: rgb(1, 33, 105);
 
   .beam {
@@ -77,7 +42,7 @@
   }
 }
 
-.british-flag {
+.great-britain {
   position: relative;
   background-color: rgb(1, 33, 105);
 
@@ -170,4 +135,8 @@
       width: calc(var(--flag-height) * 3 / 20);
     }
   }
+}
+
+.jamaika {
+  
 }

@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 6 (Knobeleien)
+# Spaß mit Flaggen - Aufgabe 10 (Dreiecke)
 
 ## Aufgabenstellung
 
@@ -6,6 +6,7 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - 🇨🇿 Tschechische Republik
 - 🇧🇸 Bahamas
+- 🇯🇲 Jamaika
 
 ## Anforderungen
 
