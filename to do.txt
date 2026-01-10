@@ -6,3 +6,6 @@
 - Dreiecke: Kuwait & St.Lucia
 - Weitere Flaggen: Lettland, Island, Norwegen, Mauritius, Griechenland, Seychellen, Nepal, Grönland, Panama, Türkei
 - Weitere Flaggen: Laos, Somalia, Südafrika, Thailand, Tonga, Trinidad & Tobago, Zentralafrikanische Republik
+
+- Die Flaggen in eine <ul> packen
+- overflow-hidden fast überall löschen

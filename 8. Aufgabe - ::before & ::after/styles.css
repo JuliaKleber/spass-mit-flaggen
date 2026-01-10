@@ -1,17 +1,23 @@
 .flag {
   height: 7rem;
-  overflow: hidden;
+  width: 10.5rem;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.german-flag {
-  width: 11.67rem;
+.netherlands {
 }
 
-.irish-flag {
-  width: 14rem;
+.italy {
 }
 
-.mauritius-flag {
-  width: 10.5rem;
+.benin {
+}
+
+.japan {
+}
+
+.switzerland {
+}
+
+.sweden {
 }

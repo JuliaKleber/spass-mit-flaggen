@@ -126,7 +126,6 @@
     translate: -50% -50%;
     background-color: var(--color-japan-red);
     height: 60%;
-
     aspect-ratio: 1 / 1;
     border-radius: 50%;
   }
