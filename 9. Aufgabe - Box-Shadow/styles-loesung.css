@@ -32,7 +32,7 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.german-flag {
+.germany {
   width: var(--germany-width);
 
   &::before {
@@ -46,7 +46,7 @@
   }
 }
 
-.irish-flag {
+.ireland {
   width: var(--ireland-width);
 
   &::before {
@@ -60,7 +60,7 @@
   }
 }
 
-.mauritius-flag {
+.mauritius {
   width: var(--mauritius-width);
 
   &::before {

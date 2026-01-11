@@ -23,9 +23,9 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - Es sollen ausschließlich Gradienten zur Erstellung der Flaggen genutzt werden.
 - Pro Flagge sollte nur ein einziges HTML-Element genutzt werden. Alle Streifen, Kreise, usw. müssen über dieses Element und dessen Pseudoelemente erzeugt werden.
-- Für die Grundmaße und die Farben der Flaggen sollen CSS-Variablen genutzt werden.
-- Es sollte CSS-Nesting genutzt werden.
-- Es sollten keine Libraries oder Frameworks genutzt werden.
+- Für die Grundmaße und Farben der Flaggen sollen CSS-Variablen genutzt werden.
+- Es soll CSS-Nesting genutzt werden.
+- Es sollen keine Libraries oder Frameworks genutzt werden.
 
 ## Ressourcen
 

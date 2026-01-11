@@ -3,8 +3,9 @@
 - CSS-Selektoren
 
 - Dreiecke: Kuwait & St.Lucia
-- Weitere Flaggen: Lettland, Island, Norwegen, Griechenland, Nepal, Panama, Türkei, Palau
-- Weitere Flaggen: Laos, Somalia, Südafrika, Thailand, Tonga, Trinidad & Tobago, Zentralafrikanische Republik
+- Weitere Flaggen: Lettland, Island, Norwegen, Griechenland, Nepal, Panama, Türkei, Palau, EU
+- Weitere Flaggen: Laos, Somalia, Südafrika, Thailand, Tonga, Zentralafrikanische Republik
+- Gradient: Schottland, Trinidad und Tobago, Tansania
 
 - Die Flaggen in eine <ul> packen
 - overflow-hidden fast überall löschen

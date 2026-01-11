@@ -1,142 +1,16 @@
-:root {
-  --flag-height: 7rem;
-  --flag-width: calc(var(--flag-height) * 3 / 2);
-
-  /* Jamaika */
-  --color-jamaika-green: rgb(0, 155, 58);
-  --color-jamaika-yellow: rgb(254, 209, 0);
-  --color-jamaika-black: rgb(0, 0, 0);
-
-  /* Schweiz */
-  --color-switzerland-red: rgb(218, 41, 28);
-  --color-switzerland-white: rgb(255, 255, 255);
+* {
+  box-sizing: border-box;
 }
 
 .flag {
-  position: relative;
-  height: var(--flag-height);
-  width: var(--flag-width);
-  overflow: hidden;
+  height: 7rem;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .scotland {
-  background-color: rgb(1, 33, 105);
-
-  .beam {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    height: 15%;
-    width: 120%;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
-  }
-
-  .top-left-to-bottom-right {
-    rotate: 33.7deg;
-  }
-
-  .bottom-left-to-top-right {
-    rotate: -33.7deg;
-  }
+  width: 10.5rem;
 }
 
-.great-britain {
-  position: relative;
-  background-color: rgb(1, 33, 105);
-
-  .red {
-    background-color: rgb(200, 16, 46);
-  }
-
-  .white {
-    background-color: rgb(255, 255, 255);
-  }
-
-  .beam {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
-  }
-
-  .top-left-to-bottom-right {
-    rotate: 33.7deg;
-  }
-
-  .bottom-left-to-top-right {
-    rotate: -33.7deg;
-  }
-
-  .andreas-cross {
-    .white-diagonal {
-      height: 15%;
-      width: 120%;
-    }
-  }
-
-  .red-diagonal {
-    .red-diagonal-beam {
-      position: absolute;
-      height: 5%;
-      width: 90%;
-    }
-
-    .top-left-to-center {
-      left: 0;
-      top: 0;
-      translate: -46% 50%;
-      rotate: 33.7deg;
-    }
-
-    .top-right-to-center {
-      right: 0;
-      top: 0;
-      translate: 43% 50%;
-      rotate: -33.7deg;
-    }
-
-    .bottom-right-to-center {
-      bottom: 0;
-      right: 0;
-      translate: 46% -50%;
-      rotate: 33.7deg;
-    }
-
-    .bottom-left-to-center {
-      bottom: 0;
-      left: 0;
-      translate: -43% -50%;
-      rotate: -33.7deg;
-    }
-  }
-
-  .white-cross {
-    .horizontal {
-      height: 25%;
-      width: 100%;
-    }
-
-    .vertical {
-      height: 100%;
-      width: calc(var(--flag-height) / 4);
-    }
-  }
-
-  .red-cross {
-    .horizontal {
-      height: 15%;
-      width: 100%;
-    }
-
-    .vertical {
-      height: 100%;
-      width: calc(var(--flag-height) * 3 / 20);
-    }
-  }
-}
-
-.jamaika {
-  
+.trinidad-and-tobago {
+  width: 11.67rem;
 }

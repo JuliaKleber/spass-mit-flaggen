@@ -18,6 +18,8 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Tansania
 - Demokratische Republik Kongo
 - Guyana
+- 🇯🇲 Jamaika
+- 🇬🇧 Großbritanien
 
 ## Anforderungen
 
@@ -43,6 +45,8 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - Tschechische Republik: rgb(255, 255, 255), rgb(215, 20, 26), rgb(17,49,126)
 - Bahamas: rgb(0, 169, 206), rgb(255, 199, 44), rgb(0, 0, 0),
 - 🇬🇱 Grönland: rgb(208, 12, 51), rgb(255, 255, 255)
+- Großbritannien: rgb(255, 255, 255), rgb(1, 33, 105), rgb(200, 16, 46)
+- Jamaika: rgb(0, 155, 58), rgb(254, 209, 0), rgb(0, 0, 0);
 
 ## Benötigte CSS-Eigenschaften
 

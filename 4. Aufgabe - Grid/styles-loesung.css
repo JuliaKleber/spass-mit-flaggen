@@ -48,7 +48,7 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.dutch-flag {
+.netherlands {
   grid-template-rows: repeat(3, 1fr);
 
   .red {
@@ -64,7 +64,7 @@
   }
 }
 
-.italian-flag {
+.italy {
   grid-template-columns: repeat(3, 1fr);
 
   .green {
@@ -80,7 +80,7 @@
   }
 }
 
-.mauritius-flag {
+.mauritius {
   grid-template-rows: repeat(4, 1fr);
 
   .red {
@@ -100,7 +100,7 @@
   }
 }
 
-.benin-flag {
+.benin {
   /* ausführliche Schreibweise */
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 1fr 1fr;
@@ -166,7 +166,7 @@
   }
 }
 
-.japanese-flag {
+.japan {
   background-color: var(--color-japan-white);
 
   .red-circle {
@@ -185,7 +185,7 @@
   place-items: begin;
 }
 
-.swiss-flag {
+.switzerland {
   /* Ausführliche Schreibweise */
   background-color: var(--color-switzerland-red);
   grid-template-columns: 6fr 7fr 6fr 7fr 6fr;
@@ -226,7 +226,7 @@
   }
 }
 
-.swedish-flag {
+.sweden {
   background-color: var(--color-sweden-blue);
   grid-template-columns: 5fr 2fr 9fr;
   grid-template-rows: 4fr 2fr 4fr;
