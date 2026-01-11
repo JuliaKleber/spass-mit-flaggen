@@ -7,6 +7,7 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇨🇿 Tschechische Republik
 - 🇧🇸 Bahamas
 - 🇯🇲 Jamaika
+- 🇬🇱 Grönland
 - Palau
 - Japan
 - Seychellen
@@ -33,12 +34,15 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Das Dreieck in der tschechischen Flagge ist so breit wie die Hälfte der Länge der Flagge.
 - Das Dreieck der Flagge der Bahamas ist die Länge der Flagge geteilt durch 2,2.
 
+- 🇬🇱 Grönland 3:2
+
 ## Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 - Tschechische Republik: rgb(255, 255, 255), rgb(215, 20, 26), rgb(17,49,126)
 - Bahamas: rgb(0, 169, 206), rgb(255, 199, 44), rgb(0, 0, 0),
+- 🇬🇱 Grönland: rgb(208, 12, 51), rgb(255, 255, 255)
 
 ## Benötigte CSS-Eigenschaften
 

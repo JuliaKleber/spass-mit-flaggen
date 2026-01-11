@@ -6,7 +6,7 @@ In dieser Aufgabe soll es darum gehen das CSS-Box-Model, box-sizing, padding, bo
 
 ## Aufgabenstellung
 
-Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
+Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - 🇦🇹 Österreich
 - 🇱🇻 Lettland

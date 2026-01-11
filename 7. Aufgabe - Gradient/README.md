@@ -1,54 +1,85 @@
 # Spaß mit Flaggen - Aufgabe 7 (CSS Gradienten)
 
+## Ziel
+
+Ziel der Aufgabe ist es Flaggen mit Gradienten zu erstellen.
+
 ## Aufgabenstellung
 
-Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
+Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - 🇳🇱 Niederlande
 - 🇮🇹 Italien
 - 🇲🇺 Mauritius
 - 🇯🇵 Japan
+- 🇵🇼 Palau
 - 🇧🇯 Benin
 - 🇸🇪 Schweden
 - 🇨🇭 Schweiz
+- 🇸🇨 Seychellen
+- 🇲🇰 Nordmazedonien
 
 ## Anforderungen
 
-- Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
-- Für die Maße der Flaggen sollten CSS-Variablen genutzt werden.
-- Es sollten Gradienten zur Erstellung der Flaggen genutzt werden.
-- Es sollten keine Libraries oder Frameworks genutzt werden.
+- Es sollen ausschließlich Gradienten zur Erstellung der Flaggen genutzt werden.
+- Pro Flagge sollte nur ein einziges HTML-Element genutzt werden. Alle Streifen, Kreise, usw. müssen über dieses Element und dessen Pseudoelemente erzeugt werden.
+- Für die Grundmaße und die Farben der Flaggen sollen CSS-Variablen genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
-- Es sollte ein externes Stylesheet genutzt werden.
+- Es sollten keine Libraries oder Frameworks genutzt werden.
+
+## Ressourcen
+
+- <a href="https://www.w3schools.com/css/css3_gradients.asp">Gradienten | w3schools</a>
+- <a href="https://www.w3schools.com/cssref/func_radial-gradient.php">radial-gradient() | w3schools</a>
+- <a href="https://www.w3schools.com/cssref/func_conic-gradient.php">conic-gradient() | w3schools</a>
+- <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaevent</a>
+- <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
+- <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
 ## Hinweise
 
-- Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge.
-- Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
-- Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37.5% der Flaggenbreite.
-- Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge angenommen werden. Allerdings ist dieser Wert für den horizontalen Balken nicht ganz korrekt, da die schwedische Flagge ein Seitenverhältis von 1,6 statt dem in dieser Aufgabe verwendeten Seitenverhältnis von 1,5 aufweist.
+### Seitenverhältnisse der Flaggen
+
+- 🇳🇱 Niederlande 3:2
+- 🇮🇹 Italien 3:2
+- 🇲🇺 Mauritius 3:2
+- 🇯🇵 Japan 3:2
+- 🇵🇼 Palau: 8:5
+- 🇧🇯 Benin 3:2
+- 🇸🇪 Schweden 16:10
+- 🇨🇭 Schweiz 1:1
+- 🇸🇨 Seychellen 2:1
+- 🇲🇰 Nordmazedonien 2:1
 
 ## Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
-- Niederlande: rgb(174, 28, 40), rgb(255, 255, 255), rgb(33, 70, 139)
-- Italien: rgb(0, 140, 69), rgb(244, 245, 240), rgb(205, 33, 42)
-- Mauritius: rgb(208, 28, 31), rgb(45, 51, 89), rgb(247, 183, 24), rgb(0, 134, 88)
-- Japan: rgb(255, 255, 255), rgb(188, 0, 45)
-- Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
-- Schweden: rgb(0, 106, 167), rgb(254, 204, 0)
-- Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
+- 🇳🇱 Niederlande: rgb(174, 28, 40), rgb(255, 255, 255), rgb(33, 70, 139)
+- 🇮🇹 Italien: rgb(0, 140, 69), rgb(244, 245, 240), rgb(205, 33, 42)
+- 🇲🇺 Mauritius: rgb(208, 28, 31), rgb(45, 51, 89), rgb(247, 183, 24), rgb(0, 134, 88)
+- 🇯🇵 Japan: rgb(255, 255, 255), rgb(188, 0, 45)
+- 🇵🇼 Palau: rgb(74, 172, 238), rgb(188, 0, 45)
+- 🇧🇯 Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
+- 🇸🇪 Schweden: rgb(0, 106, 167), rgb(254, 204, 0)
+- 🇨🇭 Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
+- 🇸🇨 Seychellen: rgb(0, 63, 135), rgb(252, 209, 22), rgb(212, 28, 48), rgb(255, 255, 255), rgb(0, 122, 61)
+- 🇲🇰 Nordmazedonien: rgb(210, 0, 0), rgb(255, 230, 0)
+
+### Abmessungen der Elemente
+
+- 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
+- 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 (37,5%) der Flaggenbreite und 1/2 der Flaggenhöhe.
+- 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
+- 🇸🇪 Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37,5% (3/8) der Flaggenbreite. Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge angenommen werden. Das bedeutet, dass der Querbalken der Flagge sich von 5/16 bis 7/16 der Breite der Flagge erstreckt.
+- 🇨🇭 Für das Seitenverhältnis der weißen Balken des Kreuzes der schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
 
 ## Benötigte CSS-Eigenschaften
 
 - width, height
 - background-color
 - background-image
-
-## Ressourcen
-
-- <a href="https://cssgradient.io/">Erstellung von CSS Gradienten</a>
-- <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting</a>
-- <a href="https://www.w3schools.com/css/css_external.asp">External Stylesheets</a>
-- <a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties">CSS-Variablen</a>
+- background-size
+- background-repeat
+- background-position
+- calc()

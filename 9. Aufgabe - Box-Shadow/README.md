@@ -14,9 +14,9 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Anforderungen
 
-- Für die Grundmaße und Farben der Flaggen sollten CSS-Variablen genutzt werden.
 - Es sollte die CSS-Eigenschaft box-shadow in Kombination mit der Pseudoklasse ::before zur Erstellung der Flaggen genutzt werden.
 - Pro Flagge sollte nur ein einziges HTML-Element genutzt werden. Alle Streifen müssen über dieses Element und dessen Pseudoelemente erzeugt werden.
+- Für die Grundmaße und Farben der Flaggen sollten CSS-Variablen genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollten keine Libraries oder Frameworks genutzt werden.
 

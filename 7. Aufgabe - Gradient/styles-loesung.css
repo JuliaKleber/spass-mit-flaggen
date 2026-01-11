@@ -1,6 +1,11 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
+  --flag-width-north-macedonia: calc(var(--flag-height) * 2);
+  --flag-width-palau: calc(var(--flag-height) * 8 / 5);
+  --flag-width-seychelles: calc(var(--flag-height) * 2);
+  --flag-width-sweden: calc(var(--flag-height) * 1.6);
+  --flag-width-switzerland: calc(var(--flag-height));
 
   /* Niederlande */
   --color-netherlands-red: rgb(174, 28, 40);
@@ -27,6 +32,10 @@
   --color-japan-white: rgb(255, 255, 255);
   --color-japan-red: rgb(188, 0, 45);
 
+  /* Palau */
+  --color-palau-blue: rgb(74, 172, 238);
+  --color-palau-yellow: rgb(255, 222, 0);
+
   /* Schweiz */
   --color-switzerland-red: rgb(218, 41, 28);
   --color-switzerland-white: rgb(255, 255, 255);
@@ -34,6 +43,17 @@
   /* Schweden */
   --color-sweden-blue: rgb(0, 106, 167);
   --color-sweden-yellow: rgb(254, 204, 0);
+
+  /* Seychellen */
+  --color-seychelles-blue: rgb(0, 63, 135);
+  --color-seychelles-yellow: rgb(252, 209, 22);
+  --color-seychelles-red: rgb(212, 28, 48);
+  --color-seychelles-white: rgb(255, 255, 255);
+  --color-seychelles-green: rgb(0, 122, 61);
+
+  /* Nordmazedonien */
+  --color-north-macedonia-red: rgb(210, 0, 0);
+  --color-north-macedonia-yellow: rgb(255, 230, 0);
 }
 
 .flag {
@@ -42,7 +62,7 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.dutch-flag {
+.netherlands {
   /* Ausführliche Schreibweise */
   background-image: linear-gradient(
     var(--color-netherlands-red) 0%,
@@ -61,7 +81,7 @@
   );
 }
 
-.italian-flag {
+.italy {
   /* Ausführliche Schreibweise */
   background-image: linear-gradient(
     90deg,
@@ -82,7 +102,7 @@
   );
 }
 
-.mauritius-flag {
+.mauritius {
   /* ausführliche Schreibweise */
   background-image: linear-gradient(
     var(--color-mauritius-red) 0%,
@@ -104,25 +124,45 @@
   );
 }
 
-.japanese-flag {
+.japan {
   /* Ausführliche Schreibweise */
   background-image: radial-gradient(
-    circle,
+    circle closest-side,
     var(--color-japan-red) 0%,
-    var(--color-japan-red) 34%,
-    var(--color-japan-white) 35%,
+    var(--color-japan-red) 59%,
+    var(--color-japan-white) 61%,
     var(--color-japan-white) 100%
   );
 
   /* Kurzschreibweise */
   background-image: radial-gradient(
-    circle,
-    var(--color-japan-red) 34%,
-    var(--color-japan-white) 35%
+    circle closest-side,
+    var(--color-japan-red) 59%,
+    var(--color-japan-white) 61%
   );
 }
 
-.benin-flag {
+.palau {
+  width: var(--flag-width-palau);
+
+  /* Ausführliche Schreibweise */
+  background-image: radial-gradient(
+    circle closest-side at 37.5% 50%,
+    var(--color-palau-yellow) 0%,
+    var(--color-palau-yellow) 59%,
+    var(--color-palau-blue) 61%,
+    var(--color-palau-blue) 100%
+  );
+
+  /* Kurzschreibweise */
+  background-image: radial-gradient(
+    circle closest-side at 37.5% 50%,
+    var(--color-palau-yellow) 59%,
+    var(--color-palau-blue) 61%
+  );
+}
+
+.benin {
   /* Ausführliche Schreibweise */
   background-image: linear-gradient(
       90deg,
@@ -147,8 +187,9 @@
     linear-gradient(var(--color-benin-yellow) 50%, var(--color-benin-red) 0);
 }
 
-.swedish-flag {
+.sweden {
   background-color: var(--color-sweden-blue);
+  width: var(--flag-width-sweden);
 
   /* Ausführliche Schreibweise */
   background-image: linear-gradient(
@@ -162,10 +203,10 @@
     linear-gradient(
       90deg,
       transparent 0%,
-      transparent 31%,
-      var(--color-sweden-yellow) 31%,
-      var(--color-sweden-yellow) 44%,
-      transparent 44%,
+      transparent 31.25%,
+      var(--color-sweden-yellow) 31.25%,
+      var(--color-sweden-yellow) 43.75%,
+      transparent 43.75%,
       transparent 100%
     );
 
@@ -177,16 +218,15 @@
     ),
     linear-gradient(
       90deg,
-      transparent 30.83%,
-      var(--color-sweden-yellow) 0 44.17%,
+      transparent 31.25%,
+      var(--color-sweden-yellow) 0 43.75%,
       transparent 0
     );
-
-  /* Hinweis: Das Verhältnis der Seitenlängen ist offiziell 16:10 und nicht 3:2 */
 }
 
-.swiss-flag {
+.switzerland {
   background-color: var(--color-switzerland-red);
+  width: var(--flag-width-switzerland);
 
   background-image: linear-gradient(
       90deg,
@@ -200,10 +240,51 @@
       transparent 0
     );
 
-  background-size: 41.67% 62.5%;
+  background-size: 62.5% 62.5%;
   background-repeat: no-repeat;
   background-position: center;
+}
 
-  /* Hinweis: Das Schweizer Kreuz ist eigentlich ein 1:1 Quadrat, 
-     hier angepasst auf das 3:2 Format der Aufgabe */
+.seychelles {
+  width: var(--flag-width-seychelles);
+
+  background-image: conic-gradient(
+    at 0% 100%,
+    var(--color-seychelles-blue) 0deg 31.9deg,
+    var(--color-seychelles-yellow) 32.1deg 53.9deg,
+    var(--color-seychelles-red) 54.1deg 71.4deg,
+    var(--color-seychelles-white) 71.6deg 80.3deg,
+    var(--color-seychelles-green) 80.7deg 90deg,
+    transparent 90deg
+  );
+}
+
+.north-macedonia {
+  width: var(--flag-width-north-macedonia);
+
+  background-image: radial-gradient(
+      circle,
+      var(--color-north-macedonia-yellow) 12%,
+      var(--color-north-macedonia-red) 13% 15%,
+      transparent 16%
+    ),
+    conic-gradient(
+      var(--color-north-macedonia-yellow) 0deg 10deg,
+      var(--color-north-macedonia-red) 11deg 54.6deg,
+      var(--color-north-macedonia-yellow) 55deg 63.3deg,
+      var(--color-north-macedonia-red) 63.5deg 84deg,
+      var(--color-north-macedonia-yellow) 85deg 95deg,
+      var(--color-north-macedonia-red) 96deg 116.5deg,
+      var(--color-north-macedonia-yellow) 116.7deg 125deg,
+      var(--color-north-macedonia-red) 125.4deg 170deg,
+      var(--color-north-macedonia-yellow) 170.6deg 189.4deg,
+      var(--color-north-macedonia-red) 190deg 234.6deg,
+      var(--color-north-macedonia-yellow) 235deg 243.3deg,
+      var(--color-north-macedonia-red) 243.5deg 264deg,
+      var(--color-north-macedonia-yellow) 265deg 275deg,
+      var(--color-north-macedonia-red) 276deg 296.5deg,
+      var(--color-north-macedonia-yellow) 296.7deg 305deg,
+      var(--color-north-macedonia-red) 305.4deg 349deg,
+      var(--color-north-macedonia-yellow) 350deg 360deg
+    );
 }
