@@ -17,6 +17,11 @@
   --color-jamaika-yellow: rgb(254, 209, 0);
   --color-jamaika-black: rgb(0, 0, 0);
 
+  /* Jamaika */
+  --color-jamaika-green: rgb(0, 155, 58);
+  --color-jamaika-yellow: rgb(254, 209, 0);
+  --color-jamaika-black: rgb(0, 0, 0);
+
   /* Grönland */
   --color-greenland-red: rgb(208, 12, 51);
   --color-greenland-white: rgb(255, 255, 255);
@@ -254,5 +259,61 @@
 }
 
 .jamaika {
-  
+}
+
+.jamaika {
+  background-color: var(--color-jamaika-yellow);
+}
+
+.jamaika.border::after {
+  border-left: calc((var(--flag-width) / 2)) solid var(--color-jamaika-black);
+  border-right: calc(var(--flag-width) / 2) solid var(--color-jamaika-black);
+  border-top: calc(var(--flag-height) / 2) solid var(--color-jamaika-green);
+  border-bottom: calc(var(--flag-height) / 2) solid var(--color-jamaika-green);
+}
+
+.jamaika.clip-path {
+  .left,
+  .top,
+  .right,
+  .bottom {
+    position: absolute;
+    scale: 0.8;
+  }
+
+  .left,
+  .right {
+    height: 100%;
+    width: 50%;
+    top: 0;
+    background-color: var(--color-jamaika-black);
+  }
+
+  .top,
+  .bottom {
+    height: 50%;
+    width: 100%;
+    left: 0;
+    background-color: var(--color-jamaika-green);
+  }
+
+  .left {
+    left: -5%;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  }
+
+  .top {
+    top: -5%;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  }
+
+  .right {
+    right: -5%;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 50%);
+  }
+
+  .bottom {
+    bottom: -5%;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+  }
 }

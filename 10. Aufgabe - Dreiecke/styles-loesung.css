@@ -1,6 +1,7 @@
 :root {
   --flag-height: 7rem;
-  --flag-width: calc(var(--flag-height) * 1.5);
+  --flag-width-bahamas: calc(var(--flag-height) * 2);
+  --flag-width-czech-republic: calc(var(--flag-height) * 1.5);
 
   /* Tschechische Republic */
   --color-czech-republic-blue: rgb(17, 49, 126);
@@ -11,17 +12,11 @@
   --color-bahamas-black: rgb(0, 0, 0);
   --color-bahamas-blue: rgb(0, 169, 206);
   --color-bahamas-yellow: rgb(255, 199, 44);
-
-  /* Jamaika */
-  --color-jamaika-green: rgb(0, 155, 58);
-  --color-jamaika-yellow: rgb(254, 209, 0);
-  --color-jamaika-black: rgb(0, 0, 0);
 }
 
 .flag {
   position: relative;
   height: var(--flag-height);
-  width: var(--flag-width);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 
   &::after {
@@ -33,6 +28,8 @@
 }
 
 .czech-republic {
+  width: var(--flag-width-czech-republic);
+
   background-image: linear-gradient(
     var(--color-czech-republic-white) 50%,
     var(--color-czech-republic-red) 0
@@ -42,7 +39,7 @@
 .czech-republic.border::after {
   border-top: calc(var(--flag-height) / 2) solid transparent;
   border-bottom: calc(var(--flag-height) / 2) solid transparent;
-  border-left: calc(var(--flag-width) / 2) solid
+  border-left: calc(var(--flag-width-czech-republic) / 2) solid
     var(--color-czech-republic-blue);
 }
 
@@ -54,6 +51,8 @@
 }
 
 .bahamas {
+  width: var(--flag-width-bahamas);
+
   background-image: linear-gradient(
     var(--color-bahamas-blue) 33.33%,
     var(--color-bahamas-yellow) 0 66.67%,
@@ -63,7 +62,7 @@
 
 .bahamas.border::after {
   border-bottom: calc(var(--flag-height) / 2) solid transparent;
-  border-left: calc(var(--flag-width) / 2.2) solid var(--color-bahamas-black);
+  border-left: calc(var(--flag-width-bahamas) / 2.2) solid var(--color-bahamas-black);
   border-top: calc(var(--flag-height) / 2) solid transparent;
 }
 
@@ -72,61 +71,4 @@
   width: 45.45%;
   background-color: var(--color-bahamas-black);
   clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-}
-
-.jamaika {
-  background-color: var(--color-jamaika-yellow);
-}
-
-.jamaika.border::after {
-  border-left: calc((var(--flag-width) / 2)) solid var(--color-jamaika-black);
-  border-right: calc(var(--flag-width) / 2) solid var(--color-jamaika-black);
-  border-top: calc(var(--flag-height) / 2) solid var(--color-jamaika-green);
-  border-bottom: calc(var(--flag-height) / 2) solid var(--color-jamaika-green);
-}
-
-.jamaika.clip-path {
-  .left,
-  .top,
-  .right,
-  .bottom {
-    position: absolute;
-    scale: 0.80
-  }
-
-  .left,
-  .right {
-    height: 100%;
-    width: 50%;
-    top: 0;
-    background-color: var(--color-jamaika-black);
-  }
-
-  .top,
-  .bottom {
-    height: 50%;
-    width: 100%;
-    left: 0;
-    background-color: var(--color-jamaika-green);
-  }
-
-  .left {
-    left: -5%;
-    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-  }
-
-  .top {
-    top: -5%;
-    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
-  }
-
-  .right {
-    right: -5%;
-    clip-path: polygon(100% 0%, 100% 100%, 0% 50%);
-  }
-
-  .bottom {
-    bottom: -5%;
-    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
-  }
 }
