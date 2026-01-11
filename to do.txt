@@ -1,14 +1,31 @@
 - Aufgaben zu hover, active, scale usw. und n-th child, -> Flagge on Hover vergrößern, oder nur das innere vergrößern?
 - Verwendung von BEM
 - CSS-Selektoren
+- clip-path konsequent bei Bahamas und Tschechei verwenden
 
 - Dreiecke: Kuwait & St.Lucia
 - Weitere Flaggen: Lettland, Island, Norwegen, Griechenland, Nepal, Panama, Türkei, Palau, EU
 - Weitere Flaggen: Laos, Somalia, Südafrika, Thailand, Tonga, Zentralafrikanische Republik
+- 🇲🇰 Nordmazedonien
+- Mauritius
+- Kuwait
+- Japan
+- Palau
+- Bangladesch
+- Guyana
+- 🇯🇲 Jamaika
+- Eritrea
+- Vietnam
+- Israel
+- Südafrika
+- Südkorea
+- Brasilien
+- Seychellen
+- St. Lucia
+- Somalia
+- Tansania
+- Demokratische Republik Kongo
 - Gradient: Schottland, Trinidad und Tobago, Tansania
 
 - Die Flaggen in eine <ul> packen
-- overflow-hidden fast überall löschen
 - box-sizing überall verwenden
-- calc() überall mit reinnehmen
-- richtige Seitenverhältnisse nutzen

@@ -53,3 +53,4 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - position, bottom, top, left, right
 - ::before, ::after
 - content
+- calc()

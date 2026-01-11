@@ -72,3 +72,4 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - top, bottom, right, left
 - translate
 - border-radius
+- calc()

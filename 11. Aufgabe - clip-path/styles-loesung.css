@@ -1,6 +1,56 @@
 :root {
   --flag-height: 7rem;
+
   --flag-width: calc(var(--flag-height) * 1.5);
+  --flag-width-bahamas: calc(var(--flag-height) * 2);
+  --flag-width-palau: calc(var(--flag-height) * 1.6);
+  --flag-width-sweden: calc(var(--flag-height) * 1.5);
+  --flag-width-switzerland: var(--flag-height);
+  --flag-width-seychelles: calc(var(--flag-height) * 2);
+
+  /* Niederlande */
+  --color-netherlands-red: rgb(174, 28, 40);
+  --color-netherlands-white: rgb(255, 255, 255);
+  --color-netherlands-blue: rgb(33, 70, 139);
+
+  /* Italien */
+  --color-italy-green: rgb(0, 140, 69);
+  --color-italy-white: rgb(244, 245, 240);
+  --color-italy-red: rgb(205, 33, 42);
+
+  /* Mauritius */
+  --color-mauritius-red: rgb(208, 28, 31);
+  --color-mauritius-blue: rgb(45, 51, 89);
+  --color-mauritius-yellow: rgb(247, 183, 24);
+  --color-mauritius-green: rgb(0, 134, 88);
+
+  /* Benin */
+  --color-benin-green: rgb(0, 136, 86);
+  --color-benin-yellow: rgb(252, 209, 22);
+  --color-benin-red: rgb(227, 28, 35);
+
+  /* Schweden */
+  --color-sweden-blue: rgb(0, 106, 167);
+  --color-sweden-yellow: rgb(254, 204, 0);
+
+  /* Schweiz */
+  --color-switzerland-red: rgb(218, 41, 28);
+  --color-switzerland-white: rgb(255, 255, 255);
+
+  /* Seychellen */
+  --color-seychelles-blue: rgb(0, 63, 135);
+  --color-seychelles-yellow: rgb(252, 209, 22);
+  --color-seychelles-red: rgb(212, 28, 48);
+  --color-seychelles-white: rgb(255, 255, 255);
+  --color-seychelles-green: rgb(0, 122, 61);
+
+  /* Japan */
+  --color-japan-white: rgb(255, 255, 255);
+  --color-japan-red: rgb(188, 0, 45);
+
+  /* Palau */
+  --color-palau-blue: rgb(74, 172, 238);
+  --color-palau-yellow: rgb(255, 222, 0);
 
   /* Tschechische Republic */
   --color-czech-republic-blue: rgb(17, 49, 126);
@@ -11,11 +61,12 @@
   --color-bahamas-black: rgb(0, 0, 0);
   --color-bahamas-blue: rgb(0, 169, 206);
   --color-bahamas-yellow: rgb(255, 199, 44);
+}
 
-  /* Jamaika */
-  --color-jamaika-green: rgb(0, 155, 58);
-  --color-jamaika-yellow: rgb(254, 209, 0);
-  --color-jamaika-black: rgb(0, 0, 0);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 .flag {
@@ -24,109 +75,256 @@
   width: var(--flag-width);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 
+  &::before,
   &::after {
     content: "";
     position: absolute;
-    left: 0;
+    width: 100%;
+    height: 100%;
     top: 0;
+    left: 0;
+  }
+}
+
+.netherlands {
+  background-color: var(--color-netherlands-white);
+
+  &::before {
+    background-color: var(--color-netherlands-red);
+    clip-path: polygon(0% 0%, 0% 33.33%, 100% 33.33%, 100% 0%);
+    /* oder besser */
+    clip-path: inset(0% 0% 66.67% 0%);
+  }
+
+  &::after {
+    background-color: var(--color-netherlands-blue);
+    clip-path: polygon(0% 66.67%, 0% 100%, 100% 100%, 100% 66.67%);
+    /* oder besser */
+    clip-path: inset(66.67% 0% 0% 0%);
+  }
+}
+
+.italy {
+  background-color: var(--color-italy-white);
+
+  &::before {
+    background-color: var(--color-italy-green);
+    clip-path: polygon(0% 0%, 33.33% 0%, 33.33% 100%, 0% 100%);
+    /* oder besser */
+    clip-path: inset(0% 66.67% 0% 0%);
+  }
+
+  &::after {
+    background-color: var(--color-italy-red);
+    clip-path: polygon(66.67% 0%, 100% 0%, 100% 100%, 66.67% 100%);
+    /* oder besser */
+    clip-path: inset(0% 0% 0% 66.67%);
+  }
+}
+
+.mauritius {
+  .stripe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .red {
+    background-color: var(--color-mauritius-red);
+    clip-path: inset(0% 0% 75% 0%);
+  }
+
+  .blue {
+    background-color: var(--color-mauritius-blue);
+    clip-path: inset(25% 0% 50% 0%);
+  }
+
+  .yellow {
+    background-color: var(--color-mauritius-yellow);
+    clip-path: inset(50% 0% 25% 0%);
+  }
+
+  .green {
+    background-color: var(--color-mauritius-green);
+    clip-path: inset(75% 0% 0% 0%);
+  }
+}
+
+.benin {
+  background-color: var(--color-benin-green);
+
+  &::before {
+    background-color: var(--color-benin-yellow);
+    clip-path: polygon(40% 0%, 100% 0%, 100% 50%, 40% 50%);
+    /* oder besser */
+    clip-path: inset(0% 0% 50% 40%);
+  }
+
+  &::after {
+    background-color: var(--color-benin-red);
+    clip-path: polygon(40% 50%, 100% 50%, 100% 100%, 40% 100%);
+    /* oder besser */
+    clip-path: inset(50% 0% 0% 40%);
+  }
+}
+
+.sweden {
+  background-color: var(--color-sweden-blue);
+  width: var(--flag-width-sweden);
+
+  &::before {
+    background-color: var(--color-sweden-yellow);
+    clip-path: polygon(0% 40%, 100% 40%, 100% 60%, 0% 60%);
+    /* oder besser */
+    clip-path: inset(40% 0% 40% 0%);
+  }
+
+  &::after {
+    background-color: var(--color-sweden-yellow);
+    clip-path: polygon(33.75% 0%, 46.25% 0%, 46.25% 100%, 33.75% 100%);
+    /* oder besser */
+    clip-path: inset(0% 53.75% 0% 33.75%);
+  }
+}
+
+.switzerland {
+  background-color: var(--color-switzerland-red);
+  width: var(--flag-width-switzerland);
+
+  &::before {
+    background-color: var(--color-switzerland-white);
+    clip-path: polygon(
+      18.75% 40.625%,
+      40.625% 40.625%,
+      40.625% 18.75%,
+      59.375% 18.75%,
+      59.375% 40.625%,
+      81.25% 40.625%,
+      81.25% 59.375%,
+      59.375% 59.375%,
+      59.375% 81.25%,
+      40.625% 81.25%,
+      40.625% 59.375%,
+      18.75% 59.375%
+    );
+  }
+
+  /* oder besser */
+  &::before {
+    background-color: var(--color-switzerland-white);
+    clip-path: polygon(
+      18.75% 40.625%,
+      81.25% 40.625%,
+      81.25% 59.375%,
+      18.75% 59.375%
+    );
+  }
+
+  &::after {
+    background-color: var(--color-switzerland-white);
+    clip-path: polygon(
+      40.625% 18.75%,
+      59.375% 18.75%,
+      59.375% 81.25%,
+      40.625% 81.25%
+    );
+  }
+
+  /* oder noch besser */
+  &::before {
+    background-color: var(--color-switzerland-white);
+    clip-path: inset(18.75% 40.625% 18.75% 40.625%);
+  }
+
+  &::after {
+    background-color: var(--color-switzerland-white);
+    clip-path: inset(40.625% 18.75% 40.625% 18.75%);
+  }
+}
+
+.seychelles {
+  width: var(--flag-width-seychelles);
+
+  .stripe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+  .blue {
+    background-color: var(--color-seychelles-blue);
+    clip-path: polygon(0% 0%, 33.33% 0%, 0% 100%);
+  }
+
+  .yellow {
+    background-color: var(--color-seychelles-yellow);
+    clip-path: polygon(33.3% 0%, 66.7% 0%, 0% 100%);
+  }
+
+  .red {
+    background-color: var(--color-seychelles-red);
+    clip-path: polygon(66.7% 0%, 100% 0%, 100% 33.33%, 0% 100%);
+  }
+
+  .white {
+    background-color: var(--color-seychelles-white);
+    clip-path: polygon(100% 33.33%, 100% 66.67%, 0% 100%);
+  }
+
+  .green {
+    background-color: var(--color-seychelles-green);
+    clip-path: polygon(100% 66.67%, 100% 100%, 0% 100%);
+  }
+}
+
+.japan {
+  background-color: var(--color-japan-white);
+
+  &::before {
+    background-color: var(--color-japan-red);
+    clip-path: circle(calc(var(--flag-height) * 3 / 10));
+  }
+}
+
+.palau {
+  background-color: var(--color-palau-blue);
+  width: var(--flag-width-palau);
+
+  &::before {
+    background-color: var(--color-palau-yellow);
+    clip-path: circle(calc(var(--flag-height) * 3 / 10) at 37.5%);
   }
 }
 
 .czech-republic {
-  background-image: linear-gradient(
-    var(--color-czech-republic-white) 50%,
-    var(--color-czech-republic-red) 0
-  );
-}
+  background-color: var(--color-czech-republic-white);
 
-.czech-republic.border::after {
-  border-top: calc(var(--flag-height) / 2) solid transparent;
-  border-bottom: calc(var(--flag-height) / 2) solid transparent;
-  border-left: calc(var(--flag-width) / 2) solid
-    var(--color-czech-republic-blue);
-}
+  &::before {
+    background-color: var(--color-czech-republic-red);
+    clip-path: polygon(50% 50%, 100% 50%, 100% 100%, 0% 100%);
+  }
 
-.czech-republic.clip-path::after {
-  height: 100%;
-  width: 50%;
-  background-color: var(--color-czech-republic-blue);
-  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  &::after {
+    height: 100%;
+    width: 50%;
+    background-color: var(--color-czech-republic-blue);
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  }
 }
 
 .bahamas {
-  background-image: linear-gradient(
-    var(--color-bahamas-blue) 33.33%,
-    var(--color-bahamas-yellow) 0 66.67%,
-    var(--color-bahamas-blue) 0
-  );
-}
+  background-color: var(--color-bahamas-blue);
+  width: var(--flag-width-bahamas);
 
-.bahamas.border::after {
-  border-bottom: calc(var(--flag-height) / 2) solid transparent;
-  border-left: calc(var(--flag-width) / 2.2) solid var(--color-bahamas-black);
-  border-top: calc(var(--flag-height) / 2) solid transparent;
-}
-
-.bahamas.clip-path::after {
-  height: 100%;
-  width: 45.45%;
-  background-color: var(--color-bahamas-black);
-  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-}
-
-.jamaika {
-  background-color: var(--color-jamaika-yellow);
-}
-
-.jamaika.border::after {
-  border-left: calc((var(--flag-width) / 2)) solid var(--color-jamaika-black);
-  border-right: calc(var(--flag-width) / 2) solid var(--color-jamaika-black);
-  border-top: calc(var(--flag-height) / 2) solid var(--color-jamaika-green);
-  border-bottom: calc(var(--flag-height) / 2) solid var(--color-jamaika-green);
-}
-
-.jamaika.clip-path {
-  .left,
-  .top,
-  .right,
-  .bottom {
-    position: absolute;
-    scale: 0.80
+  &::before {
+    background-color: var(--color-bahamas-yellow);
+    clip-path: inset(33.33% 0% 33.33% 0%);
   }
 
-  .left,
-  .right {
+  &::after {
     height: 100%;
-    width: 50%;
-    top: 0;
-    background-color: var(--color-jamaika-black);
-  }
-
-  .top,
-  .bottom {
-    height: 50%;
-    width: 100%;
-    left: 0;
-    background-color: var(--color-jamaika-green);
-  }
-
-  .left {
-    left: -5%;
+    width: 45.45%;
+    background-color: var(--color-bahamas-black);
     clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-  }
-
-  .top {
-    top: -5%;
-    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
-  }
-
-  .right {
-    right: -5%;
-    clip-path: polygon(100% 0%, 100% 100%, 0% 50%);
-  }
-
-  .bottom {
-    bottom: -5%;
-    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
   }
 }
