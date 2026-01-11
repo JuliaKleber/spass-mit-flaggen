@@ -16,7 +16,6 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 ## Anforderungen
 
 - Es sollte konsequent der normale <u>Document-Flow</u> zur Erstellung der Flaggen genutzt werden. Position, Flexbox, Grid, Padding usw. sind nicht erlaubt. Stattdessen sollte nur display: block, display: inline-block und display: inline genutzt werden um die Elemente zu positionieren.
-- Jede Flagge sollte ein Seitenverhältnis von 3 : 2 aufweisen.
 - Für die Grundmaße und Farben der Flaggen sollten CSS-Variablen genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollten keine Libraries oder Frameworks genutzt werden.
@@ -32,6 +31,13 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
 ## Hinweise
+
+### Seitenverhältnisse der Flaggen
+
+- 🇳🇱 Niederlande 3:2
+- 🇮🇹 Italien 3:2
+- 🇲🇺 Mauritius 3:2
+- 🇧🇯 Benin 3:2
 
 ### Farben der Flaggen
 

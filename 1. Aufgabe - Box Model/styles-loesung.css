@@ -1,6 +1,8 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
+  --flag-width-nigeria: calc(var(--flag-height) * 2);
+  --flag-width-latvia: calc(var(--flag-height) * 2);
   --flag-width-palau: calc(var(--flag-height) * 8 / 5);
 
   /* Österreich */
@@ -105,16 +107,10 @@
 }
 
 .latvia {
+  width: var(--flag-width-latvia);
   background-color: var(--color-latvia-white);
   border-width: calc(var(--flag-height) * 2 / 5) 0;
   border-color: var(--color-latvia-red);
-  border-style: solid;
-}
-
-.nigeria {
-  background-color: var(--color-nigeria-white);
-  border-width: 0 calc(var(--flag-width) / 3);
-  border-color: var(--color-nigeria-green);
   border-style: solid;
 }
 
@@ -122,6 +118,14 @@
   background-color: var(--color-indonesia-white);
   border-width: calc(var(--flag-height) / 2) 0 0 0;
   border-color: var(--color-indonesia-red);
+  border-style: solid;
+}
+
+.nigeria {
+  width: var(--flag-width-nigeria);
+  background-color: var(--color-nigeria-white);
+  border-width: 0 calc(var(--flag-width-nigeria) / 3);
+  border-color: var(--color-nigeria-green);
   border-style: solid;
 }
 

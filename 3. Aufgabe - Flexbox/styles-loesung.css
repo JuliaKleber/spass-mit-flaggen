@@ -1,6 +1,7 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
+  --flag-width-switzerland: calc(var(--flag-height));
 
   /* Niederlande */
   --color-netherlands-red: rgb(174, 28, 40);
@@ -48,7 +49,7 @@ body {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.dutch-flag {
+.netherlands {
   flex-direction: column;
 
   .stripe {
@@ -68,7 +69,7 @@ body {
   }
 }
 
-.italian-flag {
+.italy {
   flex-direction: row;
 
   .stripe {
@@ -88,7 +89,7 @@ body {
   }
 }
 
-.mauritius-flag {
+.mauritius {
   flex-direction: column;
 
   .stripe {
@@ -112,7 +113,7 @@ body {
   }
 }
 
-.benin-flag {
+.benin {
   flex-direction: row;
 
   .green {
@@ -139,7 +140,7 @@ body {
   }
 }
 
-.japanese-flag {
+.japan {
   background-color: var(--color-japan-white);
   justify-content: center;
   align-items: center;
@@ -153,10 +154,11 @@ body {
   }
 }
 
-.swiss-flag {
+.switzerland {
   background-color: var(--color-switzerland-red);
   flex-direction: column;
   align-items: center;
+  width: var(--flag-width-switzerland);
 
   .spacer {
     background-color: transparent;
@@ -177,7 +179,4 @@ body {
     width: calc(var(--flag-height) * 6 / 32);
     flex: 7;
   }
-
-  /* Hinweis: Nur auf Schiffen wird eine Flagge mit einem Seitenverhältnis von 3:2 verwendet.
-  Ansonsten weist die schweizer Flagge ein Seitenverhältnis von 1:1 auf. */
 }

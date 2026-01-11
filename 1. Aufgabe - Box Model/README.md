@@ -43,8 +43,6 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇯🇵 Japan: 3:2
 - 🇵🇼 Palau: 8:5
 
-Der Einfachheit halber kann ein Seitenverhältnis für alle Flaggen von 3:2 angenommen werden.
-
 ### Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:

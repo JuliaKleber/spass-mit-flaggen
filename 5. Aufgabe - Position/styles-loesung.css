@@ -1,6 +1,8 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
+  --flag-width-sweden: calc(var(--flag-height) * 1.6);
+  --flag-width-switzerland: calc(var(--flag-height));
 
   /* Niederlande */
   --color-netherlands-red: rgb(174, 28, 40);
@@ -41,11 +43,10 @@
 
   height: var(--flag-height);
   width: var(--flag-width);
-  overflow: hidden;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.dutch-flag {
+.netherlands {
   background-color: var(--color-netherlands-white);
 
   .stripe {
@@ -66,7 +67,7 @@
   }
 }
 
-.italian-flag {
+.italy {
   background-color: var(--color-italy-white);
 
   .stripe {
@@ -87,7 +88,7 @@
   }
 }
 
-.mauritius-flag {
+.mauritius {
   .stripe {
     position: absolute;
     left: 0;
@@ -116,7 +117,7 @@
   }
 }
 
-.japanese-flag {
+.japan {
   background-color: var(--color-japan-white);
 
   .red-circle {
@@ -131,7 +132,7 @@
   }
 }
 
-.benin-flag {
+.benin {
   .green {
     height: 100%;
     width: 40%;
@@ -157,8 +158,9 @@
   }
 }
 
-.swiss-flag {
+.switzerland {
   background-color: var(--color-switzerland-red);
+  width: var(--flag-width-switzerland);
 
   .horizontal,
   .vertical {
@@ -170,20 +172,19 @@
   }
 
   .horizontal {
-    width: 41.67%;
+    width: 62.5%;
     height: 18.75%;
   }
 
   .vertical {
-    width: 12.5%;
+    width: 18.75%;
     height: 62.5%;
   }
-
-  /* Hinweis: Das Verhältnis der Seitenlängen ist offiziell 1:1 und nicht 3:2 */
 }
 
-.swedish-flag {
+.sweden {
   background-color: var(--color-sweden-blue);
+  width: var(--flag-width-sweden);
 
   .horizontal-beam,
   .vertical-beam {
@@ -194,16 +195,13 @@
   .horizontal-beam {
     height: 20%;
     width: 100%;
-    top: 50%;
-    translate: 0 -50%;
+    top: 40%;
   }
 
   .vertical-beam {
     height: 100%;
-    width: calc(var(--flag-height) / 5);
+    width: 12.5%;
     left: 37.5%;
     translate: -50% 0;
   }
-
-  /* Hinweis: Das Verhältnis der Seitenlängen ist offiziell 16:10 und nicht 3:2 */
 }
