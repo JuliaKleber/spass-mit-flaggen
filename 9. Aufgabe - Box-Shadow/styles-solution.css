@@ -3,11 +3,32 @@
   --germany-width: calc(var(--flag-height) * 5 / 3);
   --ireland-width: calc(var(--flag-height) * 2);
   --mauritius-width: calc(var(--flag-height) * 3 / 2);
+
+  /* Deutschland */
+  --color-germany-black: rgb(0, 0, 0);
+  --color-germany-red: rgb(255, 0, 0);
+  --color-germany-gold: rgb(255, 204, 0);
+
+  /* Irland */
+  --color-ireland-green: rgb(22, 155, 98);
+  --color-ireland-white: rgb(255, 255, 255);
+  --color-ireland-orange: rgb(255, 136, 62);
+
+  /* Mauritius */
+  --color-mauritius-red: rgb(208, 28, 31);
+  --color-mauritius-blue: rgb(45, 51, 89);
+  --color-mauritius-yellow: rgb(247, 183, 24);
+  --color-mauritius-green: rgb(0, 134, 88);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 .flag {
   height: var(--flag-height);
-  overflow: hidden;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -17,41 +38,39 @@
   &::before {
     content: "";
     display: block;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--color-germany-black);
     height: calc(var(--flag-height) / 3);
     width: 100%;
-    box-shadow: 0px calc(var(--flag-height) / 3) rgb(255, 0, 0),
-      0px calc(var(--flag-height) / 3 * 2) rgb(255, 206, 0);
+    box-shadow: 0px calc(var(--flag-height) / 3) var(--color-germany-red),
+      0px calc(var(--flag-height) / 3 * 2) var(--color-germany-gold);
   }
 }
 
 .irish-flag {
-  height: var(--flag-height);
   width: var(--ireland-width);
 
   &::before {
     content: "";
     display: block;
-    background-color: rgb(22, 155, 98);
+    background-color: var(--color-ireland-green);
     height: 100%;
     width: calc(var(--ireland-width) / 3);
-    box-shadow: calc(var(--ireland-width) / 3) 0px rgb(255, 255, 255),
-      calc(var(--ireland-width) * 2 / 3) 0px rgb(255, 136, 62);
+    box-shadow: calc(var(--ireland-width) / 3) 0px var(--color-ireland-white),
+      calc(var(--ireland-width) * 2 / 3) 0px var(--color-ireland-orange);
   }
 }
 
 .mauritius-flag {
-  height: var(--flag-height);
   width: var(--mauritius-width);
 
   &::before {
     content: "";
     display: block;
-    background-color: rgb(208, 28, 31);
+    background-color: var(--color-mauritius-red);
     height: calc(var(--flag-height) / 4);
     width: 100%;
-    box-shadow: 0px calc(var(--flag-height) / 4) rgb(45, 51, 89),
-      0px calc(var(--flag-height) / 2) rgb(247, 183, 24),
-      0px calc(var(--flag-height) * 3 / 4) rgb(0, 134, 88);
+    box-shadow: 0px calc(var(--flag-height) / 4) var(--color-mauritius-blue),
+      0px calc(var(--flag-height) / 2) var(--color-mauritius-yellow),
+      0px calc(var(--flag-height) * 3 / 4) var(--color-mauritius-green);
   }
 }

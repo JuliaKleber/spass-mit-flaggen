@@ -9,3 +9,5 @@
 
 - Die Flaggen in eine <ul> packen
 - overflow-hidden fast überall löschen
+- box-sizing überall verwenden
+- calc() überall mit reinnehmen
