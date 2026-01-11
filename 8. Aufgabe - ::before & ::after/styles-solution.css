@@ -33,10 +33,15 @@
   --color-sweden-yellow: rgb(254, 204, 0);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .flag {
   height: var(--flag-height);
   width: var(--flag-width);
-  overflow: hidden;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
 

@@ -53,3 +53,4 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - background-color
 - font-size
 - vertical-align
+- calc()

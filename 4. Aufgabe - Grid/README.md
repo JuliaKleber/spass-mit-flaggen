@@ -74,3 +74,4 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - width, height, aspect-ratio
 - background-color
 - border-radius
+- calc()
