@@ -38,6 +38,10 @@
   --color-sweden-yellow: rgb(254, 204, 0);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .flag {
   position: relative;
 

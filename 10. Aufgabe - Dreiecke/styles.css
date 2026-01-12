@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .flag {
   height: 7rem;
   width: 10.5rem;

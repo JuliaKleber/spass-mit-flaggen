@@ -14,6 +14,12 @@
   --color-bahamas-yellow: rgb(255, 199, 44);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .flag {
   position: relative;
   height: var(--flag-height);
@@ -62,7 +68,8 @@
 
 .bahamas.border::after {
   border-bottom: calc(var(--flag-height) / 2) solid transparent;
-  border-left: calc(var(--flag-width-bahamas) / 2.2) solid var(--color-bahamas-black);
+  border-left: calc(var(--flag-width-bahamas) / 2.2) solid
+    var(--color-bahamas-black);
   border-top: calc(var(--flag-height) / 2) solid transparent;
 }
 

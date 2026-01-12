@@ -1,31 +1,74 @@
 - Aufgaben zu hover, active, scale usw. und n-th child, -> Flagge on Hover vergrößern, oder nur das innere vergrößern?
 - Verwendung von BEM
 - CSS-Selektoren
-- clip-path konsequent bei Bahamas und Tschechei verwenden
 
-- Dreiecke: Kuwait & St.Lucia
-- Weitere Flaggen: Lettland, Island, Norwegen, Griechenland, Nepal, Panama, Türkei, Palau, EU
-- Weitere Flaggen: Laos, Somalia, Südafrika, Thailand, Tonga, Zentralafrikanische Republik
-- 🇲🇰 Nordmazedonien
-- Mauritius
-- Kuwait
-- Japan
-- Palau
+.flags-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 2rem;}
+
+- 🇨🇷 Costa Rica
+- 🇪🇺 Europäische Union
+- 🇬🇷 Griechenland
+- 🇨🇴 Kolumbien
+- 🇨🇩 Demokratische Republik Kongo
+- 🇨🇬 Republik Kongo (gradient, rotate, clip-path)
+- 🇱🇦 Laos
+- 🇹🇭 Thailand
+- 🇺🇸 USA
+- 🇨🇫 Zentralafrikanische Republik
+
+- Bahrain (clip-path)
 - Bangladesch
-- Guyana
-- 🇯🇲 Jamaika
+- Botswana (für alles)
+- Brasilien
+- Cookinseln
+- England (alle)
 - Eritrea
-- Vietnam
-- Israel
+- Guyana (clip-path)
+- Island
+- Katar (clip-path)
+- Kuwait (clip-path)
+- Nepal
+- Niger
+- Norwegen
+- St. Lucia (clip-path)
+- St. Vincent und die Grenadinen
 - Südafrika
 - Südkorea
-- Brasilien
-- Seychellen
-- St. Lucia
-- Somalia
 - Tansania
-- Demokratische Republik Kongo
-- Gradient: Schottland, Trinidad und Tobago, Tansania
+- Tonga
+
+Sterne:
+- Bosnien und Herzegowina
+- Burkina Faso
+- Burundi
+- Chile
+- China
+- Curacao
+- Dschibuti
+- EU
+- Ghana
+- Guinea-Bissau
+- Honduras
+- Israel
+- Jordanien
+- Kamerun
+- Kongo
+- Kuba
+- Liberia
+- USA
+- Marokko
+- Mikronesien
+- Myanmar
+- Nordkorea
+- Osttimor
+- Panama
+- Puerto Rico
+- Somalia
+- Türkei
+- Vietnam
+
 
 - Die Flaggen in eine <ul> packen
-- box-sizing überall verwenden

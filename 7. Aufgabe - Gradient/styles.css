@@ -1,10 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 .flag {
   height: 7rem;
   width: 10.5rem;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.netherlands{
+.netherlands {
 }
 
 .italy {

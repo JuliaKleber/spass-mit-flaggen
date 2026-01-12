@@ -11,6 +11,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇳🇱 Niederlande
 - 🇮🇹 Italien
 - 🇲🇺 Mauritius
+- 🇹🇭 Thailand
 - 🇧🇯 Benin
 - 🇯🇵 Japan
 - 🇨🇭 Schweiz
@@ -21,6 +22,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Für die Grundmaße und Farben der Flaggen sollten CSS-Variablen genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollten keine Libraries oder Frameworks genutzt werden.
+- Es soll nur die css-Datei verändert werden und nicht die html-Datei.
 
 ## Ressourcen
 
@@ -37,6 +39,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇳🇱 Niederlande 3:2
 - 🇮🇹 Italien 3:2
 - 🇲🇺 Mauritius 3:2
+- 🇹🇭 Thailand 3:2
 - 🇧🇯 Benin 3:2
 - 🇯🇵 Japan 3:2
 - 🇨🇭 Schweiz 1:1
@@ -50,12 +53,14 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇳🇱 Niederlande: rgb(174, 28, 40), rgb(255, 255, 255), rgb(33, 70, 139)
 - 🇮🇹 Italien: rgb(0, 140, 69), rgb(244, 245, 240), rgb(205, 33, 42)
 - 🇲🇺 Mauritius: rgb(208, 28, 31), rgb(45, 51, 89), rgb(247, 183, 24), rgb(0, 134, 88)
+- 🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(255, 255, 255)
 - 🇧🇯 Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
 - 🇯🇵 Japan: rgb(255, 255, 255), rgb(188, 0, 45)
 - 🇨🇭 Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
 
 ### Abmessungen der Elemente
 
+- 🇹🇭 Die Streifen der Nationalflagge von Thailand stehen in dem Verhältnis 1:1:2:1:1.
 - 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
 - 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
 - 🇨🇭 Für das Seitenverhältnis der weißen Balken in der Schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.

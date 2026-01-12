@@ -19,6 +19,11 @@
   --color-mauritius-yellow: rgb(247, 183, 24);
   --color-mauritius-green: rgb(0, 134, 88);
 
+  /* Thailand */
+  --color-thailand-red: rgb(165, 25, 49);
+  --color-thailand-blue: rgb(45, 42, 74);
+  --color-thailand-white: rgb(255, 255, 255);
+
   /* Benin */
   --color-benin-green: rgb(0, 136, 86);
   --color-benin-yellow: rgb(252, 209, 22);
@@ -110,6 +115,26 @@ body {
 
   .green {
     background-color: var(--color-mauritius-green);
+  }
+}
+
+.thailand {
+  background-color: var(--color-thailand-white);
+  flex-direction: column;
+  gap: calc(var(--flag-height) / 6);
+
+  .stripe {
+    width: 100%;
+  }
+
+  .red {
+    background-color: var(--color-thailand-red);
+    flex: 1;
+  }
+
+  .blue {
+    background-color: var(--color-thailand-blue);
+    flex: 2;
   }
 }
 

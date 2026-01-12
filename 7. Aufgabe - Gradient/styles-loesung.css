@@ -1,6 +1,7 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
+  --flag-width-bahamas: calc(var(--flag-height) * 2);
   --flag-width-north-macedonia: calc(var(--flag-height) * 2);
   --flag-width-palau: calc(var(--flag-height) * 8 / 5);
   --flag-width-seychelles: calc(var(--flag-height) * 2);
@@ -23,6 +24,11 @@
   --color-mauritius-yellow: rgb(247, 183, 24);
   --color-mauritius-green: rgb(0, 134, 88);
 
+  /* Thailand */
+  --color-thailand-red: rgb(165, 25, 49);
+  --color-thailand-blue: rgb(45, 42, 74);
+  --color-thailand-white: rgb(255, 255, 255);
+
   /* Benin */
   --color-benin-green: rgb(0, 136, 86);
   --color-benin-yellow: rgb(252, 209, 22);
@@ -44,6 +50,16 @@
   --color-sweden-blue: rgb(0, 106, 167);
   --color-sweden-yellow: rgb(254, 204, 0);
 
+  /* Tschechische Republic */
+  --color-czech-republic-blue: rgb(17, 49, 126);
+  --color-czech-republic-white: rgb(255, 255, 255);
+  --color-czech-republic-red: rgb(215, 20, 26);
+
+  /* Bahamas */
+  --color-bahamas-black: rgb(0, 0, 0);
+  --color-bahamas-blue: rgb(0, 169, 206);
+  --color-bahamas-yellow: rgb(255, 199, 44);
+
   /* Seychellen */
   --color-seychelles-blue: rgb(0, 63, 135);
   --color-seychelles-yellow: rgb(252, 209, 22);
@@ -54,6 +70,10 @@
   /* Nordmazedonien */
   --color-north-macedonia-red: rgb(210, 0, 0);
   --color-north-macedonia-yellow: rgb(255, 230, 0);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .flag {
@@ -121,6 +141,16 @@
     var(--color-mauritius-blue) 0 50%,
     var(--color-mauritius-yellow) 0 75%,
     var(--color-mauritius-green) 0
+  );
+}
+
+.thailand {
+  background-image: linear-gradient(
+    var(--color-thailand-red) 16.67%,
+    var(--color-thailand-white) 0 33.33%,
+    var(--color-thailand-blue) 0 66.67%,
+    var(--color-thailand-white) 0 83.33%,
+    var(--color-thailand-red) 0
   );
 }
 
@@ -243,6 +273,36 @@
   background-size: 62.5% 62.5%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.czech-republic {
+  background-image: conic-gradient(
+      transparent 236deg,
+      var(--color-czech-republic-blue) 236.5deg 303.5deg,
+      transparent 304deg 360deg
+    ),
+    linear-gradient(
+      var(--color-czech-republic-white) 50%,
+      var(--color-czech-republic-red) 0
+    );
+
+    
+}
+
+.bahamas {
+  width: var(--flag-width-bahamas);
+
+  background-image: conic-gradient(
+      at 45.45%,
+      transparent 241deg,
+      var(--color-bahamas-black) 241.5deg 298.5deg,
+      transparent 299deg 360deg
+    ),
+    linear-gradient(
+      var(--color-bahamas-blue) 0 33.33%,
+      var(--color-bahamas-yellow) 0 66.67%,
+      var(--color-bahamas-blue) 0
+    );
 }
 
 .seychelles {
