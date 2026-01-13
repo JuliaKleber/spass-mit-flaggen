@@ -1,7 +1,9 @@
 :root {
   --flag-height: 7rem;
+
   --flag-width: calc(var(--flag-height) * 1.5);
   --flag-width-bahamas: calc(var(--flag-height) * 2);
+  --flag-width-jamaica: calc(var(--flag-height) * 2);
   --flag-width-north-macedonia: calc(var(--flag-height) * 2);
   --flag-width-palau: calc(var(--flag-height) * 8 / 5);
   --flag-width-seychelles: calc(var(--flag-height) * 2);
@@ -70,6 +72,11 @@
   /* Nordmazedonien */
   --color-north-macedonia-red: rgb(210, 0, 0);
   --color-north-macedonia-yellow: rgb(255, 230, 0);
+
+  /* Jamaika */
+  --color-jamaica-green: rgb(0, 155, 58);
+  --color-jamaica-yellow: rgb(254, 209, 0);
+  --color-jamaica-black: rgb(0, 0, 0);
 }
 
 * {
@@ -261,7 +268,7 @@
   background-image: linear-gradient(
       90deg,
       transparent 35%,
-      rgb(255, 255, 255) 0 65%,
+      var(--color-switzerland-white) 0 65%,
       transparent 0
     ),
     linear-gradient(
@@ -285,8 +292,6 @@
       var(--color-czech-republic-white) 50%,
       var(--color-czech-republic-red) 0
     );
-
-    
 }
 
 .bahamas {
@@ -305,16 +310,40 @@
     );
 }
 
+.jamaica {
+  width: var(--flag-width-jamaica);
+
+  background-image: linear-gradient(
+      26.6deg,
+      transparent 44%,
+      var(--color-jamaica-yellow) 45% 54%,
+      transparent 55%
+    ),
+    linear-gradient(
+      153.4deg,
+      transparent 45%,
+      var(--color-jamaica-yellow) 45% 55%,
+      transparent 0
+    ),
+    conic-gradient(
+      var(--color-jamaica-green) 0 63deg,
+      var(--color-jamaica-black) 64deg 116deg,
+      var(--color-jamaica-green) 117deg 243deg,
+      var(--color-jamaica-black) 244deg 296deg,
+      var(--color-jamaica-green) 297deg 360deg
+    );
+}
+
 .seychelles {
   width: var(--flag-width-seychelles);
 
   background-image: conic-gradient(
     at 0% 100%,
-    var(--color-seychelles-blue) 0deg 31.9deg,
-    var(--color-seychelles-yellow) 32.1deg 53.9deg,
-    var(--color-seychelles-red) 54.1deg 71.4deg,
-    var(--color-seychelles-white) 71.6deg 80.3deg,
-    var(--color-seychelles-green) 80.7deg 90deg,
+    var(--color-seychelles-blue) 0deg 33.6deg,
+    var(--color-seychelles-yellow) 33.8deg 53deg,
+    var(--color-seychelles-red) 53.2deg 71.5deg,
+    var(--color-seychelles-white) 71.7deg 80.4deg,
+    var(--color-seychelles-green) 80.6deg 90deg,
     transparent 90deg
   );
 }

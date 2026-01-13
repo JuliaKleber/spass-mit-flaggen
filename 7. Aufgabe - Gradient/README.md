@@ -8,23 +8,26 @@ Ziel der Aufgabe ist es Flaggen mit Gradienten zu erstellen.
 
 Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
-- 🇳🇱 Niederlande
-- 🇮🇹 Italien
-- 🇲🇺 Mauritius
-- 🇹🇭 Thailand
-- 🇯🇵 Japan
-- 🇵🇼 Palau
-- 🇧🇯 Benin
-- 🇸🇪 Schweden
-- 🇨🇭 Schweiz
-- 🇨🇿 Tschechische Republik
-- 🇧🇸 Bahamas
-- 🇸🇨 Seychellen
-- 🇲🇰 Nordmazedonien
+- 🇳🇱 Niederlande ⭐
+- 🇮🇹 Italien ⭐
+- 🇲🇺 Mauritius ⭐
+- 🇹🇭 Thailand ⭐
+- 🇯🇵 Japan ⭐⭐
+- 🇵🇼 Palau ⭐⭐
+- 🇧🇯 Benin ⭐⭐
+- 🇸🇪 Schweden ⭐⭐
+- 🇨🇭 Schweiz ⭐⭐⭐
+- 🇨🇿 Tschechische Republik ⭐⭐⭐
+- 🇧🇸 Bahamas ⭐⭐⭐
+- 🇯🇲 Jamaika ⭐⭐⭐
+- 🇸🇨 Seychellen ⭐⭐⭐⭐
+- 🇲🇰 Nordmazedonien ⭐⭐⭐⭐⭐
+
+Die Sterne symbolisieren den Schwierigkeitsgrad.
 
 ## Anforderungen
 
-- Es sollen ausschließlich Gradienten zur Erstellung der Flaggen genutzt werden.
+- Es sollen ausschließlich Gradienten (linear-gradient, radial-gradient, conic-gradient) zur Erstellung der Flaggen genutzt werden. Die css-Eigenschaft background-color ist jedoch auch erlaubt. Siehe auch Abschnitt 'Erlaubte CSS-Eigenschaften'.
 - Pro Flagge sollte nur ein einziges HTML-Element genutzt werden. Alle Streifen, Kreise, usw. müssen über dieses Element ohne Benutzung von Pseudoelemente erzeugt werden.
 - Für die Grundmaße und Farben der Flaggen sollen CSS-Variablen genutzt werden.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
@@ -52,6 +55,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇨🇭 Schweiz 1:1
 - 🇨🇿 Tschechische Republik 3:2
 - 🇧🇸 Bahamas 2:1
+- 🇯🇲 Jamaika 2:1
 - 🇸🇨 Seychellen 2:1
 - 🇲🇰 Nordmazedonien 2:1
 
@@ -70,6 +74,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇨🇭 Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
 - 🇨🇿 Tschechische Republik: rgb(255, 255, 255), rgb(215, 20, 26), rgb(17,49,126)
 - 🇧🇸 Bahamas: rgb(0, 169, 206), rgb(255, 199, 44), rgb(0, 0, 0),
+- 🇯🇲 Jamaika: rgb(0, 155, 58), rgb(254, 209, 0), rgb(0, 0, 0)
 - 🇸🇨 Seychellen: rgb(0, 63, 135), rgb(252, 209, 22), rgb(212, 28, 48), rgb(255, 255, 255), rgb(0, 122, 61)
 - 🇲🇰 Nordmazedonien: rgb(210, 0, 0), rgb(255, 230, 0)
 
@@ -81,8 +86,10 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
 - 🇸🇪 Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37,5% (3/8) der Flaggenbreite. Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge angenommen werden. Das bedeutet, dass der Querbalken der Flagge sich von 5/16 bis 7/16 der Breite der Flagge erstreckt.
 - 🇨🇭 Für das Seitenverhältnis der weißen Balken des Kreuzes der schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
-- 🇨🇿 Das Dreieck in der tschechischen Flagge ist so breit wie die Hälfte der Länge der Flagge. Als Winkel für den konischen Gradienten können 236 Grad und 304 Grad angenommen werden.
-- 🇧🇸 Das Dreieck der Flagge der Bahamas ist die Länge der Flagge geteilt durch 2,2. Das heißt, die Spitze des Dreiecks liegt bei 45.45%. Als Winkel für den konischen Gradienten können 241 Grad und 299 Grad angenommen werden.
+- 🇨🇿 Das Dreieck in der tschechischen Flagge ist so breit wie die Hälfte der Länge der Flagge. Als Winkel für den konischen Gradienten können 236° und 304° angenommen werden.
+- 🇧🇸 Das Dreieck der Flagge der Bahamas ist die Länge der Flagge geteilt durch 2,2. Das heißt, die Spitze des Dreiecks liegt bei 45,45%. Als Winkel für den konischen Gradienten können 241° und 299° Grad angenommen werden.
+- 🇯🇲 Für den Winkel der Balken des Andreaskreuzes der jamaikanischen Flagge zur Horizontalen kann 26.6° angenommen werden.
+- 🇸🇨 Für die Winkel der Segmente der Flagge von Seychellen können 33,7°, 53,1°, 71,6° und 80,5° angenommen werden.
 
 ## Erlaubte CSS-Eigenschaften
 

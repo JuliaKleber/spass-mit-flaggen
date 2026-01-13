@@ -1,6 +1,7 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
+  --flag-width-jamaica: calc(var(--flag-height) * 2);
 
   /* Jamaika */
   --color-jamaica-green: rgb(0, 155, 58);
@@ -11,7 +12,7 @@
   --color-greenland-red: rgb(208, 12, 51);
   --color-greenland-white: rgb(255, 255, 255);
 
-  /* Groß-Brittanien */
+  /* Großbritannien */
   --color-great-britain-blue: rgb(1, 33, 105);
   --color-great-britain-red: rgb(200, 16, 46);
   --color-great-britain-white: rgb(255, 255, 255);
@@ -31,43 +32,16 @@
 }
 
 .jamaica {
-  /* komplett mit Gradienten lösen !!!! */
-
-  /* position: relative;
-
-  border-left: calc((var(--flag-width) / 2)) solid var(--color-jamaica-black);
-  border-right: calc(var(--flag-width) / 2) solid var(--color-jamaica-black);
-  border-top: calc(var(--flag-height) / 2) solid var(--color-jamaica-green);
-  border-bottom: calc(var(--flag-height) / 2) solid var(--color-jamaica-green);
-
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    height: calc(var(--flag-height) * 0.16);
-    width: calc(var(--flag-width) * 1.2);
-    top: 50%;
-    left: -10%;
-    translate: -50% -50%;
-    background-color: var(--color-jamaica-yellow);
-  }
-
-  &::before {
-    rotate: 33.7deg;
-  }
-
-  &::after {
-    rotate: -33.7deg;
-  } */
-
   position: relative;
   overflow: hidden;
 
+  width: var(--flag-width-jamaica);
+
   background-image: conic-gradient(
-    var(--color-jamaica-green) 56deg,
-    var(--color-jamaica-black) 0 124deg,
-    var(--color-jamaica-green) 0 236deg,
-    var(--color-jamaica-black) 0 304deg,
+    var(--color-jamaica-green) 63deg,
+    var(--color-jamaica-black) 0 117deg,
+    var(--color-jamaica-green) 0 243deg,
+    var(--color-jamaica-black) 0 297deg,
     var(--color-jamaica-green) 0
   );
 
@@ -84,11 +58,11 @@
   }
 
   &::before {
-    rotate: 33.7deg;
+    rotate: 26.6deg;
   }
 
   &::after {
-    rotate: -33.7deg;
+    rotate: -26.6deg;
   }
 }
 
