@@ -3,8 +3,9 @@
 
   --flag-width: calc(var(--flag-height) * 1.5);
   --flag-width-bahamas: calc(var(--flag-height) * 2);
+  --flag-width-jamaica: calc(var(--flag-height) * 2);
   --flag-width-palau: calc(var(--flag-height) * 1.6);
-  --flag-width-sweden: calc(var(--flag-height) * 1.5);
+  --flag-width-sweden: calc(var(--flag-height) * 1.6);
   --flag-width-switzerland: var(--flag-height);
   --flag-width-seychelles: calc(var(--flag-height) * 2);
 
@@ -52,7 +53,7 @@
   --color-palau-blue: rgb(74, 172, 238);
   --color-palau-yellow: rgb(255, 222, 0);
 
-  /* Tschechische Republic */
+  /* Tschechische Republik */
   --color-czech-republic-blue: rgb(17, 49, 126);
   --color-czech-republic-white: rgb(255, 255, 255);
   --color-czech-republic-red: rgb(215, 20, 26);
@@ -61,6 +62,11 @@
   --color-bahamas-black: rgb(0, 0, 0);
   --color-bahamas-blue: rgb(0, 169, 206);
   --color-bahamas-yellow: rgb(255, 199, 44);
+
+  /* Jamaika */
+  --color-jamaica-green: rgb(0, 155, 58);
+  --color-jamaica-yellow: rgb(254, 209, 0);
+  --color-jamaica-black: rgb(0, 0, 0);
 }
 
 *,
@@ -181,9 +187,9 @@
 
   &::after {
     background-color: var(--color-sweden-yellow);
-    clip-path: polygon(33.75% 0%, 46.25% 0%, 46.25% 100%, 33.75% 100%);
+    clip-path: polygon(31.25% 0%, 43.75% 0%, 43.75% 100%, 31.25% 100%);
     /* oder besser */
-    clip-path: inset(0% 53.75% 0% 33.75%);
+    clip-path: inset(0% 56.25% 0% 31.25%);
   }
 }
 
@@ -191,6 +197,9 @@
   background-color: var(--color-switzerland-red);
   width: var(--flag-width-switzerland);
 
+  /* Hier sind drei unterschiedliche Lösungen gezeigt.
+  Die folgende ist die am wenigsten elegante.
+  Das Kreuz ist wird als Polygon herausgeschnitten. */
   &::before {
     background-color: var(--color-switzerland-white);
     clip-path: polygon(
@@ -209,7 +218,7 @@
     );
   }
 
-  /* oder besser */
+  /* Hier werden zwei Balken als Polygone herausgeschnitten. Diese Lösung ist einfacher und eleganter. */
   &::before {
     background-color: var(--color-switzerland-white);
     clip-path: polygon(
@@ -230,7 +239,8 @@
     );
   }
 
-  /* oder noch besser */
+  /* Hier wird statt polygon inset genutzt.
+  Diese Lösung ist die eleganteste der drei vorgestellten Lösungen. */
   &::before {
     background-color: var(--color-switzerland-white);
     clip-path: inset(18.75% 40.625% 18.75% 40.625%);
@@ -292,7 +302,7 @@
 
   &::before {
     background-color: var(--color-palau-yellow);
-    clip-path: circle(calc(var(--flag-height) * 3 / 10) at 37.5%);
+    clip-path: circle(calc(var(--flag-height) * 3 / 10) at 37.5% 50%);
   }
 }
 
@@ -301,14 +311,12 @@
 
   &::before {
     background-color: var(--color-czech-republic-red);
-    clip-path: polygon(50% 50%, 100% 50%, 100% 100%, 0% 100%);
+    clip-path: inset(50% 0 0 0);
   }
 
   &::after {
-    height: 100%;
-    width: 50%;
     background-color: var(--color-czech-republic-blue);
-    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    clip-path: polygon(0% 0%, 50% 50%, 0% 100%);
   }
 }
 
@@ -322,9 +330,40 @@
   }
 
   &::after {
-    height: 100%;
-    width: 45.45%;
     background-color: var(--color-bahamas-black);
-    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    clip-path: polygon(0% 0%, 45.45% 50%, 0% 100%);
+  }
+}
+
+.jamaica {
+  background-color: var(--color-jamaica-yellow);
+  width: var(--flag-width-jamaica);
+
+  &::before {
+    background-color: var(--color-jamaica-black);
+    clip-path: polygon(
+      0 10%,
+      40% 50%,
+      0 90%,
+      0 10%,
+      100% 10%,
+      100% 90%,
+      60% 50%,
+      100% 10%
+    );
+  }
+
+  &::after {
+    background-color: var(--color-jamaica-green);
+    clip-path: polygon(
+      10% 0,
+      50% 40%,
+      90% 0,
+      10% 0,
+      10% 100%,
+      90% 100%,
+      50% 60%,
+      10% 100%
+    );
   }
 }

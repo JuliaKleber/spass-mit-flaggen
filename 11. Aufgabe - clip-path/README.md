@@ -19,19 +19,21 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇵🇼 Palau
 - 🇨🇿 Tschechische Republik
 - 🇧🇸 Bahamas
+- 🇯🇲 Jamaika
 
 ## Anforderungen
 
-- Die Elemente der Flaggen sollen außschließlich mit clip-path erstellt werden.
+- Die Elemente der Flaggen sollen mit clip-path erstellt werden. Gradienten sind nicht erlaubt.
 - Für die Grundmaße und Farben der Flaggen sollen CSS-Variablen genutzt werden.
 - Es soll CSS-Nesting genutzt werden.
+- Die html-Datei soll nicht verändert werden. Die Aufgabe soll durch vervollständigen der css-Datei gelöst werden. Es dürfen die Pseudeelemente ::before und ::after verwendet werden.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
 
 ## Ressourcen
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path">clip-path | MDN</a>
 - <a href="https://css-tricks.com/almanac/properties/c/clip-path/">clip-path | CSS Tricks</a>
-- <a href="https://kulturbanause.de/blog/generierter-css-content-mit-before-und-after/">::after | Kulturbanause</a>
+- <a href="https://kulturbanause.de/blog/generierter-css-content-mit-before-und-after/">::before & ::after | kulturbanause</a>
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaevent</a>
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
@@ -51,6 +53,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇵🇼 Palau: 8:5
 - 🇨🇿 Tschechische Republik 3:2
 - 🇧🇸 Bahamas 2:1
+- 🇯🇲 Jamaika 2:1
 
 ## Farben der Flaggen
 
@@ -67,6 +70,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇵🇼 Palau: rgb(74, 172, 238), rgb(188, 0, 45)
 - 🇨🇿 Tschechische Republik: rgb(255, 255, 255), rgb(215, 20, 26), rgb(17,49,126)
 - 🇧🇸 Bahamas: rgb(0, 169, 206), rgb(255, 199, 44), rgb(0, 0, 0),
+- 🇯🇲 Jamaika: rgb(0, 155, 58), rgb(254, 209, 0), rgb(0, 0, 0)
 
 ### Abmessungen der Elemente
 
@@ -76,7 +80,8 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
 - 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 (37,5%) der Flaggenbreite und 1/2 der Flaggenhöhe.
 - 🇨🇿 Das Dreieck in der tschechischen Flagge ist so breit wie die Hälfte der Länge der Flagge.
-- 🇧🇸 Das Dreieck der Flagge der Bahamas ist die Länge der Flagge geteilt durch 2,2.
+- 🇧🇸 Das Dreieck der Flagge der Bahamas ist so breit wie die Länge der Flagge geteilt durch 2,2. Das entspricht 45,45%.
+- 🇯🇲 Die schwarzen Dreiecke der jamaikanischen Flagge gehen von 10% der Flaggenhöhe bis 90% der Flaggenhöhe und 40% bzw. 60% der Flaggenbreite. Die grünen Dreiecke der der jamaikanischen Flagge gehen von 10% der Flaggenbreite bis 90% der Flaggenbreite und 40% bzw. 60% der Flaggenhöhe.
 
 ## Benötigte CSS-Eigenschaften
 

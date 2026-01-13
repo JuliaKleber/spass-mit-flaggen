@@ -3,7 +3,7 @@
   --flag-width-bahamas: calc(var(--flag-height) * 2);
   --flag-width-czech-republic: calc(var(--flag-height) * 1.5);
 
-  /* Tschechische Republic */
+  /* Tschechische Republik */
   --color-czech-republic-blue: rgb(17, 49, 126);
   --color-czech-republic-white: rgb(255, 255, 255);
   --color-czech-republic-red: rgb(215, 20, 26);

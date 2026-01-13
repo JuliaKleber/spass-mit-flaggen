@@ -3,13 +3,24 @@
   --flag-width: calc(var(--flag-height) * 1.5);
 
   /* Jamaika */
-  --color-jamaika-green: rgb(0, 155, 58);
-  --color-jamaika-yellow: rgb(254, 209, 0);
-  --color-jamaika-black: rgb(0, 0, 0);
+  --color-jamaica-green: rgb(0, 155, 58);
+  --color-jamaica-yellow: rgb(254, 209, 0);
+  --color-jamaica-black: rgb(0, 0, 0);
 
   /* Grönland */
   --color-greenland-red: rgb(208, 12, 51);
   --color-greenland-white: rgb(255, 255, 255);
+
+  /* Groß-Brittanien */
+  --color-great-britain-blue: rgb(1, 33, 105);
+  --color-great-britain-red: rgb(200, 16, 46);
+  --color-great-britain-white: rgb(255, 255, 255);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 .flag {
@@ -17,60 +28,67 @@
   height: var(--flag-height);
   width: var(--flag-width);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+.jamaica {
+  /* komplett mit Gradienten lösen !!!! */
+
+  /* position: relative;
+
+  border-left: calc((var(--flag-width) / 2)) solid var(--color-jamaica-black);
+  border-right: calc(var(--flag-width) / 2) solid var(--color-jamaica-black);
+  border-top: calc(var(--flag-height) / 2) solid var(--color-jamaica-green);
+  border-bottom: calc(var(--flag-height) / 2) solid var(--color-jamaica-green);
+
+  &::before,
   &::after {
     content: "";
     position: absolute;
-    left: 0;
-    top: 0;
+    height: calc(var(--flag-height) * 0.16);
+    width: calc(var(--flag-width) * 1.2);
+    top: 50%;
+    left: -10%;
+    translate: -50% -50%;
+    background-color: var(--color-jamaica-yellow);
   }
-}
 
-.jamaika {
-  background-color: var(--color-jamaika-yellow);
+  &::before {
+    rotate: 33.7deg;
+  }
 
-  .left,
-  .top,
-  .right,
-  .bottom {
+  &::after {
+    rotate: -33.7deg;
+  } */
+
+  position: relative;
+  overflow: hidden;
+
+  background-image: conic-gradient(
+    var(--color-jamaica-green) 56deg,
+    var(--color-jamaica-black) 0 124deg,
+    var(--color-jamaica-green) 0 236deg,
+    var(--color-jamaica-black) 0 304deg,
+    var(--color-jamaica-green) 0
+  );
+
+  &::before,
+  &::after {
+    content: "";
     position: absolute;
-    scale: 0.8;
+    height: 16%;
+    width: 120%;
+    top: 50%;
+    left: -10%;
+    translate: 0 -50%;
+    background-color: var(--color-jamaica-yellow);
   }
 
-  .left,
-  .right {
-    height: 100%;
-    width: 50%;
-    top: 0;
-    background-color: var(--color-jamaika-black);
+  &::before {
+    rotate: 33.7deg;
   }
 
-  .top,
-  .bottom {
-    height: 50%;
-    width: 100%;
-    left: 0;
-    background-color: var(--color-jamaika-green);
-  }
-
-  .left {
-    left: -5%;
-    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-  }
-
-  .top {
-    top: -5%;
-    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
-  }
-
-  .right {
-    right: -5%;
-    clip-path: polygon(100% 0%, 100% 100%, 0% 50%);
-  }
-
-  .bottom {
-    bottom: -5%;
-    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+  &::after {
+    rotate: -33.7deg;
   }
 }
 
@@ -99,15 +117,15 @@
 
 .great-britain {
   position: relative;
-  background-color: rgb(1, 33, 105);
+  background-color: var(--color-great-britain-blue);
   overflow: hidden;
 
   .red {
-    background-color: rgb(200, 16, 46);
+    background-color: var(--color-great-britain-red);
   }
 
   .white {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--color-great-britain-white);
   }
 
   .beam {
@@ -193,11 +211,53 @@
   }
 }
 
-/* .jamaika.border::after {
-  background-color: var(--color-jamaika-yellow);
+/* .great-britain {
+  background-color: var(--color-great-britain-blue);
+  overflow: hidden;
 
-  border-left: calc((var(--flag-width) / 2)) solid var(--color-jamaika-black);
-  border-right: calc(var(--flag-width) / 2) solid var(--color-jamaika-black);
-  border-top: calc(var(--flag-height) / 2) solid var(--color-jamaika-green);
-  border-bottom: calc(var(--flag-height) / 2) solid var(--color-jamaika-green);
+  background-image: linear-gradient(
+      90deg,
+      transparent 44%,
+      var(--color-great-britain-red) 44% 56%,
+      transparent 56%
+    ),
+    linear-gradient(
+      0deg,
+      transparent 41%,
+      var(--color-great-britain-red) 41% 59%,
+      transparent 59%
+    ),
+    linear-gradient(
+      90deg,
+      transparent 40%,
+      var(--color-great-britain-white) 40% 60%,
+      transparent 60%
+    ),
+    linear-gradient(
+      0deg,
+      transparent 35%,
+      var(--color-great-britain-white) 35% 65%,
+      transparent 65%
+    ),
+    linear-gradient(
+      var(--color-great-britain-blue),
+      var(--color-great-britain-blue)
+    );
+} */
+
+/* .great-britain::before,
+.great-britain::after {
+  content: "";
+  position: absolute;
+  width: 140%;
+  height: 10%;
+  top: 45%;
+  left: -20%;
+  background: var(--color-great-britain-white);
+}
+.great-britain::before {
+  transform: rotate(33.7deg);
+}
+.great-britain::after {
+  transform: rotate(-33.7deg);
 } */

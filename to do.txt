@@ -1,6 +1,14 @@
-- Aufgaben zu hover, active, scale usw. und n-th child, -> Flagge on Hover vergrößern, oder nur das innere vergrößern?
+- Aufgaben zu hover, active, focus, not, scale usw. und n-th child, has, -> Flagge on Hover vergrößern, oder nur das innere vergrößern?
 - Verwendung von BEM
 - CSS-Selektoren
+- min(), max(), clamp()
+- animationen, keyframes
+- transition
+- media queries
+- relative Einheiten: rem, em, vh, vw, % statt px
+- subgrid
+- bei Dreiecke noch den konischen Gradienten hinzufügen
+
 
 .flags-container {
   display: grid;
