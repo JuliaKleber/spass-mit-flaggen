@@ -16,7 +16,6 @@
   gap: 2rem;
   padding: 2rem;}
 
-- 🇨🇷 Costa Rica
 - 🇪🇺 Europäische Union
 - 🇬🇷 Griechenland
 - 🇨🇴 Kolumbien
@@ -26,6 +25,10 @@
 - 🇹🇭 Thailand
 - 🇺🇸 USA
 - 🇨🇫 Zentralafrikanische Republik
+- Laos, Niger
+- Vietnam, Somalia
+- Südkorea, Türkei
+- Nepal
 
 - Bahrain (clip-path)
 - Bangladesch

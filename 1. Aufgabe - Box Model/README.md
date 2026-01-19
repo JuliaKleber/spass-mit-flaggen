@@ -52,7 +52,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇳🇬 Nigeria: rgb(0, 135, 81), rgb(255, 255, 255)
 - 🇮🇩 Indonesien: rgb(255, 0, 0), rgb(255, 255, 255)
 - 🇯🇵 Japan: rgb(255, 255, 255), rgb(188, 0, 45)
-- 🇵🇼 Palau: rgb(74, 172, 238), rgb(188, 0, 45)
+- 🇵🇼 Palau: rgb(74, 172, 238), rgb(255, 222, 0)
 
 ### Abmessungen der Elemente
 

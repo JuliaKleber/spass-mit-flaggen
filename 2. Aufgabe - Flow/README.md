@@ -6,7 +6,7 @@ In dieser Aufgabe soll es darum gehen zu verstehen, wie Elemente im Document Flo
 
 ## Aufgabenstellung
 
-Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
+Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - 🇳🇱 Niederlande
 - 🇮🇹 Italien
