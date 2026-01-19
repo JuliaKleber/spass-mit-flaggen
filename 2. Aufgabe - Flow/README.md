@@ -11,6 +11,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇳🇱 Niederlande
 - 🇮🇹 Italien
 - 🇲🇺 Mauritius
+- 🇹🇭 Thailand
 - 🇧🇯 Benin
 
 ## Anforderungen
@@ -37,6 +38,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇳🇱 Niederlande 3:2
 - 🇮🇹 Italien 3:2
 - 🇲🇺 Mauritius 3:2
+- 🇹🇭 Thailand 3:2
 - 🇧🇯 Benin 3:2
 
 ### Farben der Flaggen
@@ -46,10 +48,12 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇳🇱 Niederlande: rgb(174, 28, 40), rgb(255, 255, 255), rgb(33, 70, 139)
 - 🇮🇹 Italien: rgb(0, 140, 69), rgb(244, 245, 240), rgb(205, 33, 42)
 - 🇲🇺 Mauritius: rgb(208, 28, 31), rgb(45, 51, 89), rgb(247, 183, 24), rgb(0, 134, 88)
+- 🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(255, 255, 255)
 - 🇧🇯 Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
 
 ### Abmessungen der Elemente
 
+- 🇹🇭 Die Streifen der Nationalflagge von Thailand stehen in dem Verhältnis 1:1:2:1:1.
 - 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
 
 ### Erlaubte CSS-Eigenschaften

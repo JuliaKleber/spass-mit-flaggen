@@ -28,6 +28,11 @@
   /* Palau */
   --color-palau-blue: rgb(74, 172, 238);
   --color-palau-yellow: rgb(255, 222, 0);
+
+  /* Thailand */
+  --color-thailand-red: rgb(165, 25, 49);
+  --color-thailand-blue: rgb(45, 42, 74);
+  --color-thailand-white: rgb(255, 255, 255);
 }
 
 * {
@@ -152,5 +157,21 @@
     height: 100%;
     width: 100%;
     border-radius: 50%;
+  }
+}
+
+.thailand {
+  background-color: var(--color-thailand-red);
+
+  .inner-container {
+    background-color: var(--color-thailand-white);
+    padding: calc(var(--flag-height) / 6) 0;
+    margin: calc(var(--flag-height) / 6) 0;
+
+    .blue-stripe {
+      background-color: var(--color-thailand-blue);
+      height: calc(var(--flag-height) / 3);
+      width: 100%;
+    }
   }
 }

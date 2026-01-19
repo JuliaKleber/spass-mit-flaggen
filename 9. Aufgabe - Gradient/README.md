@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 7 (CSS Gradienten)
+# Spaß mit Flaggen - Aufgabe 9 (CSS Gradienten)
 
 ## Ziel
 
@@ -19,6 +19,8 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇨🇭 Schweiz ⭐⭐⭐
 - 🇨🇿 Tschechische Republik ⭐⭐⭐
 - 🇧🇸 Bahamas ⭐⭐⭐
+- 🇹🇹 Trinidad und Tobago ⭐⭐⭐
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland ⭐⭐⭐
 - 🇯🇲 Jamaika ⭐⭐⭐
 - 🇸🇨 Seychellen ⭐⭐⭐⭐
 - 🇲🇰 Nordmazedonien ⭐⭐⭐⭐⭐
@@ -55,6 +57,8 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - 🇨🇭 Schweiz 1:1
 - 🇨🇿 Tschechische Republik 3:2
 - 🇧🇸 Bahamas 2:1
+- 🇹🇹 Trinidad und Tobago 5:3
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 3:2
 - 🇯🇲 Jamaika 2:1
 - 🇸🇨 Seychellen 2:1
 - 🇲🇰 Nordmazedonien 2:1
@@ -74,6 +78,8 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇨🇭 Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
 - 🇨🇿 Tschechische Republik: rgb(255, 255, 255), rgb(215, 20, 26), rgb(17,49,126)
 - 🇧🇸 Bahamas: rgb(0, 169, 206), rgb(255, 199, 44), rgb(0, 0, 0),
+- 🇹🇹 Trinidad und Tabago: rgb(200, 16, 46), rgb(255, 255, 255), rgb(0, 0, 0);
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland: rgb(0, 94, 184), rgb(255, 255, 255)
 - 🇯🇲 Jamaika: rgb(0, 155, 58), rgb(254, 209, 0), rgb(0, 0, 0)
 - 🇸🇨 Seychellen: rgb(0, 63, 135), rgb(252, 209, 22), rgb(212, 28, 48), rgb(255, 255, 255), rgb(0, 122, 61)
 - 🇲🇰 Nordmazedonien: rgb(210, 0, 0), rgb(255, 230, 0)
@@ -88,7 +94,9 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇨🇭 Für das Seitenverhältnis der weißen Balken des Kreuzes der schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
 - 🇨🇿 Das Dreieck in der tschechischen Flagge ist so breit wie die Hälfte der Länge der Flagge. Als Winkel für den konischen Gradienten können 236° und 304° angenommen werden.
 - 🇧🇸 Die Spitze des Dreiecks der Flagge der Bahamas liegt bei der Länge der Flagge geteilt durch 2,2. Das heißt, die Spitze des Dreiecks liegt bei 45,45%. Als Winkel für den konischen Gradienten können 241° und 299° Grad angenommen werden.
-- 🇯🇲 Für den Winkel der Balken des Andreaskreuzes der jamaikanischen Flagge zur Horizontalen kann 26.6° angenommen werden.
+- 🇹🇹 Die Streifen in der Flagge von Trinidad und Tobago sind um 41 Grad gedreht. Die Breite des weißen Streifens entspricht 17% des Gradienten und die Breite des schwarzen Streifens entspricht ca. 12% des Gradienten.
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Für die Breite der Balken der schottischen Flagge kann 12% des Gradienten angenommen werden. Sie sind um 33.7 Grad zur Waagerechten gedreht.
+- 🇯🇲 Für den Winkel der Balken des Andreaskreuzes der jamaikanischen Flagge zur Horizontalen kann 26.6° angenommen werden. Für die Breite der Balken kann 10% des Gradienten angenommen werden.
 - 🇸🇨 Alle fünf Farbflächen der Flagge von Seychellen sind Polygone, die in der linken unteren Ecke ihren gemeinsamen Ursprung haben. Für die Winkel der Segmente der Flagge von Seychellen können 33,7°, 53,1°, 71,6° und 80,5° angenommen werden.
 
 ## Erlaubte CSS-Eigenschaften

@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 10 (Dreiecke)
+# Spaß mit Flaggen - Aufgabe 11 (Dreiecke)
 
 ## Aufgabenstellung
 
@@ -9,7 +9,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Anforderungen
 
-- Jede Flagge soll zwei Mal erzeugt werden. Ein Mal mit der css-Eigenschaft border und ein Mal mit clip-path.
+- Jede Flagge soll drei Mal erzeugt werden. Ein Mal mit der css-Eigenschaft border, ein Mal mit clip-path und ein Mal mit Gradienten.
 - Es sollte ::before oder ::after für die Dreiecke genutzt werden.
 - Es gibt keine Vorgaben für die Erzeugung der Streifen.
 - Für die Maße der Flaggen und Farben sollen CSS-Variablen genutzt werden.
@@ -20,7 +20,8 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - <a href="https://www.html-seminar.de/css-dreieck-ohne-grafiken-ueber-css.htm">Dreiecke mit Border erstellen | html-seminar</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path">clip-path | MDN</a>
 - <a href="https://css-tricks.com/almanac/properties/c/clip-path/">clip-path | CSS Tricks</a>
-- <a href="https://kulturbanause.de/blog/generierter-css-content-mit-before-und-after/">::after | kulturbanause</a>
+- <a href="https://www.w3schools.com/cssref/func_conic-gradient.php">conic-gradient() | w3schools</a>
+- <a href="https://kulturbanause.de/blog/generierter-css-content-mit-before-und-after/">::before & ::after | kulturbanause</a>
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaevent</a>
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>

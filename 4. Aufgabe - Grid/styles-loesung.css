@@ -18,6 +18,11 @@
   --color-mauritius-yellow: rgb(247, 183, 24);
   --color-mauritius-green: rgb(0, 134, 88);
 
+  /* Thailand */
+  --color-thailand-red: rgb(165, 25, 49);
+  --color-thailand-blue: rgb(45, 42, 74);
+  --color-thailand-white: rgb(255, 255, 255);
+
   /* Benin */
   --color-benin-green: rgb(0, 136, 86);
   --color-benin-yellow: rgb(252, 209, 22);
@@ -26,6 +31,10 @@
   /* Japan */
   --color-japan-white: rgb(255, 255, 255);
   --color-japan-red: rgb(188, 0, 45);
+
+  /* Palau */
+  --color-palau-blue: rgb(74, 172, 238);
+  --color-palau-yellow: rgb(255, 222, 0);
 
   /* Schweiz */
   --color-switzerland-red: rgb(218, 41, 28);
@@ -97,6 +106,22 @@
 
   .green {
     background-color: var(--color-mauritius-green);
+  }
+}
+
+.thailand {
+  grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+
+  .red {
+    background-color: var(--color-thailand-red);
+  }
+
+  .white {
+    background-color: var(--color-thailand-white);
+  }
+
+  .blue {
+    background-color: var(--color-thailand-blue);
   }
 }
 
@@ -183,6 +208,19 @@
 
   /* Kurzschreibweise */
   place-items: begin;
+}
+
+.palau {
+  background-color: var(--color-palau-blue);
+  grid-template-columns: 1.5fr 3fr 3.5fr;
+  align-items: center;
+
+  .yellow-circle {
+    background-color: var(--color-palau-yellow);
+    height: calc(var(--flag-height) * 3 / 5);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
 }
 
 .switzerland {

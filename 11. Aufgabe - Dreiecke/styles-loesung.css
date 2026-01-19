@@ -56,6 +56,18 @@
   clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
 }
 
+.czech-republic.gradient {
+  background-image: conic-gradient(
+      transparent 236deg,
+      var(--color-czech-republic-blue) 237deg 303deg,
+      transparent 304deg
+    ),
+    linear-gradient(
+      var(--color-czech-republic-white) 50%,
+      var(--color-czech-republic-red) 0
+    );
+}
+
 .bahamas {
   width: var(--flag-width-bahamas);
 
@@ -78,4 +90,18 @@
   width: 45.45%;
   background-color: var(--color-bahamas-black);
   clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+
+.bahamas.gradient {
+  background-image: conic-gradient(
+      at 45.45% 50%,
+      transparent 241deg,
+      var(--color-bahamas-black) 242deg 298deg,
+      transparent 299deg 360deg
+    ),
+    linear-gradient(
+      var(--color-bahamas-blue) 33.33%,
+      var(--color-bahamas-yellow) 0 66.67%,
+      var(--color-bahamas-blue) 0
+    );
 }

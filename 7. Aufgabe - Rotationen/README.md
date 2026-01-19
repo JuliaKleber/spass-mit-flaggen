@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 6 (Rotationen)
+# Spaß mit Flaggen - Aufgabe 7 (Rotationen)
 
 ## Ziel
 
@@ -32,7 +32,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 ### Seitenverhältnisse der Flaggen
 
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 3:2
-- 🇹🇹 Trinidad und Tobago 5:2
+- 🇹🇹 Trinidad und Tobago 5:3
 
 ## Farben der Flaggen
 

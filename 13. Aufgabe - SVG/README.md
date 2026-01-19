@@ -18,7 +18,9 @@ Erstelle die folgenden Nationalflaggen als Vektorgraphiken:
 - 🇯🇵 Japan ⭐⭐
 - 🇵🇼 Palau ⭐⭐
 - 🇨🇿 Tschechische Republik ⭐⭐
-- 🇧🇸 Bahamas ⭐⭐
+- 🇹🇹 Trinidad und Tobago ⭐⭐⭐
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland ⭐⭐⭐
+- 🇧🇸 Bahamas ⭐⭐⭐
 - 🇯🇲 Jamaika ⭐⭐⭐
 - 🇸🇨 Seychellen ⭐⭐⭐
 
@@ -28,10 +30,6 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 
 - Es sollten keine Libraries oder Frameworks genutzt werden.
 - Es wird kein Stylesheet benötigt.
-
-## Ressourcen
-
-?
 
 ## Hinweise
 
@@ -48,6 +46,8 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - 🇵🇼 Palau: 8:5
 - 🇨🇿 Tschechische Republik 3:2
 - 🇧🇸 Bahamas 2:1
+- 🇹🇹 Trinidad und Tobago 5:3
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 3:2
 - 🇯🇲 Jamaika 2:1
 - 🇸🇨 Seychellen 2:1
 - 🇲🇰 Nordmazedonien 2:1
@@ -67,6 +67,8 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇵🇼 Palau: rgb(74, 172, 238), rgb(255, 222, 0)
 - 🇨🇿 Tschechische Republik: rgb(255, 255, 255), rgb(215, 20, 26), rgb(17,49,126)
 - 🇧🇸 Bahamas: rgb(0, 169, 206), rgb(255, 199, 44), rgb(0, 0, 0),
+- 🇹🇹 Trinidad und Tabago: rgb(200, 16, 46), rgb(255, 255, 255), rgb(0, 0, 0)
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland: rgb(0, 94, 184), rgb(255, 255, 255)
 - 🇯🇲 Jamaika: rgb(0, 155, 58), rgb(254, 209, 0), rgb(0, 0, 0)
 - 🇸🇨 Seychellen: rgb(0, 63, 135), rgb(252, 209, 22), rgb(212, 28, 48), rgb(255, 255, 255), rgb(0, 122, 61)
 
@@ -80,6 +82,8 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 (37,5%) der Flaggenbreite und 1/2 der Flaggenhöhe.
 - 🇨🇿 Das Dreieck in der tschechischen Flagge ist so breit wie die Hälfte der Länge der Flagge.
 - 🇧🇸 Die Spitze des Dreiecks der Flagge der Bahamas liegt bei der Länge der Flagge geteilt durch 2,2. Das heißt, die Spitze des Dreiecks liegt bei 45,45%.
+- 🇹🇹 Der weiße Streifen in der Flagge von Trinidad und Tobago geht von der linken oberen Ecke zu 30% der oberen Flaggenseite, zur rechten unteren Ecke und 70% der unteren Flaggenbreite. Der schwarze Streifen hat 2/3 der Breite des weißen Streifens.
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Die linken und rechten Dreiecke der schottischen Flagge gehen von 10% der Flaggenhöhe bis 90% der Flaggenhöhe und 40% bzw. 60% der Flaggenbreite. Die oberen und unteren Dreiecke der der gehen von 10% der Flaggenbreite bis 90% der Flaggenbreite und 40% bzw. 60% der Flaggenhöhe.
 - 🇯🇲 Die schwarzen Dreiecke der jamaikanischen Flagge gehen von 10% der Flaggenhöhe bis 90% der Flaggenhöhe und 40% bzw. 60% der Flaggenbreite. Die grünen Dreiecke der der jamaikanischen Flagge gehen von 10% der Flaggenbreite bis 90% der Flaggenbreite und 40% bzw. 60% der Flaggenhöhe.
 - 🇸🇨 Alle fünf Farbflächen der Flagge von Seychellen sind Polygone, die in der linken unteren Ecke ihren gemeinsamen Ursprung haben. Die Eckpunkte der Polygone liegen jeweils bei 1/3 bzw. 2/3 der Flaggenbreite und Flaggenhöhe.
 

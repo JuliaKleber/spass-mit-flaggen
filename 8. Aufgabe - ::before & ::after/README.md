@@ -6,14 +6,17 @@ Ziel der Aufgabe ist es die Pseudoklassen ::before und ::after zu nutzen, um das
 
 ## Aufgabenstellung
 
-Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
+Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - 🇳🇱 Niederlande
 - 🇮🇹 Italien
 - 🇧🇯 Benin
 - 🇯🇵 Japan
+- 🇵🇼 Palau
 - 🇨🇭 Schweiz
 - 🇸🇪 Schweden
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland
+- 🇹🇹 Trinidad und Tobago
 
 ## Anforderungen
 
@@ -37,8 +40,11 @@ Baue die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇮🇹 Italien 3:2
 - 🇧🇯 Benin 3:2
 - 🇯🇵 Japan 3:2
+- 🇵🇼 Palau 8:5
 - 🇨🇭 Schweiz 1:1
 - 🇸🇪 Schweden 16:10
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 3:2
+- 🇹🇹 Trinidad und Tobago 5:3
 
 ### Farben der Flaggen
 
@@ -48,12 +54,18 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇮🇹 Italien: rgb(0, 140, 69), rgb(244, 245, 240), rgb(205, 33, 42)
 - 🇧🇯 Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
 - 🇯🇵 Japan: rgb(255, 255, 255), rgb(188, 0, 45)
+- 🇵🇼 Palau: rgb(74, 172, 238), rgb(188, 0, 45)
 - 🇨🇭 Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
 - 🇸🇪 Schweden: rgb(0, 106, 167), rgb(254, 204, 0)
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland: rgb(0, 94, 184), rgb(255, 255, 255)
+- 🇹🇹 Trinidad und Tabago: rgb(200, 16, 46), rgb(255, 255, 255), rgb(0, 0, 0)
 
 ### Abmessungen der Elemente
 
 - 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
 - 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
+- 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 (37,5%) der Flaggenbreite und 1/2 der Flaggenhöhe.
 - 🇨🇭 Für das Seitenverhältnis der weißen Balken des Kreuzes der schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
 - 🇸🇪 Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge angenommen werden.
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Die Breite der Balken der schottischen Flagge beträgt 20% der Höhe der Flagge. Sie sind um 33.7 Grad zur Waagerechten gedreht.
+- 🇹🇹 Die Streifen in der Flagge von Trinidad und Tobago sind um 41 Grad gedreht. Die Breite des weißen Streifens entspricht 33% der Höhe der Flagge und die Breite des schwarzen Streifens entspricht 22% der Höhe der Flagge.

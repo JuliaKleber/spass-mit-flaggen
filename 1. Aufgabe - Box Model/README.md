@@ -14,6 +14,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇮🇩 Indonesien
 - 🇯🇵 Japan
 - 🇵🇼 Palau
+- 🇹🇭 Thailand
 
 ## Anforderungen
 
@@ -42,6 +43,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇮🇩 Indonesien: 3:2
 - 🇯🇵 Japan: 3:2
 - 🇵🇼 Palau: 8:5
+- 🇹🇭 Thailand 3:2
 
 ### Farben der Flaggen
 
@@ -53,12 +55,14 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇮🇩 Indonesien: rgb(255, 0, 0), rgb(255, 255, 255)
 - 🇯🇵 Japan: rgb(255, 255, 255), rgb(188, 0, 45)
 - 🇵🇼 Palau: rgb(74, 172, 238), rgb(255, 222, 0)
+- 🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(255, 255, 255)
 
 ### Abmessungen der Elemente
 
 - 🇱🇻 Das Höhenverhältnis der Streifen in der lettischen Flagge ist 2:1:2.
 - 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
 - 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 der Flaggenbreite und 1/2 der Flaggenhöhe.
+- 🇹🇭 Die Streifen der Nationalflagge von Thailand stehen in dem Verhältnis 1:1:2:1:1.
 
 ### Erlaubte CSS-Eigenschaften
 

@@ -1,8 +1,10 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
+  --flag-width-palau: calc(var(--flag-height) * 1.6);
   --flag-width-switzerland: var(--flag-height);
   --flag-width-sweden: calc(var(--flag-height) * 1.6);
+  --flag-width-trinidad-and-tobago: calc(var(--flag-height) * 5 / 3);
 
   /* Niederlande */
   --color-netherlands-red: rgb(174, 28, 40);
@@ -24,6 +26,10 @@
   --color-japan-white: rgb(255, 255, 255);
   --color-japan-red: rgb(188, 0, 45);
 
+  /* Palau */
+  --color-palau-blue: rgb(74, 172, 238);
+  --color-palau-yellow: rgb(255, 222, 0);
+
   /* Schweiz */
   --color-switzerland-red: rgb(218, 41, 28);
   --color-switzerland-white: rgb(255, 255, 255);
@@ -31,6 +37,15 @@
   /* Schweden */
   --color-sweden-blue: rgb(0, 106, 167);
   --color-sweden-yellow: rgb(254, 204, 0);
+
+  /* Schottland */
+  --color-scotland-blue: rgb(0, 94, 184);
+  --color-scotland-white: rgb(255, 255, 255);
+
+  /* Trinidad und Tobago */
+  --color-trinidad-and-tobago-black: rgb(0, 0, 0);
+  --color-trinidad-and-tobago-red: rgb(200, 16, 46);
+  --color-trinidad-and-tobago-white: rgb(255, 255, 255);
 }
 
 *,
@@ -116,6 +131,23 @@
   }
 }
 
+.palau {
+  background-color: var(--color-palau-blue);
+  width: var(--flag-width-palau);
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: var(--color-palau-yellow);
+    height: calc(var(--flag-height) * 0.6);
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    top: 50%;
+    left: 37.5%;
+    translate: -50% -50%;
+  }
+}
+
 .japan {
   background-color: var(--color-japan-white);
 
@@ -171,5 +203,57 @@
     top: 0;
     left: 37.5%;
     translate: -50% 0;
+  }
+}
+
+.scotland {
+  background-color: var(--color-scotland-blue);
+  overflow: hidden;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    translate: 0 -50%;
+    background-color: var(--color-scotland-white);
+    height: 20%;
+    width: 120%;
+  }
+
+  &::before {
+    rotate: 33.7deg;
+  }
+
+  &::after {
+    rotate: -33.7deg;
+  }
+}
+
+.trinidad-and-tobago {
+  background-color: var(--color-trinidad-and-tobago-red);
+  width: var(--flag-width-trinidad-and-tobago);
+  overflow: hidden;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    rotate: 41deg;
+    width: 120%;
+    left: -10%;
+    top: 50%;
+    translate: 0 -50%;
+  }
+
+  &::before {
+    background-color: var(--color-trinidad-and-tobago-white);
+    height: 33%;
+  }
+
+  &::after {
+    background-color: var(--color-trinidad-and-tobago-black);
+    height: 22%;
   }
 }

@@ -11,8 +11,10 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - 🇳🇱 Niederlande
 - 🇮🇹 Italien
 - 🇲🇺 Mauritius
+- 🇹🇭 Thailand
 - 🇧🇯 Benin
 - 🇯🇵 Japan
+- 🇵🇼 Palau
 - 🇨🇭 Schweiz
 - 🇸🇪 Schweden
 
@@ -38,8 +40,11 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - 🇳🇱 Niederlande 3:2
 - 🇮🇹 Italien 3:2
 - 🇲🇺 Mauritius 3:2
+- 🇹🇭 Thailand 3:2
 - 🇧🇯 Benin 3:2
 - 🇯🇵 Japan 3:2
+- 🇵🇼 Pal- 🇹🇭 Thailand 3:2
+au: 8:5
 - 🇨🇭 Schweiz 1:1
 - 🇸🇪 Schweden 16:10
 
@@ -52,15 +57,19 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇳🇱 Niederlande: rgb(174, 28, 40), rgb(255, 255, 255), rgb(33, 70, 139)
 - 🇮🇹 Italien: rgb(0, 140, 69), rgb(244, 245, 240), rgb(205, 33, 42)
 - 🇲🇺 Mauritius: rgb(208, 28, 31), rgb(45, 51, 89), rgb(247, 183, 24), rgb(0, 134, 88)
+- 🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(255, 255, 255)
 - 🇧🇯 Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
 - 🇯🇵 Japan: rgb(255, 255, 255), rgb(188, 0, 45)
+- 🇵🇼 Palau: rgb(74, 172, 238), rgb(255, 222, 0)
 - 🇨🇭 Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
 - 🇸🇪 Schweden: rgb(0, 106, 167), rgb(254, 204, 0)
 
 ### Abmessungen der Elemente
 
+- 🇹🇭 Die Streifen der Nationalflagge von Thailand stehen in dem Verhältnis 1:1:2:1:1.
 - 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
 - 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
+- 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 (37,5%) der Flaggenbreite und 1/2 der Flaggenhöhe.
 - 🇨🇭 Für das Seitenverhältnis der weißen Balken des Kreuzes der schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
 - 🇸🇪 Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37.5% der Flaggenbreite.
 - 🇸🇪 Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge angenommen werden.
