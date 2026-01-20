@@ -57,7 +57,8 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇵🇼 Palau: 8:5
 - 🇨🇿 Tschechische Republik 3:2
 - 🇧🇸 Bahamas 2:1
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 3:2
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
+
 - 🇹🇹 Trinidad und Tobago 5:3
 - 🇯🇲 Jamaika 2:1
 
@@ -85,7 +86,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 - 🇹🇭 Die Streifen der Nationalflagge von Thailand stehen in dem Verhältnis 1:1:2:1:1.
 - 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
-- 🇸🇪 Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37,5% (3/8) der Flaggenbreite. Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge angenommen werden. Das bedeutet, dass der Querbalken der Flagge sich von 5/16 bis 7/16 der Breite der Flagge erstreckt.
+- 🇸🇪 Schweden: Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37,5% bzw. 3/8 der Flaggenbreite. Die Breite der beiden Balken der schwedischen Flagge entspricht 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge. Der Querbalken der Flagge erstreckt sich von 5/16 bis 7/16 der Breite der Flagge.
 - 🇨🇭 Für das Seitenverhältnis der weißen Balken des Kreuzes der schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
 - 🇸🇨 Alle fünf Farbflächen der Flagge von Seychellen sind Polygone, die in der linken unteren Ecke ihren gemeinsamen Ursprung haben. Die Eckpunkte der Polygone liegen jeweils bei 1/3 bzw. 2/3 der Flaggenbreite und Flaggenhöhe.
 - 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.

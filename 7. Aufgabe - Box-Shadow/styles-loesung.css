@@ -1,0 +1,136 @@
+:root {
+  --flag-height: 7rem;
+  --flag-width: calc(var(--flag-height) * 1.5);
+
+  /* Niederlande */
+  --color-netherlands-red: rgb(173, 29, 37);
+  --color-netherlands-white: rgb(255, 255, 255);
+  --color-netherlands-blue: rgb(30, 71, 133);
+
+  /* Italien */
+  --color-italy-green: rgb(0, 140, 69);
+  --color-italy-white: rgb(244, 245, 240);
+  --color-italy-red: rgb(205, 33, 42);
+
+  /* Mauritius */
+  --color-mauritius-red: rgb(208, 28, 31);
+  --color-mauritius-blue: rgb(45, 51, 89);
+  --color-mauritius-yellow: rgb(247, 183, 24);
+  --color-mauritius-green: rgb(0, 134, 88);
+
+  /* Thailand */
+  --color-thailand-red: rgb(165, 25, 49);
+  --color-thailand-blue: rgb(45, 42, 74);
+  --color-thailand-white: rgb(244, 245, 248);
+
+  /* Europäische Union */
+  --color-eu-blue: rgb(0, 51, 153);
+  --color-eu-yellow: rgb(255, 204, 0);
+  --star-size-eu: calc(var(--flag-width) * 0.09);
+  --radius-eu: calc(var(--flag-height) / 3);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.flag {
+  height: var(--flag-height);
+  width: var(--flag-width);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.netherlands {
+  &::before {
+    content: "";
+    display: block;
+    background-color: var(--color-netherlands-red);
+    height: calc(var(--flag-height) / 3);
+    width: 100%;
+    box-shadow:
+      0 calc(var(--flag-height) / 3) var(--color-netherlands-white),
+      0 calc(var(--flag-height) * 2 / 3) var(--color-netherlands-blue);
+  }
+}
+
+.italy {
+  &::before {
+    content: "";
+    display: block;
+    background-color: var(--color-italy-green);
+    height: 100%;
+    width: calc(var(--flag-width) / 3);
+    box-shadow:
+      calc(var(--flag-width) / 3) 0 var(--color-italy-white),
+      calc(var(--flag-width) * 2 / 3) 0 var(--color-italy-red);
+  }
+}
+
+.mauritius {
+  &::before {
+    content: "";
+    display: block;
+    background-color: var(--color-mauritius-red);
+    height: calc(var(--flag-height) / 4);
+    width: 100%;
+    box-shadow:
+      0 calc(var(--flag-height) / 4) var(--color-mauritius-blue),
+      0 calc(var(--flag-height) / 2) var(--color-mauritius-yellow),
+      0 calc(var(--flag-height) * 3 / 4) var(--color-mauritius-green);
+  }
+}
+
+.thailand {
+  &::before {
+    content: "";
+    display: block;
+    background-color: var(--color-thailand-red);
+    height: 16.67%;
+    width: 100%;
+    box-shadow:
+      0 calc(var(--flag-height) / 6) var(--color-thailand-white),
+      0 calc(var(--flag-height) / 3) var(--color-thailand-blue),
+      0 calc(var(--flag-height) / 2) var(--color-thailand-blue),
+      0 calc(var(--flag-height) * 2 / 3) var(--color-thailand-white),
+      0 calc(var(--flag-height) * 5 / 6) var(--color-thailand-red);
+  }
+}
+
+.european-union {
+  background-color: var(--color-eu-blue);
+  position: relative;
+
+  &::before {
+    content: "\2605";
+    position: absolute;
+    color: transparent;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    line-height: 1;
+    font-size: var(--star-size-eu);
+    text-shadow:
+      0 calc(-1 * var(--radius-eu)) var(--color-eu-yellow),
+      calc(0.5 * var(--radius-eu)) calc(-1 * cos(30deg) * var(--radius-eu)) 0
+        var(--color-eu-yellow),
+      calc(cos(30deg) * var(--radius-eu)) calc(-0.5 * var(--radius-eu)) 0
+        var(--color-eu-yellow),
+      calc(var(--flag-height) / 3) 0 var(--color-eu-yellow),
+      calc(cos(30deg) * var(--radius-eu)) calc(0.5 * var(--radius-eu)) 0
+        var(--color-eu-yellow),
+      calc(0.5 * var(--radius-eu)) calc(cos(30deg) * var(--radius-eu)) 0
+        var(--color-eu-yellow),
+      0 calc(var(--flag-height) / 3) var(--color-eu-yellow),
+      calc(-0.5 * var(--radius-eu)) calc(cos(30deg) * var(--radius-eu)) 0
+        var(--color-eu-yellow),
+      calc(-1 * cos(30deg) * var(--radius-eu)) calc(0.5 * var(--radius-eu)) 0
+        var(--color-eu-yellow),
+      calc(-1 * var(--radius-eu)) 0 var(--color-eu-yellow),
+      calc(-1 * cos(30deg) * var(--radius-eu)) calc(-0.5 * var(--radius-eu)) 0
+        var(--color-eu-yellow),
+      calc(var(--flag-height) / -6) calc(-1 * cos(30deg) * var(--radius-eu)) 0
+        var(--color-eu-yellow);
+  }
+}

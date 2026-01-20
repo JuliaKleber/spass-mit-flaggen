@@ -41,7 +41,8 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - 🇮🇹 Italien 3:2
 - 🇲🇺 Mauritius 3:2
 - 🇹🇭 Thailand 3:2
-- 🇧🇯 Benin 3:2
+- 🇧🇯 Benin 3:2- 🇩🇪 Deutschland: rgb(0, 0, 0), rgb(255, 0, 0), rgb(255, 204, 0)
+- 🇮🇪 Irland: rgb(22, 155, 98), rgb(255, 255, 255), rgb(255, 136, 62)
 - 🇯🇵 Japan 3:2
 - 🇵🇼 Pal- 🇹🇭 Thailand 3:2
   au: 8:5
@@ -71,8 +72,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
 - 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 (37,5%) der Flaggenbreite und 1/2 der Flaggenhöhe.
 - 🇨🇭 Für das Seitenverhältnis der weißen Balken des Kreuzes der schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
-- 🇸🇪 Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37.5% der Flaggenbreite.
-- 🇸🇪 Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge angenommen werden.
+- 🇸🇪 Schweden: Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37,5% bzw. 3/8 der Flaggenbreite. Die Breite der beiden Balken der schwedischen Flagge entspricht 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge. Der Querbalken der Flagge erstreckt sich von 5/16 bis 7/16 der Breite der Flagge.
 
 ### Erlaubte CSS-Eigenschaften
 

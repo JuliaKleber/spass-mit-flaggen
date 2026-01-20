@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 6 (Position)
+# Spaß mit Flaggen - Aufgabe 5 (Position)
 
 ## Ziel
 
@@ -53,7 +53,8 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇧🇯 Benin 3:2
 - 🇨🇭 Schweiz 1:1
 - 🇸🇪 Schweden 16:10
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 3:2
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
+
 - 🇹🇹 Trinidad und Tobago 5:3
 - 🇬🇧 Großbritannien 5:3
 
@@ -81,9 +82,9 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 (37,5%) der Flaggenbreite und 1/2 der Flaggenhöhe.
 - 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
 - 🇨🇭 Für das Seitenverhältnis der weißen Balken des Kreuzes der schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
-- 🇸🇪 Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37,5% (3/8) der Flaggenbreite. Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge angenommen werden. Das bedeutet, dass der Querbalken der Flagge sich von 5/16 bis 7/16 der Breite der Flagge erstreckt.
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Die Breite der Balken der schottischen Flagge beträgt 20% der Höhe der Flagge. Sie sind um 33.7 Grad zur Waagerechten gedreht.
-- 🇹🇹 Die Streifen in der Flagge von Trinidad und Tobago sind um 41 Grad gedreht. Die Breite des weißen Streifens entspricht 33% der Höhe der Flagge und die Breite des schwarzen Streifens entspricht 22% der Höhe der Flagge.
+- 🇸🇪 Schweden: Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37,5% bzw. 3/8 der Flaggenbreite. Die Breite der beiden Balken der schwedischen Flagge entspricht 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge. Der Querbalken der Flagge erstreckt sich von 5/16 bis 7/16 der Breite der Flagge.
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland: Die Höhe der Balken entspricht 1/5 der Höhe der Flagge. Der Winkel zur Horizontalen beträgt ca. 30.9°.
+- 🇹🇹 Trinidad und Tobago: Die Höhe des weißen Balkens entspricht 1/3 der Höhe der Flagge. Die Höhe des schwarzen Balkens entspricht 2/9 der Höhe der Flagge. Der Winkel zur Horizontalen beträgt ca. 40.8°.
 
 ## Erlaubte CSS-Eigenschaften
 

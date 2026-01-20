@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 7 (::before & ::after)
+# Spaß mit Flaggen - Aufgabe 6 (::before & ::after)
 
 ## Ziel
 
@@ -27,7 +27,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Ressourcen
 
-- <a href="https://kulturbanause.de/blog/generierter-css-content-mit-before-und-after/">::before | Kulturbanause</a>
+- <a href="https://kulturbanause.de/blog/generierter-css-content-mit-before-und-after/">::before & ::after | kulturbanause</a>
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaevent</a>
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
@@ -43,7 +43,8 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇵🇼 Palau 8:5
 - 🇨🇭 Schweiz 1:1
 - 🇸🇪 Schweden 16:10
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 3:2
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
+
 - 🇹🇹 Trinidad und Tobago 5:3
 
 ### Farben der Flaggen
@@ -65,7 +66,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
 - 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
 - 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 (37,5%) der Flaggenbreite und 1/2 der Flaggenhöhe.
-- 🇨🇭 Für das Seitenverhältnis der weißen Balken des Kreuzes der schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
-- 🇸🇪 Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge angenommen werden.
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Die Breite der Balken der schottischen Flagge beträgt 20% der Höhe der Flagge. Sie sind um 33.7 Grad zur Waagerechten gedreht.
-- 🇹🇹 Die Streifen in der Flagge von Trinidad und Tobago sind um 41 Grad gedreht. Die Breite des weißen Streifens entspricht 33% der Höhe der Flagge und die Breite des schwarzen Streifens entspricht 22% der Höhe der Flagge.
+- 🇨🇭 Das Seitenverhältnis der weißen Balken des Kreuzes der schweizer Flagge beträgt 6:20. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
+- 🇸🇪 Schweden: Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37,5% bzw. 3/8 der Flaggenbreite. Die Breite der beiden Balken der schwedischen Flagge entspricht 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge. Der Querbalken der Flagge erstreckt sich von 5/16 bis 7/16 der Breite der Flagge.
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland: Die Höhe der Balken entspricht 1/5 der Höhe der Flagge. Der Winkel zur Horizontalen beträgt ca. 30.9°.
+- 🇹🇹 Trinidad und Tobago: Die Höhe des weißen Balkens entspricht 1/3 der Höhe der Flagge. Die Höhe des schwarzen Balkens entspricht 2/9 der Höhe der Flagge. Der Winkel zur Horizontalen beträgt ca. 40.8°.

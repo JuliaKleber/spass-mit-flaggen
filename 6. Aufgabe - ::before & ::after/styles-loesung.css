@@ -2,6 +2,7 @@
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
   --flag-width-palau: calc(var(--flag-height) * 1.6);
+  --flag-width-scotland: calc(var(--flag-height) * 5 / 3);
   --flag-width-switzerland: var(--flag-height);
   --flag-width-sweden: calc(var(--flag-height) * 1.6);
   --flag-width-trinidad-and-tobago: calc(var(--flag-height) * 5 / 3);
@@ -209,25 +210,26 @@
 .scotland {
   background-color: var(--color-scotland-blue);
   overflow: hidden;
+  width: var(--flag-width-scotland);
 
   &::before,
   &::after {
     content: "";
-    position: absolute;
-    top: 50%;
-    left: -10%;
-    translate: 0 -50%;
     background-color: var(--color-scotland-white);
+    position: absolute;
+    left: -10%;
+    top: 50%;
+    translate: 0 -50%;
     height: 20%;
     width: 120%;
   }
 
   &::before {
-    rotate: 33.7deg;
+    rotate: 30.9deg;
   }
 
   &::after {
-    rotate: -33.7deg;
+    rotate: -30.9deg;
   }
 }
 
@@ -240,7 +242,7 @@
   &::after {
     content: "";
     position: absolute;
-    rotate: 41deg;
+    rotate: 40.8deg;
     width: 120%;
     left: -10%;
     top: 50%;
@@ -249,11 +251,11 @@
 
   &::before {
     background-color: var(--color-trinidad-and-tobago-white);
-    height: 33%;
+    height: calc(var(--flag-height) / 3);
   }
 
   &::after {
     background-color: var(--color-trinidad-and-tobago-black);
-    height: 22%;
+    height: calc(var(--flag-height) * 2 / 9);
   }
 }

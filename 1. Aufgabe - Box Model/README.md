@@ -18,12 +18,12 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Anforderungen
 
-- Es sollte konsequent Box-Model mit padding, margin und oder border zur Erstellung der Flaggen genutzt werden. Position, Flex-Box, Grid, Gradienten usw. sind nicht erlaubt.
-- Die österreichische Flagge sollte jeweils mit content-box und border-box umgesetzt werden. Für beide box-sizing Varianten sollte die Flagge nacheinander mit padding, border und margin umgesetzt werden. Das heißt, für die österreichische Flagge sind 6 verschiedene Lösungen gefordert.
+- Es soll konsequent Box-Model mit padding, margin und oder border zur Erstellung der Flaggen genutzt werden. Position, Flex-Box, Grid, Gradienten usw. sind nicht erlaubt.
+- Die österreichische Flagge soll jeweils mit content-box und border-box umgesetzt werden. Für beide box-sizing Varianten soll die Flagge nacheinander mit padding, border und margin umgesetzt werden. Das heißt, für die österreichische Flagge sind 6 verschiedene Lösungen gefordert.
 - Für alle anderen Flaggen ist nur eine Lösung mit border-box gefordert.
-- Für die Grundmaße und Farben der Flaggen sollten CSS-Variablen genutzt werden.
-- Es sollte CSS-Nesting genutzt werden.
-- Es sollten keine Libraries oder Frameworks genutzt werden.
+- Für die Grundmaße und Farben der Flaggen sollen CSS-Variablen genutzt werden.
+- Es soll CSS-Nesting genutzt werden.
+- Es sollen keine Libraries oder Frameworks genutzt werden.
 
 ## Ressourcen
 

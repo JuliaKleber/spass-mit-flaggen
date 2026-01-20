@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 8 (CSS Gradienten)
+# Spaß mit Flaggen - Aufgabe 8 (CSS-Gradienten)
 
 ## Ziel
 
@@ -58,7 +58,8 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - 🇨🇿 Tschechische Republik 3:2
 - 🇧🇸 Bahamas 2:1
 - 🇹🇹 Trinidad und Tobago 5:3
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 3:2
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
+
 - 🇯🇲 Jamaika 2:1
 - 🇸🇨 Seychellen 2:1
 - 🇲🇰 Nordmazedonien 2:1
@@ -78,7 +79,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇨🇭 Schweiz: rgb(255, 0, 0), rgb(255, 255, 255)
 - 🇨🇿 Tschechische Republik: rgb(255, 255, 255), rgb(215, 20, 26), rgb(17,49,126)
 - 🇧🇸 Bahamas: rgb(0, 169, 206), rgb(255, 199, 44), rgb(0, 0, 0),
-- 🇹🇹 Trinidad und Tabago: rgb(218, 26, 53), rgb(255, 255, 255), rgb(0, 0, 0);
+- 🇹🇹 Trinidad und Tabago: rgb(218, 26, 53), rgb(255, 255, 255), rgb(0, 0, 0)
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland: rgb(0, 94, 184), rgb(255, 255, 255)
 - 🇯🇲 Jamaika: rgb(25, 151, 93), rgb(255, 199, 0), rgb(45, 41, 38)
 - 🇸🇨 Seychellen: rgb(0, 61, 136), rgb(252, 217, 85), rgb(215, 35, 35), rgb(255, 255, 255), rgb(0, 123, 58)
@@ -90,7 +91,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
 - 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 (37,5%) der Flaggenbreite und 1/2 der Flaggenhöhe.
 - 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
-- 🇸🇪 Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37,5% (3/8) der Flaggenbreite. Für die Breite der beiden Balken in der schwedischen Flagge können 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge angenommen werden. Das bedeutet, dass der Querbalken der Flagge sich von 5/16 bis 7/16 der Breite der Flagge erstreckt.
+- 🇸🇪 Schweden: Die Mitte des senkrechten Balkens in der schwedischen Flagge liegt bei 37,5% bzw. 3/8 der Flaggenbreite. Die Breite der beiden Balken der schwedischen Flagge entspricht 20% der Höhe der Flagge bzw. 1/8 der Länge der Flagge. Der Querbalken der Flagge erstreckt sich von 5/16 bis 7/16 der Breite der Flagge.
 - 🇨🇭 Für das Seitenverhältnis der weißen Balken des Kreuzes der schweizer Flagge kann 6:20 angenommen werden. Die Höhe des Kreuzes der schweizer Flagge entspricht 5/8 der Höhe der Flagge.
 - 🇨🇿 Das Dreieck in der tschechischen Flagge ist so breit wie die Hälfte der Länge der Flagge. Als Winkel für den konischen Gradienten können 236° und 304° angenommen werden.
 - 🇧🇸 Die Spitze des Dreiecks der Flagge der Bahamas liegt bei der Länge der Flagge geteilt durch 2,2. Das heißt, die Spitze des Dreiecks liegt bei 45,45%. Als Winkel für den konischen Gradienten können 241° und 299° Grad angenommen werden.

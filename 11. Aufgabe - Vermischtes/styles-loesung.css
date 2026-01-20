@@ -1,0 +1,399 @@
+:root {
+  --flag-height: 7rem;
+
+  /* Bahamas */
+  --color-bahamas-black: rgb(0, 0, 0);
+  --color-bahamas-blue: rgb(0, 169, 206);
+  --color-bahamas-yellow: rgb(255, 199, 44);
+
+  /* Benin */
+  --color-benin-green: rgb(0, 136, 80);
+  --color-benin-yellow: rgb(252, 210, 15);
+  --color-benin-red: rgb(233, 9, 41);
+
+  /* Grönland */
+  --color-greenland-red: rgb(239, 51, 64);
+  --color-greenland-white: rgb(255, 255, 255);
+
+  /* Italien */
+  --color-italy-green: rgb(0, 140, 69);
+  --color-italy-white: rgb(244, 245, 240);
+  --color-italy-red: rgb(205, 33, 42);
+
+  /* Jamaika */
+  --color-jamaica-green: rgb(25, 151, 93);
+  --color-jamaica-yellow: rgb(255, 199, 0);
+  --color-jamaica-black: rgb(45, 41, 38);
+
+  /* Japan */
+  --color-japan-white: rgb(255, 255, 255);
+  --color-japan-red: rgb(188, 0, 45);
+
+  /* Mauritius */
+  --color-mauritius-red: rgb(208, 28, 31);
+  --color-mauritius-blue: rgb(45, 51, 89);
+  --color-mauritius-yellow: rgb(247, 183, 24);
+  --color-mauritius-green: rgb(0, 134, 88);
+
+  /* Niederlande */
+  --color-netherlands-red: rgb(173, 29, 37);
+  --color-netherlands-white: rgb(255, 255, 255);
+  --color-netherlands-blue: rgb(30, 71, 133);
+
+  /* Palau */
+  --color-palau-blue: rgb(74, 173, 214);
+  --color-palau-yellow: rgb(255, 222, 0);
+
+  /* Schweden */
+  --color-sweden-blue: rgb(0, 91, 174);
+  --color-sweden-yellow: rgb(255, 195, 1);
+
+  /* Schweiz */
+  --color-switzerland-red: rgb(255, 0, 0);
+  --color-switzerland-white: rgb(255, 255, 255);
+
+  /* Schottland */
+  --color-scotland-blue: rgb(0, 94, 184);
+  --color-scotland-white: rgb(255, 255, 255);
+
+  /* Seychellen */
+  --color-seychelles-blue: rgb(0, 61, 136);
+  --color-seychelles-yellow: rgb(252, 217, 85);
+  --color-seychelles-red: rgb(215, 35, 35);
+  --color-seychelles-white: rgb(255, 255, 255);
+  --color-seychelles-green: rgb(0, 123, 58);
+
+  /* Thailand */
+  --color-thailand-red: rgb(165, 25, 49);
+  --color-thailand-blue: rgb(45, 42, 74);
+  --color-thailand-white: rgb(244, 245, 248);
+
+  /* Trinidad und Tobago */
+  --color-trinidad-and-tobago-black: rgb(0, 0, 0);
+  --color-trinidad-and-tobago-red: rgb(218, 26, 53);
+  --color-trinidad-and-tobago-white: rgb(255, 255, 255);
+
+  /* Tschechische Republik */
+  --color-czech-republic-blue: rgb(17, 49, 126);
+  --color-czech-republic-white: rgb(255, 255, 255);
+  --color-czech-republic-red: rgb(215, 20, 26);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.flag {
+  height: var(--flag-height);
+  aspect-ratio: 3 / 2;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.netherlands {
+  background-image: linear-gradient(
+    var(--color-netherlands-red) calc(100% / 3),
+    var(--color-netherlands-white) 0 calc(100% * 2 / 3),
+    var(--color-netherlands-blue) 0
+  );
+}
+
+.italy {
+  background-image: linear-gradient(
+    90deg,
+    var(--color-italy-green) calc(100% / 3),
+    var(--color-italy-white) 0 calc(100% * 2 / 3),
+    var(--color-italy-red) 0
+  );
+}
+
+.mauritius {
+  background-image: linear-gradient(
+    var(--color-mauritius-red) 25%,
+    var(--color-mauritius-blue) 0 50%,
+    var(--color-mauritius-yellow) 0 75%,
+    var(--color-mauritius-green) 0
+  );
+}
+
+.thailand {
+  background-image: linear-gradient(
+    var(--color-thailand-red) calc(100% / 6),
+    var(--color-thailand-white) 0 calc(100% / 3),
+    var(--color-thailand-blue) 0 calc(100% * 2 / 3),
+    var(--color-thailand-white) 0 calc(100% * 5 / 6),
+    var(--color-thailand-red) 0
+  );
+}
+
+.benin {
+  background-image:
+    linear-gradient(90deg, var(--color-benin-green) 40%, transparent 0),
+    linear-gradient(var(--color-benin-yellow) 50%, var(--color-benin-red) 0);
+}
+
+.japan {
+  background-image: radial-gradient(
+    circle closest-side,
+    var(--color-japan-red) 59%,
+    var(--color-japan-white) 61%
+  );
+}
+
+.palau {
+  aspect-ratio: 8/5;
+  background-image: radial-gradient(
+    circle closest-side at 37.5% 50%,
+    var(--color-palau-yellow) 59%,
+    var(--color-palau-blue) 61%
+  );
+}
+
+.czech-republic {
+  background-image: linear-gradient(
+    var(--color-czech-republic-white) 50%,
+    var(--color-czech-republic-red) 0
+  );
+
+  &::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 50%;
+    background-color: var(--color-czech-republic-blue);
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  }
+}
+
+.bahamas {
+  aspect-ratio: 2/1;
+  background-image: linear-gradient(
+    var(--color-bahamas-blue) calc(100% / 3),
+    var(--color-bahamas-yellow) 0 calc(100% * 2 / 3),
+    var(--color-bahamas-blue) 0
+  );
+
+  --flag-width-bahamas: calc(var(--flag-height) * 2);
+
+  &::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: calc(var(--flag-width-bahamas) / 2.2);
+    background-color: var(--color-bahamas-black);
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  }
+}
+
+.sweden {
+  aspect-ratio: 16/10;
+  background-color: var(--color-sweden-blue);
+
+  background-image:
+    linear-gradient(
+      transparent 40%,
+      var(--color-sweden-yellow) 0 60%,
+      transparent 0
+    ),
+    linear-gradient(
+      90deg,
+      transparent 31.25%,
+      var(--color-sweden-yellow) 0 43.75%,
+      transparent 0
+    );
+}
+
+.greenland {
+  position: relative;
+  background-image: linear-gradient(
+    var(--color-greenland-white) 50%,
+    var(--color-greenland-red) 50%
+  );
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: calc(100% * 2 / 3);
+    aspect-ratio: 1/1;
+    top: 50%;
+    left: calc(100% * 7 / 18);
+    translate: -50% -50%;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      var(--color-greenland-red) 50%,
+      var(--color-greenland-white) 50%
+    );
+  }
+}
+
+.seychelles {
+  position: relative;
+
+  .stripe {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+  .blue {
+    background-color: var(--color-seychelles-blue);
+    clip-path: polygon(0% 100%, 0% 0%, calc(100% / 3) 0%);
+  }
+
+  .yellow {
+    background-color: var(--color-seychelles-yellow);
+    clip-path: polygon(0% 100%, calc(100% / 3) 0%, calc(100% * 2 / 3) 0%);
+  }
+
+  .red {
+    background-color: var(--color-seychelles-red);
+    clip-path: polygon(
+      0% 100%,
+      calc(100% * 2 / 3) 0%,
+      100% 0%,
+      100% calc(100% / 3)
+    );
+  }
+
+  .white {
+    background-color: var(--color-seychelles-white);
+    clip-path: polygon(0% 100%, 100% calc(100% / 3), 100% calc(100% * 2 / 3));
+  }
+
+  .green {
+    background-color: var(--color-seychelles-green);
+    clip-path: polygon(0% 100%, 100% calc(100% * 2 / 3), 100% 100%);
+  }
+}
+
+.switzerland {
+  aspect-ratio: 1/1;
+  background-color: var(--color-switzerland-red);
+
+  background-image:
+    linear-gradient(
+      transparent 35%,
+      var(--color-switzerland-white) 0 65%,
+      transparent 0
+    ),
+    linear-gradient(
+      90deg,
+      transparent 35%,
+      var(--color-switzerland-white) 0 65%,
+      transparent 0
+    );
+
+  background-repeat: no-repeat;
+  background-size: 62.5% 62.5%;
+  background-position: center;
+}
+
+.scotland {
+  aspect-ratio: 5/3;
+  background-color: var(--color-scotland-blue);
+  overflow: hidden;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    height: 20%;
+    width: 120%;
+    left: -10%;
+    top: 50%;
+    translate: 0 -50%;
+    background-color: var(--color-scotland-white);
+  }
+
+  &::before {
+    rotate: 30.9deg;
+  }
+
+  &::after {
+    rotate: -30.9deg;
+  }
+}
+
+.jamaica {
+  aspect-ratio: 2/1;
+  position: relative;
+  overflow: hidden;
+
+  background-image: conic-gradient(
+    var(--color-jamaica-green) 63.5deg,
+    var(--color-jamaica-black) 0 116.5deg,
+    var(--color-jamaica-green) 0 243.5deg,
+    var(--color-jamaica-black) 0 296.5deg,
+    var(--color-jamaica-green) 0
+  );
+
+  background-color: white;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: -10%;
+    top: 50%;
+    translate: 0 -50%;
+    height: calc(100% / 6);
+    width: 120%;
+    background-color: var(--color-jamaica-yellow);
+  }
+
+  &::before {
+    rotate: 26.5deg;
+  }
+
+  &::after {
+    rotate: -26.5deg;
+  }
+}
+
+.trinidad-and-tobago {
+  aspect-ratio: 5/3;
+  background-color: var(--color-trinidad-and-tobago-red);
+  position: relative;
+  overflow: hidden;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: -10%;
+    top: 50%;
+    translate: 0 -50%;
+    width: 120%;
+    rotate: 40.8deg;
+  }
+
+  &::before {
+    background-color: var(--color-trinidad-and-tobago-white);
+    height: calc(var(--flag-height) / 3);
+  }
+
+  &::after {
+    height: calc(var(--flag-height) * 2 / 9);
+    background-color: var(--color-trinidad-and-tobago-black);
+  }
+}
+
+.turkey {
+  &::before {
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+  }
+}
