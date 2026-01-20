@@ -24,7 +24,7 @@
   /* Thailand */
   --color-thailand-red: rgb(165, 25, 49);
   --color-thailand-blue: rgb(45, 42, 74);
-  --color-thailand-white: rgb(255, 255, 255);
+  --color-thailand-white: rgb(244, 245, 248);
 }
 
 *,
@@ -47,7 +47,8 @@
     background-color: var(--color-germany-black);
     height: calc(var(--flag-height) / 3);
     width: 100%;
-    box-shadow: 0px calc(var(--flag-height) / 3) var(--color-germany-red),
+    box-shadow:
+      0px calc(var(--flag-height) / 3) var(--color-germany-red),
       0px calc(var(--flag-height) / 3 * 2) var(--color-germany-gold);
   }
 }
@@ -61,7 +62,8 @@
     background-color: var(--color-ireland-green);
     height: 100%;
     width: calc(var(--ireland-width) / 3);
-    box-shadow: calc(var(--ireland-width) / 3) 0px var(--color-ireland-white),
+    box-shadow:
+      calc(var(--ireland-width) / 3) 0px var(--color-ireland-white),
       calc(var(--ireland-width) * 2 / 3) 0px var(--color-ireland-orange);
   }
 }
@@ -75,7 +77,8 @@
     background-color: var(--color-mauritius-red);
     height: calc(var(--flag-height) / 4);
     width: 100%;
-    box-shadow: 0px calc(var(--flag-height) / 4) var(--color-mauritius-blue),
+    box-shadow:
+      0px calc(var(--flag-height) / 4) var(--color-mauritius-blue),
       0px calc(var(--flag-height) / 2) var(--color-mauritius-yellow),
       0px calc(var(--flag-height) * 3 / 4) var(--color-mauritius-green);
   }
@@ -90,7 +93,8 @@
     background-color: var(--color-thailand-red);
     height: 16.67%;
     width: 100%;
-    box-shadow: 0px calc(var(--flag-height) / 6) var(--color-thailand-white),
+    box-shadow:
+      0px calc(var(--flag-height) / 6) var(--color-thailand-white),
       0px calc(var(--flag-height) / 3) var(--color-thailand-blue),
       0px calc(var(--flag-height) / 2) var(--color-thailand-blue),
       0px calc(var(--flag-height) * 2 / 3) var(--color-thailand-white),

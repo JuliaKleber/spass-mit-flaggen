@@ -3,9 +3,9 @@
   --flag-width: calc(var(--flag-height) * 1.5);
 
   /* Niederlande */
-  --color-netherlands-red: rgb(174, 28, 40);
+  --color-netherlands-red: rgb(173, 29, 37);
   --color-netherlands-white: rgb(255, 255, 255);
-  --color-netherlands-blue: rgb(33, 70, 139);
+  --color-netherlands-blue: rgb(30, 71, 133);
 
   /* Italien */
   --color-italy-green: rgb(0, 140, 69);
@@ -21,12 +21,12 @@
   /* Thailand */
   --color-thailand-red: rgb(165, 25, 49);
   --color-thailand-blue: rgb(45, 42, 74);
-  --color-thailand-white: rgb(255, 255, 255);
+  --color-thailand-white: rgb(244, 245, 248);
 
   /* Benin */
-  --color-benin-green: rgb(0, 136, 86);
-  --color-benin-yellow: rgb(252, 209, 22);
-  --color-benin-red: rgb(227, 28, 35);
+  --color-benin-green: rgb(0, 136, 80);
+  --color-benin-yellow: rgb(252, 210, 15);
+  --color-benin-red: rgb(233, 9, 41);
 }
 
 * {
@@ -112,11 +112,11 @@
   .red {
     background-color: var(--color-thailand-red);
   }
-  
+
   .white {
     background-color: var(--color-thailand-white);
   }
-  
+
   .blue {
     background-color: var(--color-thailand-blue);
     height: 33.33%;

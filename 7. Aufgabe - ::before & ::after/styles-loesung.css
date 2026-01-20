@@ -7,9 +7,9 @@
   --flag-width-trinidad-and-tobago: calc(var(--flag-height) * 5 / 3);
 
   /* Niederlande */
-  --color-netherlands-red: rgb(174, 28, 40);
+  --color-netherlands-red: rgb(173, 29, 37);
   --color-netherlands-white: rgb(255, 255, 255);
-  --color-netherlands-blue: rgb(33, 70, 139);
+  --color-netherlands-blue: rgb(30, 71, 133);
 
   /* Italien */
   --color-italy-green: rgb(0, 140, 69);
@@ -18,25 +18,25 @@
   --color-italy-red: rgb(205, 33, 42);
 
   /* Benin */
-  --color-benin-green: rgb(0, 136, 86);
-  --color-benin-yellow: rgb(252, 209, 22);
-  --color-benin-red: rgb(227, 28, 35);
+  --color-benin-green: rgb(0, 136, 80);
+  --color-benin-yellow: rgb(252, 210, 15);
+  --color-benin-red: rgb(233, 9, 41);
 
   /* Japan */
   --color-japan-white: rgb(255, 255, 255);
   --color-japan-red: rgb(188, 0, 45);
 
   /* Palau */
-  --color-palau-blue: rgb(74, 172, 238);
+  --color-palau-blue: rgb(74, 173, 214);
   --color-palau-yellow: rgb(255, 222, 0);
 
   /* Schweiz */
-  --color-switzerland-red: rgb(218, 41, 28);
+  --color-switzerland-red: rgb(255, 0, 0);
   --color-switzerland-white: rgb(255, 255, 255);
 
   /* Schweden */
-  --color-sweden-blue: rgb(0, 106, 167);
-  --color-sweden-yellow: rgb(254, 204, 0);
+  --color-sweden-blue: rgb(0, 91, 174);
+  --color-sweden-yellow: rgb(255, 195, 1);
 
   /* Schottland */
   --color-scotland-blue: rgb(0, 94, 184);
@@ -44,7 +44,7 @@
 
   /* Trinidad und Tobago */
   --color-trinidad-and-tobago-black: rgb(0, 0, 0);
-  --color-trinidad-and-tobago-red: rgb(200, 16, 46);
+  --color-trinidad-and-tobago-red: rgb(218, 26, 53);
   --color-trinidad-and-tobago-white: rgb(255, 255, 255);
 }
 

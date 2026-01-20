@@ -12,9 +12,9 @@
   --flag-width-trinidad-and-tobago: calc(var(--flag-height) * 5 / 3);
 
   /* Niederlande */
-  --color-netherlands-red: rgb(174, 28, 40);
+  --color-netherlands-red: rgb(173, 29, 37);
   --color-netherlands-white: rgb(255, 255, 255);
-  --color-netherlands-blue: rgb(33, 70, 139);
+  --color-netherlands-blue: rgb(30, 71, 133);
 
   /* Italien */
   --color-italy-green: rgb(0, 140, 69);
@@ -30,28 +30,28 @@
   /* Thailand */
   --color-thailand-red: rgb(165, 25, 49);
   --color-thailand-blue: rgb(45, 42, 74);
-  --color-thailand-white: rgb(255, 255, 255);
+  --color-thailand-white: rgb(244, 245, 248);
 
   /* Benin */
-  --color-benin-green: rgb(0, 136, 86);
-  --color-benin-yellow: rgb(252, 209, 22);
-  --color-benin-red: rgb(227, 28, 35);
+  --color-benin-green: rgb(0, 136, 80);
+  --color-benin-yellow: rgb(252, 210, 15);
+  --color-benin-red: rgb(233, 9, 41);
 
   /* Japan */
   --color-japan-white: rgb(255, 255, 255);
   --color-japan-red: rgb(188, 0, 45);
 
   /* Palau */
-  --color-palau-blue: rgb(74, 172, 238);
+  --color-palau-blue: rgb(74, 173, 214);
   --color-palau-yellow: rgb(255, 222, 0);
 
   /* Schweiz */
-  --color-switzerland-red: rgb(218, 41, 28);
+  --color-switzerland-red: rgb(255, 0, 0);
   --color-switzerland-white: rgb(255, 255, 255);
 
   /* Schweden */
-  --color-sweden-blue: rgb(0, 106, 167);
-  --color-sweden-yellow: rgb(254, 204, 0);
+  --color-sweden-blue: rgb(0, 91, 174);
+  --color-sweden-yellow: rgb(255, 195, 1);
 
   /* Tschechische Republik */
   --color-czech-republic-blue: rgb(17, 49, 126);
@@ -69,24 +69,24 @@
 
   /* Trinidad und Tobago */
   --color-trinidad-and-tobago-black: rgb(0, 0, 0);
-  --color-trinidad-and-tobago-red: rgb(200, 16, 46);
+  --color-trinidad-and-tobago-red: rgb(218, 26, 53);
   --color-trinidad-and-tobago-white: rgb(255, 255, 255);
 
   /* Jamaika */
-  --color-jamaica-green: rgb(0, 155, 58);
-  --color-jamaica-yellow: rgb(254, 209, 0);
-  --color-jamaica-black: rgb(0, 0, 0);
+  --color-jamaica-green: rgb(25, 151, 93);
+  --color-jamaica-yellow: rgb(255, 199, 0);
+  --color-jamaica-black: rgb(45, 41, 38);
 
   /* Seychellen */
-  --color-seychelles-blue: rgb(0, 63, 135);
-  --color-seychelles-yellow: rgb(252, 209, 22);
-  --color-seychelles-red: rgb(212, 28, 48);
+  --color-seychelles-blue: rgb(0, 61, 136);
+  --color-seychelles-yellow: rgb(252, 217, 85);
+  --color-seychelles-red: rgb(215, 35, 35);
   --color-seychelles-white: rgb(255, 255, 255);
-  --color-seychelles-green: rgb(0, 122, 61);
+  --color-seychelles-green: rgb(0, 123, 58);
 
   /* Nordmazedonien */
-  --color-north-macedonia-red: rgb(210, 0, 0);
-  --color-north-macedonia-yellow: rgb(255, 230, 0);
+  --color-north-macedonia-red: rgb(206, 32, 40);
+  --color-north-macedonia-yellow: rgb(249, 214, 22);
 }
 
 * {
@@ -211,7 +211,8 @@
 
 .benin {
   /* Ausführliche Schreibweise */
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       90deg,
       var(--color-benin-green) 0%,
       var(--color-benin-green) 40%,
@@ -226,11 +227,8 @@
     );
 
   /* Kurzschreibweise */
-  background-image: linear-gradient(
-      90deg,
-      var(--color-benin-green) 40%,
-      transparent 0
-    ),
+  background-image:
+    linear-gradient(90deg, var(--color-benin-green) 40%, transparent 0),
     linear-gradient(var(--color-benin-yellow) 50%, var(--color-benin-red) 0);
 }
 
@@ -239,7 +237,8 @@
   width: var(--flag-width-sweden);
 
   /* Ausführliche Schreibweise */
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       transparent 0%,
       transparent 40%,
       var(--color-sweden-yellow) 40%,
@@ -258,7 +257,8 @@
     );
 
   /* Kurzschreibweise */
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       transparent 40%,
       var(--color-sweden-yellow) 0 60%,
       transparent 0
@@ -275,7 +275,8 @@
   background-color: var(--color-switzerland-red);
   width: var(--flag-width-switzerland);
 
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       90deg,
       transparent 35%,
       var(--color-switzerland-white) 0 65%,
@@ -293,7 +294,8 @@
 }
 
 .czech-republic {
-  background-image: conic-gradient(
+  background-image:
+    conic-gradient(
       transparent 236deg,
       var(--color-czech-republic-blue) 236.5deg 303.5deg,
       transparent 304deg 360deg
@@ -307,7 +309,8 @@
 .bahamas {
   width: var(--flag-width-bahamas);
 
-  background-image: conic-gradient(
+  background-image:
+    conic-gradient(
       at 45.45%,
       transparent 241deg,
       var(--color-bahamas-black) 241.5deg 298.5deg,
@@ -336,7 +339,8 @@
 .scotland {
   background-color: var(--color-scotland-blue);
 
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       33.7deg,
       transparent 0 43.5%,
       var(--color-scotland-white) 44% 56%,
@@ -353,7 +357,8 @@
 .jamaica {
   width: var(--flag-width-jamaica);
 
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       26.6deg,
       transparent 44.5%,
       var(--color-jamaica-yellow) 45% 55%,
@@ -391,7 +396,8 @@
 .north-macedonia {
   width: var(--flag-width-north-macedonia);
 
-  background-image: radial-gradient(
+  background-image:
+    radial-gradient(
       circle,
       var(--color-north-macedonia-yellow) 12%,
       var(--color-north-macedonia-red) 13% 15%,

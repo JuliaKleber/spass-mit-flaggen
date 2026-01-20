@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 10 (clip-path)
+# Spaß mit Flaggen - Aufgabe 9 (clip-path)
 
 ## Ziel
 
@@ -65,21 +65,21 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
-- 🇳🇱 Niederlande: rgb(174, 28, 40), rgb(255, 255, 255), rgb(33, 70, 139)
+- 🇳🇱 Niederlande: rgb(173, 29, 37), rgb(255, 255, 255), rgb(30, 71, 133)
 - 🇮🇹 Italien: rgb(0, 140, 69), rgb(244, 245, 240), rgb(205, 33, 42)
 - 🇲🇺 Mauritius: rgb(208, 28, 31), rgb(45, 51, 89), rgb(247, 183, 24), rgb(0, 134, 88)
-- 🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(255, 255, 255)
-- 🇧🇯 Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
-- 🇸🇪 Schweden: rgb(0, 106, 167), rgb(254, 204, 0)
-- 🇨🇭 Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
-- 🇸🇨 Seychellen: rgb(0, 63, 135), rgb(252, 209, 22), rgb(212, 28, 48), rgb(255, 255, 255), rgb(0, 122, 61)
+- 🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(244, 245, 248)
+- 🇧🇯 Benin: rgb(0, 136, 80), rgb(252, 210, 15), rgb(233, 9, 41)
+- 🇸🇪 Schweden: rgb(0, 91, 174), rgb(255, 195, 1)
+- 🇨🇭 Schweiz: rgb(255, 0, 0), rgb(255, 255, 255)
+- 🇸🇨 Seychellen: rgb(0, 61, 136), rgb(252, 217, 85), rgb(215, 35, 35), rgb(255, 255, 255), rgb(0, 123, 58)
 - 🇯🇵 Japan: rgb(255, 255, 255), rgb(188, 0, 45)
 - 🇵🇼 Palau: rgb(74, 172, 238), rgb(188, 0, 45)
 - 🇨🇿 Tschechische Republik: rgb(255, 255, 255), rgb(215, 20, 26), rgb(17,49,126)
 - 🇧🇸 Bahamas: rgb(0, 169, 206), rgb(255, 199, 44), rgb(0, 0, 0),
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland: rgb(0, 94, 184), rgb(255, 255, 255)
-- 🇹🇹 Trinidad und Tabago: rgb(200, 16, 46), rgb(255, 255, 255), rgb(0, 0, 0)
-- 🇯🇲 Jamaika: rgb(0, 155, 58), rgb(254, 209, 0), rgb(0, 0, 0)
+- 🇹🇹 Trinidad und Tabago: rgb(218, 26, 53), rgb(255, 255, 255), rgb(0, 0, 0)
+- 🇯🇲 Jamaika: rgb(25, 151, 93), rgb(255, 199, 0), rgb(45, 41, 38)
 
 ### Abmessungen der Elemente
 

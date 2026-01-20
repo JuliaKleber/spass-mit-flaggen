@@ -50,13 +50,13 @@ Der Einfachheit halber kann ein Seitenverhältnis für alle Flaggen von 3:2 ange
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
-- 🇳🇱 Niederlande: rgb(174, 28, 40), rgb(255, 255, 255), rgb(33, 70, 139)
+- 🇳🇱 Niederlande: rgb(173, 29, 37), rgb(255, 255, 255), rgb(30, 71, 133)
 - 🇮🇹 Italien: rgb(0, 140, 69), rgb(244, 245, 240), rgb(205, 33, 42)
 - 🇲🇺 Mauritius: rgb(208, 28, 31), rgb(45, 51, 89), rgb(247, 183, 24), rgb(0, 134, 88)
-- 🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(255, 255, 255)
-- 🇧🇯 Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
+- 🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(244, 245, 248)
+- 🇧🇯 Benin: rgb(0, 136, 80), rgb(252, 210, 15), rgb(233, 9, 41)
 - 🇯🇵 Japan: rgb(255, 255, 255), rgb(188, 0, 45)
-- 🇨🇭 Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
+- 🇨🇭 Schweiz: rgb(255, 0, 0), rgb(255, 255, 255)
 
 ### Abmessungen der Elemente
 

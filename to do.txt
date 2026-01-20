@@ -7,7 +7,6 @@
 - media queries
 - relative Einheiten: rem, em, vh, vw, % statt px
 - subgrid
-- bei Dreiecke noch den konischen Gradienten hinzufügen
 
 
 .flags-container {
@@ -22,7 +21,6 @@
 - 🇨🇩 Demokratische Republik Kongo
 - 🇨🇬 Republik Kongo (gradient, rotate, clip-path)
 - 🇱🇦 Laos
-- 🇹🇭 Thailand
 - 🇺🇸 USA
 - 🇨🇫 Zentralafrikanische Republik
 - Laos, Niger

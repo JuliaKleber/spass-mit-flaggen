@@ -26,13 +26,13 @@
   --color-japan-red: rgb(188, 0, 45);
 
   /* Palau */
-  --color-palau-blue: rgb(74, 172, 238);
+  --color-palau-blue: rgb(74, 173, 214);
   --color-palau-yellow: rgb(255, 222, 0);
 
   /* Thailand */
   --color-thailand-red: rgb(165, 25, 49);
   --color-thailand-blue: rgb(45, 42, 74);
-  --color-thailand-white: rgb(255, 255, 255);
+  --color-thailand-white: rgb(244, 245, 248);
 }
 
 * {

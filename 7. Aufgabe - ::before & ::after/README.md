@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 8 (::before & ::after)
+# Spaß mit Flaggen - Aufgabe 7 (::before & ::after)
 
 ## Ziel
 
@@ -50,15 +50,15 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
-- 🇳🇱 Niederlande: rgb(174, 28, 40), rgb(255, 255, 255), rgb(33, 70, 139)
+- 🇳🇱 Niederlande: rgb(173, 29, 37), rgb(255, 255, 255), rgb(30, 71, 133)
 - 🇮🇹 Italien: rgb(0, 140, 69), rgb(244, 245, 240), rgb(205, 33, 42)
-- 🇧🇯 Benin: rgb(0, 136, 86), rgb(252, 209, 22), rgb(227, 28, 35)
+- 🇧🇯 Benin: rgb(0, 136, 80), rgb(252, 210, 15), rgb(233, 9, 41)
 - 🇯🇵 Japan: rgb(255, 255, 255), rgb(188, 0, 45)
 - 🇵🇼 Palau: rgb(74, 172, 238), rgb(188, 0, 45)
-- 🇨🇭 Schweiz: rgb(218, 41, 28), rgb(255, 255, 255)
-- 🇸🇪 Schweden: rgb(0, 106, 167), rgb(254, 204, 0)
+- 🇨🇭 Schweiz: rgb(255, 0, 0), rgb(255, 255, 255)
+- 🇸🇪 Schweden: rgb(0, 91, 174), rgb(255, 195, 1)
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland: rgb(0, 94, 184), rgb(255, 255, 255)
-- 🇹🇹 Trinidad und Tabago: rgb(200, 16, 46), rgb(255, 255, 255), rgb(0, 0, 0)
+- 🇹🇹 Trinidad und Tabago: rgb(218, 26, 53), rgb(255, 255, 255), rgb(0, 0, 0)
 
 ### Abmessungen der Elemente
 

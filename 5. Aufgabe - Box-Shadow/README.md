@@ -45,10 +45,9 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇩🇪 Deutschland: rgb(0, 0, 0), rgb(255, 0, 0), rgb(255, 204, 0)
 - 🇮🇪 Irland: rgb(22, 155, 98), rgb(255, 255, 255), rgb(255, 136, 62)
 - 🇲🇺 Mauritius: rgb(208, 28, 31), rgb(45, 51, 89), rgb(247, 183, 24), rgb(0, 134, 88)
-- 🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(255, 255, 255)
+- 🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(244, 245, 248)
 
 ### Abmessungen der Elemente
-
 
 - 🇹🇭 Die Streifen der Nationalflagge von Thailand stehen in dem Verhältnis 1:1:2:1:1.
 

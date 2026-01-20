@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 11 (Dreiecke)
+# Spaß mit Flaggen - Aufgabe 10 (Dreiecke)
 
 ## Aufgabenstellung
 

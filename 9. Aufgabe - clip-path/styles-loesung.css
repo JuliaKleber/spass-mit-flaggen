@@ -11,9 +11,9 @@
   --flag-width-trinidad-and-tobago: calc(var(--flag-height) * 5 / 3);
 
   /* Niederlande */
-  --color-netherlands-red: rgb(174, 28, 40);
+  --color-netherlands-red: rgb(173, 29, 37);
   --color-netherlands-white: rgb(255, 255, 255);
-  --color-netherlands-blue: rgb(33, 70, 139);
+  --color-netherlands-blue: rgb(30, 71, 133);
 
   /* Italien */
   --color-italy-green: rgb(0, 140, 69);
@@ -29,34 +29,34 @@
   /* Thailand */
   --color-thailand-red: rgb(165, 25, 49);
   --color-thailand-blue: rgb(45, 42, 74);
-  --color-thailand-white: rgb(255, 255, 255);
+  --color-thailand-white: rgb(244, 245, 248);
 
   /* Benin */
-  --color-benin-green: rgb(0, 136, 86);
-  --color-benin-yellow: rgb(252, 209, 22);
-  --color-benin-red: rgb(227, 28, 35);
+  --color-benin-green: rgb(0, 136, 80);
+  --color-benin-yellow: rgb(252, 210, 15);
+  --color-benin-red: rgb(233, 9, 41);
 
   /* Schweden */
-  --color-sweden-blue: rgb(0, 106, 167);
-  --color-sweden-yellow: rgb(254, 204, 0);
+  --color-sweden-blue: rgb(0, 91, 174);
+  --color-sweden-yellow: rgb(255, 195, 1);
 
   /* Schweiz */
-  --color-switzerland-red: rgb(218, 41, 28);
+  --color-switzerland-red: rgb(255, 0, 0);
   --color-switzerland-white: rgb(255, 255, 255);
 
   /* Seychellen */
-  --color-seychelles-blue: rgb(0, 63, 135);
-  --color-seychelles-yellow: rgb(252, 209, 22);
-  --color-seychelles-red: rgb(212, 28, 48);
+  --color-seychelles-blue: rgb(0, 61, 136);
+  --color-seychelles-yellow: rgb(252, 217, 85);
+  --color-seychelles-red: rgb(215, 35, 35);
   --color-seychelles-white: rgb(255, 255, 255);
-  --color-seychelles-green: rgb(0, 122, 61);
+  --color-seychelles-green: rgb(0, 123, 58);
 
   /* Japan */
   --color-japan-white: rgb(255, 255, 255);
   --color-japan-red: rgb(188, 0, 45);
 
   /* Palau */
-  --color-palau-blue: rgb(74, 172, 238);
+  --color-palau-blue: rgb(74, 173, 214);
   --color-palau-yellow: rgb(255, 222, 0);
 
   /* Tschechische Republik */
@@ -75,13 +75,13 @@
 
   /* Trinidad und Tobago */
   --color-trinidad-and-tobago-black: rgb(0, 0, 0);
-  --color-trinidad-and-tobago-red: rgb(200, 16, 46);
+  --color-trinidad-and-tobago-red: rgb(218, 26, 53);
   --color-trinidad-and-tobago-white: rgb(255, 255, 255);
 
   /* Jamaika */
-  --color-jamaica-green: rgb(0, 155, 58);
-  --color-jamaica-yellow: rgb(254, 209, 0);
-  --color-jamaica-black: rgb(0, 0, 0);
+  --color-jamaica-green: rgb(25, 151, 93);
+  --color-jamaica-yellow: rgb(255, 199, 0);
+  --color-jamaica-black: rgb(45, 41, 38);
 }
 
 *,

@@ -1,13 +1,15 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
+  --flag-width-scotland: calc(var(--flag-height) * 1.5);
   --flag-width-sweden: calc(var(--flag-height) * 1.6);
   --flag-width-switzerland: calc(var(--flag-height));
+  --flag-width-trinidad-and-tobago: calc(var(--flag-height) * 5 / 3);
 
   /* Niederlande */
-  --color-netherlands-red: rgb(174, 28, 40);
+  --color-netherlands-red: rgb(173, 29, 37);
   --color-netherlands-white: rgb(255, 255, 255);
-  --color-netherlands-blue: rgb(33, 70, 139);
+  --color-netherlands-blue: rgb(30, 71, 133);
 
   /* Italien */
   --color-italy-green: rgb(0, 140, 69);
@@ -23,28 +25,43 @@
   /* Thailand */
   --color-thailand-red: rgb(165, 25, 49);
   --color-thailand-blue: rgb(45, 42, 74);
-  --color-thailand-white: rgb(255, 255, 255);
+  --color-thailand-white: rgb(244, 245, 248);
 
   /* Benin */
-  --color-benin-green: rgb(0, 136, 86);
-  --color-benin-yellow: rgb(252, 209, 22);
-  --color-benin-red: rgb(227, 28, 35);
+  --color-benin-green: rgb(0, 136, 80);
+  --color-benin-yellow: rgb(252, 210, 15);
+  --color-benin-red: rgb(233, 9, 41);
 
   /* Japan */
   --color-japan-white: rgb(255, 255, 255);
   --color-japan-red: rgb(188, 0, 45);
 
   /* Palau */
-  --color-palau-blue: rgb(74, 172, 238);
+  --color-palau-blue: rgb(74, 173, 214);
   --color-palau-yellow: rgb(255, 222, 0);
 
   /* Schweiz */
-  --color-switzerland-red: rgb(218, 41, 28);
+  --color-switzerland-red: rgb(255, 0, 0);
   --color-switzerland-white: rgb(255, 255, 255);
 
   /* Schweden */
-  --color-sweden-blue: rgb(0, 106, 167);
-  --color-sweden-yellow: rgb(254, 204, 0);
+  --color-sweden-blue: rgb(0, 91, 174);
+  --color-sweden-yellow: rgb(255, 195, 1);
+
+  /* Schottland */
+  --color-scotland-blue: rgb(0, 94, 184);
+  --color-scotland-white: rgb(255, 255, 255);
+
+  /* Trinidad und Tobago */
+  --color-trinidad-and-tobago-black: rgb(0, 0, 0);
+  --color-trinidad-and-tobago-red: rgb(218, 26, 53);
+  --color-trinidad-and-tobago-white: rgb(255, 255, 255);
+
+  /* Großbritannien */
+  --color-great-britain-blue: rgb(0, 36, 125);
+  --color-great-britain-red: rgb(207, 20, 43);
+  --color-great-britain-white: rgb(255, 255, 255);
+  --flag-width-great-britain: calc(var(--flag-height) * 5 / 3);
 }
 
 * {
@@ -266,5 +283,156 @@
     width: 12.5%;
     left: 37.5%;
     translate: -50% 0;
+  }
+}
+
+.scotland {
+  background-color: var(--color-scotland-blue);
+  position: relative;
+  width: var(--flag-width-scotland);
+  overflow: hidden;
+
+  .beam {
+    position: absolute;
+    background-color: var(--color-scotland-white);
+    height: 20%;
+    width: 120%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    outline: 1px solid transparent;
+  }
+
+  .top-left-to-bottom-right {
+    rotate: 33.7deg;
+  }
+
+  .bottom-left-to-top-right {
+    rotate: -33.7deg;
+  }
+}
+
+.trinidad-and-tobago {
+  background-color: var(--color-trinidad-and-tobago-red);
+  width: var(--flag-width-trinidad-and-tobago);
+  position: relative;
+  overflow: hidden;
+
+  .white,
+  .black {
+    position: absolute;
+    width: 116%;
+    rotate: 41deg;
+    top: 50%;
+    left: -8%;
+  }
+
+  .white {
+    background-color: var(--color-trinidad-and-tobago-white);
+    height: 33%;
+    translate: 0 -50%;
+  }
+
+  .black {
+    background-color: var(--color-trinidad-and-tobago-black);
+    height: 22%;
+    translate: 0 -50%;
+  }
+}
+
+.great-britain {
+  position: relative;
+  background-color: var(--color-great-britain-blue);
+  width: var(--flag-width-great-britain);
+  overflow: hidden;
+
+  .red {
+    background-color: var(--color-great-britain-red);
+  }
+
+  .white {
+    background-color: var(--color-great-britain-white);
+  }
+
+  .beam {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+  }
+
+  .top-left-to-bottom-right {
+    rotate: 30.5deg;
+  }
+
+  .bottom-left-to-top-right {
+    rotate: -30.5deg;
+  }
+
+  .andreas-cross {
+    .white-diagonal {
+      height: 20%;
+      width: 120%;
+    }
+  }
+
+  .red-diagonal {
+    .red-diagonal-beam {
+      position: absolute;
+      height: 6.5%;
+      width: 90%;
+    }
+
+    .top-left-to-center {
+      left: 0;
+      top: 0;
+      translate: -47% 50%;
+      rotate: 30.5deg;
+    }
+
+    .top-right-to-center {
+      right: 0;
+      top: 0;
+      translate: 39% 50%;
+      rotate: -30.5deg;
+    }
+
+    .bottom-right-to-center {
+      bottom: 0;
+      right: 0;
+      translate: 47% -50%;
+      rotate: 30.5deg;
+    }
+
+    .bottom-left-to-center {
+      bottom: 0;
+      left: 0;
+      translate: -39% -50%;
+      rotate: -30.5deg;
+    }
+  }
+
+  .white-cross {
+    .horizontal {
+      height: calc(var(--flag-height) / 3);
+      width: 100%;
+    }
+
+    .vertical {
+      height: 100%;
+      width: calc(var(--flag-height) / 3);
+    }
+  }
+
+  .red-cross {
+    .horizontal {
+      height: calc(var(--flag-height) / 5);
+      width: 100%;
+    }
+
+    .vertical {
+      height: 100%;
+      width: calc(var(--flag-height) / 5);
+    }
   }
 }
