@@ -31,6 +31,7 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 
 - Es sollen ausschließlich Gradienten (linear-gradient, radial-gradient, conic-gradient) zur Erstellung der Flaggen genutzt werden. Die css-Eigenschaft background-color ist jedoch auch erlaubt. Siehe auch Abschnitt 'Erlaubte CSS-Eigenschaften'.
 - Pro Flagge sollte nur ein einziges HTML-Element genutzt werden. Alle Streifen, Kreise, usw. müssen über dieses Element ohne Benutzung von Pseudoelemente erzeugt werden.
+- Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
 - Für die Grundmaße und Farben der Flaggen sollen CSS-Variablen genutzt werden.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
 
@@ -59,7 +60,6 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - 🇧🇸 Bahamas 2:1
 - 🇹🇹 Trinidad und Tobago 5:3
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
-
 - 🇯🇲 Jamaika 2:1
 - 🇸🇨 Seychellen 2:1
 - 🇲🇰 Nordmazedonien 2:1

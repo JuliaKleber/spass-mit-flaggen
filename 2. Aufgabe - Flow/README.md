@@ -17,6 +17,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 ## Anforderungen
 
 - Es sollte konsequent der normale <u>Document-Flow</u> zur Erstellung der Flaggen genutzt werden. Position, Flexbox, Grid, Padding usw. sind nicht erlaubt. Stattdessen sollte nur display: block, display: inline-block und display: inline genutzt werden um die Elemente zu positionieren.
+- Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
 - Für die Grundmaße und Farben der Flaggen sollten CSS-Variablen genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollten keine Libraries oder Frameworks genutzt werden.

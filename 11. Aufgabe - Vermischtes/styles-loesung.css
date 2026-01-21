@@ -228,6 +228,7 @@
 }
 
 .seychelles {
+  aspect-ratio: 2/1;
   position: relative;
 
   .stripe {

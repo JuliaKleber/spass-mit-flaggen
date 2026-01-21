@@ -1,0 +1,12 @@
+- Türkei
+- 🇬🇷 Griechenland
+- 🇨🇴 Kolumbien
+- 🇨🇩 Demokratische Republik Kongo
+- 🇨🇬 Republik Kongo (gradient, rotate, clip-path)
+- 🇱🇦 Laos
+- 🇺🇸 USA
+- 🇨🇫 Zentralafrikanische Republik
+- Laos, Niger
+- Vietnam, Somalia
+- Südkorea
+- Nepal

@@ -25,6 +25,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - Es sollte konsequent position: absolute für die Anordnung der Elemente genutzt werden.
 - Es sollte weder Flexbox noch Grid noch Gradienten noch Paddings, Margins oder Borders zur Erstellung der Flaggen genutzt werden.
+- Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
 - Für die Grundmaße und Farben der Flaggen sollen CSS-Variablen genutzt werden.
 - Es solle CSS-Nesting genutzt werden.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
@@ -54,7 +55,6 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇨🇭 Schweiz 1:1
 - 🇸🇪 Schweden 16:10
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
-
 - 🇹🇹 Trinidad und Tobago 5:3
 - 🇬🇧 Großbritannien 5:3
 

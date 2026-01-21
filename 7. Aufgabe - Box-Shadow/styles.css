@@ -6,17 +6,6 @@
 
 .flag {
   height: 7rem;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.germany {
-  width: 11.67rem;
-}
-
-.ireland {
-  width: 14rem;
-}
-
-.mauritius {
   width: 10.5rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }

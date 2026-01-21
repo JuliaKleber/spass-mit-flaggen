@@ -21,6 +21,7 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 ## Anforderungen
 
 - Es sollte konsequent Grid zur Erstellung der Flaggen genutzt werden.
+- Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
 - Für die Grundmaße der Flaggen und die Farben sollten CSS-Variablen genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
 - Es sollten keine Libraries oder Frameworks genutzt werden.
@@ -41,11 +42,9 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - 🇮🇹 Italien 3:2
 - 🇲🇺 Mauritius 3:2
 - 🇹🇭 Thailand 3:2
-- 🇧🇯 Benin 3:2- 🇩🇪 Deutschland: rgb(0, 0, 0), rgb(255, 0, 0), rgb(255, 204, 0)
-- 🇮🇪 Irland: rgb(22, 155, 98), rgb(255, 255, 255), rgb(255, 136, 62)
+- 🇧🇯 Benin 3:2
 - 🇯🇵 Japan 3:2
-- 🇵🇼 Pal- 🇹🇭 Thailand 3:2
-  au: 8:5
+- 🇵🇼 Palau: 8:5
 - 🇨🇭 Schweiz 1:1
 - 🇸🇪 Schweden 16:10
 

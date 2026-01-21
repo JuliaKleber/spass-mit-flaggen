@@ -27,6 +27,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 ## Anforderungen
 
 - Die Elemente der Flaggen sollen mit clip-path erstellt werden. Gradienten sind nicht erlaubt.
+- Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
 - Für die Grundmaße und Farben der Flaggen sollen CSS-Variablen genutzt werden.
 - Es soll CSS-Nesting genutzt werden.
 - Die html-Datei soll nicht verändert werden. Die Aufgabe soll durch vervollständigen der css-Datei gelöst werden. Es dürfen die Pseudeelemente ::before und ::after verwendet werden.
@@ -58,7 +59,6 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇨🇿 Tschechische Republik 3:2
 - 🇧🇸 Bahamas 2:1
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
-
 - 🇹🇹 Trinidad und Tobago 5:3
 - 🇯🇲 Jamaika 2:1
 

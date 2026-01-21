@@ -28,8 +28,8 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 
 ## Anforderungen
 
-- Es sollten keine Libraries oder Frameworks genutzt werden.
-- Es wird kein Stylesheet benötigt.
+- Das Stylesheet soll nicht verändert werden. Nur die html-Datei soll vervollständigt werden.
+- Es sollen keine Libraries oder Frameworks genutzt werden.
 
 ## Hinweise
 
@@ -48,7 +48,6 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - 🇧🇸 Bahamas 2:1
 - 🇹🇹 Trinidad und Tobago 5:3
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
-
 - 🇯🇲 Jamaika 2:1
 - 🇸🇨 Seychellen 2:1
 - 🇲🇰 Nordmazedonien 2:1
