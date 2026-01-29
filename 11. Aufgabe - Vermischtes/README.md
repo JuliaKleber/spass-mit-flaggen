@@ -24,6 +24,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland
 - 🇯🇲 Jamaika
 - 🇹🇹 Trinidad und Tobago
+- 🇹🇷 Türkei
 
 ## Anforderungen
 
@@ -64,6 +65,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
 - 🇯🇲 Jamaika 2:1
 - 🇹🇹 Trinidad und Tobago 5:3
+- 🇹🇷 Türkei 3:2
 
 ### Farben der Flaggen
 
@@ -85,6 +87,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland: rgb(0, 94, 184), rgb(255, 255, 255)
 - 🇯🇲 Jamaika: rgb(25, 151, 93), rgb(255, 199, 0), rgb(45, 41, 38)
 - 🇹🇹 Trinidad und Tabago: rgb(218, 26, 53), rgb(255, 255, 255), rgb(0, 0, 0)
+- 🇹🇷 Türkei: rgb(227, 10, 23), rgb(255, 255, 255)
 
 ### Geometrische Details
 
@@ -101,3 +104,4 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland: Die Höhe der Balken entspricht 1/5 der Höhe der Flagge. Der Winkel zur Horizontalen beträgt ca. 30.9°.
 - 🇯🇲 Jamaika: Die Höhe der Balken entspricht 1/6 der Höhe der Flagge. Der Winkel zur Horizontalen beträgt ca. 26.5°.
 - 🇹🇹 Trinidad und Tobago: Die Höhe des weißen Balkens entspricht 1/3 der Höhe der Flagge. Die Höhe des schwarzen Balkens entspricht 2/9 der Höhe der Flagge. Der Winkel zur Horizontalen beträgt ca. 40.8°.
+- 🇹🇷 Türkei: <a href="https://de.wikipedia.org/wiki/Flagge_der_T%C3%BCrkei">Maße der Flagge auf Wikipedia</a>

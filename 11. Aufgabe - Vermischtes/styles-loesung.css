@@ -77,6 +77,10 @@
   --color-czech-republic-blue: rgb(17, 49, 126);
   --color-czech-republic-white: rgb(255, 255, 255);
   --color-czech-republic-red: rgb(215, 20, 26);
+
+  /* Türkei */
+  --color-turkey-white: rgb(255, 255, 255);
+  --color-turkey-red: rgb(227, 10, 23);
 }
 
 *,
@@ -383,18 +387,51 @@
 }
 
 .turkey {
-  &::before {
+  background-color: var(--color-turkey-red);
+  position: relative;
+
+  .star {
+    position: absolute;
+    background-color: var(--color-turkey-white);
+    height: calc(var(--flag-height) / 4);
+    aspect-ratio: 1/1;
+    top: 50%;
+    left: calc(var(--flag-height) * 197 / 240);
+    translate: -50% -50%;
+    z-index: 10;
     clip-path: polygon(
-      50% 0%,
-      61% 35%,
-      98% 35%,
-      68% 57%,
-      79% 91%,
-      50% 70%,
-      21% 91%,
-      32% 57%,
-      2% 35%,
-      39% 35%
+      0% 50%,
+      35% 61%,
+      35% 98%,
+      57% 68%,
+      91% 79%,
+      70% 50%,
+      91% 21%,
+      57% 32%,
+      35% 2%,
+      35% 39%
     );
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+  }
+
+  &::before {
+    background-color: var(--color-turkey-white);
+    height: calc(var(--flag-height) / 2);
+    left: calc(var(--flag-height) / 2);
+  }
+
+  &::after {
+    background-color: var(--color-turkey-red);
+    height: calc(var(--flag-height) * 2 / 5);
+    left: calc(var(--flag-height) * 9 / 16);
   }
 }
