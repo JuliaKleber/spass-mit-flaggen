@@ -33,6 +33,11 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - Das Stylesheet soll nicht verändert werden. Nur die html-Datei soll vervollständigt werden.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
 
+## Ressourcen
+
+- <a href="https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/">A Friendly Introduction to SVG | Josh Comeau</a>
+- <a href="https://www.joshwcomeau.com/svg/interactive-guide-to-paths/">An Interactive Guide to SVG Paths | Josh Comeau</a>
+
 ## Hinweise
 
 ### Seitenverhältnisse der Flaggen
