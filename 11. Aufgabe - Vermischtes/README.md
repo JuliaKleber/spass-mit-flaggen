@@ -36,7 +36,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Es dürfen keine Bilder, Icons oder SVGs genutzt werden.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
 
-## Resourcen
+## Ressourcen
 
 - <a href="https://www.w3schools.com/cssref/css_units.php">CSS Units | w3schools</a>
 - <a href="https://www.mediaevent.de/css/font-size-rem.html">CSS Units | mediaevent</a>
