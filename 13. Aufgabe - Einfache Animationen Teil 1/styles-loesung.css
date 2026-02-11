@@ -1,100 +1,157 @@
+:root {
+  --transition-fast: 150ms;
+  --transition-slow: 450ms;
+}
+
 .netherlands {
-  transition: box-shadow 300ms;
+  transition: box-shadow var(--transition-slow);
 
   &:hover {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.5);
+    transition-duration: var(--transition-fast);
   }
 }
 
 .italy {
-  transition: box-shadow 300ms;
+  transition: box-shadow var(--transition-slow);
 
   &:hover {
     box-shadow: none;
+    transition-duration: var(--transition-fast);
   }
 }
 
 .mauritius {
-  transition: width 300ms;
+  transition: transform var(--transition-slow);
 
   &:hover {
-    width: 12rem;
+    transform: scaleX(1.1);
+    transition-duration: var(--transition-fast);
   }
 }
 
-.thailand {
-  transition: width 300ms;
+.thailand-container {
+  .thailand {
+    transition: transform var(--transition-slow);
+  }
 
-  &:hover {
-    width: 9rem;
+  &:hover .thailand {
+    transform: scaleX(0.9);
+    transition-duration: var(--transition-fast);
+  }
+
+  /* Könnte man auch über width statt scaleX machen. */
+}
+
+.benin-container {
+  .benin {
+    transition: translate var(--transition-slow);
+  }
+
+  &:hover .benin {
+    translate: 0 -12px;
+    transition-duration: var(--transition-fast);
   }
 }
 
-.benin {
-  transition: translate 300ms;
-
-  &:hover {
-    translate: 0 -5px;
+.sweden-container {
+  .sweden {
+    transition: translate var(--transition-slow);
   }
-}
 
-.sweden {
-  transition: translate 300ms;
-
-  &:hover {
-    translate: 5px 0;
+  &:hover .sweden {
+    translate: 12px 0;
+    transition-duration: var(--transition-fast);
   }
 }
 
 .japan {
-  transition: scale 300ms;
+  transition: scale var(--transition-slow);
 
   &:hover {
     scale: 1.1;
+    transition-duration: var(--transition-fast);
   }
 }
 
-.palau {
-  transition: scale 300ms;
+.palau-container {
+  .palau {
+    transition: scale var(--transition-slow);
+  }
 
-  &:hover {
+  &:hover .palau {
     scale: 0.9;
+    transition-duration: var(--transition-fast);
   }
 }
 
-/* noch korrigieren */
 .switzerland-container {
   overflow: hidden;
 
-  .switzerland-flag {
-    transition: scale 300ms;
+  .switzerland {
+    transition: scale var(--transition-slow);
+    will-change: transition;
 
     &:hover {
       scale: 1.1;
+      transition-duration: var(--transition-fast);
     }
   }
 }
 
-.czech-republic {
-  transition: rotate 300ms;
+.czech-republic-container {
+  .czech-republic {
+    transition: rotate var(--transition-slow);
+    will-change: rotate;
+  }
 
-  &:hover {
+  &:hover .czech-republic {
     rotate: 5deg;
+    transition-duration: var(--transition-fast);
   }
 }
 
-.bahamas {
-  transition: rotate 300ms;
+.bahamas-container {
+  .bahamas {
+    transition: rotate var(--transition-slow);
+    will-change: rotate;
+  }
 
-  &:hover {
+  &:hover .bahamas {
     rotate: -5deg;
+    transition-duration: var(--transition-fast);
   }
 }
 
-.trinidad-and-tobago {
-  transition: rotate 300ms;
+.trinidad-and-tobago-container {
+  .trinidad-and-tobago {
+    transition: rotate var(--transition-slow);
+    will-change: rotate;
+  }
 
-  &:hover {
-    rotate: 365deg;
+  &:hover .trinidad-and-tobago {
+    rotate: 190deg;
+    transition-duration: var(--transition-fast);
+  }
+}
+
+.seychelles-container {
+  .seychelles {
+    transition: transform var(--transition-slow);
+  }
+  &:hover .seychelles {
+    transform: scaleY(-1);
+    transition-duration: var(--transition-fast);
+  }
+}
+
+.greenland-container {
+  .greenland {
+    transition: transform var(--transition-slow);
+  }
+
+  &:hover .greenland {
+    transform: scaleX(-1);
+    transition-duration: var(--transition-fast);
   }
 }

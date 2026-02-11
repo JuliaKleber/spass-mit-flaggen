@@ -6,7 +6,7 @@ Ziel ist es Flaggen zu animieren, wenn man über sie hovert. Dafür soll die CSS
 
 ## Aufgabenstellung
 
-Implementiere die folgenden Hover-Effekte
+Implementiere die folgenden Hover-Effekte:
 
 - 🇳🇱 Niederlande: Schatten verstärkt sich
 - 🇮🇹 Italien: Schatten verschwindet
@@ -19,12 +19,15 @@ Implementiere die folgenden Hover-Effekte
 - 🇨🇭 Schweiz: Es wird in die Flagge gezoomt, die Maße ändern sich nicht
 - 🇨🇿 Tschechische Republik: Flagge dreht sich 5 Grad nach rechts
 - 🇧🇸 Bahamas: Flagge dreht sich um 5 Grad nach links
-- 🇹🇹 Trinidad und Tobago: Flagge dreht sich um 365 Grad nach rechts
+- 🇹🇹 Trinidad und Tobago: Flagge dreht sich um 190 Grad nach rechts
+- 🇸🇨 Seychellen: Flagge wird an der x-Achse gespiegelt
+- 🇬🇱 Grönland: Flagge wird an der y-Achse gespiegelt
 
 ## Anforderungen
 
-- Es soll eine Transition-Time von 300ms genutzt werden.
-- Die HTML-Datei soll nicht verändert werden. Nur das Stylesheet soll vervollständigt werden.
+- Es soll eine Transition-Time von 150ms genutzt werden, wenn der Mauszeiger auf die Flagge geht und eine Transition-Time von 450ms, wenn der Mauszeiger die Flagge verlässt.
+- Es sollte kein Doom-Flickering auftreten.
+- Die HTML-Datei und die flag-styles.css sollen nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
 
 ## Ressourcen

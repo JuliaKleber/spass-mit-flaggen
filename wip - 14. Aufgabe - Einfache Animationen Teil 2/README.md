@@ -42,3 +42,10 @@ Implementiere die folgenden Hover-Effekte
 
 - <a href="https://www.joshwcomeau.com/animation/css-transitions/">An Interactive Guide to CSS Transitions | Josh Comeau</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function">Filter | MDN</a>
+
+
+- ease-in-out für Loops
+- ease-in und ease-out für modals
+- meistens ease
+
+- transition-delay für header, wenn sich ein submenu öffnet

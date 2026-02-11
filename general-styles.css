@@ -25,6 +25,17 @@ h1 {
   font-weight: 500;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.sub-title {
+  font-size: 24px;
+}
+
 .flags-container {
   display: flex;
   flex-wrap: wrap;

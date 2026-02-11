@@ -63,19 +63,10 @@
   --color-bahamas-blue: rgb(0, 169, 206);
   --color-bahamas-yellow: rgb(255, 199, 44);
 
-  /* Schottland */
-  --color-scotland-blue: rgb(0, 94, 184);
-  --color-scotland-white: rgb(255, 255, 255);
-
   /* Trinidad und Tobago */
   --color-trinidad-and-tobago-black: rgb(0, 0, 0);
   --color-trinidad-and-tobago-red: rgb(218, 26, 53);
   --color-trinidad-and-tobago-white: rgb(255, 255, 255);
-
-  /* Jamaika */
-  --color-jamaica-green: rgb(25, 151, 93);
-  --color-jamaica-yellow: rgb(255, 199, 0);
-  --color-jamaica-black: rgb(45, 41, 38);
 
   /* Seychellen */
   --color-seychelles-blue: rgb(0, 61, 136);
@@ -84,9 +75,9 @@
   --color-seychelles-white: rgb(255, 255, 255);
   --color-seychelles-green: rgb(0, 123, 58);
 
-  /* Nordmazedonien */
-  --color-north-macedonia-red: rgb(206, 32, 40);
-  --color-north-macedonia-yellow: rgb(249, 214, 22);
+  /* Grönland */
+  --color-greenland-red: rgb(239, 51, 64);
+  --color-greenland-white: rgb(255, 255, 255);
 }
 
 * {
@@ -100,17 +91,6 @@
 }
 
 .netherlands {
-  /* Ausführliche Schreibweise */
-  background-image: linear-gradient(
-    var(--color-netherlands-red) 0%,
-    var(--color-netherlands-red) 33.33%,
-    var(--color-netherlands-white) 33.33%,
-    var(--color-netherlands-white) 66.67%,
-    var(--color-netherlands-blue) 66.67%,
-    var(--color-netherlands-blue) 100%
-  );
-
-  /* Kurzschreibweise */
   background-image: linear-gradient(
     var(--color-netherlands-red) 33.33%,
     var(--color-netherlands-white) 0 66.67%,
@@ -119,18 +99,6 @@
 }
 
 .italy {
-  /* Ausführliche Schreibweise */
-  background-image: linear-gradient(
-    90deg,
-    var(--color-italy-green) 0%,
-    var(--color-italy-green) 33.33%,
-    var(--color-italy-white) 33.33%,
-    var(--color-italy-white) 66.67%,
-    var(--color-italy-red) 66.67%,
-    var(--color-italy-red) 100%
-  );
-
-  /* Kurzschreibweise */
   background-image: linear-gradient(
     90deg,
     var(--color-italy-green) 33.33%,
@@ -140,19 +108,6 @@
 }
 
 .mauritius {
-  /* ausführliche Schreibweise */
-  background-image: linear-gradient(
-    var(--color-mauritius-red) 0%,
-    var(--color-mauritius-red) 25%,
-    var(--color-mauritius-blue) 25%,
-    var(--color-mauritius-blue) 50%,
-    var(--color-mauritius-yellow) 50%,
-    var(--color-mauritius-yellow) 75%,
-    var(--color-mauritius-green) 75%,
-    var(--color-mauritius-green) 100%
-  );
-
-  /* Kurzschreibweise */
   background-image: linear-gradient(
     var(--color-mauritius-red) 25%,
     var(--color-mauritius-blue) 0 50%,
@@ -172,16 +127,6 @@
 }
 
 .japan {
-  /* Ausführliche Schreibweise */
-  background-image: radial-gradient(
-    circle closest-side,
-    var(--color-japan-red) 0%,
-    var(--color-japan-red) 59%,
-    var(--color-japan-white) 61%,
-    var(--color-japan-white) 100%
-  );
-
-  /* Kurzschreibweise */
   background-image: radial-gradient(
     circle closest-side,
     var(--color-japan-red) 59%,
@@ -192,16 +137,6 @@
 .palau {
   width: var(--flag-width-palau);
 
-  /* Ausführliche Schreibweise */
-  background-image: radial-gradient(
-    circle closest-side at 37.5% 50%,
-    var(--color-palau-yellow) 0%,
-    var(--color-palau-yellow) 59%,
-    var(--color-palau-blue) 61%,
-    var(--color-palau-blue) 100%
-  );
-
-  /* Kurzschreibweise */
   background-image: radial-gradient(
     circle closest-side at 37.5% 50%,
     var(--color-palau-yellow) 59%,
@@ -210,23 +145,6 @@
 }
 
 .benin {
-  /* Ausführliche Schreibweise */
-  background-image:
-    linear-gradient(
-      90deg,
-      var(--color-benin-green) 0%,
-      var(--color-benin-green) 40%,
-      transparent 40%,
-      transparent 100%
-    ),
-    linear-gradient(
-      var(--color-benin-yellow) 0%,
-      var(--color-benin-yellow) 50%,
-      var(--color-benin-red) 50%,
-      var(--color-benin-red) 100%
-    );
-
-  /* Kurzschreibweise */
   background-image:
     linear-gradient(90deg, var(--color-benin-green) 40%, transparent 0),
     linear-gradient(var(--color-benin-yellow) 50%, var(--color-benin-red) 0);
@@ -236,27 +154,6 @@
   background-color: var(--color-sweden-blue);
   width: var(--flag-width-sweden);
 
-  /* Ausführliche Schreibweise */
-  background-image:
-    linear-gradient(
-      transparent 0%,
-      transparent 40%,
-      var(--color-sweden-yellow) 40%,
-      var(--color-sweden-yellow) 60%,
-      transparent 60%,
-      transparent 100%
-    ),
-    linear-gradient(
-      90deg,
-      transparent 0%,
-      transparent 31.25%,
-      var(--color-sweden-yellow) 31.25%,
-      var(--color-sweden-yellow) 43.75%,
-      transparent 43.75%,
-      transparent 100%
-    );
-
-  /* Kurzschreibweise */
   background-image:
     linear-gradient(
       transparent 40%,
@@ -271,32 +168,27 @@
     );
 }
 
-.switzerland-container {
+.switzerland {
   width: var(--flag-width-switzerland);
 
-  .switzerland-flag {
-    width: 100%;
-    height: 100%;
+  background-color: var(--color-switzerland-red);
 
-    background-color: var(--color-switzerland-red);
+  background-image:
+    linear-gradient(
+      90deg,
+      transparent 35%,
+      var(--color-switzerland-white) 0 65%,
+      transparent 0
+    ),
+    linear-gradient(
+      transparent 35%,
+      var(--color-switzerland-white) 0 65%,
+      transparent 0
+    );
 
-    background-image:
-      linear-gradient(
-        90deg,
-        transparent 35%,
-        var(--color-switzerland-white) 0 65%,
-        transparent 0
-      ),
-      linear-gradient(
-        transparent 35%,
-        var(--color-switzerland-white) 0 65%,
-        transparent 0
-      );
-
-    background-size: 62.5% 62.5%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  background-size: 62.5% 62.5%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .czech-republic {
@@ -428,4 +320,41 @@
       var(--color-north-macedonia-red) 305.4deg 349deg,
       var(--color-north-macedonia-yellow) 350deg 360deg
     );
+}
+
+.seychelles {
+  width: var(--flag-width-seychelles);
+
+  background-image: conic-gradient(
+    at 0% 100%,
+    var(--color-seychelles-blue) 0deg 33.6deg,
+    var(--color-seychelles-yellow) 33.8deg 53deg,
+    var(--color-seychelles-red) 53.2deg 71.5deg,
+    var(--color-seychelles-white) 71.7deg 80.4deg,
+    var(--color-seychelles-green) 80.6deg 90deg,
+    transparent 90deg
+  );
+}
+
+.greenland {
+  position: relative;
+  background-image: linear-gradient(
+    var(--color-greenland-white) 50%,
+    var(--color-greenland-red) 50%
+  );
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: calc(100% * 2 / 3);
+    aspect-ratio: 1/1;
+    top: 50%;
+    left: calc(100% * 7 / 18);
+    translate: -50% -50%;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      var(--color-greenland-red) 50%,
+      var(--color-greenland-white) 50%
+    );
+  }
 }
