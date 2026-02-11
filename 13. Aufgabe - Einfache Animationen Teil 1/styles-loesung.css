@@ -1,0 +1,100 @@
+.netherlands {
+  transition: box-shadow 300ms;
+
+  &:hover {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.italy {
+  transition: box-shadow 300ms;
+
+  &:hover {
+    box-shadow: none;
+  }
+}
+
+.mauritius {
+  transition: width 300ms;
+
+  &:hover {
+    width: 12rem;
+  }
+}
+
+.thailand {
+  transition: width 300ms;
+
+  &:hover {
+    width: 9rem;
+  }
+}
+
+.benin {
+  transition: translate 300ms;
+
+  &:hover {
+    translate: 0 -5px;
+  }
+}
+
+.sweden {
+  transition: translate 300ms;
+
+  &:hover {
+    translate: 5px 0;
+  }
+}
+
+.japan {
+  transition: scale 300ms;
+
+  &:hover {
+    scale: 1.1;
+  }
+}
+
+.palau {
+  transition: scale 300ms;
+
+  &:hover {
+    scale: 0.9;
+  }
+}
+
+/* noch korrigieren */
+.switzerland-container {
+  overflow: hidden;
+
+  .switzerland-flag {
+    transition: scale 300ms;
+
+    &:hover {
+      scale: 1.1;
+    }
+  }
+}
+
+.czech-republic {
+  transition: rotate 300ms;
+
+  &:hover {
+    rotate: 5deg;
+  }
+}
+
+.bahamas {
+  transition: rotate 300ms;
+
+  &:hover {
+    rotate: -5deg;
+  }
+}
+
+.trinidad-and-tobago {
+  transition: rotate 300ms;
+
+  &:hover {
+    rotate: 365deg;
+  }
+}
