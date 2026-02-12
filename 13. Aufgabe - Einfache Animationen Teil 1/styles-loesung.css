@@ -21,45 +21,23 @@
   }
 }
 
-.mauritius {
-  transition: transform var(--transition-slow);
+.mauritius-container {
+  .mauritius {
+    transition: translate var(--transition-slow);
+  }
 
-  &:hover {
-    transform: scaleX(1.1);
+  &:hover .mauritius {
+    translate: 0 -8px;
     transition-duration: var(--transition-fast);
   }
 }
 
 .thailand-container {
   .thailand {
-    transition: transform var(--transition-slow);
+    transition: translate var(--transition-slow);
   }
 
   &:hover .thailand {
-    transform: scaleX(0.9);
-    transition-duration: var(--transition-fast);
-  }
-
-  /* Könnte man auch über width statt scaleX machen. */
-}
-
-.benin-container {
-  .benin {
-    transition: translate var(--transition-slow);
-  }
-
-  &:hover .benin {
-    translate: 0 -12px;
-    transition-duration: var(--transition-fast);
-  }
-}
-
-.sweden-container {
-  .sweden {
-    transition: translate var(--transition-slow);
-  }
-
-  &:hover .sweden {
     translate: 12px 0;
     transition-duration: var(--transition-fast);
   }
@@ -90,12 +68,31 @@
 
   .switzerland {
     transition: scale var(--transition-slow);
-    will-change: transition;
 
     &:hover {
       scale: 1.1;
       transition-duration: var(--transition-fast);
     }
+  }
+}
+
+.benin {
+  transition: transform var(--transition-slow);
+
+  &:hover {
+    transform: scaleX(1.1);
+    transition-duration: var(--transition-fast);
+  }
+}
+
+.sweden-container {
+  .sweden {
+    transition: transform var(--transition-slow);
+  }
+
+  &:hover .sweden {
+    transform: scaleX(0.9);
+    transition-duration: var(--transition-fast);
   }
 }
 
