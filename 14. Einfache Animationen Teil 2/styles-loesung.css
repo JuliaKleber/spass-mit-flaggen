@@ -1,0 +1,148 @@
+:root {
+  --duration-quick: 150ms;
+  --duration-slow: 450ms;
+}
+
+.netherlands {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: grayscale(100%);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.italy {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: grayscale(50%);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.mauritius {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: brightness(50%);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.thailand {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: brightness(150%);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.benin {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: contrast(50%);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.sweden {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: contrast(150%);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.japan {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: saturate(50%);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.palau {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: saturate(150%);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.switzerland {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: opacity(50%);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.czech-republic {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: hue-rotate(180deg);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.bahamas {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: hue-rotate(90deg);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.trinidad-and-tobago {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: drop-shadow(0 0.25rem 0.5rem rgb(0 0 0 / 0.3));
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.scotland {
+  transition: box-shadow var(--duration-slow);
+
+  &:hover {
+    box-shadow: 0 0.25rem 0.5rem rgb(0 0 0 / 0.3);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.jamaica {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: sepia(100%);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.seychelles {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: invert(100%);
+    transition-duration: var(--duration-quick);
+  }
+}
+
+.north-macedonia {
+  transition: filter var(--duration-slow);
+
+  &:hover {
+    filter: blur(0.1rem);
+    transition-duration: var(--duration-quick);
+  }
+}

@@ -10,3 +10,9 @@
 - Vietnam, Somalia
 - Südkorea
 - Nepal
+
+- ease-in-out für Loops
+- ease-in und ease-out für modals
+- meistens ease
+
+- transition-delay für header, wenn sich ein submenu öffnet
