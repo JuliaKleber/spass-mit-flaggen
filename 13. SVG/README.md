@@ -23,14 +23,14 @@ Erstelle die folgenden Nationalflaggen als Vektorgraphiken:
 - 🇧🇸 Bahamas ⭐⭐⭐
 - 🇯🇲 Jamaika ⭐⭐⭐
 - 🇸🇨 Seychellen ⭐⭐⭐
-- 🇬🇱 Grönland
-- 🇹🇷 Türkei
+- 🇹🇷 Türkei ⭐⭐⭐⭐⭐
+- 🇬🇱 Grönland ⭐⭐⭐⭐⭐
 
 Die Sterne symbolisieren den Schwierigkeitsgrad.
 
 ## Anforderungen
 
-- Das Stylesheet soll nicht verändert werden. Nur die html-Datei soll vervollständigt werden.
+- Das Stylesheet soll nicht verändert werden. Nur die HTML-Datei soll vervollständigt werden.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
 
 ## Ressourcen
@@ -57,8 +57,8 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
 - 🇯🇲 Jamaika 2:1
 - 🇸🇨 Seychellen 2:1
-- 🇬🇱 Grönland 3:2
 - 🇹🇷 Türkei 3:2
+- 🇬🇱 Grönland 3:2
 
 ### Farben der Flaggen
 
@@ -79,8 +79,8 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland: rgb(0, 94, 184), rgb(255, 255, 255)
 - 🇯🇲 Jamaika: rgb(25, 151, 93), rgb(255, 199, 0), rgb(45, 41, 38)
 - 🇸🇨 Seychellen: rgb(0, 61, 136), rgb(252, 217, 85), rgb(215, 35, 35), rgb(255, 255, 255), rgb(0, 123, 58)
-- 🇬🇱 Grönland: rgb(239, 51, 64), rgb(255, 255, 255)
 - 🇹🇷 Türkei: rgb(227, 10, 23), rgb(255, 255, 255)
+- 🇬🇱 Grönland: rgb(239, 51, 64), rgb(255, 255, 255)
 
 ### Abmessungen der Elemente
 
@@ -96,8 +96,8 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Die linken und rechten Dreiecke der schottischen Flagge gehen von 10% der Flaggenhöhe bis 90% der Flaggenhöhe und 40% bzw. 60% der Flaggenbreite. Die oberen und unteren Dreiecke der der gehen von 10% der Flaggenbreite bis 90% der Flaggenbreite und 40% bzw. 60% der Flaggenhöhe.
 - 🇯🇲 Die schwarzen Dreiecke der jamaikanischen Flagge gehen von 10% der Flaggenhöhe bis 90% der Flaggenhöhe und 40% bzw. 60% der Flaggenbreite. Die grünen Dreiecke der der jamaikanischen Flagge gehen von 10% der Flaggenbreite bis 90% der Flaggenbreite und 40% bzw. 60% der Flaggenhöhe.
 - 🇸🇨 Alle fünf Farbflächen der Flagge von Seychellen sind Polygone, die in der linken unteren Ecke ihren gemeinsamen Ursprung haben. Die Eckpunkte der Polygone liegen jeweils bei 1/3 bzw. 2/3 der Flaggenbreite und Flaggenhöhe.
-- 🇬🇱 Grönland: Der Durchmesser der Scheibe beträgt 2/3 der Flaggenhöhe und 4/9 der Flaggenbreite. Die Scheibe ist senkrecht zentriert. In horizontaler Richtung befindet sich der Mittelpunkt der Scheibe bei 7/18 von der Flaggenbreite.
 - 🇹🇷 Türkei: <a href="https://de.wikipedia.org/wiki/Flagge_der_T%C3%BCrkei">Maße der Flagge auf Wikipedia</a>
+- 🇬🇱 Grönland: Der Durchmesser der Scheibe beträgt 2/3 der Flaggenhöhe und 4/9 der Flaggenbreite. Die Scheibe ist senkrecht zentriert. In horizontaler Richtung befindet sich der Mittelpunkt der Scheibe bei 7/18 von der Flaggenbreite.
 
 ### Benötigte Tags
 

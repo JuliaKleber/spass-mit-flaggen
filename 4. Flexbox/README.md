@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 3 (CSS Flexbox)
+# Spaß mit Flaggen - Flexbox
 
 ## Ziel
 
@@ -18,17 +18,17 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Anforderungen
 
-- Es sollte <u>konsequent Flexbox</u> zur Erstellung der Flaggen genutzt werden. Position, Grid, Graddient, Padding usw. sind nicht erlaubt.
-- Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
-- Für die Grundmaße und Farben der Flaggen sollten CSS-Variablen genutzt werden.
-- Es sollte CSS-Nesting genutzt werden.
-- Es sollten keine Libraries oder Frameworks genutzt werden.
-- Es soll nur die css-Datei verändert werden und nicht die html-Datei.
+- Es soll konsequent Flexbox zur Erstellung der Flaggen genutzt werden.
+- Einschränkungen: Die Verwendung von `border`, `padding`, `position`, `display: block`, `display: inline`, `display: inline-block`, `grid`, `linear-gradient`, `clip-path` oder `svg` ist nicht erlaubt.
+- Keine HTML-Änderungen: Die Struktur der bereitgestellten HTML-Datei darf nicht verändert werden.
+- Modernes CSS: Nutze CSS-Variablen für Farben und Grundmaße sowie CSS-Nesting für eine saubere Struktur.
+- Tools: Es sollen keine Bibliotheken oder Frameworks genutzt werden.
 
 ## Ressourcen
 
-- <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Flexbox Layout Guide | CSS-Tricks</a>
+- <a href="https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/">An Interactive Guide to Flexbox | Josh Comeau</a>
 - <a href="https://flexboxfroggy.com/">Flexbox Tutorial | Flexbox Froggy</a>
+- <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Flexbox Layout Guide | CSS-Tricks</a>
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaevent</a>
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
@@ -44,8 +44,6 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇧🇯 Benin 3:2
 - 🇯🇵 Japan 3:2
 - 🇨🇭 Schweiz 1:1
-
-Der Einfachheit halber kann ein Seitenverhältnis für alle Flaggen von 3:2 angenommen werden.
 
 ### Farben der Flaggen
 

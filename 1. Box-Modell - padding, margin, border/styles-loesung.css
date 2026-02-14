@@ -106,11 +106,11 @@
   border-color: var(--color-thailand-red);
   border-style: solid;
   border-width: calc(var(--flag-height) / 6) 0;
+  padding: calc(var(--flag-height) / 6) 0;
 
   .blue-stripe {
     background-color: var(--color-thailand-blue);
     height: calc(var(--flag-height) / 3);
     width: 100%;
-    margin: calc(var(--flag-height) / 6) 0;
   }
 }

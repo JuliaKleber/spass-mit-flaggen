@@ -16,8 +16,6 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Anforderungen
 
-- Es sollte konsequent der Normal Flow zur Erstellung der Flaggen genutzt werden. Position, Flexbox, Grid, Padding usw. sind nicht erlaubt. Stattdessen sollte nur display: block, display: inline-block und display: inline genutzt werden um die Elemente zu positionieren.
-
 - Es soll konsequent der Normal Flow zur Erstellung der Flaggen genutzt werden. Es sollte nur `display: block`, `display: inline-block` und `display: inline` genutzt werden um die Elemente zu positionieren.
 - Einschränkungen: Die Verwendung von `border`, `padding`, `position`, `flex`, `grid`, `linear-gradient`, `clip-path` oder `svg` ist nicht erlaubt.
 - Keine HTML-Änderungen: Die Struktur der bereitgestellten HTML-Datei darf nicht verändert werden.
@@ -29,7 +27,6 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - <a href="https://www.w3schools.com/css/css_boxmodel.asp">CSS Box Model | w3schools</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction">Einführung in CSS-Layout | MDN</a>
 - <a href="https://www.w3schools.com/css/css_inline-block.asp">inline-block | w3schools</a>
-- <a href="https://css-tricks.com/fighting-the-space-between-inline-block-elements/">Fighting the space between inline block elements | CSS Tricks</a>
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaevent</a>
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
@@ -71,3 +68,4 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ## Zum Weiterlesen
 
 - <a href="https://www.joshwcomeau.com/css/understanding-layout-algorithms/">Understanding Layout Algorithms | Josh Comeau</a>
+- <a href="https://css-tricks.com/fighting-the-space-between-inline-block-elements/">Fighting the space between inline block elements | CSS Tricks</a>

@@ -2,13 +2,13 @@
 
 ## Ziel
 
-Ziel dieser Aufgabe ist es, ein tiefgreifendes Verständnis für das CSS-Box-Modell (`padding`, `border`, `margin`) zu entwickeln.
+Ziel dieser Aufgabe ist es, ein Verständnis für das CSS-Box-Modell (`padding`, `border`, `margin`) zu entwickeln.
 
 Wichtiger Hinweis: Für alle Aufgaben ist die Eigenschaft `box-sizing: content-box;` vordefiniert.
 
 ## Hintergrund
 
-Der W3C-Standard für `box-sizing` ist `content-box`. Bei diesem Modell vergrößern `padding` und `border` die Außenmaße eines Elements, was die präzise Platzierung oft erschwert. Um dieses Verhalten zu umgehen, setzen fast alle modernen CSS-Resets auf `border-box`. In dieser Aufgabe arbeiten wir bewusst mit `content-box`, um ein Verständnis für die Größenberechnungen zu entwickeln.
+Der W3C-Standard für `box-sizing` ist `content-box`. Bei diesem Modell vergrößern `padding` und `border` ein Element. Um dieses Verhalten zu umgehen, setzen fast alle modernen CSS-Resets auf `border-box`. Wenn `border-box` verwendet wird, ist das Element immer gleich groß, unabhängig davon welche Maße für `padding` und `border` gewählt werden. In dieser Aufgabe arbeiten wir bewusst mit `content-box`, um ein Verständnis für die Größenberechnungen zu entwickeln.
 
 ## Aufgabenstellung
 
