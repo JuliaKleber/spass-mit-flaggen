@@ -14,7 +14,7 @@ And now: Have fun with flags! 😃 🙌 🏳️‍🌈
 
 Bei "Spaß mit Flaggen" handelt es sich um eine Aufgabensammlung zum Thema CSS (Cascading Style Sheets) und SVG (Scalable Vector Graphics).
 
-Im Repo ist zu jedem Thema ein Verzeichnis zu finden. In allen Verzeichnissen, mit Ausnahme von Aufgabe 12, befindet sich jeweils eine README.md mit der Aufgabenstellung, eine HTML-Datei, die so verwendet werden kann und soll, wie sie ist, und ein rudimentäres Stylesheet (`styles.css`), das vervollständigt werden soll. Im Verzeichnis zu Aufgabe 12 soll hingegen die HTML-Datei vervollständigt werden. Das Stylesheet in dem Verzeichnis soll nicht verändert werden.
+Im Repo ist zu jedem Thema ein Verzeichnis zu finden. In allen Verzeichnissen, mit Ausnahme von Aufgabe 12, befindet sich jeweils eine `README.md` mit der Aufgabenstellung, eine HTML-Datei, die so verwendet werden kann und soll, wie sie ist, und ein rudimentäres Stylesheet (`styles.css`), das vervollständigt werden soll. Im Verzeichnis zu Aufgabe 12 soll hingegen die HTML-Datei vervollständigt werden. Das Stylesheet in dem Verzeichnis soll nicht verändert werden.
 
 Die wichtigsten Übungen behandeln das Box-Model (Aufgabe 1), Flexbox (Aufgabe 3) und Position (Aufgabe 5). Allerdings gibt es elegantere Wege, Flaggen zu erstellen, zum Beispiel unter Verwendung von Gradienten (Aufgabe 8), der CSS-Eigenschaft `clip-path` (Aufgabe 9) oder als reine SVG-Grafiken (Aufgabe 12). Wer bereits CSS-Vorkenntnisse hat, kann direkt mit Aufgabe 11 einsteigen.
 
