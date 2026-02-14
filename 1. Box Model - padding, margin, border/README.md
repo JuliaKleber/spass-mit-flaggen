@@ -1,8 +1,8 @@
-# Spaß mit Flaggen - Aufgabe 1 (CSS Box Model)
+# Spaß mit Flaggen - Aufgabe 1 (CSS Box Model - padding, margin, border)
 
 ## Ziel
 
-In dieser Aufgabe soll es darum gehen das CSS-Box-Model, box-sizing, padding, border und margin zu verstehen.
+In dieser Aufgabe soll es darum gehen das CSS-Box-Model inklusive padding, border und margin zu verstehen. Hinweis: Für diese Aufgabe wurde die box-sizing Eigenschaft auf border-box gewählt.
 
 ## Aufgabenstellung
 
@@ -18,10 +18,8 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Anforderungen
 
-- Es soll konsequent Box-Model mit padding, margin und oder border zur Erstellung der Flaggen genutzt werden. Position, Flex-Box, Grid, Gradienten usw. sind nicht erlaubt.
-- Die österreichische Flagge soll jeweils mit content-box und border-box umgesetzt werden. Für beide box-sizing Varianten soll die Flagge nacheinander mit padding, border und margin umgesetzt werden. Das heißt, für die österreichische Flagge sind 6 verschiedene Lösungen gefordert.
-- Für alle anderen Flaggen ist nur eine Lösung mit border-box gefordert.
-- Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
+- Es soll konsequent das Box-Model mit padding, margin und oder border zur Erstellung der Flaggen genutzt werden. Position, Flex-Box, Grid, Gradienten usw. sind nicht erlaubt.
+- Die HTML-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
 - Für die Grundmaße und Farben der Flaggen sollen CSS-Variablen genutzt werden.
 - Es soll CSS-Nesting genutzt werden.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
@@ -73,3 +71,15 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - background-color
 - border-radius
 - calc()
+
+### Tipps
+
+Achtung Spoiler!!!
+
+- 🇦🇹 Österreich: Darstellung der roten Streifen über die CSS-Eigenschaft border
+- 🇱🇻 Lettland: Darstellung der roten Streifen über die CSS-Eigenschaft border
+- 🇳🇬 Nigeria: Darstellung der grünen Streifen über die CSS-Eigenschaft border
+- 🇮🇩 Indonesien: Darstellung des roten Streifens über die CSS-Eigenschaft border
+- 🇯🇵 Japan: Der rote Kreis sollte jeweils eine Höhe und Breite von 100% bekommen und die Flagge sollte ein entsprechendes Padding bekommen um den Kreis die korrekte Größe zu geben und ihn zu positionieren.
+- 🇵🇼 Palau: Der blaue Kreis sollte jeweils eine Höhe und Breite von 100% bekommen und die Flagge sollte ein entsprechendes Padding bekommen um den Kreis die korrekte Größe zu geben und ihn zu positionieren.
+- 🇹🇭 Die roten Streifen können über die CSS-Eigenschaft Border erstellt werden. Der blaue Streifen bekommt ein margin um ihn zu positionieren.

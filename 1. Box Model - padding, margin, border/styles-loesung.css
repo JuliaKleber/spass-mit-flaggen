@@ -1,0 +1,116 @@
+:root {
+  --flag-height: 7rem;
+  --flag-width: calc(var(--flag-height) * 1.5);
+  --flag-width-nigeria: calc(var(--flag-height) * 2);
+  --flag-width-latvia: calc(var(--flag-height) * 2);
+  --flag-width-palau: calc(var(--flag-height) * 8 / 5);
+
+  /* Österreich */
+  --color-austria-red: rgb(237, 41, 57);
+  --color-austria-white: rgb(255, 255, 255);
+
+  /* Lettland */
+  --color-latvia-red: rgb(158, 27, 50);
+  --color-latvia-white: rgb(255, 255, 255);
+
+  /* Nigeria */
+  --color-nigeria-green: rgb(0, 135, 81);
+  --color-nigeria-white: rgb(255, 255, 255);
+
+  /* Indonesien */
+  --color-indonesia-red: rgb(255, 0, 0);
+  --color-indonesia-white: rgb(255, 255, 255);
+
+  /* Japan */
+  --color-japan-white: rgb(255, 255, 255);
+  --color-japan-red: rgb(188, 0, 45);
+
+  /* Palau */
+  --color-palau-blue: rgb(74, 173, 214);
+  --color-palau-yellow: rgb(255, 222, 0);
+
+  /* Thailand */
+  --color-thailand-red: rgb(165, 25, 49);
+  --color-thailand-blue: rgb(45, 42, 74);
+  --color-thailand-white: rgb(244, 245, 248);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flag {
+  height: var(--flag-height);
+  width: var(--flag-width);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.austria {
+  border-color: var(--color-austria-red);
+  border-style: solid;
+  border-width: calc(var(--flag-height) / 3) 0;
+  background-color: var(--color-austria-white);
+}
+
+.latvia {
+  background-color: var(--color-latvia-white);
+  border-color: var(--color-latvia-red);
+  border-style: solid;
+  border-width: calc(var(--flag-height) * 2 / 5) 0;
+  width: var(--flag-width-latvia);
+}
+
+.indonesia {
+  background-color: var(--color-indonesia-white);
+  border-color: var(--color-indonesia-red);
+  border-style: solid;
+  border-width: calc(var(--flag-height) / 2) 0 0 0;
+}
+
+.nigeria {
+  background-color: var(--color-nigeria-white);
+  border-width: 0 calc(var(--flag-width-nigeria) / 3);
+  border-color: var(--color-nigeria-green);
+  border-style: solid;
+  width: var(--flag-width-nigeria);
+}
+
+.japan {
+  background-color: var(--color-japan-white);
+  padding: calc(var(--flag-height) / 5) calc(var(--flag-width) * 3 / 10);
+
+  .circle {
+    background-color: var(--color-japan-red);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.palau {
+  background-color: var(--color-palau-blue);
+  padding: calc(var(--flag-height) / 5) calc(var(--flag-width-palau) * 7 / 16)
+    calc(var(--flag-height) / 5) calc(var(--flag-width-palau) * 3 / 16);
+  width: var(--flag-width-palau);
+
+  .circle {
+    background-color: var(--color-palau-yellow);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.thailand {
+  background-color: var(--color-thailand-white);
+  border-color: var(--color-thailand-red);
+  border-style: solid;
+  border-width: calc(var(--flag-height) / 6) 0;
+
+  .blue-stripe {
+    background-color: var(--color-thailand-blue);
+    height: calc(var(--flag-height) / 3);
+    width: 100%;
+    margin: calc(var(--flag-height) / 6) 0;
+  }
+}
