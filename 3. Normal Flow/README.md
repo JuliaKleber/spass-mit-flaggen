@@ -1,8 +1,8 @@
-# Spaß mit Flaggen - Aufgabe 2 (CSS Box Model)
+# Spaß mit Flaggen - Normal Flow
 
 ## Ziel
 
-In dieser Aufgabe soll es darum gehen zu verstehen, wie Elemente im Document Flow angeordnet werden. Insbesondere geht es um die Ausprägungen block, inline-block und inline der CSS-Eigenschaft display.
+In dieser Aufgabe soll es darum gehen zu verstehen, wie Elemente im Normal Flow bzw. Document Flow angeordnet werden. Insbesondere geht es um die Ausprägungen `block`, `inline-block` und `inline` der CSS-Eigenschaft `display`.
 
 ## Aufgabenstellung
 
@@ -16,11 +16,13 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Anforderungen
 
-- Es sollte konsequent der normale <u>Document-Flow</u> zur Erstellung der Flaggen genutzt werden. Position, Flexbox, Grid, Padding usw. sind nicht erlaubt. Stattdessen sollte nur display: block, display: inline-block und display: inline genutzt werden um die Elemente zu positionieren.
-- Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
-- Für die Grundmaße und Farben der Flaggen sollten CSS-Variablen genutzt werden.
-- Es sollte CSS-Nesting genutzt werden.
-- Es sollten keine Libraries oder Frameworks genutzt werden.
+- Es sollte konsequent der Normal Flow zur Erstellung der Flaggen genutzt werden. Position, Flexbox, Grid, Padding usw. sind nicht erlaubt. Stattdessen sollte nur display: block, display: inline-block und display: inline genutzt werden um die Elemente zu positionieren.
+
+- Es soll konsequent der Normal Flow zur Erstellung der Flaggen genutzt werden. Es sollte nur `display: block`, `display: inline-block` und `display: inline` genutzt werden um die Elemente zu positionieren.
+- Einschränkungen: Die Verwendung von `border`, `padding`, `position`, `flex`, `grid`, `linear-gradient`, `clip-path` oder `svg` ist nicht erlaubt.
+- Keine HTML-Änderungen: Die Struktur der bereitgestellten HTML-Datei darf nicht verändert werden.
+- Modernes CSS: Nutze CSS-Variablen für Farben und Grundmaße sowie CSS-Nesting für eine saubere Struktur.
+- Tools: Es sollen keine Bibliotheken oder Frameworks genutzt werden.
 
 ## Ressourcen
 
@@ -65,3 +67,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - font-size
 - vertical-align
 - calc()
+
+## Zum Weiterlesen
+
+- <a href="https://www.joshwcomeau.com/css/understanding-layout-algorithms/">Understanding Layout Algorithms | Josh Comeau</a>
