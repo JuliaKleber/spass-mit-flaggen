@@ -1,12 +1,18 @@
-# Spaß mit Flaggen - Aufgabe 2 (CSS Box Model - content-box vs. border-box)
+# Spaß mit Flaggen - Box-Modell: content-box
 
 ## Ziel
 
-In dieser Aufgabe soll es darum gehen das CSS-Box-Model, box-sizing, padding, border und margin zu verstehen.
+Ziel dieser Aufgabe ist es, ein tiefgreifendes Verständnis für das CSS-Box-Modell (`padding`, `border`, `margin`) zu entwickeln.
+
+Wichtiger Hinweis: Für alle Aufgaben ist die Eigenschaft `box-sizing: content-box;` vordefiniert.
+
+## Hintergrund
+
+Der W3C-Standard für `box-sizing` ist `content-box`. Bei diesem Modell vergrößern `padding` und `border` die Außenmaße eines Elements, was die präzise Platzierung oft erschwert. Um dieses Verhalten zu umgehen, setzen fast alle modernen CSS-Resets auf `border-box`. In dieser Aufgabe arbeiten wir bewusst mit `content-box`, um ein Verständnis für die Größenberechnungen zu entwickeln.
 
 ## Aufgabenstellung
 
-Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
+Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 
 - 🇦🇹 Österreich
 - 🇱🇻 Lettland
@@ -18,17 +24,11 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Anforderungen
 
-- Es soll konsequent Box-Model mit padding, margin und oder border zur Erstellung der Flaggen genutzt werden. Position, Flex-Box, Grid, Gradienten usw. sind nicht erlaubt.
-- Die österreichische Flagge soll jeweils mit content-box und border-box umgesetzt werden. Für beide box-sizing Varianten soll die Flagge nacheinander mit padding, border und margin umgesetzt werden. Das heißt, für die österreichische Flagge sind 6 verschiedene Lösungen gefordert.
-- Für alle anderen Flaggen ist nur eine Lösung mit border-box gefordert.
-- Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
-- Für die Grundmaße und Farben der Flaggen sollen CSS-Variablen genutzt werden.
-- Es soll CSS-Nesting genutzt werden.
-- Es sollen keine Libraries oder Frameworks genutzt werden.
-
-## Hintergrund
-
-Der Standard für box-sizing ist content-box. Da content-box aber weniger intuitiv ist als border-box, enthalten CSS-Resets üblicherweise border-box.
+- Box-Modell: Nutze konsequent `padding`, `margin` und/oder `border`, um die inneren Flächen der Flaggen darzustellen.
+- Einschränkungen: Die Verwendung von `position`, `flex`, `grid`, `linear-gradient`, `clip-path` oder `svg` ist nicht erlaubt.
+- Keine HTML-Änderungen: Die Struktur der bereitgestellten HTML-Datei darf nicht verändert werden.
+- Modernes CSS: Nutze CSS-Variablen für Farben und Grundmaße sowie CSS-Nesting für eine saubere Struktur.
+- Tools: Es sollen keine Bibliotheken oder Frameworks genutzt werden.
 
 ## Ressourcen
 
@@ -65,7 +65,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ### Abmessungen der Elemente
 
 - 🇱🇻 Das Höhenverhältnis der Streifen in der lettischen Flagge ist 2:1:2.
-- 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist zentriert.
+- 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist mittig zentriert.
 - 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 der Flaggenbreite und 1/2 der Flaggenhöhe.
 - 🇹🇭 Die Streifen der Nationalflagge von Thailand stehen in dem Verhältnis 1:1:2:1:1.
 
@@ -77,3 +77,8 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - background-color
 - border-radius
 - calc()
+
+## Tipps & Lösungshinweise
+
+- Streifen: Äußere horizontale oder vertikale Streifen lassen sich durch die `border`-Eigenschaft erzeugen.
+- Kreise: Setze `width` und `height` des inneren Elements auf 100% und verwende `border-radius: 50%`. Nutze das padding des äußeren Containers, um die Größe und Position des Kreises zu steuern.
