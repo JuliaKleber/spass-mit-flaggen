@@ -43,6 +43,10 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
+## Weiterführende Literautr
+
+- <a href="https://www.joshwcomeau.com/css/make-beautiful-gradients/">Make beautiful Gradients | Josh Comeau</a>
+
 ## Hinweise
 
 ### Seitenverhältnisse der Flaggen

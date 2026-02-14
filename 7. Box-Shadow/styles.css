@@ -7,5 +7,5 @@
 .flag {
   height: 7rem;
   width: 10.5rem;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
 }

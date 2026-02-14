@@ -31,7 +31,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - Mit der Ausnahme von Seychellen sollte nur ein HTML-Element pro Flagge genutzt werden.
 - Um das HTML möglichst minimal zu halten, können die Pseudo-Elemente ::before und ::after genutzt werden.
 - Für die Maße der Flaggen und die Farben sollen CSS-Variablen genutzt werden.
-- Statt px oder em soll rem für die Flaggenhöhe und Prozentangaben, calc() oder aspect-ratio für alle anderen Abmessungen (Streifen, Kreise, usw.) genutzt werden.
+- Statt px oder em soll rem für die Flaggenhöhe genutzt werden. Für alle anderen Abmessungen (Streifen, Kreise, usw.) sollen Prozentangaben, calc() oder aspect-ratio genutzt werden.
 - Es soll CSS-Nesting genutzt werden.
 - Es dürfen keine Bilder, Icons oder SVGs genutzt werden.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
@@ -40,6 +40,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - <a href="https://www.w3schools.com/cssref/css_units.php">CSS Units | w3schools</a>
 - <a href="https://www.mediaevent.de/css/font-size-rem.html">CSS Units | mediaevent</a>
+- <a href="https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/">Surprising Truth about Pixels and Accessibility | Josh Comeau</a>
 - <a href="https://kulturbanause.de/blog/generierter-css-content-mit-before-und-after/">::before & ::after | kulturbanause</a>
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaevent</a>
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
