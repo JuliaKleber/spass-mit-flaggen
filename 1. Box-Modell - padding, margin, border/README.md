@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Box-Modell: padding, margin, border
+# Box-Modell: padding, margin, border
 
 ## Ziel
 
