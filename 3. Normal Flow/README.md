@@ -2,11 +2,11 @@
 
 ## Ziel
 
-In dieser Aufgabe soll es darum gehen zu verstehen, wie Elemente im Normal Flow bzw. Document Flow angeordnet werden. Insbesondere geht es um die Ausprägungen `block`, `inline-block` und `inline` der CSS-Eigenschaft `display`.
+In dieser Aufgabe geht es um die Anordnung von Elementen im Normal Flow (Dokumentfluss). Insbesondere geht es um die Ausprägungen `block`, `inline-block` und `inline` der CSS-Eigenschaft `display`.
 
 ## Aufgabenstellung
 
-Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
+Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 
 - 🇳🇱 Niederlande
 - 🇮🇹 Italien
@@ -16,7 +16,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Anforderungen
 
-- Es soll konsequent der Normal Flow zur Erstellung der Flaggen genutzt werden. Es sollte nur `display: block`, `display: inline-block` und `display: inline` genutzt werden um die Elemente zu positionieren.
+- Es soll konsequent der Normal Flow zur Erstellung der Flaggen genutzt werden. Es sollte nur `display: block`, `display: inline-block` und `display: inline` genutzt werden um die Elemente der Flaggen anzuordnen.
 - Einschränkungen: Die Verwendung von `border`, `padding`, `position`, `flex`, `grid`, `linear-gradient`, `clip-path` oder `svg` ist nicht erlaubt.
 - Keine HTML-Änderungen: Die Struktur der bereitgestellten HTML-Datei darf nicht verändert werden.
 - Modernes CSS: Nutze CSS-Variablen für Farben und Grundmaße sowie CSS-Nesting für eine saubere Struktur.
@@ -24,14 +24,15 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Ressourcen
 
-- <a href="https://www.w3schools.com/css/css_boxmodel.asp">CSS Box Model | w3schools</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction">Einführung in CSS-Layout | MDN</a>
-- <a href="https://www.w3schools.com/css/css_inline-block.asp">inline-block | w3schools</a>
+- <a href="https://www.deutrik.de/id/4910990/Display-Block-vs-Inline-vs-Inline-Block-Alles-was-du-wissen-musst/">Display Block vs. Inline vs. Inline-Block: Alles was du wissen musst | Deutrik</a>
+- <a href="https://kulturbanause.de/blog/block-inline-elemente-in-html/">Block- & Inline-Elemente in HTML | kulturbanause</a>
+- <a href="https://css-tricks.com/fighting-the-space-between-inline-block-elements/">Fighting the space between inline block elements | CSS Tricks</a>
+
 - <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaevent</a>
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
-## Hinweise
+## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen
 
@@ -53,7 +54,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 ### Abmessungen der Elemente
 
-- 🇹🇭 Die Streifen der Nationalflagge von Thailand stehen in dem Verhältnis 1:1:2:1:1.
+- 🇹🇭 Die Höhe der Streifen der Nationalflagge von Thailand stehen im Verhältnis 1:1:2:1:1.
 - 🇧🇯 Der grüne vertikale Streifen in der Flagge von Benin nimmt 40 % der Breite der Flagge ein.
 
 ### Erlaubte CSS-Eigenschaften
@@ -61,11 +62,15 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - display
 - width, height
 - background-color
-- font-size
-- vertical-align
 - calc()
+- font-size
+
+### Tipps und Lösungsansätze
+
+Um die Elemente der Flaggen von Italien und Benin so anzuordnen, dass keine Lücken zwischen den Elementen sind oder unerwartete Zeilenumbrüche, kann der folgende Artikel hilfreich sein:
+
+<a href="https://css-tricks.com/fighting-the-space-between-inline-block-elements/">Fighting the space between inline block elements | CSS Tricks</a>
 
 ## Zum Weiterlesen
 
 - <a href="https://www.joshwcomeau.com/css/understanding-layout-algorithms/">Understanding Layout Algorithms | Josh Comeau</a>
-- <a href="https://css-tricks.com/fighting-the-space-between-inline-block-elements/">Fighting the space between inline block elements | CSS Tricks</a>
