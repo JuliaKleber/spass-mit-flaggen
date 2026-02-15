@@ -73,4 +73,4 @@ Um die Elemente der Flaggen von Italien und Benin so anzuordnen, dass keine Lüc
 
 ## Zum Weiterlesen
 
-- <a href="https://www.joshwcomeau.com/css/understanding-layout-algorithms/">Understanding Layout Algorithms | Josh Comeau</a>
+<a href="https://www.joshwcomeau.com/css/understanding-layout-algorithms/">Understanding Layout Algorithms | Josh Comeau</a>
