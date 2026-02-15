@@ -67,7 +67,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ### Erlaubte CSS-Eigenschaften
 
 - display
-- flex-direction, justify-content, align-items, gap, flex, und weitere flex-Eigenschaften
+- flex, flex-direction, justify-content, align-items, gap und weitere flex-Eigenschaften
 - width, height, aspect-ratio
 - background-color
 - border-radius

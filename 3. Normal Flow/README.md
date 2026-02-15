@@ -60,7 +60,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ### Erlaubte CSS-Eigenschaften
 
 - display
-- width, height
+- width, height, aspect-ratio
 - background-color
 - calc()
 - font-size

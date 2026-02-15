@@ -172,10 +172,9 @@ body {
 
   .circle {
     background-color: var(--color-japan-red);
-    height: 60%;
-
-    aspect-ratio: 1/1;
     border-radius: 50%;
+    height: 60%;
+    aspect-ratio: 1/1;
   }
 }
 

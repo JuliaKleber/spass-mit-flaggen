@@ -73,7 +73,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 - box-sizing
 - margin, border, padding
-- width, height
+- width, height, aspect-ratio
 - background-color
 - border-radius
 - calc()
@@ -82,3 +82,8 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 - Streifen: Äußere horizontale oder vertikale Streifen lassen sich durch die `border`-Eigenschaft erzeugen.
 - Kreise: Setze `width` und `height` des inneren Elements auf 100% und verwende `border-radius: 50%`. Nutze das padding des äußeren Containers, um die Größe und Position des Kreises zu steuern.
+
+## Zum Weiterlesen
+
+- <a href="https://www.joshwcomeau.com/css/rules-of-margin-collapse/">The Rules of Margin Collapse | Josh Comeau</a>
+- <a href="https://www.joshwcomeau.com/css/custom-css-reset/">A Modern CSS Reset | Josh Comeau</a>

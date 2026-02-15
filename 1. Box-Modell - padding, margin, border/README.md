@@ -73,7 +73,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 - box-sizing
 - margin, border, padding
-- width, height
+- width, height, aspect-ratio
 - background-color
 - border-radius
 - calc()
@@ -86,3 +86,4 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ## Zum Weiterlesen
 
 - <a href="https://www.joshwcomeau.com/css/rules-of-margin-collapse/">The Rules of Margin Collapse | Josh Comeau</a>
+- <a href="https://www.joshwcomeau.com/css/custom-css-reset/">A Modern CSS Reset | Josh Comeau</a>
