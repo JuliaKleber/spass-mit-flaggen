@@ -24,7 +24,7 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 
 ## Anforderungen
 
-- Box-Modell: Nutze konsequent `padding`, `margin` und/oder `border`, um die inneren Flächen der Flaggen darzustellen.
+- Box-Modell: Nutze konsequent `padding`, `margin` und/oder `border`, um die Elemente der Flaggen darzustellen.
 - Einschränkungen: Die Verwendung von `position`, `flex`, `grid`, `linear-gradient`, `clip-path` oder `svg` ist nicht erlaubt.
 - Keine HTML-Änderungen: Die Struktur der bereitgestellten HTML-Datei darf nicht verändert werden.
 - Modernes CSS: Nutze CSS-Variablen für Farben und Grundmaße sowie CSS-Nesting für eine saubere Struktur.
