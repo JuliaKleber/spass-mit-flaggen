@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 11 (Verschiedenes)
+# Verschiedenes
 
 # Ziel
 

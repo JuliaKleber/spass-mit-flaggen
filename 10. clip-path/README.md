@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 9 (clip-path)
+# clip-path
 
 ## Ziel
 

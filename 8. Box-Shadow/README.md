@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 7 (Schatten)
+# Schatten
 
 ## Ziel
 

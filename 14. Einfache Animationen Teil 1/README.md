@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 13 (Einfache Animationen Teil 1)
+# Einfache Animationen Teil 1
 
 ## Ziel
 

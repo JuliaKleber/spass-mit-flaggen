@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 12 (SVG)
+# SVG
 
 ## Ziel
 

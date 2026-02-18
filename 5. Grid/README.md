@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 4 (CSS Grid)
+# Grid
 
 ## Ziel
 
