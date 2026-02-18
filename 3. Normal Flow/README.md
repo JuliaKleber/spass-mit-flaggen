@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Normal Flow
+# Normal Flow
 
 ## Ziel
 

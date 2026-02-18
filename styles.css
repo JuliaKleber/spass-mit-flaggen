@@ -18,7 +18,7 @@ body {
   padding: 0.5rem;
 
   @media screen and (min-width: 48rem) {
-    gap: 2.5rem;
+    gap: 2rem;
     padding: 1.5rem;
   }
 }

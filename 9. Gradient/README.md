@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Aufgabe 8 (CSS-Gradienten)
+# Gradienten
 
 ## Ziel
 

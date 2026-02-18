@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Flexbox
+# Flexbox
 
 ## Ziel
 

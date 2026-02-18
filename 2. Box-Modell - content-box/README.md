@@ -1,4 +1,4 @@
-# Spaß mit Flaggen - Box-Modell: content-box
+# Box-Modell: content-box
 
 ## Ziel
 
