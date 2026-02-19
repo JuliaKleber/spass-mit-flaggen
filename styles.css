@@ -29,7 +29,59 @@ body {
 
 .links-container {
   display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  padding-left: 3rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+
+  li {
+    list-style: none;
+    width: 48%;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.card {
+  border-radius: 0.25rem;
+  box-shadow:
+    2px 4px 8px rgb(0 0 0 / 0.1),
+    0px 0px 6px rgb(0 0 0 / 0.1);
+    height: 100%;
+  padding: 1.25rem;
+  transition: box-shadow 450ms;
+
+  &:hover {
+    box-shadow:
+      2px 4px 8px rgb(0 0 0 / 0.2),
+      0px 0px 6px rgb(0 0 0 / 0.2);
+    transition-duration: 150ms;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    .card-header {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+
+      .pre-title {
+        font-size: 0.75rem;
+      }
+
+      h2 {
+        font-size: 1.125rem;
+        font-weight: 500;
+      }
+    }
+
+    .description {
+      font-size: 0.875rem;
+    }
+  }
 }

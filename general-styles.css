@@ -32,6 +32,8 @@ h1 {
   flex-direction: column;
   gap: 0.5rem;
   align-items: center;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
 }
 
 .sub-title {
