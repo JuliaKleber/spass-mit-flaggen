@@ -39,7 +39,7 @@
   padding: 0 4rem 0.5rem 4rem;
 
   .dot {
-    background-color: var(--skeleton-background);
+    background-color: #4e1dc2;
     border-radius: 50%;
     height: 0.5rem;
     width: 0.5rem;
