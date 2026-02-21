@@ -36,10 +36,11 @@
 }
 
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 .flag {
+  box-sizing: content-box;
   height: var(--flag-height);
   width: var(--flag-width);
   box-shadow:

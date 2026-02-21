@@ -1,4 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 .flag {
+  box-sizing: content-box;
   height: 7rem;
   width: 10.5rem;
   box-shadow:

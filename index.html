@@ -17,21 +17,25 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
 
   <body>
-    <header class="header">
+    <header>
       <h1>Spaß mit Flaggen</h1>
     </header>
 
-    <main class="main">
-      <p class="max-width">
+    <main>
+      <p class="max-width-text">
         Bei "Spaß mit Flaggen" handelt es sich um eine Aufgabensammlung zum
         Thema <strong>CSS (Cascading Style Sheets)</strong> und
         <strong>SVG (Scalable Vector Graphics)</strong>.
       </p>
 
-      <p class="max-width">
+      <p class="max-width-text">
         Das Repository ist in Verzeichnisse unterteilt. Jedes Verzeichnis, mit
         Ausnahme von Aufgabe 12, enthält eine README.md mit der
         Aufgabenstellung, eine fertige HTML-Datei, die so verwendet werden kann
@@ -41,7 +45,7 @@
         soll nicht verändert werden.
       </p>
 
-      <p class="max-width">
+      <p class="max-width-text">
         Die wichtigsten Übungen behandeln das Box-Modell (Aufgabe 1), Flexbox
         (Aufgabe 4) und Position (Aufgabe 6). Allerdings gibt es elegantere
         Wege, Flaggen zu erstellen, zum Beispiel unter Verwendung von Gradienten
@@ -50,16 +54,16 @@
         einsteigen.
       </p>
 
-      <p class="max-width">
+      <p class="max-width-text">
         Sobald du die Stylesheets befüllt hast, kannst du dir die Ergebnisse
         über die folgenden Links ansehen.
       </p>
 
-      <p class="max-width">
+      <p class="max-width-text">
         Und nun: Viel Spaß mit Flaggen! <span aria-hidden="true">😃 🙌 🏳️‍🌈</span>
       </p>
 
-      <nav class="max-width">
+      <nav class="max-width-text">
         <ul class="links-container">
           <li>
             <a href="./1. Box-Modell - padding, margin, border/box-model.html">
@@ -318,7 +322,8 @@
                   </div>
                   <p class="description">
                     Implementiere Hover-Animationen durch die Kombination von
-                    CSS-Transitions und verschiedenen <code>filter</code>-Effekten.
+                    CSS-Transitions und verschiedenen
+                    <code>filter</code>-Effekten.
                   </p>
                 </div>
               </div>
@@ -343,5 +348,32 @@
         </ul>
       </nav>
     </main>
+</div>
+    <footer>
+      <nav>
+        <ul class="links">
+          <li>
+            <a href="./data-protection.html" class="text-link-footer"
+              >Datenschutzerklärung</a
+            >
+          </li>
+          <div class="icon-links">
+            <li>
+              <a href="https://github.com/JuliaKleber" class="icon-link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/juliakleber/"
+                class="icon-link"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
