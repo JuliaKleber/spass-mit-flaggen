@@ -25,44 +25,46 @@
   </head>
 
   <body>
-    <header class="header">
-      <h1>Spaß mit Flaggen</h1>
-      <p class="sub-title">Ladezustände mit Keyframes</p>
-    </header>
+    <div>
+      <header class="header">
+        <h1>Spaß mit Flaggen</h1>
+        <p class="sub-title">Ladezustände mit Keyframes</p>
+      </header>
 
-    <main class="flags-container" aria-busy="true" aria-live="polite">
-      <svg
-        class="loading-spinner"
-        viewBox="0 0 20 20"
-        role="status"
-        aria-label="Lädt..."
-      >
-        <path
-          d="M 10,1 A 9,9 0 1 0 19,10"
-          fill="transparent"
-          stroke="#ccc3e0"
-          stroke-width="2"
-          stroke-linecap="round"
-        ></path>
-        <path
-          d="M 10,1 A 9,9 0 0 1 19,10"
-          fill="transparent"
-          stroke="#4e1dc2"
-          stroke-width="2"
-          stroke-linecap="round"
-        ></path>
-      </svg>
+      <main class="flags-container" aria-busy="true" aria-live="polite">
+        <svg
+          class="loading-spinner"
+          viewBox="0 0 20 20"
+          role="status"
+          aria-label="Lädt..."
+        >
+          <path
+            d="M 10,1 A 9,9 0 1 0 19,10"
+            fill="transparent"
+            stroke="#ccc3e0"
+            stroke-width="2"
+            stroke-linecap="round"
+          ></path>
+          <path
+            d="M 10,1 A 9,9 0 0 1 19,10"
+            fill="transparent"
+            stroke="#4e1dc2"
+            stroke-width="2"
+            stroke-linecap="round"
+          ></path>
+        </svg>
 
-      <div class="skeleton-pulse" role="status" aria-label="Lädt..."></div>
+        <div class="skeleton-pulse" role="status" aria-label="Lädt..."></div>
 
-      <div class="skeleton-shimmer" role="status" aria-label="Lädt..."></div>
+        <div class="skeleton-shimmer" role="status" aria-label="Lädt..."></div>
 
-      <div class="bouncing-dots" role="status" aria-label="Lädt...">
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-      </div>
-    </main>
+        <div class="bouncing-dots" role="status" aria-label="Lädt...">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </main>
+    </div>
 
     <footer>
       <nav>
