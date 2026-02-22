@@ -31,70 +31,205 @@
         <p class="sub-title">Ladezustände mit Keyframes</p>
       </header>
 
-      <main class="flags-container" aria-busy="true" aria-live="polite">
-        <svg
-          class="loading-spinner"
-          viewBox="0 0 20 20"
-          role="status"
-          aria-label="Lädt..."
-        >
-          <path
-            d="M 10,1 A 9,9 0 1 0 19,10"
+      <main>
+        <div class="flags-container" aria-busy="true" aria-live="polite">
+          <div class="loading-spinner-container">
+            <svg
+              class="loading-spinner"
+              viewBox="0 0 16 16"
+              role="status"
+              aria-label="Lädt..."
+            >
+              <path
+                d="M 1,8 A 7,7 0 1 0 8,1"
+                fill="transparent"
+                stroke="rgb(120 0 120)"
+                stroke-width="1.7"
+                stroke-linecap="round"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="skeleton-pulse" role="status" aria-label="Lädt..."></div>
+
+          <div
+            class="skeleton-shimmer"
+            role="status"
+            aria-label="Lädt..."
+          ></div>
+
+          <div class="bouncing-dots" role="status" aria-label="Lädt...">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <svg viewBox="0 0 120 5" class="divider">
+          <circle
+            cx="10"
+            cy="5"
+            r="4"
+            stroke="rgb(120 0 120)"
+            stroke-width="1"
             fill="transparent"
-            stroke="#ccc3e0"
-            stroke-width="2"
-            stroke-linecap="round"
-          ></path>
-          <path
-            d="M 10,1 A 9,9 0 0 1 19,10"
+          />
+          <circle
+            cx="20"
+            cy="0"
+            r="4"
+            stroke="rgb(0 120 0)"
+            stroke-width="1"
             fill="transparent"
-            stroke="#4e1dc2"
-            stroke-width="2"
-            stroke-linecap="round"
-          ></path>
+          />
+          <circle
+            cx="30"
+            cy="5"
+            r="4"
+            stroke="rgb(120 0 120)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="50"
+            cy="0"
+            r="4"
+            stroke="rgb(0 120 0)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="60"
+            cy="5"
+            r="4"
+            stroke="rgb(120 0 120)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="70"
+            cy="0"
+            r="4"
+            stroke="rgb(0 120 0)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="90"
+            cy="5"
+            r="4"
+            stroke="rgb(120 0 120)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="100"
+            cy="0"
+            r="4"
+            stroke="rgb(0 120 0)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="110"
+            cy="5"
+            r="4"
+            stroke="rgb(120 0 120)"
+            stroke-width="1"
+            fill="transparent"
+          />
         </svg>
 
-        <div class="skeleton-pulse" role="status" aria-label="Lädt..."></div>
+        <div class="sections-container">
+          <h2>Aufgabenbeschreibung</h2>
 
-        <div class="skeleton-shimmer" role="status" aria-label="Lädt..."></div>
+          <section class="paragraphs-container">
+            <h3>Ziel</h3>
+            <p>
+              Ziel ist es verschiedene Ladezustände mit Hilfe von Keyframes
+              darzustellen.
+            </p>
+          </section>
 
-        <div class="bouncing-dots" role="status" aria-label="Lädt...">
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
+          <section class="paragraphs-container">
+            <h3>Aufgabenstellung</h3>
+            <p>Implementiere die folgenden Ladezustände</p>
+            <ul class="list">
+              <li>Loading Spinner</li>
+              <li>Pulsierendes Skeleton</li>
+              <li>Schimmerndes Skeleton</li>
+              <li>Bouncing Dots</li>
+            </ul>
+          </section>
+
+          <section class="paragraphs-container">
+            <h3>Ressourcen</h3>
+            <ul class="list">
+              <li>
+                <a
+                  class="text-link"
+                  href="https://www.joshwcomeau.com/animation/keyframe-animations/"
+                >
+                  An Interactive Guide to Keyframe Animations | Josh Comeau
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="paragraphs-container">
+            <h3>Zum Weiterlesen</h3>
+            <ul class="list">
+              <li>
+                <a
+                  class="text-link"
+                  href="https://www.joshwcomeau.com/animation/partial-keyframes/"
+                >
+                  Partial Keyframes | Josh Comeau
+                </a>
+              </li>
+            </ul>
+          </section>
         </div>
       </main>
     </div>
 
-    <footer>
-      <nav>
-        <ul class="links">
-          <div class="text-links">
-            <li>
-              <a href="../data-protection.html" class="text-link-footer"
-                >Datenschutzerklärung</a
-              >
-            </li>
-            <li>
-              <a href="../imprint.html" class="text-link-footer">Impressum</a>
-            </li>
-          </div>
-          <div class="icon-links">
-            <li>
-              <a href="https://github.com/JuliaKleber" class="icon-link">
-                <i class="fa-brands fa-github"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/juliakleber/"
-                class="icon-link"
-              >
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            </li>
-          </div>
-        </ul>
+    <footer class="footer">
+      <nav class="footer__nav">
+        <div class="footer__group">
+          <a
+            href="../data-protection.html"
+            class="text-link footer__link footer__link--text"
+            >Datenschutzerklärung</a
+          >
+
+          <a
+            href="../imprint.html"
+            class="text-link footer__link footer__link--text"
+            >Impressum</a
+          >
+        </div>
+
+        <div class="footer__group">
+          <a
+            aria-label="GitHub Profil von Julia Kleber"
+            class="footer__link footer__link--icon"
+            href="https://github.com/JuliaKleber"
+            rel="noopener"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </a>
+
+          <a
+            aria-label="LinkedIn Profil von Julia Kleber"
+            class="footer__link footer__link--icon"
+            href="https://www.linkedin.com/in/juliakleber/"
+            rel="noopener"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
       </nav>
     </footer>
   </body>

@@ -1,8 +1,10 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
-  --skeleton-highlight: #909090;
-  --skeleton-background: #707070;
+  --skeleton-background-pulse: #808080;
+  --skeleton-highlight-shimmer: #b0b0b0;
+  --skeleton-background-shimmer: #606060;
+  --color-primary: rgb(120 0 120);
 }
 
 .loading-spinner {
@@ -12,7 +14,7 @@
 }
 
 .skeleton-pulse {
-  background-color: var(--skeleton-background);
+  background-color: var(--skeleton-background-pulse);
   border-radius: 0.25rem;
   height: var(--flag-height);
   width: var(--flag-width);
@@ -20,10 +22,11 @@
 
 .skeleton-shimmer {
   background-image: linear-gradient(
-    90deg,
-    var(--skeleton-background) 0%,
-    var(--skeleton-highlight) 50%,
-    var(--skeleton-background) 100%
+    115deg,
+    var(--skeleton-background-shimmer) 0%,
+    var(--skeleton-highlight-shimmer) 50%,
+    var(--skeleton-background-shimmer) 100%,
+    var(--skeleton-background-shimmer) 200%
   );
   background-size: 200% 100%;
   border-radius: 0.25rem;
@@ -32,14 +35,17 @@
 }
 
 .bouncing-dots {
-  align-self: flex-end;
+  height: var(--flag-height);
+  width: var(--flag-width);
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
   gap: 0.375rem;
-  padding: 0 4rem 0.5rem 4rem;
+  padding-bottom: 0.25rem;
 
   .dot {
-    background-color: #4e1dc2;
+    background-color: var(--color-primary);
     border-radius: 50%;
     height: 0.5rem;
     width: 0.5rem;
