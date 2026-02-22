@@ -9,13 +9,13 @@
   --max-width-text: 40rem;
   --spacer-sm: 1rem;
   --spacer-md: 1.5rem;
-
-  --breakpoint-sm: 48rem;
+  --spacer-lg: 2.5rem;
 }
 
 *,
 *::before,
 *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -34,6 +34,17 @@ body {
   min-height: 100vh;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 600;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -43,17 +54,7 @@ header {
   font-family: "Dosis", sans-serif;
   text-align: center;
 
-  padding: var(--spacer-sm);
-  padding-bottom: 0;
-
-  @media screen and (min-width: var(--breakpoint-sm)) {
-    padding: var(--spacer-md);
-    padding-bottom: 0;
-  }
-
-  h1 {
-    font-weight: 500;
-  }
+  padding: var(--spacer-lg);
 
   .sub-title {
     font-size: var(--spacer-md);
@@ -65,11 +66,18 @@ main {
   flex-direction: column;
   gap: var(--spacer-sm);
   padding: var(--spacer-sm);
-  max-width: var(--max-width);
+  padding-top: 0;
 
-  @media screen and (min-width: var(--breakpoint-sm)) {
-    gap: var(--spacer-md);
-    padding: var(--spacer-md);
+  @media screen and (min-width: 40rem) {
+    gap: var(--spacer-lg);
+    padding: var(--spacer-lg);
+    padding-top: 0;
+  }
+
+  @media screen and (min-width: 80rem) {
+    padding: var(--spacer-lg) 0;
+    padding-top: 0;
+    max-width: var(--max-width);
   }
 }
 
@@ -81,8 +89,8 @@ footer {
   justify-content: center;
   padding: var(--spacer-sm);
 
-  @media screen and (min-width: var(--breakpoint-sm)) {
-    padding: var(--spacer-md);
+  @media screen and (min-width: 40rem) {
+    padding: var(--spacer-sm) var(--spacer-lg);
   }
 
   nav {
@@ -97,10 +105,17 @@ footer {
       list-style: none;
       height: 100%;
 
+      .text-links {
+        display: flex;
+        flex-direction: row;
+        gap: var(--spacer-md);
+      }
+
       .text-link-footer {
         color: white;
         text-decoration: none;
         position: relative;
+        font-weight: 500;
 
         &::after {
           content: "";
@@ -130,7 +145,7 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: var(--spacer-sm);
+        gap: var(--spacer-md);
         height: 100%;
 
         .icon-link {
@@ -162,6 +177,17 @@ strong {
   max-width: var(--max-width-text);
 }
 
+.paragraphs-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-sm);
+
+  @media (min-width: 40rem) {
+    gap: var(--spacer-md);
+    max-width: var(--max-width-text);
+  }
+}
+
 .flags-container {
   display: flex;
   flex-wrap: wrap;
@@ -169,7 +195,11 @@ strong {
   align-items: center;
   gap: var(--spacer-md);
 
-  @media screen and (min-width: var(--breakpoint-sm)) {
+  @media screen and (min-width: 40rem) {
     gap: 2rem;
   }
+}
+
+.list {
+  padding-left: 1.5rem;
 }
