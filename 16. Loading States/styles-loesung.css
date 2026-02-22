@@ -1,8 +1,10 @@
 :root {
   --flag-height: 7rem;
   --flag-width: calc(var(--flag-height) * 1.5);
-  --skeleton-highlight: #909090;
-  --skeleton-background: #707070;
+  --color-primary: rgb(120 0 120);
+  --skeleton-background-pulse: #808080;
+  --skeleton-highlight-shimmer: #b0b0b0;
+  --skeleton-background-shimmer: #606060;
 }
 
 @keyframes bounce {
@@ -27,11 +29,11 @@
 
 @keyframes shimmer {
   from {
-    background-position: 200% 0;
+    background-position: 100% 0;
   }
 
   to {
-    background-position: -200% 0;
+    background-position: 0% 0;
   }
 }
 
@@ -59,7 +61,7 @@
 }
 
 .skeleton-pulse {
-  background-color: var(--skeleton-background);
+  background-color: var(--skeleton-background-pulse);
   border-radius: 0.25rem;
   height: var(--flag-height);
   width: var(--flag-width);
@@ -70,12 +72,12 @@
 }
 
 .skeleton-shimmer {
-  background-color: var(--skeleton-background);
   background-image: linear-gradient(
-    90deg,
-    var(--skeleton-background) 0%,
-    var(--skeleton-highlight) 50%,
-    var(--skeleton-background) 100%
+    115deg,
+    var(--skeleton-background-shimmer) 0%,
+    var(--skeleton-highlight-shimmer) 50%,
+    var(--skeleton-background-shimmer) 100%,
+    var(--skeleton-background-shimmer) 200%
   );
   background-size: 200% 100%;
   border-radius: 0.25rem;
@@ -83,7 +85,7 @@
   width: var(--flag-width);
 
   @media (prefers-reduced-motion: no-preference) {
-    animation: shimmer 4s infinite linear;
+    animation: shimmer 2s infinite ease-in-out alternate;
   }
 }
 
@@ -98,7 +100,7 @@
   padding-bottom: 0.25rem;
 
   .dot {
-    background-color: rgb(100 0 100);
+    background-color: var(--color-primary);
     border-radius: 50%;
     height: 0.5rem;
     width: 0.5rem;

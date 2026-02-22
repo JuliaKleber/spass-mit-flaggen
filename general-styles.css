@@ -2,7 +2,7 @@
 
 :root {
   --color-background: rgb(253 245 230);
-  --color-primary: rgb(100 0 100);
+  --color-primary: rgb(120 0 120);
   --color-offwhite: rgb(254 252 250);
 
   --max-width: 80rem;
@@ -148,6 +148,14 @@ strong {
 
 .list {
   padding-left: var(--spacer-md);
+}
+
+/* ------------------------------ divider ---------------------------- */
+
+.divider {
+  height: 0.5rem;
+  width: auto;
+  margin-top: 1rem;
 }
 
 /* ------------------------------ containers ------------------------- */
