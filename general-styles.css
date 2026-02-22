@@ -7,6 +7,7 @@
 
   --max-width: 80rem;
   --max-width-text: 40rem;
+  --spacer-sm: 0.5rem;
   --spacer-sm: 1rem;
   --spacer-md: 1.5rem;
   --spacer-lg: 2.5rem;
@@ -81,87 +82,82 @@ main {
   }
 }
 
-footer {
+/* ------------------------------ footer ---------------------------- */
+
+.footer {
   background-color: var(--color-primary);
-  height: 4rem;
+  min-height: 4rem;
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: var(--spacer-sm);
+  align-items: center;
+  padding: var(--spacer-xs) var(--spacer-sm);
 
   @media screen and (min-width: 40rem) {
-    padding: var(--spacer-sm) var(--spacer-lg);
-  }
-
-  nav {
-    width: 100%;
-    max-width: var(--max-width-text);
-
-    .links {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      list-style: none;
-      height: 100%;
-
-      .text-links {
-        display: flex;
-        flex-direction: row;
-        gap: var(--spacer-md);
-      }
-
-      .text-link-footer {
-        color: white;
-        text-decoration: none;
-        position: relative;
-        font-weight: 500;
-
-        &::after {
-          content: "";
-          background-color: currentColor;
-          position: absolute;
-          bottom: -0.125rem;
-          left: 0;
-          height: 0.0625rem;
-          width: 100%;
-          transform: scaleX(0);
-          transform-origin: left;
-          transition: transform 450ms;
-        }
-
-        &:hover::after,
-        &:focus-visible::after {
-          transform: scaleX(1);
-          transition-duration: 150ms;
-        }
-
-        &:focus-visible {
-          outline-color: currentColor;
-        }
-      }
-
-      .icon-links {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: var(--spacer-md);
-        height: 100%;
-
-        .icon-link {
-          height: 100%;
-          width: auto;
-          color: var(--color-offwhite);
-          font-size: 2rem;
-
-          &:hover {
-            color: white;
-          }
-        }
-      }
-    }
+    padding: var(--spacer-xs) var(--spacer-lg);
   }
 }
+
+.footer__nav {
+  height: 100%;
+  width: 100%;
+  max-width: var(--max-width-text);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__group {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacer-md);
+}
+
+.footer__link {
+  color: var(--color-offwhite);
+
+  &:hover {
+    color: white;
+  }
+}
+
+.footer__link--text {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+
+  &::after {
+    content: "";
+    background-color: currentColor;
+    position: absolute;
+    bottom: -0.125rem;
+    left: 0;
+    height: 0.0625rem;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 450ms;
+  }
+
+  &:hover::after,
+  &:focus-visible::after {
+    transform: scaleX(1);
+    transition-duration: 150ms;
+  }
+
+  &:focus-visible {
+    outline-color: currentColor;
+  }
+}
+
+.footer__link--icon {
+  height: 100%;
+  width: auto;
+  font-size: 2rem;
+}
+
+/* ------------------------------ focus ------------------------------ */
 
 a:focus-visible,
 button:focus-visible {
@@ -169,9 +165,13 @@ button:focus-visible {
   outline-offset: 0.1875rem;
 }
 
+/* ------------------------------ strong ----------------------------- */
+
 strong {
   font-weight: 500;
 }
+
+/* ------------------------------ custom classes---------------------- */
 
 .max-width-text {
   max-width: var(--max-width-text);
