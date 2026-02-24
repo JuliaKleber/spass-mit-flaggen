@@ -2,7 +2,7 @@
 
 :root {
   --color-background: rgb(253 245 230);
-  --color-primary: rgb(120 0 120);
+  --color-primary: rgb(128 0 128);
   --color-offwhite: rgb(254 252 250);
 
   --max-width: 80rem;
@@ -20,19 +20,38 @@
   --duration-slow: 450ms;
 }
 
+/* ------------------------------ css reset ---------------------------- */
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
 }
+
+*:not(dialog) {
+  margin: 0;
+}
+
+p {
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+/* ------------------------------ body ----------------------------- */
 
 body {
   background-color: var(--color-background);
 
   font-family: "Inter", sans-serif;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 
   display: flex;
   flex-direction: column;
@@ -41,6 +60,8 @@ body {
 
   min-height: 100vh;
 }
+
+/* ------------------------------ titles ---------------------------- */
 
 h1,
 h2,
@@ -56,6 +77,18 @@ h2 {
 h3 {
   font-weight: 600;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+/* ------------------------------ header ---------------------------- */
 
 header {
   display: flex;
@@ -77,6 +110,8 @@ header {
     padding: var(--spacer-2xl);
   }
 }
+
+/* ------------------------------ main ------------------------------- */
 
 main {
   display: flex;
