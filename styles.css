@@ -48,8 +48,7 @@
   transition:
     box-shadow var(--duration-slow),
     background-color var(--duration-slow),
-    translate var(--duration-slow),
-    scale var(--duration-slow);
+    translate var(--duration-slow);
 
   &:hover {
     background-color: white;
@@ -58,7 +57,6 @@
       0px 0px 6px rgb(0 0 0 / 0.2);
     transition-duration: var(--duration-quick);
     translate: 0 -0.125rem;
-    scale: 1.01;
   }
 
   &:active {
