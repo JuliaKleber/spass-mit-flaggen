@@ -45,7 +45,7 @@
 }
 
 .netherlands {
-  &::before {
+  &::after {
     content: "";
     display: block;
     background-color: var(--color-netherlands-red);
@@ -58,7 +58,7 @@
 }
 
 .italy {
-  &::before {
+  &::after {
     content: "";
     display: block;
     background-color: var(--color-italy-green);
@@ -71,7 +71,7 @@
 }
 
 .mauritius {
-  &::before {
+  &::after {
     content: "";
     display: block;
     background-color: var(--color-mauritius-red);
@@ -85,7 +85,7 @@
 }
 
 .thailand {
-  &::before {
+  &::after {
     content: "";
     display: block;
     background-color: var(--color-thailand-red);
@@ -104,7 +104,7 @@
   background-color: var(--color-eu-blue);
   position: relative;
 
-  &::before {
+  &::after {
     content: "\2605";
     position: absolute;
     color: transparent;
