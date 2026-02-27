@@ -1,4 +1,4 @@
-# Box-Modell: padding, margin, border
+# Box-Modell: border-box
 
 ## Ziel
 

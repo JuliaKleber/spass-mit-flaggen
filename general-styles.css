@@ -63,23 +63,30 @@ body {
 
 /* ------------------------------ titles ---------------------------- */
 
-h1,
-h2,
-h3 {
-  font-family: "Dosis", sans-serif;
-  font-weight: 500;
-}
-
 h2 {
   text-align: center;
 }
 
-h3 {
+h1,
+h2 {
+  font-weight: 500;
+}
+
+h3,
+h4 {
   font-weight: 600;
 }
 
+h3 {
+  font-size: 1.25rem;
+}
+
 h4 {
-  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+h2 {
+  text-align: center;
 }
 
 h1,
@@ -88,6 +95,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Dosis", sans-serif;
   text-wrap: balance;
   overflow-wrap: break-word;
 }
@@ -103,7 +111,11 @@ header {
   font-family: "Dosis", sans-serif;
   text-align: center;
 
-  padding: var(--spacer-lg);
+  padding: var(--spacer-lg) var(--spacer-sm);
+
+  position: relative;
+
+  width: 100%;
 
   .sub-title {
     font-size: var(--spacer-md);
@@ -113,6 +125,10 @@ header {
   @media screen and (min-width: 40rem) {
     gap: var(--spacer-xs);
     padding: var(--spacer-2xl);
+    width: var(--max-width-text);
+  }
+
+  @media screen and (min-width: 42rem) {
   }
 }
 
@@ -123,18 +139,18 @@ main {
   flex-direction: column;
   align-items: center;
   gap: var(--spacer-xl);
-  padding: var(--spacer-sm);
-  padding-top: 0;
+  /* padding: var(--spacer-sm);
+  padding-top: 0; */
 
   @media screen and (min-width: 40rem) {
     gap: var(--spacer-2xl);
-    padding: var(--spacer-2xl);
-    padding-top: 0;
+    /* padding: var(--spacer-2xl);
+    padding-top: 0; */
   }
 
   @media screen and (min-width: 80rem) {
-    padding: var(--spacer-2xl) 0;
-    padding-top: 0;
+    /* padding: var(--spacer-2xl) 0;
+    padding-top: 0; */
     max-width: var(--max-width);
   }
 }
@@ -147,10 +163,14 @@ button:focus-visible {
   outline-offset: 0.1875rem;
 }
 
-/* ------------------------------ strong ----------------------------- */
+/* ------------------------------ text ------------------------------- */
 
 strong {
   font-weight: 500;
+}
+
+.text-left {
+  text-align: left;
 }
 
 /* ------------------------------ links ------------------------------ */
@@ -181,6 +201,18 @@ strong {
 
   &:focus-visible {
     outline-color: currentColor;
+  }
+}
+
+.home-link {
+  color: var(--color-primary);
+  position: absolute;
+  top: var(--spacer-sm);
+  left: 0;
+
+  @media screen and (min-width: 42rem) {
+    left: 0;
+    top: var(--spacer-lg);
   }
 }
 
@@ -238,6 +270,26 @@ strong {
   @media (min-width: 40rem) {
     gap: var(--spacer-lg);
     width: var(--max-width-text);
+  }
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacer-sm);
+  padding-top: 0;
+
+  @media screen and (min-width: 40rem) {
+    padding: var(--spacer-2xl);
+    padding: var(--spacer-2xl);
+    padding-top: 0;
+  }
+
+  @media screen and (min-width: 80rem) {
+    padding: var(--spacer-2xl) 0;
+    padding-top: 0;
+    max-width: var(--max-width);
   }
 }
 
