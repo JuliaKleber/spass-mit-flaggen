@@ -5,8 +5,7 @@
   --color-primary: rgb(128 0 128);
   --color-offwhite: rgb(254 252 250);
 
-  --max-width: 80rem;
-  --max-width-text: 40rem;
+  --max-width: 40rem;
   --spacer-xs: 0.5rem;
   --spacer-sm: 1rem;
   --spacer-md: 1.5rem;
@@ -63,6 +62,7 @@ body {
 
 /* ------------------------------ titles ---------------------------- */
 
+h1,
 h2 {
   text-align: center;
 }
@@ -74,7 +74,24 @@ h2 {
 
 h3,
 h4 {
-  font-weight: 600;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+
+  @media screen and (min-width: 40rem) {
+    font-size: 1.8rem;
+  }
+}
+
+h2 {
+  font-size: 1.4rem;
+
+  @media screen and (min-width: 40rem) {
+    font-size: 1.5rem;
+  }
 }
 
 h3 {
@@ -83,10 +100,6 @@ h3 {
 
 h4 {
   font-size: 1.125rem;
-}
-
-h2 {
-  text-align: center;
 }
 
 h1,
@@ -103,32 +116,45 @@ h6 {
 /* ------------------------------ header ---------------------------- */
 
 header {
+  box-shadow:
+    4px 0px 8px rgb(0 0 0 / 0.1),
+    2px 0px 6px rgb(0 0 0 / 0.1);
+  height: 3rem;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 0.125rem;
-
-  font-family: "Dosis", sans-serif;
-  text-align: center;
-
   padding: var(--spacer-lg) var(--spacer-sm);
 
-  position: relative;
-
-  width: 100%;
-
-  .sub-title {
-    font-size: var(--spacer-md);
-    text-wrap: balance;
-  }
-
   @media screen and (min-width: 40rem) {
-    gap: var(--spacer-xs);
-    padding: var(--spacer-2xl);
-    width: var(--max-width-text);
+    height: 4rem;
   }
 
-  @media screen and (min-width: 42rem) {
+  .header-content {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    padding: 0;
+    width: 100%;
+
+    @media screen and (min-width: 40rem) {
+      width: var(--max-width);
+    }
+
+    .home-link {
+      color: var(--color-primary);
+      display: flex;
+      align-items: center;
+    }
+
+    .title {
+      font-family: "Dosis", sans-serif;
+      font-size: 1.4rem;
+      font-weight: 500;
+
+      @media screen and (min-width: 40rem) {
+        font-size: 1.6rem;
+      }
+    }
   }
 }
 
@@ -139,19 +165,12 @@ main {
   flex-direction: column;
   align-items: center;
   gap: var(--spacer-xl);
-  /* padding: var(--spacer-sm);
-  padding-top: 0; */
+  padding: var(--spacer-lg) var(--spacer-sm);
 
   @media screen and (min-width: 40rem) {
     gap: var(--spacer-2xl);
-    /* padding: var(--spacer-2xl);
-    padding-top: 0; */
-  }
-
-  @media screen and (min-width: 80rem) {
-    /* padding: var(--spacer-2xl) 0;
-    padding-top: 0; */
-    max-width: var(--max-width);
+    width: var(--max-width);
+    padding: var(--spacer-2xl) 0;
   }
 }
 
@@ -186,7 +205,7 @@ strong {
     position: absolute;
     bottom: -0.125rem;
     left: 0;
-    height: 0.1rem;
+    height: 0.125rem;
     width: 100%;
     transform: scaleX(0);
     transform-origin: left;
@@ -204,18 +223,6 @@ strong {
   }
 }
 
-.home-link {
-  color: var(--color-primary);
-  position: absolute;
-  top: var(--spacer-sm);
-  left: 0;
-
-  @media screen and (min-width: 42rem) {
-    left: 0;
-    top: var(--spacer-lg);
-  }
-}
-
 /* ------------------------------ code ------------------------------- */
 
 .code {
@@ -225,7 +232,11 @@ strong {
 /* ------------------------------ lists ------------------------------ */
 
 .list {
-  padding-left: var(--spacer-md);
+  padding-left: var(--spacer-sm);
+
+  @media screen and (min-width: 40rem) {
+    padding-left: var(--spacer-md);
+  }
 }
 
 /* ------------------------------ divider ---------------------------- */
@@ -243,10 +254,10 @@ strong {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: var(--spacer-md);
+  gap: var(--spacer-sm);
 
   @media screen and (min-width: 40rem) {
-    gap: var(--spacer-lg);
+    gap: var(--spacer-md);
   }
 }
 
@@ -255,10 +266,6 @@ strong {
   flex-direction: column;
   gap: var(--spacer-sm);
   width: 100%;
-
-  @media (min-width: 42rem) {
-    width: var(--max-width-text);
-  }
 }
 
 .sections-container {
@@ -269,28 +276,15 @@ strong {
 
   @media (min-width: 40rem) {
     gap: var(--spacer-lg);
-    width: var(--max-width-text);
   }
 }
 
 .content-wrapper {
+  width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: var(--spacer-sm);
-  padding-top: 0;
-
-  @media screen and (min-width: 40rem) {
-    padding: var(--spacer-2xl);
-    padding: var(--spacer-2xl);
-    padding-top: 0;
-  }
-
-  @media screen and (min-width: 80rem) {
-    padding: var(--spacer-2xl) 0;
-    padding-top: 0;
-    max-width: var(--max-width);
-  }
 }
 
 /* ------------------------------ footer ---------------------------- */
@@ -312,11 +306,16 @@ strong {
 .footer__nav {
   height: 100%;
   width: 100%;
-  max-width: var(--max-width-text);
+  max-width: var(--max-width);
+
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column-reverse;
+
+  @media screen and (min-width: 26rem) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .footer__group {

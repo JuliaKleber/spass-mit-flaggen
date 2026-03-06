@@ -1,5 +1,9 @@
 :root {
-  --flag-height: 7rem;
+  --flag-height: 4rem;
+
+  @media screen and (min-width: 40rem) {
+    --flag-height: 5.5rem;
+  }
   --flag-width: calc(var(--flag-height) * 1.5);
   --flag-width-palau: calc(var(--flag-height) * 1.6);
   --flag-width-scotland: calc(var(--flag-height) * 5 / 3);
