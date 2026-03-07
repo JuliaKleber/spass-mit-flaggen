@@ -4,9 +4,12 @@
   @media screen and (min-width: 40rem) {
     --flag-height: 5.5rem;
   }
+
   --flag-width: calc(var(--flag-height) * 1.5);
-  --flag-width-nigeria: calc(var(--flag-height) * 2);
+  
+  --flag-width-kuwait: calc(var(--flag-height) * 2);
   --flag-width-latvia: calc(var(--flag-height) * 2);
+  --flag-width-nigeria: calc(var(--flag-height) * 2);
   --flag-width-palau: calc(var(--flag-height) * 8 / 5);
 
   /* Österreich */
@@ -37,6 +40,12 @@
   --color-thailand-red: rgb(165, 25, 49);
   --color-thailand-blue: rgb(45, 42, 74);
   --color-thailand-white: rgb(244, 245, 248);
+
+  /* Kuwait */
+  --color-kuwait-black: rgb(0 0 0);
+  --color-kuwait-white: rgb(255 255 255);
+  --color-kuwait-red: rgb(206 17 38);
+  --color-kuwait-green: rgb(0 122 61);
 }
 
 * {
@@ -119,4 +128,12 @@
     height: calc(var(--flag-height) / 3);
     width: 100%;
   }
+}
+
+.kuwait {
+  width: var(--flag-width);
+  background-color: var(--color-kuwait-white);
+  border-left: solid var(--color-kuwait-black) calc(var(--flag-width) / 4);
+  border-top: solid var(--color-kuwait-green) calc(var(--flag-height) / 3);
+  border-bottom: solid var(--color-kuwait-red) calc(var(--flag-height) / 3);
 }
