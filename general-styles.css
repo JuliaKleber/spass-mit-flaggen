@@ -119,16 +119,13 @@ header {
   box-shadow:
     4px 0px 8px rgb(0 0 0 / 0.1),
     2px 0px 6px rgb(0 0 0 / 0.1);
-  height: 3rem;
+  border-radius: 0.125rem;
+  height: 2rem;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: var(--spacer-lg) var(--spacer-sm);
-
-  @media screen and (min-width: 40rem) {
-    height: 4rem;
-  }
 
   .header-content {
     display: grid;
@@ -165,11 +162,10 @@ main {
   flex-direction: column;
   align-items: center;
   gap: var(--spacer-xl);
-  padding: var(--spacer-lg) var(--spacer-sm);
+  padding-top: var(--spacer-lg);
 
   @media screen and (min-width: 40rem) {
     gap: var(--spacer-2xl);
-    width: var(--max-width);
     padding: var(--spacer-2xl) 0;
   }
 }
@@ -285,6 +281,14 @@ strong {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  padding: var(--spacer-sm);
+
+  @media screen and (min-width: 40rem) {
+    width: var(--max-width);
+    padding: 0;
+    padding-top: var(--spacer-sm);
+  }
 }
 
 /* ------------------------------ footer ---------------------------- */
