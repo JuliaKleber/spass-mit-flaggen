@@ -33,7 +33,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇨🇿 Tschechische Republik: 3:2
 - 🇧🇸 Bahamas: 2:1
 
-## Farben der Flaggen
+### Farben der Flaggen
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
@@ -45,7 +45,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇨🇿 Das Dreieck in der tschechischen Flagge ist so breit wie die Hälfte der Länge der Flagge.
 - 🇧🇸 Das Dreieck der Flagge der Bahamas ist die Länge der Flagge geteilt durch 2,2.
 
-## Benötigte CSS-Eigenschaften
+### Benötigte CSS-Eigenschaften
 
 - background-color
 - height, width
