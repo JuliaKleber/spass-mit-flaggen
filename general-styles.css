@@ -18,7 +18,7 @@
   --duration-medium: 300ms;
   --duration-slow: 450ms;
 
-  --header-height: 3.5rem;
+  --header-height: 3rem;
 }
 
 /* ------------------------------ css reset ---------------------------- */
@@ -51,8 +51,13 @@ body {
   background-color: var(--color-background);
 
   font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+
+  @media screen and (min-width: 40rem) {
+    font-size: 1rem;
+  }
 
   display: flex;
   flex-direction: column;
@@ -119,12 +124,19 @@ h6 {
 
 header {
   height: var(--header-height);
-  width: calc(100% - 2rem);
+  width: calc(100% - 2 * var(--spacer-sm));
   position: fixed;
   z-index: 1000;
 
   @media screen and (min-width: 40rem) {
     width: var(--max-width);
+  }
+
+  .blur {
+    height: var(--spacer-sm);
+    width: 100%;
+    background: var(--color-background);
+    opacity: 0.9;
   }
 
   .header-content {
@@ -145,14 +157,6 @@ header {
       display: flex;
       align-items: center;
       margin-right: auto;
-      transition: scale 450ms;
-
-      @media (prefers-reduced-motion: no-preference) {
-        &:hover {
-          scale: 1.1;
-          transition-duration: 150ms;
-        }
-      }
     }
 
     .title {
@@ -160,11 +164,11 @@ header {
       align-items: center;
 
       font-family: "Dosis", sans-serif;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       font-weight: 500;
 
       @media screen and (min-width: 40rem) {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
       }
     }
   }
@@ -177,12 +181,14 @@ main {
   flex-direction: column;
   align-items: center;
   gap: var(--spacer-xl);
-  padding-top: calc(var(--spacer-lg) + var(--header-height));
+  padding-top: calc(var(--spacer-lg) + var(--header-height) + var(--spacer-sm));
 
   @media screen and (min-width: 40rem) {
     gap: var(--spacer-2xl);
     padding: var(--spacer-2xl) 0;
-    padding-top: calc(var(--spacer-2xl) + var(--header-height));
+    padding-top: calc(
+      var(--spacer-2xl) + var(--header-height) + var(--spacer-sm)
+    );
   }
 }
 
@@ -237,8 +243,8 @@ strong {
 
 /* ------------------------------ code ------------------------------- */
 
-.code {
-  font-size: 1rem;
+code {
+  font-size: inherit;
 }
 
 /* ------------------------------ lists ------------------------------ */
@@ -294,6 +300,7 @@ strong {
 .content-wrapper {
   width: 100%;
   padding: var(--spacer-sm);
+  padding-top: 0;
 
   display: flex;
   flex-direction: column;
@@ -302,7 +309,6 @@ strong {
   @media screen and (min-width: 40rem) {
     width: var(--max-width);
     padding: 0;
-    padding-top: var(--spacer-sm);
   }
 }
 
