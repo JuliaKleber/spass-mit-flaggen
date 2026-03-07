@@ -108,6 +108,319 @@
             <div class="blue-stripe"></div>
           </div>
         </div>
+
+        <svg viewBox="0 0 120 5" class="divider">
+          <circle
+            cx="10"
+            cy="5"
+            r="4"
+            stroke="rgb(128 0 128)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="20"
+            cy="0"
+            r="4"
+            stroke="rgb(0 128 0)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="30"
+            cy="5"
+            r="4"
+            stroke="rgb(128 0 128)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="50"
+            cy="0"
+            r="4"
+            stroke="rgb(0 128 0)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="60"
+            cy="5"
+            r="4"
+            stroke="rgb(128 0 128)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="70"
+            cy="0"
+            r="4"
+            stroke="rgb(0 128 0)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="90"
+            cy="5"
+            r="4"
+            stroke="rgb(128 0 128)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="100"
+            cy="0"
+            r="4"
+            stroke="rgb(0 128 0)"
+            stroke-width="1"
+            fill="transparent"
+          />
+          <circle
+            cx="110"
+            cy="5"
+            r="4"
+            stroke="rgb(128 0 128)"
+            stroke-width="1"
+            fill="transparent"
+          />
+        </svg>
+
+        <div class="sections-container">
+          <h2>Aufgabenbeschreibung</h2>
+
+          <section class="paragraphs-container">
+            <h3>Ziel</h3>
+            <p>
+              Ziel dieser Aufgabe ist es, ein Verständnis für das CSS-Box-Modell
+              (<code>padding</code>, <code>border</code>, <code>margin</code>)
+              zu entwickeln.
+            </p>
+
+            <p>
+              Wichtiger Hinweis: Für alle Aufgaben ist die Eigenschaft
+              <code>box-sizing: content-box;</code> vordefiniert.
+            </p>
+          </section>
+
+          <section class="paragraphs-container">
+            <h3>Hintergrund</h3>
+
+            <p>
+              Der W3C-Standard für <code>box-sizing</code> ist
+              <code>content-box</code>. Bei diesem Modell vergrößern
+              <code>padding</code> und <code>border</code> ein Element. Um
+              dieses Verhalten zu umgehen, setzen fast alle modernen CSS-Resets
+              auf <code>border-box</code>. Wenn
+              <code>border-box</code> verwendet wird, ist das Element immer
+              gleich groß, unabhängig davon welche Maße für
+              <code>padding</code> und <code>border</code> gewählt werden. In
+              dieser Aufgabe arbeiten wir bewusst mit <code>content-box</code>,
+              um ein Verständnis für die Größenberechnungen zu entwickeln.
+            </p>
+          </section>
+
+          <section class="paragraphs-container">
+            <h3>Aufgabenstellung</h3>
+
+            <p>
+              Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und
+              CSS:
+            </p>
+
+            <ul class="list">
+              <li>🇦🇹 Österreich</li>
+              <li>🇱🇻 Lettland</li>
+              <li>🇳🇬 Nigeria</li>
+              <li>🇮🇩 Indonesien</li>
+              <li>🇯🇵 Japan</li>
+              <li>🇵🇼 Palau</li>
+              <li>🇹🇭 Thailand</li>
+            </ul>
+          </section>
+
+          <section class="paragraphs-container">
+            <h3>Anforderungen</h3>
+
+            <ul class="list">
+              <li>
+                Box-Modell: Nutze konsequent <code>padding</code>,
+                <code>margin</code> und/oder <code>border</code>, um die inneren
+                Flächen der Flaggen darzustellen.
+              </li>
+              <li>
+                Einschränkungen: Die Verwendung von <code>position</code>,
+                <code>flex</code>, <code>grid</code>,
+                <code>linear-gradient</code>, <code>clip-path</code> oder
+                <code>svg</code> ist nicht erlaubt.
+              </li>
+              <li>
+                Keine HTML-Änderungen: Die Struktur der bereitgestellten
+                HTML-Datei darf nicht verändert werden.
+              </li>
+              <li>
+                Modernes CSS: Nutze CSS-Variablen für Farben und Grundmaße sowie
+                CSS-Nesting für eine saubere Struktur.
+              </li>
+              <li>
+                Tools: Es sollen keine Bibliotheken oder Frameworks genutzt
+                werden.
+              </li>
+            </ul>
+          </section>
+
+          <section class="paragraphs-container">
+            <h3>Ressourcen</h3>
+
+            <ul class="list">
+              <li>
+                <a
+                  class="text-link"
+                  href="https://www.w3schools.com/css/css_boxmodel.asp"
+                  >CSS Box Model | w3schools</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-link"
+                  href="https://kulturbanause.de/blog/mit-box-sizing-border-box-das-css-box-model-verandern/"
+                  >box-sizing | kulturbanause</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-link"
+                  href="https://www.mediaevent.de/css/nesting.html"
+                  >CSS Nesting | mediaevent</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-link"
+                  href="https://www.mediaevent.de/css/variable.html"
+                  >CSS-Variablen | mediaevent</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-link"
+                  href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/"
+                  >Berechnungen in CSS | kulturbanause</a
+                >
+              </li>
+            </ul>
+          </section>
+
+          <h3>Hinweise</h3>
+
+          <section class="paragraphs-container">
+            <h4>Seitenverhältnisse der Flaggen</h4>
+
+            <ul class="list">
+              <li>🇦🇹 Österreich: 3:2</li>
+              <li>🇱🇻 Lettland: 2:1</li>
+              <li>🇳🇬 Nigeria: 2:1</li>
+              <li>🇮🇩 Indonesien: 3:2</li>
+              <li>🇯🇵 Japan: 3:2</li>
+              <li>🇵🇼 Palau: 8:5</li>
+              <li>🇹🇭 Thailand 3:2</li>
+            </ul>
+          </section>
+
+          <section class="paragraphs-container">
+            <h4>Farben der Flaggen</h4>
+
+            <p>
+              Die folgenden Farben können für die Erstellung der Flaggen genutzt
+              werden:
+            </p>
+
+            <ul class="list">
+              <li>🇦🇹 Österreich: rgb(237, 41, 57), rgb(255, 255, 255)</li>
+              <li>🇱🇻 Lettland: rgb(158, 27, 50), rgb(255, 255, 255)</li>
+              <li>🇳🇬 Nigeria: rgb(0, 135, 81), rgb(255, 255, 255)</li>
+              <li>🇮🇩 Indonesien: rgb(255, 0, 0), rgb(255, 255, 255)</li>
+              <li>🇯🇵 Japan: rgb(255, 255, 255), rgb(188, 0, 45)</li>
+              <li>🇵🇼 Palau: rgb(74, 173, 214), rgb(255, 222, 0)</li>
+              <li>
+                🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(244, 245,
+                248)
+              </li>
+            </ul>
+          </section>
+
+          <section class="paragraphs-container">
+            <h4>Abmessungen der Elemente</h4>
+
+            <ul class="list">
+              <li>
+                🇱🇻 Das Höhenverhältnis der Streifen in der lettischen Flagge ist
+                2:1:2.
+              </li>
+              <li>
+                🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt
+                60 % der Höhe der Flagge. Der Kreis ist mittig zentriert.
+              </li>
+              <li>
+                🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt
+                60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei
+                3/8 der Flaggenbreite und 1/2 der Flaggenhöhe.
+              </li>
+              <li>
+                🇹🇭 Die Streifen der Nationalflagge von Thailand stehen in dem
+                Verhältnis 1:1:2:1:1.
+              </li>
+            </ul>
+          </section>
+
+          <section class="paragraphs-container">
+            <h4>Erlaubte CSS-Eigenschaften</h4>
+
+            <ul class="list">
+              <li>box-sizing</li>
+              <li>margin, border, padding</li>
+              <li>width, height, aspect-ratio</li>
+              <li>background-color</li>
+              <li>border-radius</li>
+              <li>calc()</li>
+            </ul>
+          </section>
+
+          <section class="paragraphs-container">
+            <h3>Tipps & Lösungshinweise</h3>
+
+            <ul class="list">
+              <li>
+                Streifen: Äußere horizontale oder vertikale Streifen lassen sich
+                durch die <code>border</code>-Eigenschaft erzeugen.
+              </li>
+              <li>
+                Kreise: Setze <code>width</code> und <code>height</code> des
+                inneren Elements auf 100% und verwende
+                <code>border-radius: 50%</code>. Nutze das padding des äußeren
+                Containers, um die Größe und Position des Kreises zu steuern.
+              </li>
+            </ul>
+          </section>
+
+          <section class="paragraphs-container">
+            <h3>Zum Weiterlesen</h3>
+            <ul class="list">
+              <li>
+                <a
+                  class="text-link"
+                  href="https://www.joshwcomeau.com/css/rules-of-margin-collapse/"
+                  >The Rules of Margin Collapse | Josh Comeau</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-link"
+                  href="https://www.joshwcomeau.com/css/custom-css-reset/"
+                  >A Modern CSS Reset | Josh Comeau</a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
       </main>
     </div>
 
