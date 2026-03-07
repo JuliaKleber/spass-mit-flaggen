@@ -17,6 +17,8 @@
   --duration-quick: 150ms;
   --duration-medium: 300ms;
   --duration-slow: 450ms;
+
+  --header-height: 3.5rem;
 }
 
 /* ------------------------------ css reset ---------------------------- */
@@ -116,34 +118,47 @@ h6 {
 /* ------------------------------ header ---------------------------- */
 
 header {
-  box-shadow:
-    4px 0px 8px rgb(0 0 0 / 0.1),
-    2px 0px 6px rgb(0 0 0 / 0.1);
-  border-radius: 0.125rem;
-  height: 2rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: var(--spacer-lg) var(--spacer-sm);
+  height: var(--header-height);
+  width: calc(100% - 2rem);
+  position: fixed;
+  z-index: 1000;
+
+  @media screen and (min-width: 40rem) {
+    width: var(--max-width);
+  }
 
   .header-content {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    padding: 0;
+    background-color: var(--color-offwhite);
+    border-radius: 0.125rem;
+    box-shadow:
+      4px 0px 8px rgb(0 0 0 / 0.1),
+      2px 0px 6px rgb(0 0 0 / 0.1);
+    height: 100%;
+    padding: 0 1rem;
     width: 100%;
 
-    @media screen and (min-width: 40rem) {
-      width: var(--max-width);
-    }
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
 
     .home-link {
       color: var(--color-primary);
       display: flex;
       align-items: center;
+      margin-right: auto;
+      transition: scale 450ms;
+
+      @media (prefers-reduced-motion: no-preference) {
+        &:hover {
+          scale: 1.1;
+          transition-duration: 150ms;
+        }
+      }
     }
 
     .title {
+      display: flex;
+      align-items: center;
+
       font-family: "Dosis", sans-serif;
       font-size: 1.4rem;
       font-weight: 500;
@@ -162,11 +177,12 @@ main {
   flex-direction: column;
   align-items: center;
   gap: var(--spacer-xl);
-  padding-top: var(--spacer-lg);
+  padding-top: calc(var(--spacer-lg) + var(--header-height));
 
   @media screen and (min-width: 40rem) {
     gap: var(--spacer-2xl);
     padding: var(--spacer-2xl) 0;
+    padding-top: calc(var(--spacer-2xl) + var(--header-height));
   }
 }
 
@@ -277,12 +293,11 @@ strong {
 
 .content-wrapper {
   width: 100%;
+  padding: var(--spacer-sm);
 
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  padding: var(--spacer-sm);
 
   @media screen and (min-width: 40rem) {
     width: var(--max-width);
