@@ -1,5 +1,9 @@
 :root {
-  --flag-height: 7rem;
+  --flag-height: 4rem;
+
+  @media screen and (min-width: 40rem) {
+    --flag-height: 5.5rem;
+  }
 
   --flag-width: calc(var(--flag-height) * 1.5);
   --flag-width-bahamas: calc(var(--flag-height) * 2);
@@ -88,8 +92,8 @@
   height: var(--flag-height);
   width: var(--flag-width);
   box-shadow:
-    2px 4px 8px rgb(0 0 0 / 0.2),
-    0px 0px 6px rgb(0 0 0 / 0.2);
+    2px 4px 8px rgb(0 0 0 / 0.1),
+    0px 0px 6px rgb(0 0 0 / 0.1);
 }
 
 .netherlands {
