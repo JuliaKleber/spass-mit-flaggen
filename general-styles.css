@@ -17,6 +17,8 @@
   --duration-quick: 150ms;
   --duration-medium: 300ms;
   --duration-slow: 450ms;
+
+  --header-height: 3rem;
 }
 
 /* ------------------------------ css reset ---------------------------- */
@@ -49,8 +51,13 @@ body {
   background-color: var(--color-background);
 
   font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+
+  @media screen and (min-width: 40rem) {
+    font-size: 1rem;
+  }
 
   display: flex;
   flex-direction: column;
@@ -116,40 +123,52 @@ h6 {
 /* ------------------------------ header ---------------------------- */
 
 header {
-  box-shadow:
-    4px 0px 8px rgb(0 0 0 / 0.1),
-    2px 0px 6px rgb(0 0 0 / 0.1);
-  border-radius: 0.125rem;
-  height: 2rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: var(--spacer-lg) var(--spacer-sm);
+  height: var(--header-height);
+  width: calc(100% - 2 * var(--spacer-sm));
+  position: fixed;
+  z-index: 1000;
+
+  @media screen and (min-width: 40rem) {
+    width: var(--max-width);
+  }
+
+  .blur {
+    height: var(--spacer-sm);
+    width: 100%;
+    background: var(--color-background);
+    opacity: 0.9;
+  }
 
   .header-content {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    padding: 0;
+    background-color: var(--color-offwhite);
+    border-radius: 0.125rem;
+    box-shadow:
+      4px 0px 8px rgb(0 0 0 / 0.1),
+      2px 0px 6px rgb(0 0 0 / 0.1);
+    height: 100%;
+    padding: 0 1rem;
     width: 100%;
 
-    @media screen and (min-width: 40rem) {
-      width: var(--max-width);
-    }
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
 
     .home-link {
       color: var(--color-primary);
       display: flex;
       align-items: center;
+      margin-right: auto;
     }
 
     .title {
+      display: flex;
+      align-items: center;
+
       font-family: "Dosis", sans-serif;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       font-weight: 500;
 
       @media screen and (min-width: 40rem) {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
       }
     }
   }
@@ -162,11 +181,14 @@ main {
   flex-direction: column;
   align-items: center;
   gap: var(--spacer-xl);
-  padding-top: var(--spacer-lg);
+  padding-top: calc(var(--spacer-lg) + var(--header-height) + var(--spacer-sm));
 
   @media screen and (min-width: 40rem) {
     gap: var(--spacer-2xl);
     padding: var(--spacer-2xl) 0;
+    padding-top: calc(
+      var(--spacer-2xl) + var(--header-height) + var(--spacer-sm)
+    );
   }
 }
 
@@ -221,8 +243,8 @@ strong {
 
 /* ------------------------------ code ------------------------------- */
 
-.code {
-  font-size: 1rem;
+code {
+  font-size: inherit;
 }
 
 /* ------------------------------ lists ------------------------------ */
@@ -277,17 +299,16 @@ strong {
 
 .content-wrapper {
   width: 100%;
+  padding: var(--spacer-sm);
+  padding-top: 0;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  padding: var(--spacer-sm);
-
   @media screen and (min-width: 40rem) {
     width: var(--max-width);
     padding: 0;
-    padding-top: var(--spacer-sm);
   }
 }
 
