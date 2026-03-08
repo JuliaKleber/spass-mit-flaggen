@@ -2,7 +2,7 @@
 
 ## Ziel
 
-Ziel der Aufgabe ist es, zu Lernen Elemente mit Grid anzuordnen.
+Ziel der Aufgabe ist es, die Elemente der Flaggen mit Grid anzuordnen.
 
 ## Aufgabenstellung
 
@@ -47,8 +47,6 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - 🇵🇼 Palau: 8:5
 - 🇨🇭 Schweiz 1:1
 - 🇸🇪 Schweden 16:10
-
-Der Einfachheit halber kann ein Seitenverhältnis für alle Flaggen von 3:2 angenommen werden.
 
 ### Farben der Flaggen
 
