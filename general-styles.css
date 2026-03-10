@@ -141,7 +141,7 @@ header {
 
   .header-content {
     background-color: var(--color-offwhite);
-    border-radius: 0.125rem;
+    border-radius: 0.25rem;
     box-shadow:
       4px 0px 8px rgb(0 0 0 / 0.1),
       2px 0px 6px rgb(0 0 0 / 0.1);
@@ -157,6 +157,17 @@ header {
       display: flex;
       align-items: center;
       margin-right: auto;
+      transition: translate var(--duration-slow);
+
+      &:hover {
+        color: rgb(100 0 100);
+        filter: drop-shadow(
+          4px 0px 8px rgb(0 0 0 / 0.2),
+          2px 0px 6px rgb(0 0 0 / 0.2)
+        );
+        translate: 0 -0.125rem;
+        animation-duration: var(--duration-quick);
+      }
     }
 
     .title {
