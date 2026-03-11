@@ -10,13 +10,13 @@
   --color-primary-hover: rgb(100 0 100);
 
   @media (prefers-color-scheme: dark) {
-    --color-accent: rgb(106, 175, 255);
+    --color-accent: rgb(112, 198, 255);
     --color-background: rgb(18 18 18);
     --color-card: rgb(37 37 37);
     --color-card-hover: rgb(47 47 47);
     --color-foreground: rgb(255 255 255);
-    --color-primary: rgb(200 100 255);
-    --color-primary-hover: rgb(230 120 255);
+    --color-primary: rgb(255 165 255);
+    --color-primary-hover: rgb(255 180 255);
   }
 
   --max-width: 40rem;
@@ -254,6 +254,10 @@ strong {
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 450ms;
+  }
+
+  &:hover {
+    color: var(--color-primary-hover);
   }
 
   &:hover::after,
