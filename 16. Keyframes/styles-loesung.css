@@ -5,7 +5,7 @@
     --flag-height: 5.5rem;
   }
   --flag-width: calc(var(--flag-height) * 1.5);
-  --color-primary: rgb(128 0 128);
+  --color-primary: var(--color-primary);
   --skeleton-background-pulse: #808080;
   --skeleton-highlight-shimmer: #b0b0b0;
   --skeleton-background-shimmer: #606060;

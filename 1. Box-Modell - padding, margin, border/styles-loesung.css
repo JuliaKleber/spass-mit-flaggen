@@ -6,7 +6,7 @@
   }
 
   --flag-width: calc(var(--flag-height) * 1.5);
-  
+
   --flag-width-kuwait: calc(var(--flag-height) * 2);
   --flag-width-latvia: calc(var(--flag-height) * 2);
   --flag-width-nigeria: calc(var(--flag-height) * 2);
