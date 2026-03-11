@@ -38,11 +38,12 @@
 }
 
 .card {
-  background-color: var(--color-offwhite);
+  background-color: var(--color-card);
   border-radius: 0.25rem;
   box-shadow:
     2px 4px 8px rgb(0 0 0 / 0.1),
     1px 2px 6px rgb(0 0 0 / 0.1);
+  color: var(--color-foreground);
   height: 100%;
   padding: 1.25rem;
   transition:
@@ -51,7 +52,7 @@
     translate var(--duration-slow);
 
   &:hover {
-    background-color: white;
+    background-color: var(--color-card-hover);
     box-shadow:
       4px 8px 16px rgb(0 0 0 / 0.07),
       2px 4px 12px rgb(0 0 0 / 0.07);

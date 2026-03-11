@@ -4,15 +4,16 @@
   @media screen and (min-width: 40rem) {
     --flag-height: 5.5rem;
   }
+
   --flag-width: calc(var(--flag-height) * 1.5);
   --skeleton-background-pulse: #808080;
   --skeleton-highlight-shimmer: #b0b0b0;
   --skeleton-background-shimmer: #606060;
-  --color-primary: rgb(128 0 128);
 }
 
 .loading-spinner {
   aspect-ratio: 1/1;
+  color: var(--color-primary);
   height: calc(var(--flag-height) * 0.5);
   margin: 0 3.5rem;
 }
