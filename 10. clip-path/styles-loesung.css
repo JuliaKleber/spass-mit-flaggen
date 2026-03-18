@@ -253,7 +253,7 @@
 
   /* Hier sind drei unterschiedliche Lösungen gezeigt.
   Die folgende ist die am wenigsten elegante.
-  Das Kreuz ist wird als Polygon herausgeschnitten. */
+  Das Kreuz wird als Polygon herausgeschnitten. */
   &::before {
     background-color: var(--color-switzerland-white);
     clip-path: polygon(
