@@ -14,9 +14,7 @@
     width: 10.5rem;
   }
 
-  @media (prefers-color-scheme: dark) {
-    border: 1px solid gray;
-  }
+  background-color: var(--color-card);
 }
 
 .austria {
