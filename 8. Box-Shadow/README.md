@@ -16,22 +16,26 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Anforderungen
 
-- Es sollen die CSS-Eigenschaften box-shadow und text-shadow in Kombination mit der Pseudoklasse ::before zur Erstellung der Flaggen genutzt werden.
+- Es sollen die CSS-Eigenschaften box-shadow und text-shadow in Kombination mit der Pseudoklasse ::after zur Erstellung der Flaggen genutzt werden.
 - Pro Flagge sollte nur ein einziges HTML-Element genutzt werden. Alle Streifen müssen über dieses Element und dessen Pseudoelemente erzeugt werden.
-- Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
-- Für die Grundmaße und Farben der Flaggen sollen CSS-Variablen genutzt werden.
-- Es soll CSS-Nesting genutzt werden.
+- Verändere die HTML-Datei nicht. Nur das Stylesheet (styles.css) soll vervollständigt werden.
+- Verwende CSS-Variablen für die Grundmaße und Farben der Flaggen.
+- Nutze CSS-Nesting.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
 
 ## Ressourcen
 
 - <a href="https://developer.mozilla.org/de/docs/Web/CSS/Reference/Properties/box-shadow">box-shadow | MDN</a>
 - <a href="https://www.mediaevent.de/css/text-shadow.html">text-shadow | mediaevent</a>
-- <a href="https://www.w3schools.com/cssref/css3_pr_text-shadow.php">text-shadow | w3schools</<a>
+- <a href="https://www.w3schools.com/cssref/css3_pr_text-shadow.php">text-shadow | w3schools</a>
 - <a href="https://kulturbanause.de/blog/generierter-css-content-mit-before-und-after/">::before & ::after | kulturbanause</a>
-- <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaeveent</a>
+- <a href="https://www.mediaevent.de/css/nesting.html">CSS Nesting | mediaevent</a>
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
+
+## Zum Weiterlesen
+
+- <a href="https://www.joshwcomeau.com/css/designing-shadows/">Designing Beautiful Shadows in CSS | Josh Comeau</a>
 
 ## Hinweise
 
@@ -56,7 +60,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ### Abmessungen der Elemente
 
 - 🇹🇭 Die Streifen der Nationalflagge von Thailand stehen in dem Verhältnis 1:1:2:1:1.
-- 🇪🇺 Europäische Union: Für die Größe eines Sterns kann 9% der Flaggenbreite angenommen werden. Der Stern kann mit den Unicode \2605 erzeugt werden. Der Radius des Sternenkreis ist ca. 1/3 der Flaggenhöhe.
+- 🇪🇺 Europäische Union: Für die Größe eines Sterns kann 9% der Flaggenbreite angenommen werden. Der Stern kann mit dem Unicode \2605 erzeugt werden. Der Radius des Sternenkreis ist ca. 1/3 der Flaggenhöhe.
 
 ## Erlaubte CSS-Eigenschaften
 

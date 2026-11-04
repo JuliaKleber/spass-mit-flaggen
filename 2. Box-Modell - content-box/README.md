@@ -21,6 +21,7 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - 🇯🇵 Japan
 - 🇵🇼 Palau
 - 🇹🇭 Thailand
+- 🇰🇼 Kuwait
 
 ## Anforderungen
 
@@ -49,6 +50,7 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - 🇯🇵 Japan: 3:2
 - 🇵🇼 Palau: 8:5
 - 🇹🇭 Thailand 3:2
+- 🇰🇼 Kuwait 2:1
 
 ### Farben der Flaggen
 
@@ -61,6 +63,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇯🇵 Japan: rgb(255, 255, 255), rgb(188, 0, 45)
 - 🇵🇼 Palau: rgb(74, 173, 214), rgb(255, 222, 0)
 - 🇹🇭 Thailand: rgb(165, 25, 49), rgb(45, 42, 74), rgb(244, 245, 248)
+- 🇰🇼 Kuwait: rgb(0, 122, 61), rgb(255, 255, 255), rgb(206, 17, 38), rgb(0, 0, 0)
 
 ### Abmessungen der Elemente
 
@@ -68,6 +71,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇯🇵 Der Durchmesser des Kreises in der japanischen Flagge beträgt 60 % der Höhe der Flagge. Der Kreis ist mittig zentriert.
 - 🇵🇼 Der Durchmesser des Kreises in der Flagge von Palau beträgt 60 % der Höhe der Flagge. Der Mittelpunkt des Kreises liegt bei 3/8 der Flaggenbreite und 1/2 der Flaggenhöhe.
 - 🇹🇭 Die Streifen der Nationalflagge von Thailand stehen in dem Verhältnis 1:1:2:1:1.
+- 🇰🇼 Der schwarze Anteil der Flagge von Kuwait erstreckt sich über das linke Viertel der Flagge.
 
 ### Erlaubte CSS-Eigenschaften
 
@@ -82,6 +86,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 - Streifen: Äußere horizontale oder vertikale Streifen lassen sich durch die `border`-Eigenschaft erzeugen.
 - Kreise: Setze `width` und `height` des inneren Elements auf 100% und verwende `border-radius: 50%`. Nutze das padding des äußeren Containers, um die Größe und Position des Kreises zu steuern.
+- Die Flagge von Kuwait kann komplett über `border-left`, `border-top` usw. gelöst werden.
 
 ## Zum Weiterlesen
 

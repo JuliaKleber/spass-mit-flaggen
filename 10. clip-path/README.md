@@ -58,7 +58,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇵🇼 Palau: 8:5
 - 🇨🇿 Tschechische Republik 3:2
 - 🇧🇸 Bahamas 2:1
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:3
 - 🇹🇹 Trinidad und Tobago 5:3
 - 🇯🇲 Jamaika 2:1
 

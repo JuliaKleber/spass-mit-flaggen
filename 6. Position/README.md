@@ -54,7 +54,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇧🇯 Benin 3:2
 - 🇨🇭 Schweiz 1:1
 - 🇸🇪 Schweden 16:10
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:3
 - 🇹🇹 Trinidad und Tobago 5:3
 - 🇬🇧 Großbritannien 5:3
 

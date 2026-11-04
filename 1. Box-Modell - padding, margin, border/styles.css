@@ -10,8 +10,8 @@
   width: 6rem;
 
   @media screen and (min-width: 40rem) {
-    height: 7rem;
-    width: 10.5rem;
+    height: 5.5rem;
+    width: 8.25rem;
   }
 
   background-color: var(--color-card);
@@ -23,16 +23,19 @@
 .latvia {
 }
 
-.nigeria {
+.indonesia {
 }
 
-.indonesia {
+.nigeria {
 }
 
 .japan {
 }
 
 .palau {
+}
+
+.thailand {
 }
 
 .kuwait {

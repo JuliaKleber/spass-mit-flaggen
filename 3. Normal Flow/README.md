@@ -32,6 +32,10 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
+## Zum Weiterlesen
+
+- <a href="https://www.joshwcomeau.com/css/understanding-layout-algorithms/">Understanding Layout Algorithms | Josh Comeau</a>
+
 ## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen

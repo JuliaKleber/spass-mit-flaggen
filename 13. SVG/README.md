@@ -54,7 +54,7 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - 🇨🇿 Tschechische Republik 3:2
 - 🇧🇸 Bahamas 2:1
 - 🇹🇹 Trinidad und Tobago 5:3
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:3
 - 🇯🇲 Jamaika 2:1
 - 🇸🇨 Seychellen 2:1
 - 🇹🇷 Türkei 3:2
@@ -105,3 +105,4 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - rect
 - circle
 - polygon
+- path

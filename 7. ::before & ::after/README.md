@@ -20,7 +20,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 ## Anforderungen
 
-- Es sollte für jede Flagge nur ein einziges Div genutzt werden. Das Styling soll über dieses div und die Pseudoklassen ::before und ::after erfolgen. Nutzung von Gradienten ist nicht erlaubt.
+- Es sollte für jede Flagge nur ein einziges `div`-Tag genutzt werden. Das Styling soll über dieses Tag und die Pseudoklassen ::before und ::after erfolgen. Nutzung von Gradienten ist nicht erlaubt.
 - Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
 - Für die Grundmaße und Farben der Flaggen sollten CSS-Variablen genutzt werden.
 - Es sollte CSS-Nesting genutzt werden.
@@ -44,7 +44,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇵🇼 Palau 8:5
 - 🇨🇭 Schweiz 1:1
 - 🇸🇪 Schweden 16:10
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:3
 - 🇹🇹 Trinidad und Tobago 5:3
 
 ### Farben der Flaggen
