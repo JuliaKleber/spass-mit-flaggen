@@ -1,12 +1,12 @@
-# Einfache Animationen Teil 2
+# Einfache Animationen, die CSS-Eigenschaft filter und die Pseudoklasse :hover
 
 ## Ziel
 
-Ziel ist es Flaggen zu animieren, wenn man über sie hovert. Dafür sollen die CSS-Eigenschaften transition und filter genutzt werden.
+Implementiere animierte Hover-Effekte für die obigen Flaggen. Nutze dafür die CSS-Eigenschaften `transition`, `filter` und die Pseudoklasse `:hover`.
 
 ## Aufgabenstellung
 
-Implementiere die folgenden Hover-Effekte
+Implementiere die folgenden Hover-Effekte:
 
 - 🇳🇱 Niederlande: Flagge wird in komplett in Graustufen angezeigt
 - 🇮🇹 Italien: Die Graustufen werden auf 50% gesetzt

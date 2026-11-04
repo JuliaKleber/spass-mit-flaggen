@@ -1,8 +1,8 @@
-# Einfache Animationen Teil 1
+# Einfache Animationen und die Pseudoklasse :hover
 
 ## Ziel
 
-Ziel ist es Flaggen zu animieren, wenn man über sie hovert. Dafür soll die CSS-Eigenschaft transition genutzt werden.
+Implementiere animierte Hover-Effekte für die obigen Flaggen. Nutze dafür die CSS-Eigenschaften `transition` und die Pseudoklasse `:hover`.
 
 ## Aufgabenstellung
 

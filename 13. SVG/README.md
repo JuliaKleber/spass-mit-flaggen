@@ -1,4 +1,4 @@
-# SVG
+# Scalable Vector Graphics
 
 ## Ziel
 
@@ -38,7 +38,7 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - <a href="https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/">A Friendly Introduction to SVG | Josh Comeau</a>
 - <a href="https://www.joshwcomeau.com/svg/interactive-guide-to-paths/">An Interactive Guide to SVG Paths | Josh Comeau</a>
 
-## Hinweise
+## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen
 
@@ -99,7 +99,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 - 🇹🇷 Türkei: <a href="https://de.wikipedia.org/wiki/Flagge_der_T%C3%BCrkei">Maße der Flagge auf Wikipedia</a>
 - 🇬🇱 Grönland: Der Durchmesser der Scheibe beträgt 2/3 der Flaggenhöhe und 4/9 der Flaggenbreite. Die Scheibe ist senkrecht zentriert. In horizontaler Richtung befindet sich der Mittelpunkt der Scheibe bei 7/18 von der Flaggenbreite.
 
-### Benötigte Tags
+### Benötigte HTML-Tags
 
 - svg
 - rect

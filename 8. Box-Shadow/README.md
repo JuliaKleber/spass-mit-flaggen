@@ -1,8 +1,8 @@
-# Schatten
+# Box-Shadow
 
 ## Ziel
 
-Ziel dieser Aufgabe ist es Box-Shadow oder Text-Shadow zu nutzen, um Elemente optisch zu duplizieren und zu verschieben.
+Ziel dieser Aufgabe ist es `box-shadow` und `text-shadow` zu nutzen, um Elemente zu duplizieren und zu verschieben.
 
 ## Aufgabenstellung
 
@@ -37,7 +37,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 - <a href="https://www.joshwcomeau.com/css/designing-shadows/">Designing Beautiful Shadows in CSS | Josh Comeau</a>
 
-## Hinweise
+## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen
 

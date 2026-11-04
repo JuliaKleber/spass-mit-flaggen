@@ -2,7 +2,7 @@
 
 ## Ziel
 
-Ziel dieser Aufgabe ist es, ein Verständnis für das CSS-Box-Modell (`padding`, `border`, `margin`) zu entwickeln.
+Ziel dieser Aufgabe ist es, ein Verständnis für das CSS-Box-Modell inklusive `padding`, `border` und `margin` zu entwickeln.
 
 Wichtiger Hinweis: Für alle Aufgaben ist die Eigenschaft `box-sizing: border-box;` vordefiniert.
 
@@ -39,7 +39,7 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
-## Hinweise
+## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen
 
@@ -85,7 +85,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ## Tipps & Lösungshinweise
 
 - Streifen: Äußere horizontale oder vertikale Streifen lassen sich durch die `border`-Eigenschaft erzeugen.
-- Kreise: Setze `width` und `height` des inneren Elements auf 100% und verwende `border-radius: 50%`. Nutze das Padding des äußeren Containers, um die Größe und Position des Kreises zu steuern.
+- Kreise: Setze `width` und `height` des inneren Elements auf 100% und verwende `border-radius: 50%`. Nutze das padding des äußeren Containers, um die Größe und Position des Kreises zu steuern.
 - Die Flagge von Kuwait kann komplett über `border-left`, `border-top` usw. gelöst werden.
 
 ## Zum Weiterlesen

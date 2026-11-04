@@ -2,7 +2,7 @@
 
 ## Ziel
 
-Ziel der Aufgabe ist es Flaggen mit Gradienten zu erstellen.
+Ziel der Aufgabe ist es die Elemente von Flaggen mit Gradienten zu erstellen.
 
 ## Aufgabenstellung
 
@@ -43,11 +43,11 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
-## Weiterführende Literautr
+## Zum Weiterlesen
 
 - <a href="https://www.joshwcomeau.com/css/make-beautiful-gradients/">Make beautiful Gradients | Josh Comeau</a>
 
-## Hinweise
+## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen
 

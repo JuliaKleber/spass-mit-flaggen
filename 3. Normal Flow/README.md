@@ -32,10 +32,6 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
-## Zum Weiterlesen
-
-- <a href="https://www.joshwcomeau.com/css/understanding-layout-algorithms/">Understanding Layout Algorithms | Josh Comeau</a>
-
 ## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen
@@ -73,8 +69,8 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
 Um die Elemente der Flaggen von Italien und Benin so anzuordnen, dass keine Lücken zwischen den Elementen sind oder unerwartete Zeilenumbrüche, kann der folgende Artikel hilfreich sein:
 
-<a href="https://css-tricks.com/fighting-the-space-between-inline-block-elements/">Fighting the space between inline block elements | CSS Tricks</a>
+- <a href="https://css-tricks.com/fighting-the-space-between-inline-block-elements/">Fighting the space between inline block elements | CSS Tricks</a>
 
 ## Zum Weiterlesen
 
-<a href="https://www.joshwcomeau.com/css/understanding-layout-algorithms/">Understanding Layout Algorithms | Josh Comeau</a>
+- <a href="https://www.joshwcomeau.com/css/understanding-layout-algorithms/">Understanding Layout Algorithms | Josh Comeau</a>

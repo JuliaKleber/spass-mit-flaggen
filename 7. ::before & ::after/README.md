@@ -1,4 +1,4 @@
-# Pseudoklassen ::before und ::after
+# Die Pseudoklassen ::before und ::after
 
 ## Ziel
 
