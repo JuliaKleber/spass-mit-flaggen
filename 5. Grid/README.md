@@ -34,7 +34,7 @@ Erstelle die folgenden Nationalflaggen ausschließlich mit HTML und CSS:
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
-## Hinweise
+## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen
 
@@ -74,7 +74,7 @@ Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 ### Erlaubte CSS-Eigenschaften
 
 - display
-- grid-template, grid-template-rows, grid-template-columns, gird-template-areas
+- grid-template, grid-template-rows, grid-template-columns, grid-template-areas
 - grid-column-start, grid-column-end, grid-column
 - grid-row-start, grid-row-end, grid-row
 - grid-area, place-items

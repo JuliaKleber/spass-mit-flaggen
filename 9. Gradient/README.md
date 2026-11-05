@@ -2,7 +2,7 @@
 
 ## Ziel
 
-Ziel der Aufgabe ist es Flaggen mit Gradienten zu erstellen.
+Ziel der Aufgabe ist es die Elemente von Flaggen mit Gradienten zu erstellen.
 
 ## Aufgabenstellung
 
@@ -29,9 +29,9 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 
 ## Anforderungen
 
-- Es sollen ausschließlich Gradienten (linear-gradient, radial-gradient, conic-gradient) zur Erstellung der Flaggen genutzt werden. Die css-Eigenschaft background-color ist jedoch auch erlaubt. Siehe auch Abschnitt 'Erlaubte CSS-Eigenschaften'.
+- Es sollen ausschließlich Gradienten (linear-gradient, radial-gradient, conic-gradient) zur Erstellung der Flaggen genutzt werden. Die css-Eigenschaft background-color ist jedoch auch erlaubt. Siehe auch Abschnitt <i>Erlaubte CSS-Eigenschaften<i>.
 - Pro Flagge sollte nur ein einziges HTML-Element genutzt werden. Alle Streifen, Kreise, usw. müssen über dieses Element ohne Benutzung von Pseudoelemente erzeugt werden.
-- Die html-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
+- Die HTML-Datei soll nicht verändert werden. Nur das Stylesheet (styles.css) soll vervollständigt werden.
 - Für die Grundmaße und Farben der Flaggen sollen CSS-Variablen genutzt werden.
 - Es sollen keine Libraries oder Frameworks genutzt werden.
 
@@ -43,11 +43,11 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
-## Weiterführende Literautr
+## Zum Weiterlesen
 
 - <a href="https://www.joshwcomeau.com/css/make-beautiful-gradients/">Make beautiful Gradients | Josh Comeau</a>
 
-## Hinweise
+## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen
 
@@ -63,7 +63,7 @@ Die Sterne symbolisieren den Schwierigkeitsgrad.
 - 🇨🇿 Tschechische Republik 3:2
 - 🇧🇸 Bahamas 2:1
 - 🇹🇹 Trinidad und Tobago 5:3
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:3
 - 🇯🇲 Jamaika 2:1
 - 🇸🇨 Seychellen 2:1
 - 🇲🇰 Nordmazedonien 2:1

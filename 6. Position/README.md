@@ -41,7 +41,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
-## Hinweise
+## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen
 
@@ -54,7 +54,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇧🇯 Benin 3:2
 - 🇨🇭 Schweiz 1:1
 - 🇸🇪 Schweden 16:10
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:3
 - 🇹🇹 Trinidad und Tobago 5:3
 - 🇬🇧 Großbritannien 5:3
 

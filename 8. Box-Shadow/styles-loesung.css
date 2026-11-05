@@ -123,12 +123,12 @@
         var(--color-eu-yellow),
       calc(cos(30deg) * var(--radius-eu)) calc(-0.5 * var(--radius-eu)) 0
         var(--color-eu-yellow),
-      calc(var(--flag-height) / 3) 0 var(--color-eu-yellow),
+      var(--radius-eu) 0 var(--color-eu-yellow),
       calc(cos(30deg) * var(--radius-eu)) calc(0.5 * var(--radius-eu)) 0
         var(--color-eu-yellow),
       calc(0.5 * var(--radius-eu)) calc(cos(30deg) * var(--radius-eu)) 0
         var(--color-eu-yellow),
-      0 calc(var(--flag-height) / 3) var(--color-eu-yellow),
+      0 var(--radius-eu) var(--color-eu-yellow),
       calc(-0.5 * var(--radius-eu)) calc(cos(30deg) * var(--radius-eu)) 0
         var(--color-eu-yellow),
       calc(-1 * cos(30deg) * var(--radius-eu)) calc(0.5 * var(--radius-eu)) 0
@@ -136,7 +136,7 @@
       calc(-1 * var(--radius-eu)) 0 var(--color-eu-yellow),
       calc(-1 * cos(30deg) * var(--radius-eu)) calc(-0.5 * var(--radius-eu)) 0
         var(--color-eu-yellow),
-      calc(var(--flag-height) / -6) calc(-1 * cos(30deg) * var(--radius-eu)) 0
+      calc(-0.5 * var(--radius-eu)) calc(-1 * cos(30deg) * var(--radius-eu)) 0
         var(--color-eu-yellow);
   }
 }

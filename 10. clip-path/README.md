@@ -2,7 +2,7 @@
 
 ## Ziel
 
-Ziel der Aufgabe ist es Flaggen mit clip-path zu erstellen.
+Ziel der Aufgabe ist es Elemente von Flaggen mit `clip-path` zu erstellen.
 
 ## Aufgabenstellung
 
@@ -42,7 +42,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
-## Hinweise
+## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen
 
@@ -58,7 +58,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - 🇵🇼 Palau: 8:5
 - 🇨🇿 Tschechische Republik 3:2
 - 🇧🇸 Bahamas 2:1
-- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:2
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland 5:3
 - 🇹🇹 Trinidad und Tobago 5:3
 - 🇯🇲 Jamaika 2:1
 

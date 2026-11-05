@@ -4,8 +4,13 @@
 
 .flag {
   box-sizing: content-box;
-  height: 7rem;
-  width: 10.5rem;
+  height: 4rem;
+  width: 6rem;
+
+  @media screen and (min-width: 40rem) {
+    height: 5.5rem;
+    width: 8.25rem;
+  }
   box-shadow:
     2px 4px 8px rgb(0 0 0 / 0.1),
     0px 0px 6px rgb(0 0 0 / 0.1);
@@ -13,35 +18,26 @@
   background-color: var(--color-card);
 }
 
-.austria.content-box.margin {
-}
-
-.austria.border-box.margin {
-}
-
-.austria.content-box.border {
-}
-
-.austria.border-box.border {
-}
-
-.austria.content-box.padding {
-}
-
-.austria.border-box.padding {
+.austria {
 }
 
 .latvia {
 }
 
-.nigeria {
+.indonesia {
 }
 
-.indonesia {
+.nigeria {
 }
 
 .japan {
 }
 
 .palau {
+}
+
+.thailand {
+}
+
+.kuwait {
 }

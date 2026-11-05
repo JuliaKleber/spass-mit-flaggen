@@ -26,7 +26,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 - <a href="https://www.mediaevent.de/css/variable.html">CSS-Variablen | mediaevent</a>
 - <a href="https://kulturbanause.de/blog/berechnungen-mit-css-calc/">Berechnungen in CSS | kulturbanause</a>
 
-## Hinweise
+## Hinweise & Spezifikationen
 
 ### Seitenverhältnisse der Flaggen
 
@@ -37,7 +37,7 @@ Erstelle die folgenden Nationalflaggen mit reinem HTML und CSS:
 
 Die folgenden Farben können für die Erstellung der Flaggen genutzt werden:
 
-- 🇨🇿 Tschechische Republik: rgb(255, 255, 255), rgb(215, 20, 26), rgb(17,49,126)
+- 🇨🇿 Tschechische Republik: rgb(255, 255, 255), rgb(215, 20, 26), rgb(17, 49, 126)
 - 🇧🇸 Bahamas: rgb(0, 169, 206), rgb(255, 199, 44), rgb(0, 0, 0),
 
 ### Abmessungen der Elemente
